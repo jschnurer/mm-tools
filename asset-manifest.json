@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mm-tools/static/css/main.491d8dac.chunk.css",
+    "main.js": "/mm-tools/static/js/main.c17bb829.chunk.js",
+    "main.js.map": "/mm-tools/static/js/main.c17bb829.chunk.js.map",
+    "runtime-main.js": "/mm-tools/static/js/runtime-main.86f0fc50.js",
+    "runtime-main.js.map": "/mm-tools/static/js/runtime-main.86f0fc50.js.map",
+    "static/js/2.7fab6c17.chunk.js": "/mm-tools/static/js/2.7fab6c17.chunk.js",
+    "static/js/2.7fab6c17.chunk.js.map": "/mm-tools/static/js/2.7fab6c17.chunk.js.map",
+    "index.html": "/mm-tools/index.html",
+    "precache-manifest.01eb979a8b304638b5beb2f648e4dcdf.js": "/mm-tools/precache-manifest.01eb979a8b304638b5beb2f648e4dcdf.js",
+    "service-worker.js": "/mm-tools/service-worker.js",
+    "static/css/main.491d8dac.chunk.css.map": "/mm-tools/static/css/main.491d8dac.chunk.css.map",
+    "static/js/2.7fab6c17.chunk.js.LICENSE.txt": "/mm-tools/static/js/2.7fab6c17.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mm-tools/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86f0fc50.js",
+    "static/js/2.7fab6c17.chunk.js",
+    "static/css/main.491d8dac.chunk.css",
+    "static/js/main.c17bb829.chunk.js"
+  ]
+}
