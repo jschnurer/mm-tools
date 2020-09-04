@@ -8,27 +8,31 @@ interface IMenuItemProps {
   icon: string,
   url: string,
   onClick?(): void,
+  isCollapsed: boolean,
 }
 
-const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick }) => {
+const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isCollapsed }) => {
   let match = useRouteMatch(url);
 
   if (url) {
     return (
-      <Link to={url} className={`menu-item ${match ? "active" : ""}`}>
-        <img src={icon} alt={label} /> {label}
+      <Link
+        to={url}
+        className={`menu-item ${match ? "active" : ""} ${isCollapsed ? "collapsed" : ""}`}
+      >
+        <img src={icon} alt={label} /> <label>{label}</label>
       </Link>
     );
   } else {
     return (
       <span
-        className="menu-item"
+        className={`menu-item ${isCollapsed ? "collapsed" : ""}`}
         onClick={onClick}
       >
         {icon &&
           <img src={icon} alt={label} />
         }
-        {label}
+        <label>{label}</label>
       </span>
     );
   }

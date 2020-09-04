@@ -82,7 +82,7 @@ const Trainers: React.FC = () => {
           <PageTitle title={`${game} Skill Trainers`} />
           <div>
             <label>
-              Switch Game:
+              Game:
             </label>
             {games.map(gm => (
               <button
