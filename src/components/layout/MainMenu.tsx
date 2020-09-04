@@ -3,6 +3,7 @@ import "./MainMenu.scoped.scss";
 import backupIcon from "media/icons/backup.svg";
 import magnifyingGlassIcon from "media/icons/magnifying-glass.svg";
 import hamburgerMenuIcon from "media/icons/hamburger-menu.svg";
+import teacherIcon from "media/icons/teacher.svg";
 import MenuItem from './MenuItem';
 import { Routes } from '../../Routing';
 
@@ -17,6 +18,11 @@ const MainMenu: React.FC = () =>
       label="Random Party"
       icon={backupIcon}
       url={Routes.RandomParty}
+    />
+    <MenuItem
+      label="Skill Trainers"
+      icon={teacherIcon}
+      url={Routes.SkillTrainers}
     />
     <MenuItem
       label="M&amp;M 3 Items"

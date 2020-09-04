@@ -1,10 +1,10 @@
-import weaponData from "game-data/mm3/weapons.json";
-import armorData from "game-data/mm3/armor.json";
-import handheldItemData from "game-data/mm3/handheld-items.json";
-import imbuedData from "game-data/mm3/imbued.json";
-import miscData from "game-data/mm3/misc.json";
-import modsData from "game-data/mm3/mods.json";
-import specialItemData from "game-data/mm3/special-items.json";
+import weaponData from "./weapons.json";
+import armorData from "./armor.json";
+import handheldItemData from "./handheld-items.json";
+import imbuedData from "./imbued.json";
+import miscData from "./misc.json";
+import modsData from "./mods.json";
+import specialItemData from "./special-items.json";
 
 export interface IMM3Weapon {
   name: string;

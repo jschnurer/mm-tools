@@ -1,0 +1,17 @@
+.controls {
+  label {
+    display: inline-block;
+    width: 125px;
+  }
+}
+
+.active {
+  background-color: yellow;
+}
+
+.trainer {
+  label {
+    display: block;
+    font-size: 1.25em;
+  }
+}

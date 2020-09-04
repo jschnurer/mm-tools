@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import PageTitle from "./layout/PageTitle";
-import PageLayout from "./layout/PageLayout";
+import PageTitle from "../layout/PageTitle";
+import PageLayout from "../layout/PageLayout";
 
 const MMGames = [
   "MM6",
@@ -12,6 +12,18 @@ interface IAvailableClasses {
 };
 
 const availableClasses: IAvailableClasses = {
+  "MM3": [
+    "Knight",
+    "Paladin",
+    "Archer",
+    "Cleric",
+    "Sorcerer",
+    "Robber",
+    "Ninja",
+    "Barbarian",
+    "Druid",
+    "Ranger"
+  ],
   "MM6": [
     "Knight",
     "Paladin",
