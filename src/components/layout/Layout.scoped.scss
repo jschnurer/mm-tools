@@ -1,0 +1,9 @@
+.site {
+  display: flex;
+  height: 100vh;
+
+  .page-layout {
+    padding: 0.5em;
+    flex: auto;
+  }
+}

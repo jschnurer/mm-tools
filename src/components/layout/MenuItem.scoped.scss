@@ -1,0 +1,30 @@
+.menu-item {
+  color: #DDD;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    filter: invert(.8);
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: .5em;
+  }
+
+  &.active {
+    background-color: #555;
+  }
+
+  &:hover {
+    color: #FFF;
+    background-color: #666;
+
+    img {
+      filter: invert(1);
+    }
+  }
+}
