@@ -19,9 +19,9 @@ const MainMenu: React.FC = () =>
       url={Routes.RandomParty}
     />
     <MenuItem
-      label="MM3 Items"
+      label="M&amp;M 3 Items"
       icon={magnifyingGlassIcon}
-      url={Routes.ItemIdentifier}
+      url={Routes.MM3ItemIdentifier}
     />
   </div>;
 

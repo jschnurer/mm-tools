@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Alacorn of Icarus",
+    "purpose": "Bring it to the Shrine of Icarus in area A2",
+    "location": "Princess Trueberry has it (area E2) and will give it to you if you solve her quest"
+  },
+  {
+    "name": "Ancient Artifact of Evil",
+    "purpose": "Bring these to Pathos in Castle Dragontooth(area E1) for a reward in experience",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Ancient Artifact of Good",
+    "purpose": "Bring these to Praythos in Castle Whiteshield(area A2) for a reward in experience",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Ancient Artifact of Neutrality",
+    "purpose": "Bring these to Chathos in Castle Blood Reign(area B4) for a reward in experience",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Ancient Fizbin of Misfortune",
+    "purpose": "Bad, bad, bad! Get rid of it right away!",
+    "location": "Slithercult Stronghold and Cyclops Cavern"
+  },
+  {
+    "name": "Ancient Jewelry",
+    "purpose": "Sell at a blacksmith for 2000 gold",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Black Terror Key",
+    "purpose": "Allows you to enter the Tomb of Terror",
+    "location": "Cursed Cold Cavern, or get it from the hireling Son of Abu"
+  },
+  {
+    "name": "Blue Priority Pass Card",
+    "purpose": "Allows you to enter the final area of the game",
+    "location": "Give 11 Ultimate Power Orbs to one of the three kings"
+  },
+  {
+    "name": "Blue Unholy Key",
+    "purpose": "Allows you to enter the Cathedral of Carnage",
+    "location": "Arachnoid Cavern, or get it from the hireling Wartowsan"
+  },
+  {
+    "name": "Golden Pyramid Key Card",
+    "purpose": "Allows you to enter Pyramids",
+    "location": "Mount Keystone (area A4)"
+  },
+  {
+    "name": "Gold Master Key",
+    "purpose": "Allows you to enter the Maze from Hell",
+    "location": "Magic Cavern, or get it from the hireling The Raven"
+  },
+  {
+    "name": "Green Eyeball Key",
+    "purpose": "Allows you to enter the Halls of Insanity",
+    "location": "Cyclops Cavern, or get it from the hireling Darlana"
+  },
+  {
+    "name": "Hologram Sequencing Card 001",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Fortess of Fear"
+  },
+  {
+    "name": "Hologram Sequencing Card 002",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Halls of Insanity"
+  },
+  {
+    "name": "Hologram Sequencing Card 003",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Dark Warrior Keep"
+  },
+  {
+    "name": "Hologram Sequencing Card 004",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Cathedral of Carnage"
+  },
+  {
+    "name": "Hologram Sequencing Card 005",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Tomb of Terror"
+  },
+  {
+    "name": "Hologram Sequencing Card 006",
+    "purpose": "One of six cards you need to finish the game",
+    "location": "Maze from Hell"
+  },
+  {
+    "name": "Interspacial Transport Box",
+    "purpose": "Using this powerful device allows you to travel pretty much anywhere in the game!",
+    "location": "The Central Control Sector of the Pyramid Complex"
+  },
+  {
+    "name": "Jewelry",
+    "purpose": "Sell at a blacksmith for 500 gold",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "King's Ultimate Power Orb",
+    "purpose": "Bring it to one of the three kings for one million experience points",
+    "location": "All over the place(31 totalled)  - see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Might Potion",
+    "purpose": "Use to temporarily increase your Might by 5",
+    "location": "Buy in wagon near Fountain Head"
+  },
+  {
+    "name": "Precious Pearl of Youth and Beauty",
+    "purpose": "Bring these to the Pirate Queen, who sails north of the Isle of Fire (area D2)",
+    "location": "Blistering Heights Cavern, Cursed Cold Cavern and Slithercult Stronghold"
+  },
+  {
+    "name": "Quatloo Coin",
+    "purpose": "You can use these to play the slot machines in the Slithercult Stronghold",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Red Warrior Key",
+    "purpose": "Allows you to enter Dark Warrior Keep",
+    "location": "Cyclops Cavern, or get it from the hireling Lone Wolf"
+  },
+  {
+    "name": "Rope and Hooks",
+    "purpose": "You'll need these to climb down holes in you don't have the Create Rope spell yet",
+    "location": "Buy at Fountain Head's blacksmith"
+  },
+  {
+    "name": "Sacred Silver Skull",
+    "purpose": "Give to Kranion the Skull Miser at Fountain Head for a reward",
+    "location": "All over the place, see my walkthroughs on the Might and Magic III Shrine"
+  },
+  {
+    "name": "Sea Shell of Serenity",
+    "purpose": "Give these to Athea (in the southwest corner of area A4) for a reward",
+    "location": "Rainbow Island (area D4), but only on a certain day... solve the brother's quest to find out what day"
+  },
+  {
+    "name": "Torch",
+    "purpose": "If you're in a dark place and don't feel like casting the Light spell, you can use this instead",
+    "location": "Buy at Fountain Head's blacksmith"
+  },
+  {
+    "name": "Yellow Fortress Key",
+    "purpose": "Allows you to enter the Fortress of Fear",
+    "location": "Arachnoid Cavern, or get it from the hireling Sir Galant"
+  }
+]

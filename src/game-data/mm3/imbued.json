@@ -1,0 +1,294 @@
+[
+  {
+    "suffix": "of Acid Spraying",
+    "spell": "Acid Spray"
+  },
+  {
+    "suffix": "of Acid Streams",
+    "spell": "Acid Stream"
+  },
+  {
+    "suffix": "of Aid",
+    "spell": "First Aid"
+  },
+  {
+    "suffix": "of Antidotes",
+    "spell": "Cure Poison"
+  },
+  {
+    "suffix": "of Arrows",
+    "spell": "Elemental Arrow"
+  },
+  {
+    "suffix": "of Awakening",
+    "spell": "Awaken"
+  },
+  {
+    "suffix": "of Beacons",
+    "spell": "Lloyd's Beacon"
+  },
+  {
+    "suffix": "of Blessing",
+    "spell": "Blessed"
+  },
+  {
+    "suffix": "of Cold Rays",
+    "spell": "Cold Ray"
+  },
+  {
+    "suffix": "of Curing",
+    "spell": "Cure Wounds"
+  },
+  {
+    "suffix": "of Dancing Swords",
+    "spell": "Dancing Sword"
+  },
+  {
+    "suffix": "of Deadly Swarms",
+    "spell": "Deadly Swarm"
+  },
+  {
+    "suffix": "of Death",
+    "spell": "Finger of Death"
+  },
+  {
+    "suffix": "of Detect Magic",
+    "spell": "Detect Magic"
+  },
+  {
+    "suffix": "of Disintegration",
+    "spell": "Disintegrate"
+  },
+  {
+    "suffix": "of Distortion",
+    "spell": "Time Distortion"
+  },
+  {
+    "suffix": "of Dragon Breath",
+    "spell": "Dragon Breath"
+  },
+  {
+    "suffix": "of Duplication",
+    "spell": "Duplicate Item"
+  },
+  {
+    "suffix": "of Elements",
+    "spell": "Protection from Elements"
+  },
+  {
+    "suffix": "of Enchantment",
+    "spell": "Enchant Item"
+  },
+  {
+    "suffix": "of Energy Blasts",
+    "spell": "Energy Blast"
+  },
+  {
+    "suffix": "of Etherealization",
+    "spell": "Etherealize"
+  },
+  {
+    "suffix": "of Feasting",
+    "spell": "Create Food"
+  },
+  {
+    "suffix": "of Feeble Minding",
+    "spell": "Feeble Mind"
+  },
+  {
+    "suffix": "of Fiery Flails",
+    "spell": "Fiery Flail"
+  },
+  {
+    "suffix": "of Fireballs",
+    "spell": "Fireball"
+  },
+  {
+    "suffix": "of Fists",
+    "spell": "Flying Fist"
+  },
+  {
+    "suffix": "of Free Movement",
+    "spell": "Cure Paralysis"
+  },
+  {
+    "suffix": "of Freezing",
+    "spell": "Fantastic Freeze"
+  },
+  {
+    "suffix": "of Frost Biting",
+    "spell": "Frost Bite"
+  },
+  {
+    "suffix": "of Gating",
+    "spell": "Nature's Gate"
+  },
+  {
+    "suffix": "of Half For Me",
+    "spell": "Half For Me"
+  },
+  {
+    "suffix": "of Heroism",
+    "spell": "Heroism"
+  },
+  {
+    "suffix": "of Holy Bonuses",
+    "spell": "Holy Bonus"
+  },
+  {
+    "suffix": "of Holy Words",
+    "spell": "Holy Word"
+  },
+  {
+    "suffix": "of Identification",
+    "spell": "Identify Monster"
+  },
+  {
+    "suffix": "of Infernos",
+    "spell": "Inferno"
+  },
+  {
+    "suffix": "of Jumping",
+    "spell": "Jump"
+  },
+  {
+    "suffix": "of Levitation",
+    "spell": "Levitate"
+  },
+  {
+    "suffix": "of Light",
+    "spell": "Light"
+  },
+  {
+    "suffix": "of Lightning",
+    "spell": "Lightning Bolt"
+  },
+  {
+    "suffix": "of Magic Detection",
+    "spell": "Detect Magic"
+  },
+  {
+    "suffix": "of Mass Distortion",
+    "spell": "Mass Distortion"
+  },
+  {
+    "suffix": "of Megavoltage",
+    "spell": "Mega Volts"
+  },
+  {
+    "suffix": "of Moon Rays",
+    "spell": "Moon Ray"
+  },
+  {
+    "suffix": "of Monster Finding",
+    "spell": "Detect Monster"
+  },
+  {
+    "suffix": "of Nature",
+    "spell": "Nature's Cure"
+  },
+  {
+    "suffix": "of Pain",
+    "spell": "Pain"
+  },
+  {
+    "suffix": "of Paralyzing",
+    "spell": "Paralyze"
+  },
+  {
+    "suffix": "of Portals",
+    "spell": "Town Portal"
+  },
+  {
+    "suffix": "of Power Curing",
+    "spell": "Power Cure"
+  },
+  {
+    "suffix": "of Prismatic Light",
+    "spell": "Prismatic Light"
+  },
+  {
+    "suffix": "of Raising The Dead",
+    "spell": "Raise Dead"
+  },
+  {
+    "suffix": "of Recharging",
+    "spell": "Recharge Item"
+  },
+  {
+    "suffix": "of Resurrection",
+    "spell": "Resurrect"
+  },
+  {
+    "suffix": "of Revitalization",
+    "spell": "Revitalize"
+  },
+  {
+    "suffix": "of Ropes",
+    "spell": "Create Rope"
+  },
+  {
+    "suffix": "of Sanctuaries",
+    "spell": "Super Shelter"
+  },
+  {
+    "suffix": "of Shielding",
+    "spell": "Power Shield"
+  },
+  {
+    "suffix": "of Silence",
+    "spell": "Silence"
+  },
+  {
+    "suffix": "of Sleeping",
+    "spell": "Sleep"
+  },
+  {
+    "suffix": "of Sparking",
+    "spell": "Sparks"
+  },
+  {
+    "suffix": "of Star Bursts",
+    "spell": "Star Burst"
+  },
+  {
+    "suffix": "of Storms",
+    "spell": "Elemental Storm"
+  },
+  {
+    "suffix": "of Stone to Flesh",
+    "spell": "Stone to Flesh"
+  },
+  {
+    "suffix": "of Sun Rays",
+    "spell": "Sun Ray"
+  },
+  {
+    "suffix": "of Teleportation",
+    "spell": "Teleport"
+  },
+  {
+    "suffix": "of the GODS!",
+    "spell": "Divine Intervention"
+  },
+  {
+    "suffix": "of Toxic Clouds",
+    "spell": "Toxic Cloud"
+  },
+  {
+    "suffix": "of Undead Turning",
+    "spell": "Turn Undead"
+  },
+  {
+    "suffix": "of Vaccination",
+    "spell": "Cure Disease"
+  },
+  {
+    "suffix": "of Water Walking",
+    "spell": "Walk on Water"
+  },
+  {
+    "suffix": "of Wizard Eyes",
+    "spell": "Wizard Eye"
+  }
+]

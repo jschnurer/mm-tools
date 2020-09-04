@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Box",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Coin",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Gem",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Horn",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Jewel",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Orb",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Potion",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Rod",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Scroll",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Shield",
+    "classes": "KPCTBR",
+    "acBonus": 4
+  },
+  {
+    "name": "Wand",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  },
+  {
+    "name": "Whistle",
+    "classes": "KPACSTNBDR",
+    "acBonus": 0
+  }
+]

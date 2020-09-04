@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Amulet",
+    "type": "Necklace",
+    "acBonus": 0
+  },
+  {
+    "name": "Belt",
+    "type": "Belt",
+    "acBonus": 0
+  },
+  {
+    "name": "Boots",
+    "type": "Boots",
+    "acBonus": 1
+  },
+  {
+    "name": "Broach",
+    "type": "Medal",
+    "acBonus": 0
+  },
+  {
+    "name": "Cameo",
+    "type": "Medal",
+    "acBonus": 0
+  },
+  {
+    "name": "Cape",
+    "type": "Cloak",
+    "acBonus": 1
+  },
+  {
+    "name": "Charm",
+    "type": "Medal",
+    "acBonus": 0
+  },
+  {
+    "name": "Cloak",
+    "type": "Cloak",
+    "acBonus": 1
+  },
+  {
+    "name": "Crown",
+    "type": "Headgear",
+    "acBonus": 0
+  },
+  {
+    "name": "Gauntlets",
+    "type": "Gauntlets",
+    "acBonus": 1
+  },
+  {
+    "name": "Helm",
+    "type": "Headgear",
+    "acBonus": 2
+  },
+  {
+    "name": "Medal",
+    "type": "Medal",
+    "acBonus": 0
+  },
+  {
+    "name": "Necklace",
+    "type": "Necklace",
+    "acBonus": 0
+  },
+  {
+    "name": "Pendant",
+    "type": "Necklace",
+    "acBonus": 0
+  },
+  {
+    "name": "Ring",
+    "type": "Ring",
+    "acBonus": 0
+  },
+  {
+    "name": "Robes",
+    "type": "Cloak",
+    "acBonus": 1
+  },
+  {
+    "name": "Scarab",
+    "type": "Medal",
+    "acBonus": 0
+  },
+  {
+    "name": "Tiara",
+    "type": "Headgear",
+    "acBonus": 0
+  }
+]
