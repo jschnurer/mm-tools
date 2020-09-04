@@ -214,7 +214,7 @@ const MM3Items: React.FC = () => {
             <div>
               <input
                 type="text"
-                placeholder="Type item name..."
+                placeholder="Search by full item name..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 ref={searchBoxRef}

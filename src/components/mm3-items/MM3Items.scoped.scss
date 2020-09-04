@@ -10,6 +10,10 @@ form {
 
     input {
       width: 250px;
+
+      &::placeholder {
+        font-style: italic;
+      }
     }
 
     &:first-child {
