@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  align-items: flex-end;
+
+  div {
+    flex: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    input {
+      width: 250px;
+    }
+
+    &:first-child {
+      flex: none;
+      margin-right: 1em;
+
+      button {
+        margin: 0;
+      }
+    }
+
+    span {
+      flex: auto;
+      flex-basis: 40%;
+    }
+  }
+}
+
+.item-description {
+  border: 3px #CCC ridge;
+  padding: .5em;
+
+  span {
+    display: block;
+  }
+}
