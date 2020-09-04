@@ -1,8 +1,9 @@
 import React from "react";
+import PageTitle from "./layout/PageTitle";
 
 const Welcome: React.FC = () =>
   <>
-    <h2>Might and Magic Tools</h2>
+    <PageTitle title="Might and Magic Tools" />
     <p>Welcome to Might and Magic Tools. Here you will find many little tools. Enjoy!</p>
   </>;
 

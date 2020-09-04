@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PageTitle from "./layout/PageTitle";
 
 const MMGames = [
   "MM6",
@@ -69,7 +70,11 @@ const RandomParty: React.FC = () => {
 
   return (
     <>
+      <PageTitle title="Random Party" />
       <div>
+        <p>
+          Click a button to generate a random party for that game.
+        </p>
         {MMGames.map(game => (
           <button
             key={game}

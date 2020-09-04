@@ -3,6 +3,7 @@
   text-decoration: none;
   display: block;
   padding: 1em;
+  cursor: pointer;
 
   &:last-child {
     margin-bottom: 0;
@@ -12,7 +13,7 @@
     filter: invert(.8);
     width: 1.5em;
     vertical-align: middle;
-    margin-right: .5em;
+    margin-right: .75em;
   }
 
   &.active {
