@@ -19,6 +19,7 @@ import {
   IMM3Imbue,
   imbues,
 } from "./MM3Data";
+import PageLayout from "components/layout/PageLayout";
 
 const MM3Items: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -203,39 +204,44 @@ const MM3Items: React.FC = () => {
   }
 
   return (
-    <>
-      <PageTitle title="M&amp;M 3 Item Identifier" />
-      <form
-        onSubmit={(e) => doSearch(e)}
-      >
-        <div>
-          <input
-            type="text"
-            placeholder="Type item name..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            ref={searchBoxRef}
-          />
-          <button
-            className="primary-button"
-            type="submit"
+    <PageLayout
+      header={(
+        <>
+          <PageTitle title="M&amp;M 3 Item Identifier" />
+          <form
+            onSubmit={(e) => doSearch(e)}
           >
-            Id
+            <div>
+              <input
+                type="text"
+                placeholder="Type item name..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                ref={searchBoxRef}
+              />
+              <button
+                className="primary-button"
+                type="submit"
+              >
+                Id
           </button>
-        </div>
-        <div>
-          <span>K = Knight</span>
-          <span>P = Paladin</span>
-          <span>A = Archer</span>
-          <span>C = Cleric</span>
-          <span>S = Sorcerer</span>
-          <span>T = Robber</span>
-          <span>N = Ninja</span>
-          <span>B = Barbarian</span>
-          <span>D = Druid</span>
-          <span>R = Ranger</span>
-        </div>
-      </form>
+            </div>
+            <div>
+              <span>K = Knight</span>
+              <span>P = Paladin</span>
+              <span>A = Archer</span>
+              <span>C = Cleric</span>
+              <span>S = Sorcerer</span>
+              <span>T = Robber</span>
+              <span>N = Ninja</span>
+              <span>B = Barbarian</span>
+              <span>D = Druid</span>
+              <span>R = Ranger</span>
+            </div>
+          </form>
+        </>
+      )}
+    >
       {items &&
         items.map((item, ix) =>
           <p
@@ -248,7 +254,7 @@ const MM3Items: React.FC = () => {
           </p>
         )
       }
-    </>
+    </PageLayout>
   );
 }
 

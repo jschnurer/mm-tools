@@ -1,0 +1,19 @@
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+
+  .page-header {
+    flex: none;
+  }
+
+  .page-body {
+    flex: auto;
+    overflow: auto;
+  }
+
+  .page-footer {
+    flex: none;
+  }
+}

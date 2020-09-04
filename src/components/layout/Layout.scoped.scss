@@ -2,9 +2,12 @@
   display: flex;
   height: 100vh;
 
-  .page-layout {
+  .page-content {
     margin-left: 1em;
     padding: 0.5em;
     flex: auto;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
   }
 }
