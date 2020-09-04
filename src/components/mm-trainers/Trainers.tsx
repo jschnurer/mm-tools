@@ -42,7 +42,7 @@ const Trainers: React.FC = () => {
   const filteredTrainers = trainers
     .filter(t => t.category === category
       && (skill === "all"
-        || t.skill == skill))
+        || t.skill === skill))
     .sort((a, b) => {
       if (a.skill < b.skill) {
         return -1;

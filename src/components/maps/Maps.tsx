@@ -14,7 +14,10 @@ const Maps: React.FC = () => {
       )}
     >
       <h2>MM7 Barrows Map</h2>
-      <img src={mm7BarrowMap} />
+      <img
+        src={mm7BarrowMap}
+        alt="MM7 Barrows Map"
+      />
     </PageLayout>
   );
 }
