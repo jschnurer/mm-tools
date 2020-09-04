@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 const App: React.FC = () =>
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Layout>
       <Routing />
     </Layout>
