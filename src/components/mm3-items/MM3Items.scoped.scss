@@ -23,7 +23,8 @@ form {
 
     span {
       flex: auto;
-      flex-basis: 40%;
+      white-space: nowrap;
+      padding: .25em;
     }
   }
 }

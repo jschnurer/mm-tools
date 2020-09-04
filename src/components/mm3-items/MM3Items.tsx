@@ -58,13 +58,13 @@ const MM3Items: React.FC = () => {
     const mods = findAllMods(term);
     const imbues = findAllImbues(term);
 
-    if (type == MM3ItemTypes.Weapon) {
+    if (type === MM3ItemTypes.Weapon) {
       setWeapon(item as IMM3Weapon, mods, imbues);
-    } else if (type == MM3ItemTypes.Armor) {
+    } else if (type === MM3ItemTypes.Armor) {
       setOther(item as IMM3Armor, mods, imbues);
-    } else if (type == MM3ItemTypes.Handheld) {
+    } else if (type === MM3ItemTypes.Handheld) {
       setOther(item as IMM3HandheldItem, mods, imbues);
-    } else if (type == MM3ItemTypes.Misc) {
+    } else if (type === MM3ItemTypes.Misc) {
       setOther(item as IMM3MiscItem, mods, imbues);
     }
 

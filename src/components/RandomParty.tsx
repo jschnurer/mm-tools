@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PageTitle from "./layout/PageTitle";
+import PageLayout from "./layout/PageLayout";
 
 const MMGames = [
   "MM6",
@@ -69,22 +70,27 @@ const RandomParty: React.FC = () => {
   }
 
   return (
-    <>
-      <PageTitle title="Random Party" />
-      <div>
-        <p>
-          Click a button to generate a random party for that game.
-        </p>
-        {MMGames.map(game => (
-          <button
-            key={game}
-            onClick={() => generateParty(game)}
-            className="primary-button"
-          >
-            {game}
-          </button>
-        ))}
-      </div>
+    <PageLayout
+      header={(
+        <>
+          <PageTitle title="Random Party" />
+          <div>
+            <p>
+              Click a button to generate a random party for that game.
+            </p>
+            {MMGames.map(game => (
+              <button
+                key={game}
+                onClick={() => generateParty(game)}
+                className="primary-button"
+              >
+                {game}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+    >
       {state.partyMembers.length > 0 &&
         <div>
           <h4>Random {state.game} Party</h4>
@@ -99,7 +105,7 @@ const RandomParty: React.FC = () => {
           </ol>
         </div>
       }
-    </>
+    </PageLayout>
   );
 }
 
