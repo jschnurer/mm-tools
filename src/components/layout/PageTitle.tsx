@@ -7,7 +7,7 @@ interface IPageTitleProps {
 const PageTitle: React.FC<IPageTitleProps> = ({ title }) => {
   useEffect(() => {
     document.title = title;
-  }, []);
+  }, [title]);
 
   return (
     <h2 className="page-title">
