@@ -17,7 +17,7 @@ const MMXeenId: React.FC = () =>
     mods={modsData as IMod[]}
     specialItems={[]}
     note={(
-      <p><a href="http://shrines.rpgclassics.com/pc/mm4_5/" target="_blank">Source</a></p>
+      <p><a href="http://shrines.rpgclassics.com/pc/mm4_5/" target="_blank" rel="noopener noreferrer">Source</a></p>
     )}
   />;
 

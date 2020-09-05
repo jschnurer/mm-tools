@@ -23,7 +23,7 @@ const MM1Id: React.FC = () =>
         MAGIC = Y/N determines if it can cast magic, the number is the number of charges;
         COST = gold value;
         DMG = base weapon damage (e.g. club is 1-3 damage);
-        AC/DMG = AC if armor or extra damage. <a href="http://alexandria.rpgclassics.com/PC/mightandmagic/mightandmagic_3.txt" target="_blank">Source</a>
+        AC/DMG = AC if armor or extra damage. <a href="http://alexandria.rpgclassics.com/PC/mightandmagic/mightandmagic_3.txt" target="_blank" rel="noopener noreferrer">Source</a>
       </p>
     )}
   />;
