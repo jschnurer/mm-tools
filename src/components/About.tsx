@@ -12,6 +12,9 @@ const About: React.FC = () =>
       Have an idea or a request?
       Email me: enigmabrand &lt;at&gt; gmail.
     </p>
+    <p>
+      The source code for this webapp is <a href="https://github.com/jschnurer/mm-tools">available on github</a>.
+    </p>
   </>;
 
 export default About;
