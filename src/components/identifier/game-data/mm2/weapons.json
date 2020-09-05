@@ -1,0 +1,882 @@
+[
+  {
+    "name": "Accurate Sword",
+    "classes": "KPAT",
+    "bonus": "+10 Acc",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Acidic Sword",
+    "classes": "KPAT",
+    "bonus": "+10 Acid",
+    "useAbility": "3/1 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Battle Axe",
+    "classes": "KPATB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Blazing Axe",
+    "classes": "KPATB",
+    "bonus": "+15 Fire",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Broad Sword",
+    "classes": "KPAT",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Bull Whip",
+    "classes": "KCSTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Chance Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Luck",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Cold Blade",
+    "classes": "KPAT",
+    "bonus": "+15 Cold",
+    "useAbility": "4/1 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Cudgel",
+    "classes": "KPACTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Cutlass",
+    "classes": "KPAT",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Dagger",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "4",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Divine Mace",
+    "classes": "KPACTB",
+    "bonus": "+10 AC",
+    "useAbility": "9/1 C",
+    "damage": "14",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Dyno Katana",
+    "classes": "KN",
+    "bonus": "+15 Elec",
+    "useAbility": "+15 Lvl",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Ego Scimitar",
+    "classes": "KPAT",
+    "bonus": "+12 Per",
+    "useAbility": "None",
+    "damage": "9",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Electric Axe",
+    "classes": "KPATB",
+    "bonus": "+15 Elec",
+    "useAbility": "3/4 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Electric Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Elec",
+    "useAbility": "6/5 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Energy Blade",
+    "classes": "KPAT",
+    "bonus": "+15 Enrg",
+    "useAbility": "6/1 S",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Energy Whip",
+    "classes": "KCSTNB",
+    "bonus": "+15 Enrg",
+    "useAbility": "1/3 S",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Exacto Spear",
+    "classes": "KPATNB",
+    "bonus": "+6 Acc",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Fast Cutlass",
+    "classes": "KPAT",
+    "bonus": "+4 Spd",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Fiery Spear",
+    "classes": "KPATNB",
+    "bonus": "+15 Fire",
+    "useAbility": "4/3 S",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Flail",
+    "classes": "KPATC",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Flaming Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Fire",
+    "useAbility": "4/3 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Flash Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Enrg",
+    "useAbility": "3/4 S",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Force Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Mgt",
+    "useAbility": "+15 Mgt",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Grand Axe",
+    "classes": "KPATB",
+    "bonus": "+15 Mgt",
+    "useAbility": "+15 Mgt",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Hand Axe",
+    "classes": "KPATNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Holy Cudgel",
+    "classes": "PC",
+    "bonus": "+15 Per",
+    "useAbility": "9/2 C",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Ice Scimitar",
+    "classes": "KPAT",
+    "bonus": "+15 Cold",
+    "useAbility": "6/3 S",
+    "damage": "18",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Katana",
+    "classes": "KN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Large Club",
+    "classes": "All",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "4",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Large Knife",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Looter Knife",
+    "classes": "KPASTNB",
+    "bonus": "+15 Thf",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Long Dagger",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Long Sword",
+    "classes": "KPAT",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Lucky Knife",
+    "classes": "KPASTNB",
+    "bonus": "+10 Luck",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Mace",
+    "classes": "KPACTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Magic Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Magic",
+    "useAbility": "+15 Lvl",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Maul",
+    "classes": "KPACTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Mauler Mace",
+    "classes": "KPACTB",
+    "bonus": "+6 Mgt",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Mighty Whip",
+    "classes": "KCSTNB",
+    "bonus": "+3 Mgt",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Nunchakas",
+    "classes": "KN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Photon Blade",
+    "classes": "K",
+    "bonus": "+15 Mgt",
+    "useAbility": "9/1 S",
+    "damage": "25",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Power Club",
+    "classes": "Any",
+    "bonus": "+3 Mgt",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Power Cudgel",
+    "classes": "KPACTB",
+    "bonus": "+3 Mgt",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Quick Flail",
+    "classes": "KPACT",
+    "bonus": "+5 Spd",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Rapid Katana",
+    "classes": "KN",
+    "bonus": "+6 Spd",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Sabre",
+    "classes": "KPAT",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Sage Dagger",
+    "classes": "AS",
+    "bonus": "+15 Int",
+    "useAbility": "+15 Lvl",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Scimitar",
+    "classes": "KPAT",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "9",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Scorh Maul",
+    "classes": "KPACTB",
+    "bonus": "+15 Fire",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Sharp Sabre",
+    "classes": "KPAT",
+    "bonus": "+5 Acc",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Shock Flail",
+    "classes": "KPACT",
+    "bonus": "+15 Elec",
+    "useAbility": "2/2 S",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Short Sword",
+    "classes": "KPATN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Slumber Club",
+    "classes": "All",
+    "bonus": "+15 Sleep",
+    "useAbility": "1/7 S",
+    "damage": "4",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Small Club",
+    "classes": "All",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "2",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Small Knife",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "3",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Sonic Whip",
+    "classes": "KCSTNB",
+    "bonus": "+15 PHP",
+    "useAbility": "2/4 C",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Spear",
+    "classes": "KPATNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "7",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Speedy Sword",
+    "classes": "KPAT",
+    "bonus": "+10 Spd",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Spiked Club",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Swift Axe",
+    "classes": "KPATB",
+    "bonus": "+15 Spd",
+    "useAbility": "+15 Spd",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Thunder Sword",
+    "classes": "KPAT",
+    "bonus": "+15 Mgt",
+    "useAbility": "3/4 S",
+    "damage": "20",
+    "hands": "One-handed"
+  },
+  {
+    "name": "True Axe",
+    "classes": "KPATB",
+    "bonus": "+5 Acc",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Wakizashi",
+    "classes": "KN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "One-handed"
+  },
+  {
+    "name": "Bardiche",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "13",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Dark Trident",
+    "classes": "KPAB",
+    "bonus": "+15 AC",
+    "useAbility": "None",
+    "damage": "30",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Fire Glaive",
+    "classes": "KPAB",
+    "bonus": "+15 Fire",
+    "useAbility": "4/3 S",
+    "damage": "10",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Flamberge",
+    "classes": "KPA",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "16",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Genius Staff",
+    "classes": "KACSN",
+    "bonus": "+10 Int",
+    "useAbility": "+15 Lvl",
+    "damage": "16",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Glaive",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Great Axe",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "15",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Great Hammer",
+    "classes": "KPACB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "14",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Halberd",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "14",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Harsh Hammer",
+    "classes": "KPACB",
+    "bonus": "+3 Mgt",
+    "useAbility": "None",
+    "damage": "15",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Ice Sickle",
+    "classes": "KPAB",
+    "bonus": "+15 Cold",
+    "useAbility": "4/1 S",
+    "damage": "16",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Moon Halberd",
+    "classes": "KPAB",
+    "bonus": "+15 Luck",
+    "useAbility": "7/3 C",
+    "damage": "30",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Naginata",
+    "classes": "KN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "12",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Pike",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "12",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Scythe",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "9",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Sickle",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Soul Scythe",
+    "classes": "KPAB",
+    "bonus": "+15 Magic",
+    "useAbility": "5/2 S",
+    "damage": "18",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Staff",
+    "classes": "KPACSNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Stone Hammer",
+    "classes": "KPACB",
+    "bonus": "+15 Magic",
+    "useAbility": "None",
+    "damage": "18",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Sun Naginata",
+    "classes": "KN",
+    "bonus": "+15 AC",
+    "useAbility": "+15 Lvl",
+    "damage": "25",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Titans Pike",
+    "classes": "KPAB",
+    "bonus": "+15 Mgt",
+    "useAbility": "+15 Mgt",
+    "damage": "40",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Trident",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "11",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Tri-Sickle",
+    "classes": "KPAB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "24",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "War Hammer",
+    "classes": "KPACB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Wind Staff",
+    "classes": "KPACSNB",
+    "bonus": "+5 Spd",
+    "useAbility": "5/1 C",
+    "damage": "8",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Wizard Staff",
+    "classes": "S",
+    "bonus": "+15 Int",
+    "useAbility": "7/4 S",
+    "damage": "16",
+    "hands": "Two-handed"
+  },
+  {
+    "name": "Ancient Bow",
+    "classes": "KPA",
+    "bonus": "+15 Acc",
+    "useAbility": "+15 Acc",
+    "damage": "35",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Blowpipe",
+    "classes": "KPASTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "4",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Burning xBow",
+    "classes": "KPATN",
+    "bonus": "+10 Fire",
+    "useAbility": "3/5 C",
+    "damage": "8",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Cinder Pipe",
+    "classes": "KPASTNB",
+    "bonus": "+10 Fire",
+    "useAbility": "4/3 S",
+    "damage": "4",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Crossbow",
+    "classes": "KPATN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "8",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Death Bow",
+    "classes": "KPA",
+    "bonus": "+15 Luck",
+    "useAbility": "+15 Lvl",
+    "damage": "24",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Energy Sling",
+    "classes": "KPATNB",
+    "bonus": "+15 Enrg",
+    "useAbility": "1/3 S",
+    "damage": "10",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Fireball Bow",
+    "classes": "KPAN",
+    "bonus": "+15 Fire",
+    "useAbility": "4/3 S",
+    "damage": "10",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Giant Sling",
+    "classes": "KPATNB",
+    "bonus": "+15 PHP",
+    "useAbility": "+15 Mgt",
+    "damage": "15",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Great Bow",
+    "classes": "KPA",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "12",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Long Bow",
+    "classes": "KPAN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "10",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Meteor Bow",
+    "classes": "KPA",
+    "bonus": "+15 AC",
+    "useAbility": "8/3 S",
+    "damage": "24",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Pirates xBow",
+    "classes": "KPATN",
+    "bonus": "+10 Thf",
+    "useAbility": "+15 Acc",
+    "damage": "8",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Quiet Sling",
+    "classes": "KPATNB",
+    "bonus": "+15 Sleep",
+    "useAbility": "2/6 C",
+    "damage": "5",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Shaman Pipe",
+    "classes": "KPASTNB",
+    "bonus": "+10 Magic",
+    "useAbility": "+1 SpLvl",
+    "damage": "4",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Short Bow",
+    "classes": "KPAN",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "6",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Sling",
+    "classes": "KPATNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "damage": "5",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Star Bow",
+    "classes": "KPA",
+    "bonus": "+15 Enrg",
+    "useAbility": "9/3 S",
+    "damage": "24",
+    "hands": "Ranged"
+  },
+  {
+    "name": "Volatge Bow",
+    "classes": "KPAN",
+    "bonus": "+10 Elec",
+    "useAbility": "3/4 S",
+    "damage": "10",
+    "hands": "Ranged"
+  }
+]

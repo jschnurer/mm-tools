@@ -1,0 +1,590 @@
+[
+  {
+    "name": "Accuracy Gauntlet",
+    "classes": "KPACTNB",
+    "bonus": "Acc+6",
+    "useAbility": "Acc+10"
+  },
+  {
+    "name": "Admit 8 Pass",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Agate Grail",
+    "classes": "P",
+    "bonus": "Per+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Air Disc",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C4/2"
+  },
+  {
+    "name": "Air Talon",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C5/1"
+  },
+  {
+    "name": "Amber Skull",
+    "classes": "S",
+    "bonus": "Int+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Amethyst Box",
+    "classes": "T",
+    "bonus": "Luc+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Antidote Ale",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C3/3"
+  },
+  {
+    "name": "A-1 Tolidor",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Black Key",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Black Ticket",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Castle Key",
+    "classes": "TN",
+    "bonus": "Thf+5",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Compass",
+    "classes": "No Equip",
+    "bonus": "N/A",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Corak's Soul",
+    "classes": "No Equip",
+    "bonus": "N/A",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Coral Brooch",
+    "classes": "B",
+    "bonus": "Mgt+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Crystal Vial",
+    "classes": "N",
+    "bonus": "Spd+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Cupie Doll",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Cure-all Wand",
+    "classes": "Any",
+    "bonus": "PHP+15",
+    "useAbility": "C5/5"
+  },
+  {
+    "name": "Defense Ring",
+    "classes": "Any",
+    "bonus": "AC+2",
+    "useAbility": "S4/5"
+  },
+  {
+    "name": "Disruptor",
+    "classes": "Any",
+    "bonus": "Enrg+15",
+    "useAbility": "S5/1"
+  },
+  {
+    "name": "Dog Whistle",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S4/4"
+  },
+  {
+    "name": "Dove's Blood",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C4/2"
+  },
+  {
+    "name": "Earth Disc",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C6/1"
+  },
+  {
+    "name": "Earth Talon",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C7/1"
+  },
+  {
+    "name": "Element Orb",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S9/3"
+  },
+  {
+    "name": "Elven Boots",
+    "classes": "AT",
+    "bonus": "Spd+5",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Elven Cloak",
+    "classes": "AT",
+    "bonus": "AC+5",
+    "useAbility": "S3/3"
+  },
+  {
+    "name": "Emerald Ring",
+    "classes": "Any",
+    "bonus": "AC+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Enchanted ID",
+    "classes": "Any",
+    "bonus": "Per+15",
+    "useAbility": "Lvl+15"
+  },
+  {
+    "name": "Energizer",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S6/4"
+  },
+  {
+    "name": "Fe Farthing",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Fire Disc",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C8/2"
+  },
+  {
+    "name": "Fire Talon",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C8/1"
+  },
+  {
+    "name": "Force Potion",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "Mgt+10"
+  },
+  {
+    "name": "Freeze Wand",
+    "classes": "Any",
+    "bonus": "Cold+15",
+    "useAbility": "S6/3"
+  },
+  {
+    "name": "Gold Goblet",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Green Key",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Green Ticket",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Herbal Patch",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C2/1"
+  },
+  {
+    "name": "Hero Medal",
+    "classes": "Any",
+    "bonus": "Per+4",
+    "useAbility": "C2/2"
+  },
+  {
+    "name": "Holy Charm",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C1/7"
+  },
+  {
+    "name": "Honor Sword",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Hourglass",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S4/6"
+  },
+  {
+    "name": "Instant Keep",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S5/4"
+  },
+  {
+    "name": "Invisocloak",
+    "classes": "Any",
+    "bonus": "AC+6",
+    "useAbility": "S3/3"
+  },
+  {
+    "name": "Ivory Cameo",
+    "classes": "K",
+    "bonus": "Mgt+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "J-26 Fluxer",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Lantern",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S1/5"
+  },
+  {
+    "name": "Lapis Scarab",
+    "classes": "B",
+    "bonus": "Mgt+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Lava Grenade",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S4/3"
+  },
+  {
+    "name": "Lich Hand",
+    "classes": "KST",
+    "bonus": "No Equip",
+    "useAbility": "S5/2"
+  },
+  {
+    "name": "+7 Loincloth",
+    "classes": "Any",
+    "bonus": "Per+10",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Magic Charm",
+    "classes": "Any",
+    "bonus": "Magic+10",
+    "useAbility": "S2/7"
+  },
+  {
+    "name": "Magic Herbs",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C1/4"
+  },
+  {
+    "name": "Magic Meal",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C3/2"
+  },
+  {
+    "name": "Magic Mirror",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S7/2"
+  },
+  {
+    "name": "Mark's Keys",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Max HP Potion",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "Max HP"
+  },
+  {
+    "name": "Might Gauntlet",
+    "classes": "KPACTB",
+    "bonus": "Mgt+6",
+    "useAbility": "Mgt+10"
+  },
+  {
+    "name": "Monster Tome",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S2/3"
+  },
+  {
+    "name": "Moon Rock",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C7/3"
+  },
+  {
+    "name": "M-27 Radicon",
+    "classes": "N/A",
+    "bonus": "Not Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "N-19 Capitor",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Noble Sword",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Onyx Effigy",
+    "classes": "C",
+    "bonus": "Per+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Opal Pendant",
+    "classes": "P",
+    "bonus": "Mgt+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Pearl Choker",
+    "classes": "C",
+    "bonus": "Per+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Phaser",
+    "classes": "Any",
+    "bonus": "Acc+5",
+    "useAbility": "S6/1"
+  },
+  {
+    "name": "Quartz Skull",
+    "classes": "S",
+    "bonus": "Int+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Ray Gun",
+    "classes": "Any",
+    "bonus": "Acc+5",
+    "useAbility": "S1/3"
+  },
+  {
+    "name": "Red Ticket",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Rope 'n' Hooks",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S2/4"
+  },
+  {
+    "name": "Ruby Amulet",
+    "classes": "N",
+    "bonus": "Luc+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Ruby Ankh",
+    "classes": "Any",
+    "bonus": "Luc+10",
+    "useAbility": "C7/4"
+  },
+  {
+    "name": "Ruby Tiara",
+    "classes": "K",
+    "bonus": "Acc+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Sage Robe",
+    "classes": "S",
+    "bonus": "Int+6",
+    "useAbility": "Lvl+10"
+  },
+  {
+    "name": "Sapphire PIn",
+    "classes": "T",
+    "bonus": "Luc+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Sextant",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S1/6"
+  },
+  {
+    "name": "Silent Horn",
+    "classes": "Any",
+    "bonus": "PHP+10",
+    "useAbility": "C2/6"
+  },
+  {
+    "name": "Skeleton Key",
+    "classes": "TN",
+    "bonus": "Thf+10",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Skill Potion",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "Lvl+5"
+  },
+  {
+    "name": "Speed Boots",
+    "classes": "Any",
+    "bonus": "Spd+15",
+    "useAbility": "C5/3"
+  },
+  {
+    "name": "Stealth Cape",
+    "classes": "TN",
+    "bonus": "Thf+10",
+    "useAbility": "Spd+15"
+  },
+  {
+    "name": "Storm Wand",
+    "classes": "Any",
+    "bonus": "Elec+10",
+    "useAbility": "S3/4"
+  },
+  {
+    "name": "Sun Crown",
+    "classes": "A",
+    "bonus": "Int+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Super Flare",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C3/5"
+  },
+  {
+    "name": "Teleport Orb",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S5/5"
+  },
+  {
+    "name": "Thief's Pick",
+    "classes": "TN",
+    "bonus": "Thf+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Topaz Shard",
+    "classes": "A",
+    "bonus": "Acc+15",
+    "useAbility": "N/A"
+  },
+  {
+    "name": "Torch",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Valor Sword",
+    "classes": "N/A",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Wakeup Horn",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S1/1"
+  },
+  {
+    "name": "Water Disc",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C6/5"
+  },
+  {
+    "name": "Water Talon",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "C6/4"
+  },
+  {
+    "name": "Web Caster",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S3/5"
+  },
+  {
+    "name": "Witch Broom",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "S3/2"
+  },
+  {
+    "name": "Yellow Key",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  },
+  {
+    "name": "Yellow Ticket",
+    "classes": "Any",
+    "bonus": "No Equip",
+    "useAbility": "None"
+  }
+]

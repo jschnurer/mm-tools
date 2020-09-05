@@ -11,6 +11,7 @@ import {
   ItemTypes,
   IMod,
   IImbue,
+  IOtherItem,
 } from "./ItemTypes";
 import PageLayout from "components/layout/PageLayout";
 
@@ -22,7 +23,9 @@ interface IIdentifierProps {
   mods: IMod[],
   specialItems: ISpecialItem[],
   imbues: IImbue[],
+  otherItems?: IOtherItem[],
   game: string,
+  searchExact?: boolean,
 }
 
 const Identifier: React.FC<IIdentifierProps> = ({
@@ -32,8 +35,10 @@ const Identifier: React.FC<IIdentifierProps> = ({
   miscItems,
   mods,
   specialItems,
+  otherItems,
   imbues,
   game,
+  searchExact,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [items, setItems] = useState<string[]>([]);
@@ -79,6 +84,8 @@ const Identifier: React.FC<IIdentifierProps> = ({
       setOther(item as IHandheldItem, mods, imbues);
     } else if (type === ItemTypes.Misc) {
       setOther(item as IMiscItem, mods, imbues);
+    } else if (type === ItemTypes.Other) {
+      setOther(item as IOtherItem, mods, imbues);
     }
 
     searchBoxRef.current?.select();
@@ -95,21 +102,35 @@ const Identifier: React.FC<IIdentifierProps> = ({
     if (special) {
       return [special, ItemTypes.Special];
     }
-    let weapon = weapons.find(x => search.indexOf(x.name.toUpperCase()) > -1);
+    let weapon = weapons.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
     if (weapon) {
       return [weapon, ItemTypes.Weapon];
     }
-    let armorItem = armor.find(x => search.indexOf(x.name.toUpperCase()) > -1);
+    let armorItem = armor.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
     if (armorItem) {
       return [armorItem, ItemTypes.Armor];
     }
-    let handheldItem = handheldItems.find(x => search.indexOf(x.name.toUpperCase()) > -1);
+    let handheldItem = handheldItems.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
     if (handheldItem) {
       return [handheldItem, ItemTypes.Handheld];
     }
-    let miscItem = miscItems.find(x => search.indexOf(x.name.toUpperCase()) > -1);
+    let miscItem = miscItems.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
     if (miscItem) {
       return [miscItem, ItemTypes.Misc];
+    }
+    let otherItem = otherItems?.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
+    if (otherItem) {
+      return [otherItem, ItemTypes.Other];
     }
   }
 
@@ -166,7 +187,27 @@ const Identifier: React.FC<IIdentifierProps> = ({
     let allOthers = getOthersString(mods);
     let spells = getCastsString(imbues);
 
-    appendItem(`${searchTerm} (${weapon.damage}${dmgBonus})${toHitString} {${weapon.classes}}`
+    if (weapon.bonus
+      && (weapon.bonus !== "None")) {
+      allOthers = allOthers
+        ? ", " + weapon.bonus
+        : weapon.bonus || "";
+    }
+
+    if (weapon.useAbility
+      && weapon.useAbility !== "None") {
+      spells = spells
+        ? ", " + weapon.bonus
+        : "Casts: " + weapon.bonus;
+    }
+
+    let dmg = weapon.damage;
+
+    if (parseInt(dmg, 10) + "" === dmg) {
+      dmg += " max damage";
+    }
+
+    appendItem(`${searchTerm} (${dmg}${dmgBonus})${toHitString} {${weapon.classes}}`
       + (allOthers
         ? `\n${allOthers}`
         : "")
@@ -175,11 +216,17 @@ const Identifier: React.FC<IIdentifierProps> = ({
         : ""));
   }
 
-  const setOther = (item: IArmor | IHandheldItem | IMiscItem, mods: IMod[], imbues: IImbue[]) => {
+  const setOther = (item: IArmor | IHandheldItem | IMiscItem | IOtherItem, mods: IMod[], imbues: IImbue[]) => {
     let totalAC = item.acBonus;
-    mods
-      .filter(mod => typeof mod.ac === "number")
-      .forEach(mod => totalAC += mod.ac as number);
+    if (totalAC !== undefined) {
+      mods
+        .filter(mod => typeof mod.ac === "number")
+        .forEach(mod => {
+          if (totalAC !== undefined) {
+            totalAC += mod.ac as number;
+          }
+        });
+    }
 
     let allOthers = getOthersString(mods);
     let spells = getCastsString(imbues);
@@ -187,7 +234,27 @@ const Identifier: React.FC<IIdentifierProps> = ({
       ? ` {${(item as any).classes}}`
       : "";
 
-    appendItem(`${searchTerm} (AC: ${totalAC})${classesString}`
+    if ((item as IArmor).bonus
+      && (item as IArmor).bonus !== "None"
+      && (item as IArmor).bonus !== "No Equip") {
+      allOthers = allOthers
+        ? ", " + (item as IArmor).bonus
+        : (item as IArmor).bonus || "";
+    }
+
+    if ((item as IArmor).useAbility
+      && (item as IArmor).useAbility !== "N/A"
+      && (item as IArmor).useAbility !== "None") {
+      spells = spells
+        ? ", " + (item as IArmor).useAbility
+        : "Casts: " + (item as IArmor).useAbility;
+    }
+
+    let acString = totalAC !== undefined
+      ? ` (AC: ${totalAC})`
+      : '';
+
+    appendItem(`${searchTerm}${acString}${classesString}`
       + (allOthers
         ? `\n${allOthers}`
         : "")

@@ -3,12 +3,16 @@ export interface IWeapon {
   classes: string;
   hands: string;
   damage: string;
+  bonus?: string;
+  useAbility?: string;
 }
 
 export interface IArmor {
   name: string;
   classes: string;
   acBonus: number;
+  bonus?: string;
+  useAbility?: string;
 }
 
 export interface IHandheldItem {
@@ -26,6 +30,14 @@ export interface IMiscItem {
   name: string;
   type: string;
   acBonus: number;
+}
+
+export interface IOtherItem {
+  name: string;
+  classes: string;
+  bonus: string;
+  useAbility: string;
+  acBonus: undefined;
 }
 
 export interface IMod {
@@ -47,7 +59,8 @@ export type IItem =
   | IArmor
   | IHandheldItem
   | IMiscItem
-  | ISpecialItem;
+  | ISpecialItem
+  | IOtherItem;
 
 export enum ItemTypes {
   Weapon,
@@ -55,4 +68,5 @@ export enum ItemTypes {
   Handheld,
   Misc,
   Special,
+  Other,
 }

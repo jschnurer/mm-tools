@@ -1,0 +1,317 @@
+[
+  {
+    "name": "B Chain Mail",
+    "classes": "KPACT",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 6
+  },
+  {
+    "name": "B Plate Mail",
+    "classes": "KP",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 8
+  },
+  {
+    "name": "B Ring Mail",
+    "classes": "KPACTN",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 5
+  },
+  {
+    "name": "B Scale Mail",
+    "classes": "KPACTNB",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 4
+  },
+  {
+    "name": "B SplintMail",
+    "classes": "KPC",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 7
+  },
+  {
+    "name": "Chain Mail",
+    "classes": "KPACT",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 6
+  },
+  {
+    "name": "G Chain Mail",
+    "classes": "KPACT",
+    "bonus": "+15 Luck",
+    "useAbility": "+10 Lvl",
+    "acBonus": 8
+  },
+  {
+    "name": "G Plate Mail",
+    "classes": "KP",
+    "bonus": "+15 Luck",
+    "useAbility": "+15 Lvl",
+    "acBonus": 12
+  },
+  {
+    "name": "G Ring Mail",
+    "classes": "KPACTN",
+    "bonus": "+15 Luck",
+    "useAbility": "+10 Lvl",
+    "acBonus": 7
+  },
+  {
+    "name": "G Scale Mail",
+    "classes": "KPACTNB",
+    "bonus": "+15 Luck",
+    "useAbility": "+10 Lvl",
+    "acBonus": 6
+  },
+  {
+    "name": "G SplintMail",
+    "classes": "KPC",
+    "bonus": "+15 Luck",
+    "useAbility": "+12 Lvl",
+    "acBonus": 9
+  },
+  {
+    "name": "I Chain Mail",
+    "classes": "KPACT",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 6
+  },
+  {
+    "name": "I Plate Mail",
+    "classes": "KP",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 8
+  },
+  {
+    "name": "I Ring Mail",
+    "classes": "KPACTN",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 5
+  },
+  {
+    "name": "I Scale Mail",
+    "classes": "KPACTNB",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 4
+  },
+  {
+    "name": "I SplintMail",
+    "classes": "KPC",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 7
+  },
+  {
+    "name": "Leather Suit",
+    "classes": "KPACTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Padded Armor",
+    "classes": "KPACSTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 2
+  },
+  {
+    "name": "Plate Armor",
+    "classes": "KP",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 10
+  },
+  {
+    "name": "Plate Mail",
+    "classes": "KP",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 8
+  },
+  {
+    "name": "Ring Mail",
+    "classes": "KPACTN",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 5
+  },
+  {
+    "name": "Scale Armor",
+    "classes": "KPACTNB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 4
+  },
+  {
+    "name": "S Chain Mail",
+    "classes": "KPACT",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 6
+  },
+  {
+    "name": "S Plate Mail",
+    "classes": "KP",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 8
+  },
+  {
+    "name": "S Ring Mail",
+    "classes": "KPACN",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 5
+  },
+  {
+    "name": "S Scale Mail",
+    "classes": "KPACNB",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 4
+  },
+  {
+    "name": "S SplintMail",
+    "classes": "KPC",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 7
+  },
+  {
+    "name": "Splint Mail",
+    "classes": "KPC",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 7
+  },
+  {
+    "name": "Bronze Helm",
+    "classes": "KPCB",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 2
+  },
+  {
+    "name": "Gold Helm",
+    "classes": "KPCB",
+    "bonus": "+15 Luck",
+    "useAbility": "+5 Lvl",
+    "acBonus": 4
+  },
+  {
+    "name": "Helm",
+    "classes": "KPCB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 2
+  },
+  {
+    "name": "Iron Helm",
+    "classes": "KPCB",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 2
+  },
+  {
+    "name": "Silver Helm",
+    "classes": "KPCB",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Acid Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Acid",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Bronze Shld",
+    "classes": "KPCTB",
+    "bonus": "+15 PHP",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Cold Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Cold",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Electric Shd",
+    "classes": "KPCTB",
+    "bonus": "+15 Elec",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Fire Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Fire",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Gold Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Luck",
+    "useAbility": "None",
+    "acBonus": 7
+  },
+  {
+    "name": "Great Shield",
+    "classes": "KPCTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Iron Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Sleep",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Large Shield",
+    "classes": "KPCTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 2
+  },
+  {
+    "name": "Magic Shield",
+    "classes": "KPCTB",
+    "bonus": "+15 Magic",
+    "useAbility": "None",
+    "acBonus": 5
+  },
+  {
+    "name": "Silver Shld",
+    "classes": "KPCTB",
+    "bonus": "+15 Energy",
+    "useAbility": "None",
+    "acBonus": 3
+  },
+  {
+    "name": "Small Shield",
+    "classes": "KPCTB",
+    "bonus": "None",
+    "useAbility": "None",
+    "acBonus": 1
+  }
+]
