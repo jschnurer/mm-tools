@@ -6,6 +6,7 @@ import hamburgerMenuIcon from "media/icons/hamburger-menu.svg";
 import teacherIcon from "media/icons/teacher.svg";
 import mapIcon from "media/icons/treasure-map.svg";
 import helpIcon from "media/icons/help.svg";
+import potionIcon from "media/icons/potion-ball.svg";
 import MenuItem from './MenuItem';
 import { Routes } from '../../Routing';
 
@@ -45,6 +46,12 @@ const MainMenu: React.FC = () => {
         url={Routes.ItemIdentifier}
         isCollapsed={isCollapsed}
         matchExact={false}
+      />
+      <MenuItem
+        label="Alchemy"
+        icon={potionIcon}
+        url={Routes.Alchemy}
+        isCollapsed={isCollapsed}
       />
       <MenuItem
         label="About"

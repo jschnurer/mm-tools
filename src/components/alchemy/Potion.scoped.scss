@@ -1,0 +1,17 @@
+.potion {
+  display: inline-block;
+  border: 1px white solid;
+  padding: .25em;
+
+  .name {
+    display: block;
+    text-align: center;
+    margin-bottom: .25em;
+    font-weight: bold;
+  }
+
+  .plus {
+    display: inline-block;
+    padding: .25em;
+  }
+}

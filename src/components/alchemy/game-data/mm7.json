@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Cure Wounds",
+    "recipe": "Red Reagent + Empty Bottle",
+    "effect": "Heals (10 + Power) in hit points.",
+    "type": "Simple"
+  },
+  {
+    "name": "Magic Potion",
+    "recipe": "Blue Reagent + Empty Bottle",
+    "effect": "Restores (10 + Power) in spell points.",
+    "type": "Simple"
+  },
+  {
+    "name": "Cure Weakness",
+    "recipe": "Yellow Reagent + Empty Bottle",
+    "effect": "Cures the Weakness condition.",
+    "type": "Simple"
+  },
+  {
+    "name": "Catalyst",
+    "recipe": "Gray Reagent + Empty Bottle",
+    "effect": "Catalysts are mixed with potions to modify the strength of a potion. Don't drink them, unless you want the drinker poisoned.",
+    "type": "Simple"
+  },
+  {
+    "name": "Cure Poison",
+    "recipe": "Cure Wounds + Magic Potion",
+    "effect": "Cures the Poison condition.",
+    "type": "Complex"
+  },
+  {
+    "name": "Cure Disease",
+    "recipe": "Cure Wounds + Cure Weakness",
+    "effect": "Cures the Disease condition.",
+    "type": "Complex"
+  },
+  {
+    "name": "Awaken",
+    "recipe": "Magic Potion + Cure Weakness",
+    "effect": "Cures the Sleep condition.",
+    "type": "Complex"
+  },
+  {
+    "name": "Heroism",
+    "recipe": "Cure Wounds + Cure Poison",
+    "effect": "Grants a Heroism spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Haste",
+    "recipe": "Cure Wounds + Cure Disease",
+    "effect": "Grants a Haste spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Bless",
+    "recipe": "Cure Wounds + Awaken",
+    "effect": "Grants a Bless spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Shield",
+    "recipe": "Magic Potion + Cure Poison",
+    "effect": "Grants a Shield spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Preservation",
+    "recipe": "Magic Potion + Cure Disease",
+    "effect": "Grants a Preservation spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Recharge Item",
+    "recipe": "Magic Potion + Awaken",
+    "effect": "Recharges an item. Item loses charges equal to (70 - Power)% of total charges.",
+    "type": "Layered"
+  },
+  {
+    "name": "Water Breathing",
+    "recipe": "Cure Weakness + Cure Poison",
+    "effect": "Prevents drowning damage.",
+    "type": "Layered"
+  },
+  {
+    "name": "Stoneskin",
+    "recipe": "Cure Weakness + Cure Disease",
+    "effect": "Grants a Stoneskin spell for a duration of (30 x Power) minutes.",
+    "type": "Layered"
+  },
+  {
+    "name": "Harden Item",
+    "recipe": "Cure Weakness + Awaken",
+    "effect": "Makes an item more reistant to breaking.",
+    "type": "Layered"
+  },
+  {
+    "name": "Remove Fear",
+    "recipe": "Cure Poison + Cure Disease",
+    "effect": "Cures the Fear condition.",
+    "type": "Layered"
+  },
+  {
+    "name": "Remove Curse",
+    "recipe": "Cure Poison + Awaken",
+    "effect": "Removes the Cursed condition.",
+    "type": "Layered"
+  },
+  {
+    "name": "Cure Insanity",
+    "recipe": "Cure Disease + Awaken",
+    "effect": "Cures the Insane condition.",
+    "type": "Layered"
+  },
+  {
+    "name": "Accuracy Boost",
+    "recipe": "Cure Disease + Stoneskin",
+    "effect": "Increases temporary Accuracy by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Air Resistance",
+    "recipe": "Heroism + Shield",
+    "effect": "Increases temporary Air Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Body Resistance",
+    "recipe": "Recharge Item + Stoneskin",
+    "effect": "Increases temporary Body Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Cure Paralysis",
+    "recipe": "Cure Disease + Harden Item\nAwaken + Stoneskin",
+    "effect": "Cures the Paralysis condition.",
+    "type": "White"
+  },
+  {
+    "name": "Divine Cure",
+    "recipe": "Haste + Stoneskin",
+    "effect": "Heals (5 x Power) in Hit Points.",
+    "type": "White"
+  },
+  {
+    "name": "Divine Power",
+    "recipe": "Recharge Item + Harden Item",
+    "effect": "Restores (5 x Power) in Spell Points.",
+    "type": "White"
+  },
+  {
+    "name": "Divine Restoration",
+    "recipe": "Haste + Recharge Item\nHeroism + Harden Item\nShield + Stoneskin",
+    "effect": "Removes all conditions except for Stone, Death or Eradication.",
+    "type": "White"
+  },
+  {
+    "name": "Endurance Boost",
+    "recipe": "Cure Poison + Shield",
+    "effect": "Increases temporary Endurance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Earth Resistance",
+    "recipe": "Heroism + Stoneskin",
+    "effect": "Increases temporary Earth Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Fire Resistance",
+    "recipe": "Haste + Harden Item",
+    "effect": "Increases temporary Fire Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Flaming Potion",
+    "recipe": "Awaken + Haste\nCure Poison + Stoneskin",
+    "effect": "Gives a nonmagical weapon the \"Of Flame\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Freezing Potion",
+    "recipe": "Cure Disease + Shield\nAwaken + Heroism",
+    "effect": "Gives a nonmagical weapon the \"Of Frost\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Intellect Boost",
+    "recipe": "Awaken + Harden Item",
+    "effect": "Increases temporary Intellect by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Luck Boost",
+    "recipe": "Heroism + Shield",
+    "effect": "Increases temporary Luck by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Might Boost",
+    "recipe": "Cure Poison + Heroism",
+    "effect": "Increases temporary Might by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Mind Resistance",
+    "recipe": "Heroism + Recharge Item",
+    "effect": "Increases temporary Mind Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Noxious Potion",
+    "recipe": "Cure Disease + Recharge Item\nCure Poison + Harden Item",
+    "effect": "Gives a nonmagical weapon the \"Of Poison\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Personality Boost",
+    "recipe": "Awaken + Recharge Item",
+    "effect": "Increases temporary Personality by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Shocking Potion",
+    "recipe": "Cure Poison + Haste\nCure Disease + Heroism",
+    "effect": "Gives a nonmagical weapon the \"Of Sparks\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Speed Boost",
+    "recipe": "Cure Disease + Haste",
+    "effect": "Increases temporary Speed by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Swift Potion",
+    "recipe": "Cure Poison + Recharge Item\nAwaken + Shield",
+    "effect": "Gives a nonmagical weapon the \"Of Swiftness\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Water Resistance",
+    "recipe": "Shield + Harden Item",
+    "effect": "Increases temporary Water Resistance by (3 x Power) for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Pure Accuracy",
+    "recipe": "Awaken + Accuracy Boost",
+    "effect": "Permanently adds 50 to Accuracy. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Endurance",
+    "recipe": "Awaken + Endurance Boost",
+    "effect": "Permanently adds 50 to Endurance. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Intellect",
+    "recipe": "Cure Disease + Intellect Boost",
+    "effect": "Permanently adds 50 to Intellect. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Luck",
+    "recipe": "Stoneskin + Swift Potion",
+    "effect": "Permanently adds 50 to Luck. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Might",
+    "recipe": "Cure Disease + Might Boos",
+    "effect": "Permanently adds 50 to Might. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Personality",
+    "recipe": "Cure Poison + Personality Boost",
+    "effect": "Permanently adds 50 to Personality. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Pure Speed",
+    "recipe": "Cure Poison + Speed Boost",
+    "effect": "Permanently adds 50 to Speed. Only one can be used on each character however.",
+    "type": "Black"
+  },
+  {
+    "name": "Rejuvenation",
+    "recipe": "Bless + Divine Restoration\nPreservation + Divine Restoration\nWater Breathing + Divine Restoration",
+    "effect": "Removes all unnatural aging.",
+    "type": "Black"
+  },
+  {
+    "name": "Slaying Potion",
+    "recipe": "Shield + Flaming Potion",
+    "effect": "Gives a nonmagical weapon the \"Of Dragon Slaying\" property for (30 x Power) minutes.",
+    "type": "Black"
+  },
+  {
+    "name": "Stone to Flesh",
+    "recipe": "Heroism + Cure Paralysis",
+    "effect": "Cures the Stoned Condition.",
+    "type": "Black"
+  }
+]
