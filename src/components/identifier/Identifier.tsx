@@ -1,27 +1,40 @@
 import React, { useState, useRef, useEffect } from "react";
 import PageTitle from "components/layout/PageTitle";
-import "./MM3Items.scoped.scss";
+import "./Identifier.scoped.scss";
 import {
+  ISpecialItem,
+  IWeapon,
+  IArmor,
+  IHandheldItem,
+  IMiscItem,
+  IItem,
+  ItemTypes,
+  IMod,
+  IImbue,
+} from "./ItemTypes";
+import PageLayout from "components/layout/PageLayout";
+
+interface IIdentifierProps {
+  weapons: IWeapon[],
+  armor: IArmor[],
+  handheldItems: IHandheldItem[],
+  miscItems: IMiscItem[],
+  mods: IMod[],
+  specialItems: ISpecialItem[],
+  imbues: IImbue[],
+  game: string,
+}
+
+const Identifier: React.FC<IIdentifierProps> = ({
   weapons,
   armor,
   handheldItems,
   miscItems,
   mods,
   specialItems,
-  IMM3SpecialItem,
-  IMM3Weapon,
-  IMM3Armor,
-  IMM3HandheldItem,
-  IMM3MiscItem,
-  IMM3Item,
-  MM3ItemTypes,
-  IMM3Mod,
-  IMM3Imbue,
   imbues,
-} from "./MM3Data";
-import PageLayout from "components/layout/PageLayout";
-
-const MM3Items: React.FC = () => {
+  game,
+}) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [items, setItems] = useState<string[]>([]);
   const searchBoxRef = useRef<HTMLInputElement>(null);
@@ -48,8 +61,8 @@ const MM3Items: React.FC = () => {
 
     const [item, type] = result;
 
-    if (type === MM3ItemTypes.Special) {
-      setSpecialItem(item as IMM3SpecialItem);
+    if (type === ItemTypes.Special) {
+      setSpecialItem(item as ISpecialItem);
       return;
     } else {
       term = term.replace(item.name.toUpperCase(), "");
@@ -58,53 +71,53 @@ const MM3Items: React.FC = () => {
     const mods = findAllMods(term);
     const imbues = findAllImbues(term);
 
-    if (type === MM3ItemTypes.Weapon) {
-      setWeapon(item as IMM3Weapon, mods, imbues);
-    } else if (type === MM3ItemTypes.Armor) {
-      setOther(item as IMM3Armor, mods, imbues);
-    } else if (type === MM3ItemTypes.Handheld) {
-      setOther(item as IMM3HandheldItem, mods, imbues);
-    } else if (type === MM3ItemTypes.Misc) {
-      setOther(item as IMM3MiscItem, mods, imbues);
+    if (type === ItemTypes.Weapon) {
+      setWeapon(item as IWeapon, mods, imbues);
+    } else if (type === ItemTypes.Armor) {
+      setOther(item as IArmor, mods, imbues);
+    } else if (type === ItemTypes.Handheld) {
+      setOther(item as IHandheldItem, mods, imbues);
+    } else if (type === ItemTypes.Misc) {
+      setOther(item as IMiscItem, mods, imbues);
     }
 
     searchBoxRef.current?.select();
   }
 
-  const setSpecialItem = (item: IMM3SpecialItem) => {
+  const setSpecialItem = (item: ISpecialItem) => {
     appendItem(`${item.name}
     Purpose: ${item.purpose}
     Location: ${item.location}`);
   }
 
-  const findItem = (search: string): [IMM3Item, MM3ItemTypes] | undefined => {
+  const findItem = (search: string): [IItem, ItemTypes] | undefined => {
     let special = specialItems.find(x => x.name.toUpperCase() === search);
     if (special) {
-      return [special, MM3ItemTypes.Special];
+      return [special, ItemTypes.Special];
     }
     let weapon = weapons.find(x => search.indexOf(x.name.toUpperCase()) > -1);
     if (weapon) {
-      return [weapon, MM3ItemTypes.Weapon];
+      return [weapon, ItemTypes.Weapon];
     }
     let armorItem = armor.find(x => search.indexOf(x.name.toUpperCase()) > -1);
     if (armorItem) {
-      return [armorItem, MM3ItemTypes.Armor];
+      return [armorItem, ItemTypes.Armor];
     }
     let handheldItem = handheldItems.find(x => search.indexOf(x.name.toUpperCase()) > -1);
     if (handheldItem) {
-      return [handheldItem, MM3ItemTypes.Handheld];
+      return [handheldItem, ItemTypes.Handheld];
     }
     let miscItem = miscItems.find(x => search.indexOf(x.name.toUpperCase()) > -1);
     if (miscItem) {
-      return [miscItem, MM3ItemTypes.Misc];
+      return [miscItem, ItemTypes.Misc];
     }
   }
 
-  const findAllMods = (search: string): IMM3Mod[] => {
+  const findAllMods = (search: string): IMod[] => {
     return mods.filter(x => search.indexOf(x.property.toUpperCase()) > -1);
   }
 
-  const findAllImbues = (search: string): IMM3Imbue[] => {
+  const findAllImbues = (search: string): IImbue[] => {
     return imbues.filter(x => search.indexOf(x.suffix.toUpperCase()) > -1);
   }
 
@@ -115,7 +128,7 @@ const MM3Items: React.FC = () => {
     ]);
   }
 
-  const setWeapon = (weapon: IMM3Weapon, mods: IMM3Mod[], imbues: IMM3Imbue[]) => {
+  const setWeapon = (weapon: IWeapon, mods: IMod[], imbues: IImbue[]) => {
     let dmgBonus = "";
     mods.forEach(mod => {
       if (!mod.damage
@@ -162,7 +175,7 @@ const MM3Items: React.FC = () => {
         : ""));
   }
 
-  const setOther = (item: IMM3Armor | IMM3HandheldItem | IMM3MiscItem, mods: IMM3Mod[], imbues: IMM3Imbue[]) => {
+  const setOther = (item: IArmor | IHandheldItem | IMiscItem, mods: IMod[], imbues: IImbue[]) => {
     let totalAC = item.acBonus;
     mods
       .filter(mod => typeof mod.ac === "number")
@@ -183,7 +196,7 @@ const MM3Items: React.FC = () => {
         : ""));
   }
 
-  const getOthersString = (mods: IMM3Mod[]) => {
+  const getOthersString = (mods: IMod[]) => {
     return mods
       .filter(mod => !!mod.other
         && mod.other !== "none")
@@ -191,7 +204,7 @@ const MM3Items: React.FC = () => {
       .join(', ');
   }
 
-  const getCastsString = (imbues: IMM3Imbue[]) => {
+  const getCastsString = (imbues: IImbue[]) => {
     let spells = imbues
       .map(x => x.spell)
       .join(', ');
@@ -207,7 +220,7 @@ const MM3Items: React.FC = () => {
     <PageLayout
       header={(
         <>
-          <PageTitle title="M&amp;M 3 Item Identifier" />
+          <PageTitle title={`M&M ${game} Item Identifier`} />
           <form
             onSubmit={(e) => doSearch(e)}
           >
@@ -258,4 +271,4 @@ const MM3Items: React.FC = () => {
   );
 }
 
-export default MM3Items;
+export default Identifier;

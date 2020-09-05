@@ -40,10 +40,11 @@ const MainMenu: React.FC = () => {
         isCollapsed={isCollapsed}
       />
       <MenuItem
-        label="M&amp;M 3 Items"
+        label="Item Identifier"
         icon={magnifyingGlassIcon}
-        url={Routes.MM3ItemIdentifier}
+        url={Routes.ItemIdentifier}
         isCollapsed={isCollapsed}
+        matchExact={false}
       />
       <MenuItem
         label="About"

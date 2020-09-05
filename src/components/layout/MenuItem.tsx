@@ -9,10 +9,14 @@ interface IMenuItemProps {
   url: string,
   onClick?(): void,
   isCollapsed: boolean,
+  matchExact?: boolean,
 }
 
-const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isCollapsed }) => {
-  let match = useRouteMatch(url);
+const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isCollapsed, matchExact }) => {
+  let match = useRouteMatch({
+    path: url,
+    exact: matchExact === undefined || matchExact,
+  });
 
   if (url) {
     return (

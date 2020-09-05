@@ -1,0 +1,954 @@
+[
+  {
+    "property": "Leather",
+    "damage": -6,
+    "toHit": -4,
+    "ac": 0,
+    "other": "none"
+  },
+  {
+    "property": "Wood",
+    "damage": -3,
+    "toHit": -3,
+    "ac": -3,
+    "other": "none"
+  },
+  {
+    "property": "Brass",
+    "damage": -4,
+    "toHit": 3,
+    "ac": -2,
+    "other": "none"
+  },
+  {
+    "property": "Bronze",
+    "damage": -2,
+    "toHit": 2,
+    "ac": -1,
+    "other": "none"
+  },
+  {
+    "property": "Glass",
+    "damage": 0,
+    "toHit": 0,
+    "ac": 0,
+    "other": "none"
+  },
+  {
+    "property": "Crystal",
+    "damage": 1,
+    "toHit": 1,
+    "ac": 1,
+    "other": "none"
+  },
+  {
+    "property": "Coral",
+    "damage": 1,
+    "toHit": 1,
+    "ac": 1,
+    "other": "none"
+  },
+  {
+    "property": "Iron",
+    "damage": 2,
+    "toHit": 1,
+    "ac": 1,
+    "other": "none"
+  },
+  {
+    "property": "Lapis",
+    "damage": 2,
+    "toHit": 2,
+    "ac": 2,
+    "other": "none"
+  },
+  {
+    "property": "Pearl",
+    "damage": 2,
+    "toHit": 2,
+    "ac": 2,
+    "other": "none"
+  },
+  {
+    "property": "Amber",
+    "damage": 3,
+    "toHit": 3,
+    "ac": 3,
+    "other": "none"
+  },
+  {
+    "property": "Silver",
+    "damage": 4,
+    "toHit": 2,
+    "ac": 2,
+    "other": "none"
+  },
+  {
+    "property": "Ebony",
+    "damage": 4,
+    "toHit": 4,
+    "ac": 4,
+    "other": "none"
+  },
+  {
+    "property": "Steel",
+    "damage": 6,
+    "toHit": 3,
+    "ac": 4,
+    "other": "none"
+  },
+  {
+    "property": "Quartz",
+    "damage": 5,
+    "toHit": 5,
+    "ac": 5,
+    "other": "none"
+  },
+  {
+    "property": "Gold",
+    "damage": 8,
+    "toHit": 4,
+    "ac": 6,
+    "other": "none"
+  },
+  {
+    "property": "Platinum",
+    "damage": 10,
+    "toHit": 6,
+    "ac": 8,
+    "other": "none"
+  },
+  {
+    "property": "Ruby",
+    "damage": 12,
+    "toHit": 6,
+    "ac": 10,
+    "other": "none"
+  },
+  {
+    "property": "Emerald",
+    "damage": 15,
+    "toHit": 7,
+    "ac": 12,
+    "other": "none"
+  },
+  {
+    "property": "Sapphire",
+    "damage": 20,
+    "toHit": 8,
+    "ac": 14,
+    "other": "none"
+  },
+  {
+    "property": "Diamond",
+    "damage": 30,
+    "toHit": 9,
+    "ac": 16,
+    "other": "none"
+  },
+  {
+    "property": "Obsidian",
+    "damage": 50,
+    "toHit": 10,
+    "ac": 20,
+    "other": "none"
+  },
+  {
+    "property": "Burning",
+    "damage": "+2 fire",
+    "other": "+5 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Fiery",
+    "damage": "+3 fire",
+    "other": "+7 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Pyric",
+    "damage": "+4 fire",
+    "other": "+9 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Fuming",
+    "damage": "+5 fire",
+    "other": "+12 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Flaming",
+    "damage": "+10 fire",
+    "other": "+15 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Seething",
+    "damage": "+15 fire",
+    "other": "+20 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Blazing",
+    "damage": "+20 fire",
+    "other": "+25 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Scorching",
+    "damage": "+30 fire",
+    "other": "+50 fire Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Icy",
+    "damage": "+2 cold",
+    "other": "+5 cold Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Frost",
+    "damage": "+4 cold",
+    "other": "+10 cold Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Freezing",
+    "damage": "+5 cold",
+    "other": "+15 cold Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Cold",
+    "damage": "+10 cold",
+    "other": "+20 cold Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Cryo",
+    "damage": "+20 cold",
+    "other": "+25 cold Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Flickering",
+    "damage": "+2 electricity",
+    "other": "+5 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Sparking",
+    "damage": "+3 electricity",
+    "other": "+7 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Static",
+    "damage": "+4 electricity",
+    "other": "+9 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Flashing",
+    "damage": "+5 electricity",
+    "other": "+12 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Shocking",
+    "damage": "+10 electricity",
+    "other": "+15 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Electric",
+    "damage": "+15 electricity",
+    "other": "+20 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Dyna",
+    "damage": "+20 electricity",
+    "other": "+25 electricity Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Acidic",
+    "damage": "+2 poison",
+    "other": "+10 poison Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Venemous",
+    "damage": "+4 poison",
+    "other": "+15 poison Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Poisonous",
+    "damage": "+8 poison",
+    "other": "+20 poison Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Toxic",
+    "damage": "+16 poison",
+    "other": "+25 poison Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Noxious",
+    "damage": "+32 poison",
+    "other": "+40 poison Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Glowing",
+    "damage": "+2 energy",
+    "other": "+5 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Incandescent",
+    "damage": "+3 energy",
+    "other": "+7 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Dense",
+    "damage": "+4 energy",
+    "other": "+9 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Sonic",
+    "damage": "+5 energy",
+    "other": "+11 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Power",
+    "damage": "+10 energy",
+    "other": "+13 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Thermal",
+    "damage": "+15 energy",
+    "other": "+15 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Radiating",
+    "damage": "+20 energy",
+    "other": "+20 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Kinetic",
+    "damage": "+30 energy",
+    "other": "+25 energy Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Mystic",
+    "damage": "+5 magic",
+    "other": "+5 magic Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Magical",
+    "damage": "+10 magic",
+    "other": "+10 magic Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Ectoplasmic",
+    "damage": "+20 magic",
+    "other": "+20 magic Resistance",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Might",
+    "damage": "none",
+    "other": "+2 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Strength",
+    "damage": "none",
+    "other": "+3 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Warrior",
+    "damage": "none",
+    "other": "+5 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Ogre",
+    "damage": "none",
+    "other": "+8 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Giant",
+    "damage": "none",
+    "other": "+12 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Thunder",
+    "damage": "none",
+    "other": "+17 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Force",
+    "damage": "none",
+    "other": "+23 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Power",
+    "damage": "none",
+    "other": "+30 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Dragon",
+    "damage": "none",
+    "other": "+38 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Photon",
+    "damage": "none",
+    "other": "+47 might",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Clever",
+    "damage": "none",
+    "other": "+2 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Mind",
+    "damage": "none",
+    "other": "+3 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Sage",
+    "damage": "none",
+    "other": "+5 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Thought",
+    "damage": "none",
+    "other": "+8 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Knowledge",
+    "damage": "none",
+    "other": "+12 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Intellect",
+    "damage": "none",
+    "other": "+17 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Wisdom",
+    "damage": "none",
+    "other": "+23 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Genius",
+    "damage": "none",
+    "other": "+30 intellect",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Buddy",
+    "damage": "none",
+    "other": "+2 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Friendship",
+    "damage": "none",
+    "other": "+3 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Charm",
+    "damage": "none",
+    "other": "+5 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Personality",
+    "damage": "none",
+    "other": "+8 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Charisma",
+    "damage": "none",
+    "other": "+12 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Leadership",
+    "damage": "none",
+    "other": "+17 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Ego",
+    "damage": "none",
+    "other": "+23 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Holy",
+    "damage": "none",
+    "other": "+30 personality",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Quick",
+    "damage": "none",
+    "other": "+2 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Swift",
+    "damage": "none",
+    "other": "+3 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Fast",
+    "damage": "none",
+    "other": "+5 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Rapid",
+    "damage": "none",
+    "other": "+8 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Speed",
+    "damage": "none",
+    "other": "+12 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Wind",
+    "damage": "none",
+    "other": "+17 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Accelerator",
+    "damage": "none",
+    "other": "+23 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Velocity",
+    "damage": "none",
+    "other": "+30 speed",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Sharp",
+    "damage": "none",
+    "other": "+3 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Accurate",
+    "damage": "none",
+    "other": "+5 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Marksman",
+    "damage": "none",
+    "other": "+10 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Precision",
+    "damage": "none",
+    "other": "+15 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "True",
+    "damage": "none",
+    "other": "+20 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Exacto",
+    "damage": "none",
+    "other": "+30 accuracy",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Clover",
+    "damage": "none",
+    "other": "+5 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Chance",
+    "damage": "none",
+    "other": "+10 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Winners",
+    "damage": "none",
+    "other": "+15 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Lucky",
+    "damage": "none",
+    "other": "+20 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Gambler",
+    "damage": "none",
+    "other": "+25 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Leprechauns",
+    "damage": "none",
+    "other": "+30 luck",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Protection",
+    "damage": "none",
+    "other": "none",
+    "toHit": "none",
+    "ac": 2
+  },
+  {
+    "property": "Armored",
+    "damage": "none",
+    "other": "none",
+    "toHit": "none",
+    "ac": 4
+  },
+  {
+    "property": "Defender",
+    "damage": "none",
+    "other": "none",
+    "toHit": "none",
+    "ac": 6
+  },
+  {
+    "property": "Stealth",
+    "damage": "none",
+    "other": "none",
+    "toHit": "none",
+    "ac": 10
+  },
+  {
+    "property": "Divine",
+    "damage": "none",
+    "other": "none",
+    "toHit": "none",
+    "ac": 16
+  },
+  {
+    "property": "Vigor",
+    "damage": "none",
+    "other": "+4 hit points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Health",
+    "damage": "none",
+    "other": "+6 hit points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Life",
+    "damage": "none",
+    "other": "+10 hit points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Troll",
+    "damage": "none",
+    "other": "+20 hit points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Vampiric",
+    "damage": "none",
+    "other": "+50 hit points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Spell",
+    "damage": "none",
+    "other": "+4 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Castors",
+    "damage": "none",
+    "other": "+8 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Witch",
+    "damage": "none",
+    "other": "+12 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Mage",
+    "damage": "none",
+    "other": "+16 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Archmage",
+    "damage": "none",
+    "other": "+20 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Arcane",
+    "damage": "none",
+    "other": "+25 spell points",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Mugger",
+    "damage": "none",
+    "other": "+4 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Burglar",
+    "damage": "none",
+    "other": "+6 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Looter",
+    "damage": "none",
+    "other": "+8 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Brigand",
+    "damage": "none",
+    "other": "+10 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Filch",
+    "damage": "none",
+    "other": "+12 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Thief",
+    "damage": "none",
+    "other": "+14 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Rogue",
+    "damage": "none",
+    "other": "+16 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Plunder",
+    "damage": "none",
+    "other": "+18 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Criminal",
+    "damage": "none",
+    "other": "+20 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Pirate",
+    "damage": "none",
+    "other": "+25 thievery",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Beast Bopper",
+    "damage": "none",
+    "other": "3x damage vs. Animals",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Bug Zapper",
+    "damage": "none",
+    "other": "3x damage vs. Insects",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Dragon Slayer",
+    "damage": "none",
+    "other": "3x damage vs. Dragons",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Golem Smasher",
+    "damage": "none",
+    "other": "3x damage vs. Golems",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Monster Masher",
+    "damage": "none",
+    "other": "3x damage vs. Monsters",
+    "toHit": "none",
+    "ac": "none"
+  },
+  {
+    "property": "Undead Eater",
+    "damage": "none",
+    "other": "3x damage vs. Undead",
+    "toHit": "none",
+    "ac": "none"
+  }
+]

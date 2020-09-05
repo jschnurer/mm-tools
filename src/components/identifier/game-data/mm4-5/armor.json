@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Robes",
+    "acBonus": 1,
+    "classes": "KPACSTNBDR"
+  },
+  {
+    "name": "Scale Armor",
+    "acBonus": 4,
+    "classes": "KPACTNBR"
+  },
+  {
+    "name": "Shield",
+    "acBonus": 4,
+    "classes": "KPCTBR"
+  },
+  {
+    "name": "Ring Mail",
+    "acBonus": 5,
+    "classes": "KPACTNR"
+  },
+  {
+    "name": "Chain Mail",
+    "acBonus": 6,
+    "classes": "KPACTR"
+  },
+  {
+    "name": "Splint Mail",
+    "acBonus": 7,
+    "classes": "KPCR"
+  },
+  {
+    "name": "Plate Mail",
+    "acBonus": 8,
+    "classes": "KP"
+  },
+  {
+    "name": "Plate Armor",
+    "acBonus": 10,
+    "classes": "KP"
+  }
+]

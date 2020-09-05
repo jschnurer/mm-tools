@@ -6,14 +6,15 @@ import {
 import RandomParty from "./components/parties/RandomParty";
 import NotFound from "./NotFound";
 import About from "./components/About";
-import MM3Items from "components/mm3-items/MM3Items";
 import Trainers from "components/mm-trainers/Trainers";
 import Maps from "components/maps/Maps";
+import GamePicker from "components/identifier/GamePicker";
 
 export enum Routes {
   Root = "/",
   RandomParty = "/random-party",
-  MM3ItemIdentifier = "/item-identifier/mm3",
+  ItemIdentifier = "/item-identifier",
+  ItemIdentifierForGame = "/item-identifier/:game",
   SkillTrainers = "/skill-trainers",
   Maps = "/maps",
 }
@@ -21,7 +22,8 @@ export enum Routes {
 const Routing: React.FC = () =>
   <Switch>
     <Route path={Routes.RandomParty} exact component={RandomParty} />
-    <Route path={Routes.MM3ItemIdentifier} exact component={MM3Items} />
+    <Route path={Routes.ItemIdentifier} exact component={GamePicker} />
+    <Route path={Routes.ItemIdentifierForGame} exact component={GamePicker} />
     <Route path={Routes.SkillTrainers} exact component={Trainers} />
     <Route path={Routes.Maps} exact component={Maps} />
     <Route path={Routes.Root} exact component={About} />
