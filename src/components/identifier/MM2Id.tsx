@@ -5,7 +5,6 @@ import armorData from "./game-data/mm2/armor.json";
 import miscData from "./game-data/mm2/misc.json";
 import { IWeapon, IArmor, IOtherItem } from "./ItemTypes";
 
-
 const MM2Id: React.FC = () =>
   <Identifier
     game="2"

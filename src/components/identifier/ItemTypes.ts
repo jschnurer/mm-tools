@@ -54,13 +54,25 @@ export interface ISpecialItem {
   location: string;
 }
 
+export interface IMM1Item {
+  name: string;
+  classes: string;
+  special: string;
+  amt: number;
+  magic: string;
+  cost: number;
+  dmg: number;
+  acDmg: number;
+}
+
 export type IItem =
   IWeapon
   | IArmor
   | IHandheldItem
   | IMiscItem
   | ISpecialItem
-  | IOtherItem;
+  | IOtherItem
+  | IMM1Item;
 
 export enum ItemTypes {
   Weapon,
@@ -69,4 +81,5 @@ export enum ItemTypes {
   Misc,
   Special,
   Other,
+  MM1Item,
 }

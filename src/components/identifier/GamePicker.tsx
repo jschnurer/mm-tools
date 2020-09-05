@@ -7,6 +7,7 @@ import "./GamePicker.scoped.scss";
 import MM3Id from "./MM3Id";
 import MMXeenId from "./MMXeenId";
 import MM2Id from "./MM2Id";
+import MM1Id from "./MM1Id";
 
 interface IGamePickerProps {
   game: string,
@@ -15,7 +16,9 @@ interface IGamePickerProps {
 const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
   const game = props.match.params.game;
   
-  if (game === "mm2") {
+  if (game === "mm1") {
+    return <MM1Id />;
+  } else if (game === "mm2") {
     return <MM2Id />;
   } else if (game === "mm3") {
     return <MM3Id />;
@@ -31,6 +34,10 @@ const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
         <div>
           Choose game:
           
+          <Link to={Routes.ItemIdentifierForGame.replace(':game','mm1')}>
+            MM1
+          </Link>
+
           <Link to={Routes.ItemIdentifierForGame.replace(':game','mm2')}>
             MM2
           </Link>

@@ -12,6 +12,7 @@ import {
   IMod,
   IImbue,
   IOtherItem,
+  IMM1Item,
 } from "./ItemTypes";
 import PageLayout from "components/layout/PageLayout";
 
@@ -24,8 +25,10 @@ interface IIdentifierProps {
   specialItems: ISpecialItem[],
   imbues: IImbue[],
   otherItems?: IOtherItem[],
+  mm1Items?: IMM1Item[],
   game: string,
   searchExact?: boolean,
+  note?: JSX.Element,
 }
 
 const Identifier: React.FC<IIdentifierProps> = ({
@@ -37,8 +40,10 @@ const Identifier: React.FC<IIdentifierProps> = ({
   specialItems,
   otherItems,
   imbues,
+  mm1Items,
   game,
   searchExact,
+  note,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [items, setItems] = useState<string[]>([]);
@@ -86,6 +91,8 @@ const Identifier: React.FC<IIdentifierProps> = ({
       setOther(item as IMiscItem, mods, imbues);
     } else if (type === ItemTypes.Other) {
       setOther(item as IOtherItem, mods, imbues);
+    } else if (type === ItemTypes.MM1Item) {
+      setMM1Item(item as IMM1Item);
     }
 
     searchBoxRef.current?.select();
@@ -131,6 +138,12 @@ const Identifier: React.FC<IIdentifierProps> = ({
       : search.indexOf(x.name.toUpperCase()) > -1);
     if (otherItem) {
       return [otherItem, ItemTypes.Other];
+    }
+    let mm1Item = mm1Items?.find(x => searchExact
+      ? x.name.toUpperCase() === search
+      : search.indexOf(x.name.toUpperCase()) > -1);
+    if (mm1Item) {
+      return [mm1Item, ItemTypes.MM1Item];
     }
   }
 
@@ -263,6 +276,17 @@ const Identifier: React.FC<IIdentifierProps> = ({
         : ""));
   }
 
+  const setMM1Item = (item: IMM1Item) => {
+    appendItem(`${item.name} {${item.classes}}
+      SPECIAL: ${item.special}
+      AMT: ${item.amt}
+      MAGIC: ${item.magic}
+      COST: ${item.cost}
+      DMG: ${item.dmg}
+      AC/DMG: ${item.acDmg}
+    `);
+  }
+
   const getOthersString = (mods: IMod[]) => {
     return mods
       .filter(mod => !!mod.other
@@ -304,7 +328,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
                 type="submit"
               >
                 Id
-          </button>
+              </button>
             </div>
             <div>
               <span>K = Knight</span>
@@ -317,8 +341,12 @@ const Identifier: React.FC<IIdentifierProps> = ({
               <span>B = Barbarian</span>
               <span>D = Druid</span>
               <span>R = Ranger</span>
+              <span>E = Evil</span>
+              <span>G = Good</span>
+              <span>EG = +Neutral</span>
             </div>
           </form>
+          {note}
         </>
       )}
     >

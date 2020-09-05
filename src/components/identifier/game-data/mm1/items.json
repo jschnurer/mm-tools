@@ -1,33 +1,33 @@
 [
   {
     "name": "CLUB",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 1,
-    "damage": 3,
-    "acOrDamageBonus": "1"
+    "dmg": 3,
+    "acDmg": 0
   },
   {
     "name": "DAGGER",
-    "classes": "TSAPKEG",
+    "classes": "RSAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 5,
-    "damage": 4,
-    "acOrDamageBonus": "5"
+    "dmg": 4,
+    "acDmg": 0
   },
   {
     "name": "HAND AXE",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 5,
-    "acOrDamageBonus": "10"
+    "dmg": 5,
+    "acDmg": 0
   },
   {
     "name": "SPEAR",
@@ -36,118 +36,118 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 15,
-    "damage": 6,
-    "acOrDamageBonus": "15"
+    "dmg": 6,
+    "acDmg": 0
   },
   {
     "name": "SHORT SWORD",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 20,
-    "damage": 6,
-    "acOrDamageBonus": "20"
+    "dmg": 6,
+    "acDmg": 0
   },
   {
     "name": "MACE",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 25,
-    "damage": 6,
-    "acOrDamageBonus": "25"
+    "dmg": 6,
+    "acDmg": 0
   },
   {
     "name": "FLAIL",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 40,
-    "damage": 7,
-    "acOrDamageBonus": "40"
+    "dmg": 7,
+    "acDmg": 0
   },
   {
     "name": "SCIMITAR",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 40,
-    "damage": 7,
-    "acOrDamageBonus": "40"
+    "dmg": 7,
+    "acDmg": 0
   },
   {
     "name": "BROAD SWORD",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 7,
-    "acOrDamageBonus": "50"
+    "dmg": 7,
+    "acDmg": 0
   },
   {
     "name": "BATTLE AXE",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 60,
-    "damage": 0,
-    "acOrDamageBonus": "60"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "LONG SWORD",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 60,
-    "damage": 8,
-    "acOrDamageBonus": "60"
+    "dmg": 8,
+    "acDmg": 0
   },
   {
     "name": "CLUB +1",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 30,
-    "damage": 3,
-    "acOrDamageBonus": "30"
+    "dmg": 3,
+    "acDmg": 1
   },
   {
     "name": "CLUB +2",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 3,
-    "acOrDamageBonus": "100"
+    "dmg": 3,
+    "acDmg": 2
   },
   {
     "name": "DAGGER +1",
-    "classes": "TSAPKEG",
+    "classes": "RSAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 4,
-    "acOrDamageBonus": "50"
+    "dmg": 4,
+    "acDmg": 1
   },
   {
     "name": "HAND AXE +1",
-    "classes": "TAPKE",
+    "classes": "RAPKE",
     "special": "LUCK",
     "amt": 1,
     "magic": "N 0",
     "cost": 75,
-    "damage": 5,
-    "acOrDamageBonus": "75"
+    "dmg": 5,
+    "acDmg": 1
   },
   {
     "name": "SPEAR +1",
@@ -156,118 +156,118 @@
     "amt": 1,
     "magic": "N 0",
     "cost": 100,
-    "damage": 6,
-    "acOrDamageBonus": "100"
+    "dmg": 6,
+    "acDmg": 1
   },
   {
     "name": "SHORT SWORD +1",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 6,
-    "acOrDamageBonus": "100"
+    "dmg": 6,
+    "acDmg": 1
   },
   {
     "name": "MACE +1",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 125,
-    "damage": 6,
-    "acOrDamageBonus": "125"
+    "dmg": 6,
+    "acDmg": 1
   },
   {
     "name": "FLAIL +1",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 200,
-    "damage": 7,
-    "acOrDamageBonus": "200"
+    "dmg": 7,
+    "acDmg": 1
   },
   {
     "name": "SCIMITAR +1",
-    "classes": "TAPKG",
+    "classes": "RAPKG",
     "special": "LUCK",
     "amt": 2,
     "magic": "N 0",
     "cost": 250,
-    "damage": 7,
-    "acOrDamageBonus": "250"
+    "dmg": 7,
+    "acDmg": 1
   },
   {
     "name": "BROAD SWORD +1",
-    "classes": "TAPKE",
+    "classes": "RAPKE",
     "special": "LUCK",
     "amt": 2,
     "magic": "N 0",
     "cost": 300,
-    "damage": 7,
-    "acOrDamageBonus": "300"
+    "dmg": 7,
+    "acDmg": 1
   },
   {
     "name": "BATTLE AXE +1",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 300,
-    "damage": 8,
-    "acOrDamageBonus": "300"
+    "dmg": 8,
+    "acDmg": 1
   },
   {
     "name": "LONG SWORD +1",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 300,
-    "damage": 8,
-    "acOrDamageBonus": "300"
+    "dmg": 8,
+    "acDmg": 1
   },
   {
     "name": "FLAMING CLUB",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "FIRE",
     "amt": 20,
     "magic": "Y 30",
     "cost": 500,
-    "damage": 3,
-    "acOrDamageBonus": "500"
+    "dmg": 3,
+    "acDmg": 3
   },
   {
     "name": "CLUB OF NOISE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 3,
-    "acOrDamageBonus": "100"
+    "dmg": 3,
+    "acDmg": 0
   },
   {
     "name": "DAGGER +2",
-    "classes": "TSAPKEG",
+    "classes": "RSAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "Y 25",
     "cost": 200,
-    "damage": 4,
-    "acOrDamageBonus": "200"
+    "dmg": 4,
+    "acDmg": 2
   },
   {
     "name": "HAND AXE +2",
-    "classes": "TAPKG",
+    "classes": "RAPKG",
     "special": "LUCK",
     "amt": 2,
     "magic": "N 0",
     "cost": 225,
-    "damage": 5,
-    "acOrDamageBonus": "225"
+    "dmg": 5,
+    "acDmg": 2
   },
   {
     "name": "SPEAR +2",
@@ -276,88 +276,88 @@
     "amt": 2,
     "magic": "N 0",
     "cost": 250,
-    "damage": 6,
-    "acOrDamageBonus": "250"
+    "dmg": 6,
+    "acDmg": 2
   },
   {
     "name": "SHORT SWORD +2",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "Y 15",
     "cost": 300,
-    "damage": 6,
-    "acOrDamageBonus": "300"
+    "dmg": 6,
+    "acDmg": 2
   },
   {
     "name": "MACE +2",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "PERS",
     "amt": 1,
     "magic": "Y 10",
     "cost": 325,
-    "damage": 6,
-    "acOrDamageBonus": "325"
+    "dmg": 6,
+    "acDmg": 2
   },
   {
     "name": "FLAIL +2",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "PERS",
     "amt": 1,
     "magic": "Y 15",
     "cost": 350,
-    "damage": 7,
-    "acOrDamageBonus": "350"
+    "dmg": 7,
+    "acDmg": 2
   },
   {
     "name": "SCIMITAR +2",
-    "classes": "TAPKE",
+    "classes": "RAPKE",
     "special": "MIGHT",
     "amt": 1,
     "magic": "N 0",
     "cost": 400,
-    "damage": 7,
-    "acOrDamageBonus": "400"
+    "dmg": 7,
+    "acDmg": 2
   },
   {
     "name": "BROAD SWORD +2",
-    "classes": "TAPKG",
+    "classes": "RAPKG",
     "special": "MIGHT",
     "amt": 1,
     "magic": "N 0",
     "cost": 400,
-    "damage": 7,
-    "acOrDamageBonus": "400"
+    "dmg": 7,
+    "acDmg": 2
   },
   {
     "name": "BATTLE AXE +2",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "FIRE",
     "amt": 20,
     "magic": "Y 10",
     "cost": 500,
-    "damage": 8,
-    "acOrDamageBonus": "500"
+    "dmg": 8,
+    "acDmg": 2
   },
   {
     "name": "LONG SWORD +2",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "ELEM",
     "amt": 20,
     "magic": "Y 10",
     "cost": 550,
-    "damage": 8,
-    "acOrDamageBonus": "550"
+    "dmg": 8,
+    "acDmg": 2
   },
   {
     "name": "ROYAL DAGGER",
-    "classes": "TSAPK",
+    "classes": "RSAPK",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 4,
-    "acOrDamageBonus": "2500"
+    "dmg": 4,
+    "acDmg": 0
   },
   {
     "name": "DAGGER OF MIND",
@@ -366,8 +366,8 @@
     "amt": 3,
     "magic": "Y 20",
     "cost": 750,
-    "damage": 4,
-    "acOrDamageBonus": "750"
+    "dmg": 4,
+    "acDmg": 3
   },
   {
     "name": "DIAMOND DAGGER",
@@ -376,8 +376,8 @@
     "amt": 4,
     "magic": "N 0",
     "cost": 800,
-    "damage": 160,
-    "acOrDamageBonus": "800"
+    "dmg": 160,
+    "acDmg": 4
   },
   {
     "name": "ELECTRIC SPEAR",
@@ -386,8 +386,8 @@
     "amt": 40,
     "magic": "Y 16",
     "cost": 1200,
-    "damage": 6,
-    "acOrDamageBonus": "1200"
+    "dmg": 6,
+    "acDmg": 3
   },
   {
     "name": "HOLY MACE",
@@ -396,8 +396,8 @@
     "amt": 3,
     "magic": "Y 5",
     "cost": 2000,
-    "damage": 6,
-    "acOrDamageBonus": "2000"
+    "dmg": 6,
+    "acDmg": 4
   },
   {
     "name": "UN-HOLY MACE",
@@ -406,8 +406,8 @@
     "amt": 3,
     "magic": "Y 5",
     "cost": 2000,
-    "damage": 6,
-    "acOrDamageBonus": "2000"
+    "dmg": 6,
+    "acDmg": 4
   },
   {
     "name": "DARK FLAIL",
@@ -416,8 +416,8 @@
     "amt": 0,
     "magic": "Y 10",
     "cost": 600,
-    "damage": 3,
-    "acOrDamageBonus": "600"
+    "dmg": 3,
+    "acDmg": 0
   },
   {
     "name": "FLAIL OF FEAR",
@@ -426,18 +426,18 @@
     "amt": 40,
     "magic": "Y 8",
     "cost": 1600,
-    "damage": 7,
-    "acOrDamageBonus": "1600"
+    "dmg": 7,
+    "acDmg": 3
   },
   {
     "name": "LUCKY SCIMITAR",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "LUCK",
     "amt": 5,
     "magic": "N 0",
     "cost": 2200,
-    "damage": 7,
-    "acOrDamageBonus": "2200"
+    "dmg": 7,
+    "acDmg": 4
   },
   {
     "name": "MACE OF UNDEAD",
@@ -446,8 +446,8 @@
     "amt": 0,
     "magic": "Y 5",
     "cost": 500,
-    "damage": 6,
-    "acOrDamageBonus": "500"
+    "dmg": 6,
+    "acDmg": 0
   },
   {
     "name": "COLD AXE",
@@ -456,8 +456,8 @@
     "amt": 40,
     "magic": "Y 10",
     "cost": 2500,
-    "damage": 8,
-    "acOrDamageBonus": "2500"
+    "dmg": 8,
+    "acDmg": 3
   },
   {
     "name": "ELECTRIC SWORD",
@@ -466,8 +466,8 @@
     "amt": 40,
     "magic": "Y 10",
     "cost": 2200,
-    "damage": 8,
-    "acOrDamageBonus": "2200"
+    "dmg": 8,
+    "acDmg": 3
   },
   {
     "name": "FLAMING SWORD",
@@ -476,8 +476,8 @@
     "amt": 50,
     "magic": "Y 10",
     "cost": 2200,
-    "damage": 8,
-    "acOrDamageBonus": "2200"
+    "dmg": 8,
+    "acDmg": 3
   },
   {
     "name": "SWORD OF MIGHT",
@@ -486,8 +486,8 @@
     "amt": 6,
     "magic": "Y 30",
     "cost": 8000,
-    "damage": 8,
-    "acOrDamageBonus": "8000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "SWORD OF SPEED",
@@ -496,8 +496,8 @@
     "amt": 6,
     "magic": "Y 20",
     "cost": 7000,
-    "damage": 8,
-    "acOrDamageBonus": "7000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "SHARP SWORD",
@@ -506,8 +506,8 @@
     "amt": 21,
     "magic": "Y 5",
     "cost": 6500,
-    "damage": 10,
-    "acOrDamageBonus": "6500"
+    "dmg": 10,
+    "acDmg": 4
   },
   {
     "name": "ACCURATE SWORD",
@@ -516,28 +516,28 @@
     "amt": 6,
     "magic": "Y 10",
     "cost": 6500,
-    "damage": 8,
-    "acOrDamageBonus": "6500"
+    "dmg": 8,
+    "acDmg": 6
   },
   {
     "name": "SWORD OF MAGIC",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "MAGIC",
     "amt": 30,
     "magic": "Y 15",
     "cost": 10000,
-    "damage": 8,
-    "acOrDamageBonus": "10000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "IMMORTAL SWORD",
-    "classes": "TAPKG",
+    "classes": "RAPKG",
     "special": "LUCK",
     "amt": 5,
     "magic": "Y 25",
     "cost": 7000,
-    "damage": 8,
-    "acOrDamageBonus": "7000"
+    "dmg": 8,
+    "acDmg": 4
   },
   {
     "name": "AXE PROTECTOR",
@@ -546,8 +546,8 @@
     "amt": 25,
     "magic": "Y 15",
     "cost": 8013,
-    "damage": 8,
-    "acOrDamageBonus": "8013"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "AXE DESTROYER",
@@ -556,18 +556,18 @@
     "amt": 4,
     "magic": "Y 6",
     "cost": 8000,
-    "damage": 8,
-    "acOrDamageBonus": "8000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "X!XX!X'S SWORD",
-    "classes": "TAPK",
+    "classes": "RAPK",
     "special": "LUCK",
     "amt": 15,
     "magic": "Y 10",
     "cost": 6000,
-    "damage": 8,
-    "acOrDamageBonus": "6000"
+    "dmg": 8,
+    "acDmg": 4
   },
   {
     "name": "ADAMANTINE AXE",
@@ -576,48 +576,48 @@
     "amt": 8,
     "magic": "Y 5",
     "cost": 12000,
-    "damage": 8,
-    "acOrDamageBonus": "12000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "ULTIMATE SWORD",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "MIGHT",
     "amt": 10,
     "magic": "Y 20",
     "cost": 15000,
-    "damage": 20,
-    "acOrDamageBonus": "15000"
+    "dmg": 20,
+    "acDmg": 6
   },
   {
     "name": "ELEMENT SWORD",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "MAGIC",
     "amt": 25,
     "magic": "Y 10",
     "cost": 12000,
-    "damage": 8,
-    "acOrDamageBonus": "12000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "SLING",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 4,
-    "acOrDamageBonus": "10"
+    "dmg": 4,
+    "acDmg": 0
   },
   {
     "name": "CROSSBOW",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 6,
-    "acOrDamageBonus": "50"
+    "dmg": 6,
+    "acDmg": 0
   },
   {
     "name": "SHORT BOW",
@@ -626,8 +626,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 75,
-    "damage": 8,
-    "acOrDamageBonus": "75"
+    "dmg": 8,
+    "acDmg": 0
   },
   {
     "name": "LONG BOW",
@@ -636,8 +636,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 10,
-    "acOrDamageBonus": "100"
+    "dmg": 10,
+    "acDmg": 0
   },
   {
     "name": "GREAT BOW",
@@ -646,28 +646,28 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 250,
-    "damage": 12,
-    "acOrDamageBonus": "250"
+    "dmg": 12,
+    "acDmg": 0
   },
   {
     "name": "SLING +1",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 4,
-    "acOrDamageBonus": "50"
+    "dmg": 4,
+    "acDmg": 1
   },
   {
     "name": "CROSSBOW +1",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 250,
-    "damage": 6,
-    "acOrDamageBonus": "250"
+    "dmg": 6,
+    "acDmg": 1
   },
   {
     "name": "SHORT BOW +1",
@@ -676,8 +676,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 375,
-    "damage": 8,
-    "acOrDamageBonus": "375"
+    "dmg": 8,
+    "acDmg": 1
   },
   {
     "name": "LONG BOW +1",
@@ -686,8 +686,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 500,
-    "damage": 10,
-    "acOrDamageBonus": "500"
+    "dmg": 10,
+    "acDmg": 1
   },
   {
     "name": "GREAT BOW +1",
@@ -696,28 +696,28 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 1250,
-    "damage": 12,
-    "acOrDamageBonus": "1250"
+    "dmg": 12,
+    "acDmg": 1
   },
   {
     "name": "MAGIC SLING",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "MAGIC",
     "amt": 10,
     "magic": "Y 10",
     "cost": 800,
-    "damage": 4,
-    "acOrDamageBonus": "800"
+    "dmg": 4,
+    "acDmg": 3
   },
   {
     "name": "CROSSBOW +2",
-    "classes": "TAEG",
+    "classes": "RAEG",
     "special": "ACCY",
     "amt": 2,
     "magic": "N 0",
     "cost": 1003,
-    "damage": 6,
-    "acOrDamageBonus": "1003"
+    "dmg": 6,
+    "acDmg": 2
   },
   {
     "name": "SHORT BOW +2",
@@ -726,8 +726,8 @@
     "amt": 10,
     "magic": "N 0",
     "cost": 1000,
-    "damage": 8,
-    "acOrDamageBonus": "1000"
+    "dmg": 8,
+    "acDmg": 2
   },
   {
     "name": "LONG BOW +2",
@@ -736,8 +736,8 @@
     "amt": 10,
     "magic": "N 0",
     "cost": 1200,
-    "damage": 10,
-    "acOrDamageBonus": "1200"
+    "dmg": 10,
+    "acDmg": 2
   },
   {
     "name": "GREAT BOW +2",
@@ -746,28 +746,28 @@
     "amt": 30,
     "magic": "N 0",
     "cost": 2000,
-    "damage": 12,
-    "acOrDamageBonus": "2000"
+    "dmg": 12,
+    "acDmg": 2
   },
   {
     "name": "CROSSBOW LUCK",
-    "classes": "TAEG",
+    "classes": "RAEG",
     "special": "LUCK",
     "amt": 3,
     "magic": "Y 20",
     "cost": 2000,
-    "damage": 6,
-    "acOrDamageBonus": "2000"
+    "dmg": 6,
+    "acDmg": 3
   },
   {
     "name": "CROSSBOW SPEED",
-    "classes": "TAPKEG",
+    "classes": "RAPKEG",
     "special": "SPEED",
     "amt": 4,
     "magic": "Y 10",
     "cost": 2000,
-    "damage": 6,
-    "acOrDamageBonus": "2000"
+    "dmg": 6,
+    "acDmg": 3
   },
   {
     "name": "LIGHTNING BOW",
@@ -776,8 +776,8 @@
     "amt": 20,
     "magic": "Y 10",
     "cost": 3000,
-    "damage": 10,
-    "acOrDamageBonus": "3000"
+    "dmg": 10,
+    "acDmg": 3
   },
   {
     "name": "FLAMING BOW",
@@ -786,8 +786,8 @@
     "amt": 20,
     "magic": "Y 10",
     "cost": 3000,
-    "damage": 10,
-    "acOrDamageBonus": "3000"
+    "dmg": 10,
+    "acDmg": 3
   },
   {
     "name": "GIANT'S BOW",
@@ -796,8 +796,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 2000,
-    "damage": 20,
-    "acOrDamageBonus": "2000"
+    "dmg": 20,
+    "acDmg": 3
   },
   {
     "name": "THE MAGIC BOW",
@@ -806,8 +806,8 @@
     "amt": 20,
     "magic": "Y 5",
     "cost": 6000,
-    "damage": 16,
-    "acOrDamageBonus": "6000"
+    "dmg": 16,
+    "acDmg": 4
   },
   {
     "name": "BOW OF POWER",
@@ -816,18 +816,18 @@
     "amt": 40,
     "magic": "Y 15",
     "cost": 6000,
-    "damage": 16,
-    "acOrDamageBonus": "6000"
+    "dmg": 16,
+    "acDmg": 4
   },
   {
     "name": "ROBBER'S X-BOW",
-    "classes": "TEG",
+    "classes": "REG",
     "special": "SPEED",
     "amt": 4,
     "magic": "Y 10",
     "cost": 8000,
-    "damage": 10,
-    "acOrDamageBonus": "8000"
+    "dmg": 10,
+    "acDmg": 5
   },
   {
     "name": "ARCHER'S BOW",
@@ -836,8 +836,8 @@
     "amt": 5,
     "magic": "Y 10",
     "cost": 12000,
-    "damage": 20,
-    "acOrDamageBonus": "12000"
+    "dmg": 20,
+    "acDmg": 5
   },
   {
     "name": "STAFF",
@@ -846,8 +846,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 30,
-    "damage": 8,
-    "acOrDamageBonus": "30"
+    "dmg": 8,
+    "acDmg": 0
   },
   {
     "name": "GLAIVE",
@@ -856,8 +856,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 80,
-    "damage": 10,
-    "acOrDamageBonus": "80"
+    "dmg": 10,
+    "acDmg": 0
   },
   {
     "name": "BARDICHE",
@@ -866,8 +866,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 80,
-    "damage": 10,
-    "acOrDamageBonus": "80"
+    "dmg": 10,
+    "acDmg": 0
   },
   {
     "name": "HALBERD",
@@ -876,8 +876,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 12,
-    "acOrDamageBonus": "100"
+    "dmg": 12,
+    "acDmg": 0
   },
   {
     "name": "GREAT HAMMER",
@@ -886,8 +886,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 150,
-    "damage": 12,
-    "acOrDamageBonus": "150"
+    "dmg": 12,
+    "acDmg": 0
   },
   {
     "name": "GREAT AXE",
@@ -896,8 +896,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 150,
-    "damage": 12,
-    "acOrDamageBonus": "150"
+    "dmg": 12,
+    "acDmg": 0
   },
   {
     "name": "FLAMBERGE",
@@ -906,8 +906,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 250,
-    "damage": 14,
-    "acOrDamageBonus": "250"
+    "dmg": 14,
+    "acDmg": 0
   },
   {
     "name": "STAFF +1",
@@ -916,8 +916,8 @@
     "amt": 1,
     "magic": "N 0",
     "cost": 200,
-    "damage": 8,
-    "acOrDamageBonus": "200"
+    "dmg": 8,
+    "acDmg": 1
   },
   {
     "name": "GLAIVE +1",
@@ -926,8 +926,8 @@
     "amt": 1,
     "magic": "N 0",
     "cost": 350,
-    "damage": 10,
-    "acOrDamageBonus": "350"
+    "dmg": 10,
+    "acDmg": 1
   },
   {
     "name": "BARDICHE +1",
@@ -936,8 +936,8 @@
     "amt": 1,
     "magic": "N 0",
     "cost": 350,
-    "damage": 10,
-    "acOrDamageBonus": "350"
+    "dmg": 10,
+    "acDmg": 1
   },
   {
     "name": "HALBERD +1",
@@ -946,8 +946,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 500,
-    "damage": 12,
-    "acOrDamageBonus": "500"
+    "dmg": 12,
+    "acDmg": 1
   },
   {
     "name": "GREAT HAMMER+1",
@@ -956,8 +956,8 @@
     "amt": 1,
     "magic": "N 0",
     "cost": 550,
-    "damage": 12,
-    "acOrDamageBonus": "550"
+    "dmg": 12,
+    "acDmg": 1
   },
   {
     "name": "GREAT AXE +1",
@@ -966,8 +966,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 500,
-    "damage": 12,
-    "acOrDamageBonus": "500"
+    "dmg": 12,
+    "acDmg": 1
   },
   {
     "name": "FLAMBERGE +1",
@@ -976,8 +976,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 600,
-    "damage": 14,
-    "acOrDamageBonus": "600"
+    "dmg": 14,
+    "acDmg": 1
   },
   {
     "name": "STAFF +2",
@@ -986,8 +986,8 @@
     "amt": 2,
     "magic": "Y 10",
     "cost": 600,
-    "damage": 8,
-    "acOrDamageBonus": "600"
+    "dmg": 8,
+    "acDmg": 2
   },
   {
     "name": "GLAIVE +2",
@@ -996,8 +996,8 @@
     "amt": 2,
     "magic": "N 0",
     "cost": 900,
-    "damage": 10,
-    "acOrDamageBonus": "900"
+    "dmg": 10,
+    "acDmg": 2
   },
   {
     "name": "BARDICHE +2",
@@ -1006,8 +1006,8 @@
     "amt": 2,
     "magic": "N 0",
     "cost": 900,
-    "damage": 10,
-    "acOrDamageBonus": "900"
+    "dmg": 10,
+    "acDmg": 2
   },
   {
     "name": "HALBERD +2",
@@ -1016,8 +1016,8 @@
     "amt": 3,
     "magic": "Y 20",
     "cost": 1200,
-    "damage": 12,
-    "acOrDamageBonus": "1200"
+    "dmg": 12,
+    "acDmg": 2
   },
   {
     "name": "GREAT HAMMER+2",
@@ -1026,8 +1026,8 @@
     "amt": 2,
     "magic": "Y 20",
     "cost": 1200,
-    "damage": 12,
-    "acOrDamageBonus": "1200"
+    "dmg": 12,
+    "acDmg": 2
   },
   {
     "name": "GREAT AXE +2",
@@ -1036,8 +1036,8 @@
     "amt": 2,
     "magic": "Y 10",
     "cost": 1200,
-    "damage": 12,
-    "acOrDamageBonus": "1200"
+    "dmg": 12,
+    "acDmg": 2
   },
   {
     "name": "FLAMBERGE +2",
@@ -1046,8 +1046,8 @@
     "amt": 2,
     "magic": "Y 10",
     "cost": 2000,
-    "damage": 14,
-    "acOrDamageBonus": "2000"
+    "dmg": 14,
+    "acDmg": 2
   },
   {
     "name": "STAFF OF LIGHT",
@@ -1056,8 +1056,8 @@
     "amt": 40,
     "magic": "Y 20",
     "cost": 1500,
-    "damage": 8,
-    "acOrDamageBonus": "1500"
+    "dmg": 8,
+    "acDmg": 3
   },
   {
     "name": "COLD GLAIVE",
@@ -1066,8 +1066,8 @@
     "amt": 40,
     "magic": "Y 20",
     "cost": 2500,
-    "damage": 10,
-    "acOrDamageBonus": "2500"
+    "dmg": 10,
+    "acDmg": 3
   },
   {
     "name": "CURING STAFF",
@@ -1076,8 +1076,8 @@
     "amt": 30,
     "magic": "Y 12",
     "cost": 2500,
-    "damage": 8,
-    "acOrDamageBonus": "2500"
+    "dmg": 8,
+    "acDmg": 3
   },
   {
     "name": "MINOTAUR'S AXE",
@@ -1086,8 +1086,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 2000,
-    "damage": 3,
-    "acOrDamageBonus": "2000"
+    "dmg": 3,
+    "acDmg": 0
   },
   {
     "name": "THUNDER HAMMER",
@@ -1096,8 +1096,8 @@
     "amt": 40,
     "magic": "Y 15",
     "cost": 3500,
-    "damage": 12,
-    "acOrDamageBonus": "3500"
+    "dmg": 12,
+    "acDmg": 4
   },
   {
     "name": "GREAT AXE +3",
@@ -1106,8 +1106,8 @@
     "amt": 4,
     "magic": "Y 10",
     "cost": 3500,
-    "damage": 12,
-    "acOrDamageBonus": "3500"
+    "dmg": 12,
+    "acDmg": 3
   },
   {
     "name": "FLAMBERGE +3",
@@ -1116,8 +1116,8 @@
     "amt": 4,
     "magic": "Y 10",
     "cost": 5000,
-    "damage": 14,
-    "acOrDamageBonus": "5000"
+    "dmg": 14,
+    "acDmg": 3
   },
   {
     "name": "SORCERER STAFF",
@@ -1126,8 +1126,8 @@
     "amt": 4,
     "magic": "Y 10",
     "cost": 8000,
-    "damage": 8,
-    "acOrDamageBonus": "8000"
+    "dmg": 8,
+    "acDmg": 5
   },
   {
     "name": "STAFF OF MAGIC",
@@ -1136,8 +1136,8 @@
     "amt": 25,
     "magic": "Y 10",
     "cost": 5000,
-    "damage": 8,
-    "acOrDamageBonus": "5000"
+    "dmg": 8,
+    "acDmg": 4
   },
   {
     "name": "DEMON'S GLAIVE",
@@ -1146,8 +1146,8 @@
     "amt": 50,
     "magic": "Y 40",
     "cost": 10000,
-    "damage": 10,
-    "acOrDamageBonus": "10000"
+    "dmg": 10,
+    "acDmg": 5
   },
   {
     "name": "DEVIL'S GLAIVE",
@@ -1156,8 +1156,8 @@
     "amt": 50,
     "magic": "Y 40",
     "cost": 10000,
-    "damage": 10,
-    "acOrDamageBonus": "10000"
+    "dmg": 10,
+    "acDmg": 5
   },
   {
     "name": "THE FLAMBERGE",
@@ -1166,8 +1166,8 @@
     "amt": 10,
     "magic": "Y 10",
     "cost": 15000,
-    "damage": 30,
-    "acOrDamageBonus": "15000"
+    "dmg": 30,
+    "acDmg": 6
   },
   {
     "name": "HOLY FLAMBERGE",
@@ -1176,8 +1176,8 @@
     "amt": 50,
     "magic": "Y 15",
     "cost": 20000,
-    "damage": 20,
-    "acOrDamageBonus": "20000"
+    "dmg": 20,
+    "acDmg": 6
   },
   {
     "name": "EVIL FLAMBERGE",
@@ -1186,48 +1186,48 @@
     "amt": 50,
     "magic": "Y 15",
     "cost": 20000,
-    "damage": 20,
-    "acOrDamageBonus": "20000"
+    "dmg": 20,
+    "acDmg": 6
   },
   {
     "name": "PADDED ARMOR",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 1
   },
   {
     "name": "LEATHER ARMOR",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 20,
-    "damage": 0,
-    "acOrDamageBonus": "20"
+    "dmg": 0,
+    "acDmg": 2
   },
   {
     "name": "SCALE ARMOR",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 0,
-    "acOrDamageBonus": "50"
+    "dmg": 0,
+    "acDmg": 3
   },
   {
     "name": "RING MAIL",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 0,
-    "acOrDamageBonus": "100"
+    "dmg": 0,
+    "acDmg": 4
   },
   {
     "name": "CHAIN MAIL",
@@ -1236,8 +1236,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 200,
-    "damage": 0,
-    "acOrDamageBonus": "200"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "SPLINT MAIL",
@@ -1246,8 +1246,8 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 6
   },
   {
     "name": "PLATE MAIL",
@@ -1256,48 +1256,48 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 7
   },
   {
     "name": "PADDED +1",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 25,
-    "damage": 0,
-    "acOrDamageBonus": "25"
+    "dmg": 0,
+    "acDmg": 2
   },
   {
     "name": "LEATHER +1",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 60,
-    "damage": 0,
-    "acOrDamageBonus": "60"
+    "dmg": 0,
+    "acDmg": 3
   },
   {
     "name": "SCALE +1",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 120,
-    "damage": 0,
-    "acOrDamageBonus": "120"
+    "dmg": 0,
+    "acDmg": 4
   },
   {
     "name": "RING MAIL +1",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "FIRE",
     "amt": 5,
     "magic": "N 0",
     "cost": 250,
-    "damage": 0,
-    "acOrDamageBonus": "250"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "CHAIN MAIL +1",
@@ -1306,8 +1306,8 @@
     "amt": 5,
     "magic": "N 0",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 6
   },
   {
     "name": "SPLINT MAIL +1",
@@ -1316,8 +1316,8 @@
     "amt": 10,
     "magic": "N 0",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 7
   },
   {
     "name": "PLATE MAIL +1",
@@ -1326,38 +1326,38 @@
     "amt": 10,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 8
   },
   {
     "name": "LEATHER +2",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "ELEC",
     "amt": 10,
     "magic": "N 0",
     "cost": 150,
-    "damage": 0,
-    "acOrDamageBonus": "150"
+    "dmg": 0,
+    "acDmg": 4
   },
   {
     "name": "SCALE +2",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "COLD",
     "amt": 10,
     "magic": "N 0",
     "cost": 300,
-    "damage": 0,
-    "acOrDamageBonus": "300"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "RING MAIL +2",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "FIRE",
     "amt": 15,
     "magic": "N 0",
     "cost": 750,
-    "damage": 0,
-    "acOrDamageBonus": "750"
+    "dmg": 0,
+    "acDmg": 6
   },
   {
     "name": "CHAIN MAIL +2",
@@ -1366,8 +1366,8 @@
     "amt": 15,
     "magic": "N 0",
     "cost": 1500,
-    "damage": 0,
-    "acOrDamageBonus": "1500"
+    "dmg": 0,
+    "acDmg": 7
   },
   {
     "name": "SPLINT MAIL +2",
@@ -1376,8 +1376,8 @@
     "amt": 20,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 8
   },
   {
     "name": "PLATE MAIL +2",
@@ -1386,28 +1386,28 @@
     "amt": 20,
     "magic": "N 0",
     "cost": 7500,
-    "damage": 0,
-    "acOrDamageBonus": "7500"
+    "dmg": 0,
+    "acDmg": 9
   },
   {
     "name": "BRACERS AC 4",
-    "classes": "TSAEG",
+    "classes": "RSAEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 4
   },
   {
     "name": "RING MAIL +3",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "SPEED",
     "amt": 2,
     "magic": "N 0",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 7
   },
   {
     "name": "CHAIN MAIL +3",
@@ -1416,8 +1416,8 @@
     "amt": 4,
     "magic": "N 0",
     "cost": 4500,
-    "damage": 0,
-    "acOrDamageBonus": "4500"
+    "dmg": 0,
+    "acDmg": 8
   },
   {
     "name": "SPLINT MAIL +3",
@@ -1426,8 +1426,8 @@
     "amt": 2,
     "magic": "N 0",
     "cost": 7500,
-    "damage": 0,
-    "acOrDamageBonus": "7500"
+    "dmg": 0,
+    "acDmg": 9
   },
   {
     "name": "PLATE MAIL +3",
@@ -1436,18 +1436,18 @@
     "amt": 50,
     "magic": "N 0",
     "cost": 15000,
-    "damage": 0,
-    "acOrDamageBonus": "15000"
+    "dmg": 0,
+    "acDmg": 10
   },
   {
     "name": "BRACERS AC 6",
-    "classes": "TSAEG",
+    "classes": "RSAEG",
     "special": "FEAR",
     "amt": 20,
     "magic": "Y 20",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 6
   },
   {
     "name": "CHAIN MAIL +3",
@@ -1456,28 +1456,28 @@
     "amt": 0,
     "magic": "N 0",
     "cost": 4500,
-    "damage": 0,
-    "acOrDamageBonus": "4500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BRACERS AC 8",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 7500,
-    "damage": 0,
-    "acOrDamageBonus": "7500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BLUE RING MAIL",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "ELEC",
     "amt": 60,
     "magic": "Y 30",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 9
   },
   {
     "name": "RED CHAIN MAIL",
@@ -1486,8 +1486,8 @@
     "amt": 60,
     "magic": "Y 30",
     "cost": 15000,
-    "damage": 0,
-    "acOrDamageBonus": "15000"
+    "dmg": 0,
+    "acDmg": 10
   },
   {
     "name": "X!XX!X'S PLATE",
@@ -1496,8 +1496,8 @@
     "amt": 10,
     "magic": "Y 10",
     "cost": 18000,
-    "damage": 0,
-    "acOrDamageBonus": "18000"
+    "dmg": 0,
+    "acDmg": 11
   },
   {
     "name": "HOLY PLATE",
@@ -1506,8 +1506,8 @@
     "amt": 40,
     "magic": "Y 30",
     "cost": 25000,
-    "damage": 0,
-    "acOrDamageBonus": "25000"
+    "dmg": 0,
+    "acDmg": 12
   },
   {
     "name": "UN-HOLY PLATE",
@@ -1516,8 +1516,8 @@
     "amt": 40,
     "magic": "Y 30",
     "cost": 25000,
-    "damage": 0,
-    "acOrDamageBonus": "25000"
+    "dmg": 0,
+    "acDmg": 12
   },
   {
     "name": "ULTIMATE PLATE",
@@ -1526,388 +1526,388 @@
     "amt": 40,
     "magic": "Y 30",
     "cost": 30000,
-    "damage": 0,
-    "acOrDamageBonus": "30000"
+    "dmg": 0,
+    "acDmg": 13
   },
   {
     "name": "BRACERS AC 8",
-    "classes": "TSAEG",
+    "classes": "RSAEG",
     "special": "FEAR",
     "amt": 60,
     "magic": "Y 40",
     "cost": 7500,
-    "damage": 0,
-    "acOrDamageBonus": "7500"
+    "dmg": 0,
+    "acDmg": 8
   },
   {
     "name": "SMALL SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 1
   },
   {
     "name": "LARGE SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 50,
-    "damage": 0,
-    "acOrDamageBonus": "50"
+    "dmg": 0,
+    "acDmg": 2
   },
   {
     "name": "SILVER SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "HOLY",
     "amt": 20,
     "magic": "N 0",
     "cost": 100,
-    "damage": 0,
-    "acOrDamageBonus": "100"
+    "dmg": 0,
+    "acDmg": 2
   },
   {
     "name": "SMALL SHIELD+1",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 0,
-    "acOrDamageBonus": "100"
+    "dmg": 0,
+    "acDmg": 2
   },
   {
     "name": "LARGE SHIELD+1",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 200,
-    "damage": 0,
-    "acOrDamageBonus": "200"
+    "dmg": 0,
+    "acDmg": 3
   },
   {
     "name": "LARGE SHIELD+1",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 200,
-    "damage": 0,
-    "acOrDamageBonus": "200"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SMALL SHIELD+2",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 3
   },
   {
     "name": "LARGE SHIELD+2",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 4
   },
   {
     "name": "LARGE SHIELD+2",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "FIRE SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "FIRE",
     "amt": 20,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "COLD SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "COLD",
     "amt": 20,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "ELEC SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "ELEC",
     "amt": 20,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "ACID SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "ELEM",
     "amt": 20,
     "magic": "N 0",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 5
   },
   {
     "name": "MAGIC SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "MAGIC",
     "amt": 20,
     "magic": "Y 20",
     "cost": 5000,
-    "damage": 0,
-    "acOrDamageBonus": "5000"
+    "dmg": 0,
+    "acDmg": 6
   },
   {
     "name": "DRAGON SHIELD",
-    "classes": "TCPKEG",
+    "classes": "RCPKEG",
     "special": "MAGIC",
     "amt": 10,
     "magic": "Y 20",
     "cost": 8000,
-    "damage": 0,
-    "acOrDamageBonus": "8000"
+    "dmg": 0,
+    "acDmg": 7
   },
   {
     "name": "ROPE & HOOKS",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "TORCH",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 1",
     "cost": 2,
-    "damage": 0,
-    "acOrDamageBonus": "2"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "LANTERN",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 20,
-    "damage": 0,
-    "acOrDamageBonus": "20"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "10 FOOT POLE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "GARLIC",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 5,
-    "damage": 0,
-    "acOrDamageBonus": "5"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "WOLFSBANE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BELLADONNA",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 25,
-    "damage": 0,
-    "acOrDamageBonus": "25"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MAGIC HERBS",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 3",
     "cost": 50,
-    "damage": 0,
-    "acOrDamageBonus": "50"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DRIED BEEF",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 3",
     "cost": 40,
-    "damage": 0,
-    "acOrDamageBonus": "40"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "ROBBER'S TOOLS",
-    "classes": "TEG",
+    "classes": "REG",
     "special": "THIEF",
     "amt": 20,
     "magic": "N 0",
     "cost": 150,
-    "damage": 0,
-    "acOrDamageBonus": "150"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BAG OF SILVER",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 300,
-    "damage": 0,
-    "acOrDamageBonus": "300"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "AMBER GEM",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "N 0",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SMELLING SALT",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 3",
     "cost": 50,
-    "damage": 0,
-    "acOrDamageBonus": "50"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BAG OF SAND",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 5",
     "cost": 100,
-    "damage": 0,
-    "acOrDamageBonus": "100"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MIGHT POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 3",
     "cost": 200,
-    "damage": 0,
-    "acOrDamageBonus": "200"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SPEED POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "EQUIP",
     "amt": 0,
     "magic": "Y 3",
     "cost": 200,
-    "damage": 0,
-    "acOrDamageBonus": "200"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SUNDIAL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 50",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "CURING POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 4",
     "cost": 350,
-    "damage": 0,
-    "acOrDamageBonus": "350"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MAGIC POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 2",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DEFENSE RING",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "AC+",
     "amt": 1,
     "magic": "Y 30",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BAG OF GARBAGE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 100,
-    "damage": 0,
-    "acOrDamageBonus": "100"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SCROLL OF FIRE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 1",
     "cost": 300,
-    "damage": 0,
-    "acOrDamageBonus": "300"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "FLYING CARPET",
@@ -1916,8 +1916,8 @@
     "amt": 2,
     "magic": "Y 10",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "JADE AMULET",
@@ -1926,48 +1926,48 @@
     "amt": 5,
     "magic": "N 0",
     "cost": 600,
-    "damage": 0,
-    "acOrDamageBonus": "600"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "ANTIDOTE BREW",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 2",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SKILL POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 5",
     "cost": 600,
-    "damage": 0,
-    "acOrDamageBonus": "600"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BOOTS OF SPEED",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "SPEED",
     "amt": 5,
     "magic": "Y 10",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "LUCKY CHARM",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "LUCK",
     "amt": 5,
     "magic": "Y 20",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "WAND OF FIRE",
@@ -1976,58 +1976,58 @@
     "amt": 15,
     "magic": "Y 10",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "UNDEAD AMULET",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "FEAR",
     "amt": 50,
     "magic": "Y 20",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SILENT CHIME",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BELT OF POWER",
-    "classes": "TPKEG",
+    "classes": "RPKEG",
     "special": "MIGHT",
     "amt": 5,
     "magic": "N 0",
     "cost": 600,
-    "damage": 0,
-    "acOrDamageBonus": "600"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MODEL BOAT",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 15",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DEFENSE CLOAK",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "AC+",
     "amt": 2,
     "magic": "N 0",
     "cost": 700,
-    "damage": 0,
-    "acOrDamageBonus": "700"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "KNOWLEDGE BOOK",
@@ -2036,18 +2036,18 @@
     "amt": 2,
     "magic": "Y 4",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "RUBY IDOL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SORCERER ROBE",
@@ -2056,18 +2056,18 @@
     "amt": 5,
     "magic": "Y 20",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "POWER GAUNTLET",
-    "classes": "TCAPKEG",
+    "classes": "RCAPKEG",
     "special": "MIGHT",
     "amt": 5,
     "magic": "N 0",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "CLERIC'S BEADS",
@@ -2076,118 +2076,118 @@
     "amt": 5,
     "magic": "Y 50",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "HORN OF DEATH",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 2500,
-    "damage": 0,
-    "acOrDamageBonus": "2500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "POTION OF LIFE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 2",
     "cost": 1500,
-    "damage": 0,
-    "acOrDamageBonus": "1500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SHINY PENDANT",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "HOLY",
     "amt": 30,
     "magic": "Y 10",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "LIGHTNING WAND",
-    "classes": "TCAEG",
+    "classes": "RCAEG",
     "special": "ELEC",
     "amt": 20,
     "magic": "Y 10",
     "cost": 1500,
-    "damage": 0,
-    "acOrDamageBonus": "1500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "PRECISION RING",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "ACCY",
     "amt": 5,
     "magic": "N 0",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "RETURN SCROLL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 1",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "TELEPORT HELM",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "MAGIC",
     "amt": 10,
     "magic": "Y 20",
     "cost": 5000,
-    "damage": 0,
-    "acOrDamageBonus": "5000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "YOUTH POTION",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 2",
     "cost": 4000,
-    "damage": 0,
-    "acOrDamageBonus": "4000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BELLS OF TIME",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 50",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MAGIC OIL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 1",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MAGIC VEST",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "MAGIC",
     "amt": 20,
     "magic": "Y 10",
     "cost": 6000,
-    "damage": 0,
-    "acOrDamageBonus": "6000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DESTROYER WAND",
@@ -2196,88 +2196,88 @@
     "amt": 10,
     "magic": "Y 10",
     "cost": 7000,
-    "damage": 0,
-    "acOrDamageBonus": "7000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "ELEMENT SCARAB",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "PERS",
     "amt": 5,
     "magic": "Y 20",
     "cost": 6000,
-    "damage": 0,
-    "acOrDamageBonus": "6000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SUN SCROLL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 1",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "STAR RUBY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "LUCK",
     "amt": 10,
     "magic": "Y 30",
     "cost": 6000,
-    "damage": 0,
-    "acOrDamageBonus": "6000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "STAR SAPPHIRE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "MAGIC",
     "amt": 30,
     "magic": "Y 10",
     "cost": 6000,
-    "damage": 0,
-    "acOrDamageBonus": "6000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "WEALTH CHEST",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 5",
     "cost": 6000,
-    "damage": 0,
-    "acOrDamageBonus": "6000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "GEM SACK",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DIAMOND COLLAR",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "?????",
     "amt": 80,
     "magic": "Y 10",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "FIRE OPAL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "?????",
     "amt": 80,
     "magic": "Y 10",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "UNOBTAINIUM",
@@ -2286,257 +2286,257 @@
     "amt": 5,
     "magic": "N 0",
     "cost": 50000,
-    "damage": 0,
-    "acOrDamageBonus": "50000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "VELLUM SCROLL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 10,
-    "damage": 0,
-    "acOrDamageBonus": "10"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "RUBY WHISTLE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "LUCK",
     "amt": 2,
     "magic": "Y 200",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "KINGS PASS",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MERCHANTS PASS",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "CRYSTAL KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "CORAL KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 300,
-    "damage": 0,
-    "acOrDamageBonus": "300"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "BRONZE KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 500,
-    "damage": 0,
-    "acOrDamageBonus": "500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "SILVER KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 30",
     "cost": 600,
-    "damage": 0,
-    "acOrDamageBonus": "600"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "GOLD KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 15",
     "cost": 800,
-    "damage": 0,
-    "acOrDamageBonus": "800"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DIAMOND KEY",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "CACTUS NECTAR",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MAP OF DESERT",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 400,
-    "damage": 0,
-    "acOrDamageBonus": "400"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "LASER BLASTER",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "ACCY",
     "amt": 5,
     "magic": "Y 10",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "DRAGONS TOOTH",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 10",
     "cost": 1500,
-    "damage": 0,
-    "acOrDamageBonus": "1500"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "WYVERN EYE",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "MEDUSA HEAD",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "CURSE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "RING OF OKRIM",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "LUCK",
     "amt": 10,
     "magic": "Y 20",
     "cost": 3000,
-    "damage": 0,
-    "acOrDamageBonus": "3000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "B QUEEN IDOL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "W QUEEN IDOL",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "PIRATES MAP A",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 1000,
-    "damage": 0,
-    "acOrDamageBonus": "1000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "PIRATES MAP B",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 2000,
-    "damage": 0,
-    "acOrDamageBonus": "2000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "THUNDRANIUM",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 250",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "KEY CARD",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "EYE OF GOROS",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "Y 20",
     "cost": 10000,
-    "damage": 0,
-    "acOrDamageBonus": "10000"
+    "dmg": 0,
+    "acDmg": 0
   },
   {
     "name": "(USELESS ITEM)",
-    "classes": "TSCAPKEG",
+    "classes": "RSCAPKEG",
     "special": "NONE",
     "amt": 0,
     "magic": "N 0",
     "cost": 0,
-    "damage": 0,
-    "acOrDamageBonus": "0"
+    "dmg": 0,
+    "acDmg": 0
   }
 ]

@@ -4,22 +4,22 @@ html {
 
 body {
   background-color: #222;
-  color: #DDD;
+  color: #ddd;
   padding: 0;
   margin: 0;
   height: 100vh;
 }
 
 * {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .primary-button {
   border: none;
-  background-color: #DDD;
+  background-color: #ddd;
   color: black;
-  padding: .5em;
-  margin: .2em;
+  padding: 0.5em;
+  margin: 0.2em;
   cursor: pointer;
 
   &:hover {
@@ -28,5 +28,17 @@ body {
 }
 
 input[type="text"] {
-  padding: .5em;
+  padding: 0.5em;
+}
+
+a {
+  color: white;
+
+  &:visited {
+    color: #ccc;
+  }
+
+  &:hover {
+    color: white;
+  }
 }
