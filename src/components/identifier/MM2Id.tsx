@@ -17,6 +17,9 @@ const MM2Id: React.FC = () =>
     mods={[]}
     specialItems={[]}
     searchExact={true}
+    note={(
+      <p><a href="http://shrines.rpgclassics.com/pc/mm2/" target="_blank">Source</a></p>
+    )}
   />;
 
 export default MM2Id;

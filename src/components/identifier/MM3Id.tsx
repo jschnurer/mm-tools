@@ -20,6 +20,9 @@ const MM3Id: React.FC = () =>
     miscItems={miscData as IMiscItem[]}
     mods={modsData as IMod[]}
     specialItems={specialItemData as ISpecialItem[]}
+    note={(
+      <p><a href="http://shrines.rpgclassics.com/pc/mm3/" target="_blank">Source</a></p>
+    )}
   />;
 
 export default MM3Id;
