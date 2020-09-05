@@ -5,6 +5,7 @@ import magnifyingGlassIcon from "media/icons/magnifying-glass.svg";
 import hamburgerMenuIcon from "media/icons/hamburger-menu.svg";
 import teacherIcon from "media/icons/teacher.svg";
 import mapIcon from "media/icons/treasure-map.svg";
+import helpIcon from "media/icons/help.svg";
 import MenuItem from './MenuItem';
 import { Routes } from '../../Routing';
 
@@ -42,6 +43,12 @@ const MainMenu: React.FC = () => {
         label="M&amp;M 3 Items"
         icon={magnifyingGlassIcon}
         url={Routes.MM3ItemIdentifier}
+        isCollapsed={isCollapsed}
+      />
+      <MenuItem
+        label="About"
+        icon={helpIcon}
+        url={Routes.Root}
         isCollapsed={isCollapsed}
       />
     </div>

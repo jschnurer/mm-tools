@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import RandomParty from "./components/parties/RandomParty";
 import NotFound from "./NotFound";
-import Welcome from "./components/Welcome";
+import About from "./components/About";
 import MM3Items from "components/mm3-items/MM3Items";
 import Trainers from "components/mm-trainers/Trainers";
 import Maps from "components/maps/Maps";
@@ -24,7 +24,7 @@ const Routing: React.FC = () =>
     <Route path={Routes.MM3ItemIdentifier} exact component={MM3Items} />
     <Route path={Routes.SkillTrainers} exact component={Trainers} />
     <Route path={Routes.Maps} exact component={Maps} />
-    <Route path={Routes.Root} exact component={Welcome} />
+    <Route path={Routes.Root} exact component={About} />
     <Route>
       <NotFound />
     </Route>

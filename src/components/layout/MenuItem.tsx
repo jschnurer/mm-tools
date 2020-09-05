@@ -19,6 +19,7 @@ const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isColla
       <Link
         to={url}
         className={`menu-item ${match ? "active" : ""} ${isCollapsed ? "collapsed" : ""}`}
+        title={label}
       >
         <img src={icon} alt={label} /> <label>{label}</label>
       </Link>
