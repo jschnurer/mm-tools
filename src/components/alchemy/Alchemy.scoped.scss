@@ -22,10 +22,22 @@
 
 .simple-potion {
   padding: .25em 0;
+  margin-bottom: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   label {
     display: inline-block;
     width: 175px;
+    font-weight: bold;
+  }
+
+  .effect {
+    display: block;
+    font-style: italic;
+    font-weight: .9em;
   }
 
   .color-R {

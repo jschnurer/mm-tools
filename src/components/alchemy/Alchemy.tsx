@@ -118,6 +118,11 @@ const Alchemy: React.FC = () => {
             >
               <label>{potion.name}</label>
               {getSimpleComponents(potion.recipe)}
+              <span
+                className="effect"
+              >
+                {potion.effect}
+              </span>
             </div>
           )
           : (
@@ -125,6 +130,7 @@ const Alchemy: React.FC = () => {
               potion={potion}
               recipes={mm7Recipes}
               key={potion.name}
+              isTop={true}
             />
           )
         )

@@ -4,6 +4,7 @@ import "./Potion.scoped.scss";
 interface IPotionProps {
   potion: IPotion,
   recipes: IPotion[],
+  isTop?: boolean,
 }
 
 export interface IPotion {
@@ -13,13 +14,16 @@ export interface IPotion {
   type: string,
 }
 
-const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }, recipes }) => {
+const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }, recipes, isTop }) => {
   let components = recipe.split(' + ')
     .map(pot => recipes.find(r => r.name === pot)
       || pot)
     .map((comp, ix) => {
       if (typeof comp === "string") {
-        return <span key={"comp_" + ix} className="">{comp}</span>;
+        if (comp === "Empty Bottle") {
+          return null;
+        }
+        return <span key={"comp_" + ix} className={`color-${comp.substr(0, 1)}`}>{comp.substr(0, 1)}</span>;
       } else {
         return (
           <Potion
@@ -33,23 +37,34 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }
 
   let renderComps: JSX.Element[] = [];
 
-  components.forEach((comp, ix, arr) => {
-    renderComps.push(comp);
-    if (ix < arr.length - 1) {
-      renderComps.push(
-        <span key={"plus_" + ix} className="plus">+</span>
-      );
-    }
-  });
+  components
+    .forEach((comp, ix, arr) => {
+      if (comp === null) {
+        return;
+      }
+
+      if (ix > 0) {
+        renderComps.push(
+          <span key={"plus_" + ix} className="plus">+</span>
+        );
+      }
+
+      renderComps.push(comp);
+    });
 
   return (
     <div
-      className="potion"
+      className={`potion ${isTop ? "top" : ""}`}
     >
       <span
         className="name"
       >
         {name}
+      </span>
+      <span
+        className="effect"
+      >
+        {effect}
       </span>
       {renderComps}
     </div>
