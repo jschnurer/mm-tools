@@ -137,6 +137,274 @@
          "skill": "Thievery (-5)"
       }
    ],
+   "mm3": [
+      {
+         "name": "",
+         "skill": "ALL SKILLS",
+         "level": "",
+         "location": "Halls of Insanity (4,29)",
+         "note": " 100000 gold (includes Thievery)",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Arms Master",
+         "level": "",
+         "location": "Wildabar (1,1)",
+         "note": " 500 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Astrologer",
+         "level": "",
+         "location": "B1 (2,4)",
+         "note": " 5000 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Body Builder",
+         "level": "",
+         "location": "Wildabar (1,2)",
+         "note": " 200 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Cartographer",
+         "level": "",
+         "location": "Fountain Head (6,14)",
+         "note": " 25 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Crusader",
+         "level": "",
+         "location": "Ancient Temple of Moo (29,15)",
+         "note": " free",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Danger Sense",
+         "level": "",
+         "location": "Fountain Head Cavern (0,5)",
+         "note": " 500 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Direction Sense",
+         "level": "",
+         "location": "Fountain Head Cavern (2,5)",
+         "note": " 100 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Linguist",
+         "level": "",
+         "location": "Arachnoid Cavern (22,17)",
+         "note": " 50 gems",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Merchant",
+         "level": "",
+         "location": "A1 (14,8)",
+         "note": " 5000 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Mountaineer",
+         "level": "",
+         "location": "Baywatch (11,11)",
+         "note": " 5000 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Navigator",
+         "level": "",
+         "location": "Wildabar (1,4)",
+         "note": " 3000 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Pathfinder",
+         "level": "",
+         "location": "Baywatch (11,14)",
+         "note": " 2500 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Prayer Master",
+         "level": "",
+         "location": "Arachnoid Cavern (23,13)",
+         "note": " 500 gems",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Prestidigitator",
+         "level": "",
+         "location": "Arachnoid Cavern (23,11)",
+         "note": " 500 gems",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Spot Secret Doors",
+         "level": "",
+         "location": "Fountain Head Cavern (13,15)",
+         "note": " 250 gold",
+         "category": "Other"
+      },
+      {
+         "name": "",
+         "skill": "Swimmer",
+         "level": "",
+         "location": "Fountain Head Cavern (15,8)",
+         "note": " 200 gold",
+         "category": "Other"
+      }
+   ],
+   "mm4/5": [
+      {
+         "skill": "Swimmer",
+         "name": "",
+         "level": "",
+         "note": "You can swim in shallow water (light blue). All characters must have it.",
+         "category": "Other",
+         "location": "Humans start with it. or Rivercity (19/23): 100 GP or Castleview (29/17): 250 GP"
+      },
+      {
+         "skill": "Pathfinder",
+         "name": "",
+         "level": "",
+         "note": "You can walk through a dense forest. At least 2 characters must have this skill.",
+         "category": "Other",
+         "location": "Rangers start with it. or Vertigo (25/26): 2.500 GP or Castleview (29/27): 1.500 GP"
+      },
+      {
+         "skill": "Mountaineer",
+         "name": "",
+         "level": "",
+         "note": "You can climb mountains. 2 characters must have this skill.",
+         "category": "Other",
+         "location": "Rivercity (30/30): 5.000 GP or Darkside (B2 13/14): 5.000 GP"
+      },
+      {
+         "skill": "Cartographer",
+         "name": "",
+         "level": "",
+         "note": "Enables the automapping feature. 1 character must have it.",
+         "category": "Other",
+         "location": "Sorcerers start with it. or Vertigo (8/16): 100 GP or Castleview (30/23): 10 GP"
+      },
+      {
+         "skill": "Direction Sense",
+         "name": "",
+         "level": "",
+         "note": "The purple gem in the adventure screen shows which direction you are facing, as well as an arrow in the automap.",
+         "category": "Other",
+         "location": "Druids start with it. or Dwarf Mine 5 (8/5): free (search skeleton)"
+      },
+      {
+         "skill": "Spot Secret Doors",
+         "name": "",
+         "level": "",
+         "note": "Shows walls you can bash in (a gargoyle in the adventuring screen will wave its arm).",
+         "category": "Other",
+         "location": "Dwarves start with it. or Darkside (E4 5/12): 500 GP"
+      },
+      {
+         "skill": "Danger Sense",
+         "name": "",
+         "level": "",
+         "note": "The bat at the top of the adventuring screen will open its muoth when monsters are nearby.",
+         "category": "Other",
+         "location": "Gnomes start with it. or Dwarf Mine 3 (5/11): free (search skeleton) or Castle Kalindra Lvl 1 (8/8): free"
+      },
+      {
+         "skill": "Arms Master",
+         "name": "",
+         "level": "",
+         "note": "Increases your chance to hit during combat.",
+         "category": "Other",
+         "location": "Knights start with it. or Rivercity (30/3): 300 GP or Castle Kalindra Lvl 1 (8/6): free"
+      },
+      {
+         "skill": "Crusader",
+         "name": "",
+         "level": "",
+         "note": "Allows entrance to certain areas of the game. All party members must have it.",
+         "category": "Other",
+         "location": "Paladins start with it. or Coudside (F4 9/3): free (after finding Falista's Alacorn)"
+      },
+      {
+         "skill": "Navigator",
+         "name": "",
+         "level": "",
+         "note": "You can travel through the desert without getting lost. 1 member must have it.",
+         "category": "Other",
+         "location": "Rivercity (22/30): 2.000 GP or Sandcaster (19/5): 10.000 GP"
+      },
+      {
+         "skill": "Linguist",
+         "name": "",
+         "level": "",
+         "note": "Allows you to read cryptic runes.",
+         "category": "Other",
+         "location": "Castle Burlock Lvl 1 (6/5): free or Sandcaster (19/27): 25.000 GP"
+      },
+      {
+         "skill": "Merchant",
+         "name": "",
+         "level": "",
+         "note": "Get better prizes in shops.",
+         "category": "Other",
+         "location": "Sandcaster (19/27): 5.000 GP"
+      },
+      {
+         "skill": "Body Builder",
+         "name": "",
+         "level": "",
+         "note": "You will get more HP per level.",
+         "category": "Other",
+         "location": "Rivercity (30/1): 1.000 GP"
+      },
+      {
+         "skill": "Prayermaster",
+         "name": "",
+         "level": "",
+         "note": "Cleric spell casters will get more SP per level.",
+         "category": "Other",
+         "location": "Cloudside (A2 6/13)"
+      },
+      {
+         "skill": "Prestidigitator",
+         "name": "",
+         "level": "",
+         "note": "Sorcerer spell casters will get more SP per level.",
+         "category": "Other",
+         "location": "Tower of High Magic Lvl 4 (7/8): free or Sandcaster (19/1): 1.000 gems"
+      },
+      {
+         "skill": "ALL SKILLS",
+         "name": "",
+         "level": "",
+         "note": "All skills at once.",
+         "category": "Other",
+         "location": "Shangri-La: 100,000 GP"
+      }
+   ],
    "mm6": [
       {
          "category": "Weapon",

@@ -13,7 +13,7 @@ interface ISkillTrainer {
   note?: string;
 }
 
-const games = ["MM2", "MM6", "MM7", "MM8"];
+const games = ["MM2", "MM3", "MM4/5", "MM6", "MM7", "MM8"];
 const skillLevels = ["Normal", "Expert", "Master", "Grandmaster"];
 
 const Trainers: React.FC = () => {
@@ -25,6 +25,10 @@ const Trainers: React.FC = () => {
 
   if (game === "MM2") {
     trainers = skillTrainers.mm2;
+  } else if (game === "MM3") {
+    trainers = skillTrainers.mm3;
+  } else if (game === "MM4/5") {
+    trainers = skillTrainers["mm4/5"];
   } else if (game === "MM6") {
     trainers = skillTrainers.mm6;
   } else if (game === "MM7") {
@@ -146,7 +150,10 @@ const Trainers: React.FC = () => {
           <label>
             {trainer.skill} {trainer.level}
           </label>
-          {trainer.location}, {trainer.name}
+          {trainer.location}{trainer.name
+            ? <>, {trainer.name}</>
+            : undefined
+          }
           {trainer.note &&
             <span
               className="note"
