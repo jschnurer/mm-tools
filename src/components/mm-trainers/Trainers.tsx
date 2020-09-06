@@ -10,19 +10,22 @@ interface ISkillTrainer {
   skill: string;
   name: string;
   location: string;
+  note?: string;
 }
 
-const games = ["MM6", "MM7", "MM8"];
+const games = ["MM2", "MM6", "MM7", "MM8"];
 const skillLevels = ["Normal", "Expert", "Master", "Grandmaster"];
 
 const Trainers: React.FC = () => {
   const [game, setGame] = useState("MM6");
-  const [category, setCategory] = useState("Weapon");
-  const [skill, setSkill] = useState("all");
+  const [category, setCategory] = useState("*");
+  const [skill, setSkill] = useState("*");
 
   let trainers: ISkillTrainer[] = [];
 
-  if (game === "MM6") {
+  if (game === "MM2") {
+    trainers = skillTrainers.mm2;
+  } else if (game === "MM6") {
     trainers = skillTrainers.mm6;
   } else if (game === "MM7") {
     trainers = skillTrainers.mm7;
@@ -30,18 +33,23 @@ const Trainers: React.FC = () => {
     trainers = skillTrainers.mm8;
   }
 
-  const categories = [...new Set(trainers
-    .map(t => t.category))]
+  const categories = ["*",
+    ...new Set(trainers
+      .map(t => t.category))]
     .sort((a, b) => a < b ? -1 : 1);
 
-  const skills = [...new Set(trainers
-    .filter(t => t.category === category)
-    .map(t => t.skill))]
+  const skills = ["*",
+    ...new Set(trainers
+      .filter(t => t.category === category
+        || category === "*")
+      .map(t => t.skill))]
     .sort((a, b) => a < b ? -1 : 1);
 
   const filteredTrainers = trainers
-    .filter(t => t.category === category
-      && (skill === "all"
+    .filter(t => (t.category === category
+      || category === "*"
+    )
+      && (skill === "*"
         || t.skill === skill))
     .sort((a, b) => {
       if (a.skill < b.skill) {
@@ -70,10 +78,15 @@ const Trainers: React.FC = () => {
         : 1;
     });
 
-    const changeGame = (game: string) => {
-      setGame(game);
-      setSkill("all");
-    }
+  const changeGame = (game: string) => {
+    setGame(game);
+    setSkill("*");
+  }
+
+  const changeCategory = (cat: string) => {
+    setCategory(cat);
+    setSkill("*");
+  }
 
   return (
     <PageLayout
@@ -102,7 +115,7 @@ const Trainers: React.FC = () => {
               <button
                 className={`primary-button ${cat === category ? "active" : ""}`}
                 key={cat}
-                onClick={() => setCategory(cat)}
+                onClick={() => changeCategory(cat)}
               >
                 {cat}
               </button>
@@ -112,12 +125,6 @@ const Trainers: React.FC = () => {
             <label>
               Skill:
             </label>
-            <button
-              className={`primary-button ${"all" === skill ? "active" : ""}`}
-              onClick={() => setSkill("all")}
-            >
-              All
-            </button>
             {skills.map(sk => (
               <button
                 className={`primary-button ${sk === skill ? "active" : ""}`}
@@ -134,11 +141,19 @@ const Trainers: React.FC = () => {
       {filteredTrainers.map(trainer => (
         <p
           className="trainer"
+          key={trainer.skill + trainer.level + trainer.name}
         >
           <label>
             {trainer.skill} {trainer.level}
           </label>
           {trainer.location}, {trainer.name}
+          {trainer.note &&
+            <span
+              className="note"
+            >
+              {trainer.note}
+            </span>
+          }
         </p>
       ))}
     </PageLayout>
