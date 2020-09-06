@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "648bb88708b4f8eee1b8bcd86e007360",
+    "revision": "52be04f18b5c72d254f23b0ce46a7d9d",
     "url": "/mm-tools/index.html"
   },
   {
-    "revision": "f28c70a22f63dfd66741",
-    "url": "/mm-tools/static/css/main.70dbf505.chunk.css"
+    "revision": "20f61b5c0415b92d125e",
+    "url": "/mm-tools/static/css/main.8a521b9c.chunk.css"
   },
   {
-    "revision": "17826f1d5c30eea39375",
-    "url": "/mm-tools/static/js/2.3c0f34b7.chunk.js"
+    "revision": "a3a7beef0ca408548ba4",
+    "url": "/mm-tools/static/js/2.36bec938.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mm-tools/static/js/2.3c0f34b7.chunk.js.LICENSE.txt"
+    "url": "/mm-tools/static/js/2.36bec938.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f28c70a22f63dfd66741",
-    "url": "/mm-tools/static/js/main.43853dae.chunk.js"
+    "revision": "20f61b5c0415b92d125e",
+    "url": "/mm-tools/static/js/main.fec6c1c1.chunk.js"
   },
   {
     "revision": "e53dcacc788642d2bca1",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab6f39ecf9f279c9d5a0102c52a5ade8",
     "url": "/mm-tools/static/media/magnifying-glass.ab6f39ec.svg"
+  },
+  {
+    "revision": "4c5508b82f8b03244e52f718520c20e9",
+    "url": "/mm-tools/static/media/potion-ball.4c5508b8.svg"
   },
   {
     "revision": "7ef056f6ed81732e44c17c2da0a3ed57",
