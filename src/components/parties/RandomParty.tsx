@@ -11,6 +11,7 @@ const MMGames = [
   "MM7",
   "MM8",
   "MM9",
+  "MM10",
 ];
 
 interface IGameIndexable {
@@ -37,7 +38,13 @@ const availableRaces: IGameIndexable = {
     "Dwarf",
     "Half-Orc",
   ],
-}
+  "MM10": [
+    "Human",
+    "Elf",
+    "Dwarf",
+    "Orc",
+  ],
+};
 
 const availableClasses: IGameIndexable = {
   "MM1": [
@@ -107,7 +114,30 @@ const availableClasses: IGameIndexable = {
     "Initiate -> Scholar -> Lich",
     "Initiative -> Healer -> Priest",
     "Initiative -> Healer -> Druid",
-  ]
+  ],
+};
+
+const MM10ClassesByRace: IGameIndexable = {
+  "Human": [
+    "Mercenary",
+    "Crusader",
+    "Freemage",
+  ],
+  "Elf": [
+    "Bladedancer",
+    "Ranger",
+    "Druid",
+  ],
+  "Dwarf": [
+    "Defender",
+    "Scout",
+    "Runepriest",
+  ],
+  "Orc": [
+    "Barbarian",
+    "Hunter",
+    "Shaman",
+  ],
 };
 
 interface IPartySizes {
@@ -123,6 +153,7 @@ const partySizes: IPartySizes = {
   "MM7": 4,
   "MM8": 1,
   "MM9": 4,
+  "MM10": 4,
 }
 
 interface IRandomPartyState {
@@ -148,20 +179,29 @@ const RandomParty: React.FC = () => {
       raceKey = "MM3";
     }
 
-    const classes = availableClasses[classKey];
-    const partySize = partySizes[game];
-    const races: string[] | undefined = availableRaces[raceKey];
-
     let partyMembers: string[] = [];
+    const races: string[] | undefined = availableRaces[raceKey];
+    const partySize = partySizes[game];
 
-    for (let i = 0; i < partySize; i++) {
-      let character = classes[Math.floor(Math.random() * classes.length)];
+    if (game === "MM10") {
+      for (let i = 0; i < partySize; i++) {
+        const race = races[Math.floor(Math.random() * races.length)];
+        const classes = MM10ClassesByRace[race];
 
-      if (races) {
-        character += ` (${races[Math.floor(Math.random() * races.length)]})`;
+        partyMembers.push(`${classes[Math.floor(Math.random() * classes.length)]} (${race})`);
       }
+    } else {
+      const classes = availableClasses[classKey];
 
-      partyMembers.push(character);
+      for (let i = 0; i < partySize; i++) {
+        let character = classes[Math.floor(Math.random() * classes.length)];
+
+        if (races) {
+          character += ` (${races[Math.floor(Math.random() * races.length)]})`;
+        }
+
+        partyMembers.push(character);
+      }
     }
 
     setState({
