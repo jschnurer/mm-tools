@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Cure Wounds",
+    "type": "Simple",
+    "recipe": "Red Reagent + Empty Bottle",
+    "effect": "Cures 10 HP plus potion strength"
+  },
+  {
+    "name": "Magic Potion",
+    "type": "Simple",
+    "recipe": "Blue Reagent + Empty Bottle",
+    "effect": "Cures 10 SP plus potion strength"
+  },
+  {
+    "name": "Cure Weakness",
+    "type": "Simple",
+    "recipe": "Yellow Reagent + Empty Bottle",
+    "effect": "Cures Weakness Condition (same as spell)"
+  },
+  {
+    "name": "Cure Disease",
+    "type": "Complex",
+    "recipe": "Cure Weakness + Cure Wounds",
+    "effect": "Cures Disease Condition (same as spell)"
+  },
+  {
+    "name": "Cure Poison",
+    "type": "Complex",
+    "recipe": "Magic Potion + Cure Wounds",
+    "effect": "Cures Poison"
+  },
+  {
+    "name": "Awaken",
+    "type": "Complex",
+    "recipe": "Cure Weakness + Cure Wounds",
+    "effect": "Awakens character (same as spell)"
+  },
+  {
+    "name": "Bless",
+    "type": "Layered",
+    "recipe": "Awaken + Cure Wounds",
+    "effect": "Bless character (same as spell)"
+  },
+  {
+    "name": "Cure Insanity",
+    "type": "Layered",
+    "recipe": "Awaken + Cure Disease",
+    "effect": "Cures Insanity (same as spell)"
+  },
+  {
+    "name": "Harden Item",
+    "type": "Layered",
+    "recipe": "Awaken + Cure Weakness",
+    "effect": "Harden Item (protects items from breaking)"
+  },
+  {
+    "name": "Haste",
+    "type": "Layered",
+    "recipe": "Cure Disease + Cure Wounds",
+    "effect": "Haste (same as spell)"
+  },
+  {
+    "name": "Heroism",
+    "type": "Layered",
+    "recipe": "Cure Poison + Cure Wounds",
+    "effect": "Grants Heroism (same as spell)"
+  },
+  {
+    "name": "Preservation",
+    "type": "Layered",
+    "recipe": "Cure Disease + Magic Potion",
+    "effect": "Grants Preservation (same as spell)"
+  },
+  {
+    "name": "Recharge Item",
+    "type": "Layered",
+    "recipe": "Awaken + Magic Potion",
+    "effect": "Recharges a magic wand (same as spell)"
+  },
+  {
+    "name": "Remove Curse",
+    "type": "Layered",
+    "recipe": "Cure Poison + Awaken",
+    "effect": "Removes Curse (same as spell)"
+  },
+  {
+    "name": "Remove Fear",
+    "type": "Layered",
+    "recipe": "Cure Poison + Cure Disease",
+    "effect": "Removes Fear Condition (same as spell)"
+  },
+  {
+    "name": "Shield",
+    "type": "Layered",
+    "recipe": "Cure Poison + Magic Potion",
+    "effect": "Shield (same as spell)"
+  },
+  {
+    "name": "Stoneskin",
+    "type": "Layered",
+    "recipe": "Cure Disease + Cure Weakness",
+    "effect": "Stoneskin (same as spell)"
+  },
+  {
+    "name": "Water Breathing",
+    "type": "Layered",
+    "recipe": "Cure Poison + Cure Weakness",
+    "effect": "Water Breathing (like \"Water Walk\" spell)"
+  },
+  {
+    "name": "Accuracy Boost",
+    "type": "White",
+    "recipe": "Stoneskin + Cure Disease",
+    "effect": "Temporary Accuracy Boost"
+  },
+  {
+    "name": "Air Resistance",
+    "type": "White",
+    "recipe": "Haste + Shield",
+    "effect": "Increases Air Resistance (same as spell)"
+  },
+  {
+    "name": "Body Resistance",
+    "type": "White",
+    "recipe": "Recharge Item + Stoneskin",
+    "effect": "Increases Body Resistance (same as spell)"
+  },
+  {
+    "name": "Cure Paralysis",
+    "type": "White",
+    "recipe": "Harden Item + Cure Disease",
+    "effect": "Cures Paralysis (same as spell)"
+  },
+  {
+    "name": "Divine Cure",
+    "type": "White",
+    "recipe": "Haste + Stoneskin",
+    "effect": "Cures 5 times potion strength in HP"
+  },
+  {
+    "name": "Divine Power",
+    "type": "White",
+    "recipe": "Recharge Item + Harden Item",
+    "effect": "Cures 5 times potion strength in SP"
+  },
+  {
+    "name": "Divine Restoration",
+    "type": "White",
+    "recipe": "Heroism + Harden Item",
+    "effect": "Removes most conditions"
+  },
+  {
+    "name": "Divine Restoration 2",
+    "type": "White",
+    "recipe": "Shield + Stoneskin",
+    "effect": "Removes most conditions"
+  },
+  {
+    "name": "Divine Restoration 3",
+    "type": "White",
+    "recipe": "Recharge Item + Haste",
+    "effect": "Removes most conditions"
+  },
+  {
+    "name": "Earth Resistance",
+    "type": "White",
+    "recipe": "Heroism + Stoneskin",
+    "effect": "Increases Earth Resistance (same as spell)"
+  },
+  {
+    "name": "Endurance Boost",
+    "type": "White",
+    "recipe": "Shield + Cure Poison",
+    "effect": "Temporary Endurance Boost"
+  },
+  {
+    "name": "Fire Resistance",
+    "type": "White",
+    "recipe": "Haste + Harden Item",
+    "effect": "Increases Fire Resistance (same as spell)"
+  },
+  {
+    "name": "Flaming Potion",
+    "type": "White",
+    "recipe": "Stoneskin + Cure Poison",
+    "effect": "Makes flame weapon"
+  },
+  {
+    "name": "Freezing Potion",
+    "type": "White",
+    "recipe": "Shield + Cure Disease",
+    "effect": "Makes ice weapon"
+  },
+  {
+    "name": "Intellect Boost",
+    "type": "White",
+    "recipe": "Recharge Item + Cure Insanity",
+    "effect": "Temporary Intellect Boost"
+  },
+  {
+    "name": "Luck Boost",
+    "type": "White",
+    "recipe": "Heroism + Shield",
+    "effect": "Temporary Luck Boost"
+  },
+  {
+    "name": "Might Boost",
+    "type": "White",
+    "recipe": "Heroism + Cure Poison",
+    "effect": "Temporary Might Boost"
+  },
+  {
+    "name": "Mind Resistance",
+    "type": "White",
+    "recipe": "Recharge Item + Heroism",
+    "effect": "Increases Mind Resistance (same as spell)"
+  },
+  {
+    "name": "Noxious Potion",
+    "type": "White",
+    "recipe": "Harden Item + Cure Poison",
+    "effect": "Makes poison weapon"
+  },
+  {
+    "name": "Personality Boost",
+    "type": "White",
+    "recipe": "Recharge Item + Awaken",
+    "effect": "Temporary Personality Boost"
+  },
+  {
+    "name": "Shocking Potion",
+    "type": "White",
+    "recipe": "Haste + Cure Poison",
+    "effect": "Makes electric weapon"
+  },
+  {
+    "name": "Speed Boost",
+    "type": "White",
+    "recipe": "Haste + Cure Disease",
+    "effect": "Temporary Speed Boost"
+  },
+  {
+    "name": "Swift Potion",
+    "type": "White",
+    "recipe": "Shield + Awaken",
+    "effect": "Makes swift weapon"
+  },
+  {
+    "name": "Water Resistance",
+    "type": "White",
+    "recipe": "Harden Item + Shield",
+    "effect": "Increases Water Resistance (same as spell)"
+  },
+  {
+    "name": "Pure Accuracy",
+    "type": "Black",
+    "recipe": "Accuracy Boost + Awaken",
+    "effect": "Adds 50 points* to Accuracy permanently"
+  },
+  {
+    "name": "Pure Endurance",
+    "type": "Black",
+    "recipe": "Endurance Boost + Awaken",
+    "effect": "Adds 50 points* to Endurance permanently"
+  },
+  {
+    "name": "Pure Intellect",
+    "type": "Black",
+    "recipe": "Intellect Boost + Cure Disease",
+    "effect": "Adds 50 points* to Intellect permanently"
+  },
+  {
+    "name": "Pure Luck",
+    "type": "Black",
+    "recipe": "Swift Potion + Stoneskin",
+    "effect": "Adds 50 points* to Luck permanently"
+  },
+  {
+    "name": "Pure Might",
+    "type": "Black",
+    "recipe": "Might Boost + Cure Disease",
+    "effect": "Adds 50 points* to Might permanently"
+  },
+  {
+    "name": "Pure Personality",
+    "type": "Black",
+    "recipe": "Personality Boost + Cure Poison",
+    "effect": "Adds 50 points* to Personality permanently"
+  },
+  {
+    "name": "Pure Speed",
+    "type": "Black",
+    "recipe": "Speed Boost + Cure Poison",
+    "effect": "Adds 50 points* to Speed permanently"
+  }
+]

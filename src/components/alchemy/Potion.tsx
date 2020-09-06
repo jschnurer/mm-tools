@@ -14,7 +14,7 @@ export interface IPotion {
   type: string,
 }
 
-const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }, recipes, isTop }) => {
+const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect }, recipes, isTop }) => {
   let components = recipe.split(' + ')
     .map(pot => recipes.find(r => r.name === pot)
       || pot)

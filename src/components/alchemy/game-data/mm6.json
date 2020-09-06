@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Cure Wounds",
+    "effect": "Restores 10 Hit Points",
+    "recipe": "Red Reagent + Empty Bottle",
+    "type": "Simple"
+  },
+  {
+    "name": "Energy",
+    "effect": "Adds 10 to primary statistics",
+    "recipe": "Yellow Reagent + Empty Bottle",
+    "type": "Simple"
+  },
+  {
+    "name": "Magic Potion",
+    "effect": "Restores 10 Magic Points",
+    "recipe": "Blue Reagent + Empty Bottle",
+    "type": "Simple"
+  },
+  {
+    "name": "Protection",
+    "effect": "Adds 10 to armor class",
+    "recipe": "Cure Wounds + Energy",
+    "type": "Complex"
+  },
+  {
+    "name": "Resistance",
+    "effect": "Adds 10 to resistances",
+    "recipe": "Magic Potion + Energy",
+    "type": "Complex"
+  },
+  {
+    "name": "Cure Poison",
+    "effect": "Cures poison condition",
+    "recipe": "Magic Potion + Cure Wounds",
+    "type": "Complex"
+  },
+  {
+    "name": "Bless",
+    "effect": "Grants bless for 6 hours",
+    "recipe": "Magic Potion + Cure Poison",
+    "type": "White"
+  },
+  {
+    "name": "Extreme Energy",
+    "effect": "Adds 20 to primary statistics",
+    "recipe": "Protection + Energy",
+    "type": "White"
+  },
+  {
+    "name": "Haste",
+    "effect": "Grants haste for 6 hours",
+    "recipe": "Resistance + Energy",
+    "type": "White"
+  },
+  {
+    "name": "Heroism",
+    "effect": "Grants heroism for 6 hours",
+    "recipe": "Protection + Cure Wounds",
+    "type": "White"
+  },
+  {
+    "name": "Restoration",
+    "effect": "Cures all status ailments except dead and stone",
+    "recipe": "Resistance + Cure Poison",
+    "type": "White"
+  },
+  {
+    "name": "Stone Skin",
+    "effect": "Grants stone skin for 6 hours",
+    "recipe": "Magic Potion + Protection",
+    "type": "White"
+  },
+  {
+    "name": "Super Resistance",
+    "effect": "Adds 20 to all resistances",
+    "recipe": "Magic Potion + Resistance",
+    "type": "White"
+  },
+  {
+    "name": "Supreme Protection",
+    "effect": "Adds 20 to armor class",
+    "recipe": "Resistance + Protection",
+    "type": "White"
+  },
+  {
+    "name": "Divine Cure",
+    "effect": "Adds 100 hit points if at or below maximum and adds one year of age",
+    "recipe": "Protection + Restoration",
+    "type": "Black"
+  },
+  {
+    "name": "Divine Magic",
+    "effect": "Adds 100 spell points if at or below maximum and adds one year of age",
+    "recipe": "Resistance + Super Resistance",
+    "type": "Black"
+  },
+  {
+    "name": "Divine Power",
+    "effect": "Adds 20 to level and adds one year of age",
+    "recipe": "Cure Poison + Extreme Energy",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Accuracy",
+    "effect": "Can be used only once. Adds 15 to Accuracy and subtracts 5 from Luck permanently",
+    "recipe": "Energy + Bless",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Endurance",
+    "effect": "Can be used only once. Adds 15 to Endurance and subtracts 1 from all other statistics permanently",
+    "recipe": "Energy + Supreme Protection",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Intellect",
+    "effect": "Can be used only once. Adds 15 to Intellect and subtracts 5 from Might permanently",
+    "recipe": "Magic Potion + Stone Skin",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Luck",
+    "effect": "Can be used only once. Adds 15 to Luck and subtracts 5 from Accuracy permanently",
+    "recipe": "Cure Poison + Super Resistance",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Might",
+    "effect": "Can be used only once. Adds 15 to Might and subtracts 5 from Intellect permanently",
+    "recipe": "Cure Wounds + Heroism",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Personality",
+    "effect": "Can be used only once. Adds 15 to Personality and subtracts 5 from Speed permanently",
+    "recipe": "Magic Potion + Restoration",
+    "type": "Black"
+  },
+  {
+    "name": "Essence of Speed",
+    "effect": "Can be used only once. Adds 15 to Speed and subtracts 5 from Personality permanently",
+    "recipe": "Cure Wounds + Haste",
+    "type": "Black"
+  },
+  {
+    "name": "Rejuvenation",
+    "effect": "Removes all magical aging effects and subtracts 1 from all 7 primary statistics permanently",
+    "recipe": "Resistance + Extreme Energy",
+    "type": "Black"
+  }
+]

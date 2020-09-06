@@ -1,6 +1,6 @@
 .potion {
   display: inline-block;
-  border: 1px white solid;
+  border: 1px white dotted;
   padding: 0.25em;
   color: white;
   background-color: rgba(149, 149, 149, 0.07);
@@ -9,6 +9,7 @@
   &.top {
     display: block;
     margin-bottom: 1em;
+    border-style: solid;
 
     &:last-child {
       margin-bottom: 0;

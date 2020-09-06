@@ -1,27 +1,31 @@
 import React, { useState } from "react";
+import mm6Recipes from "./game-data/mm6.json";
 import mm7Recipes from "./game-data/mm7.json";
-import Potion from "./Potion";
+import mm8Recipes from "./game-data/mm8.json";
+import Potion, { IPotion } from "./Potion";
 import PageLayout from "components/layout/PageLayout";
 import PageTitle from "components/layout/PageTitle";
 import "./Alchemy.scoped.scss";
 
-const potionTypes = [
-  "Simple",
-  "Complex",
-  "Layered",
-  "White",
-  "Black",
-];
+const gameRecipes: IGameIndexable = {
+  "MM6": mm6Recipes,
+  "MM7": mm7Recipes,
+  "MM8": mm8Recipes,
+};
 
-const getSimpleComponents = (recipe: string): JSX.Element | null => {
+interface IGameIndexable {
+  [index: string]: IPotion[];
+};
+
+const getSimpleComponents = (recipe: string, list: IPotion[]): JSX.Element | null => {
   if (recipe.indexOf("Empty Bottle") > -1) {
     const color = recipe.substr(0, 1);
     return <span className={`color-${color}`}>{color}</span>;
   }
 
   let chunks = recipe.split(" + ");
-  let chunk0 = mm7Recipes.find(x => x.name === chunks[0]);
-  let chunk1 = mm7Recipes.find(x => x.name === chunks[1]);
+  let chunk0 = list.find(x => x.name === chunks[0]);
+  let chunk1 = list.find(x => x.name === chunks[1]);
 
   if (!chunk0
     || !chunk1) {
@@ -30,23 +34,45 @@ const getSimpleComponents = (recipe: string): JSX.Element | null => {
 
   return (
     <span>
-      ({getSimpleComponents(chunk0?.recipe)} + {getSimpleComponents(chunk1.recipe)})
+      ({getSimpleComponents(chunk0?.recipe, list)} + {getSimpleComponents(chunk1.recipe, list)})
     </span>
   )
 }
 
 const Alchemy: React.FC = () => {
+  const [game, setGame] = useState("MM6");
   const [potionType, setPotionType] = useState("All");
   const [potionName, setPotionName] = useState("All");
   const [showSimplified, setShowSimplified] = useState(true);
+
+  const recipes = gameRecipes[game];
+  const potionTypes = [...new Set(recipes.map(x => x.type))];
 
   return (
     <PageLayout
       header={(
         <div className="header">
           <PageTitle
-            title="MM7 Alchemy"
+            title={`${game} Alchemy`}
           />
+          <div className="row">
+            <label>Game:</label>
+            <div className="buttons">
+              {Object.keys(gameRecipes).map(gm => (
+                <button
+                  key={gm}
+                  onClick={() => {
+                    setGame(gm);
+                    setPotionType("All");
+                    setPotionName("All");
+                  }}
+                  className={`primary-button ${gm === game ? "active" : ""}`}
+                >
+                  {gm}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="row">
             <label>Potion Type:</label>
             <div className="buttons">
@@ -79,7 +105,8 @@ const Alchemy: React.FC = () => {
               >
                 All
               </button>
-              {mm7Recipes.filter(pot => pot.type === potionType)
+              {recipes
+                .filter(pot => pot.type === potionType)
                 .map(pt => (
                   <button
                     key={pt.name}
@@ -105,9 +132,9 @@ const Alchemy: React.FC = () => {
         </div>
       )}
     >
-      {mm7Recipes
+      {recipes
         .filter(potion => (potionType === "All"
-            || potion.type === potionType)
+          || potion.type === potionType)
           && (potionName === "All"
             || potionName === potion.name))
         .map(potion => showSimplified
@@ -117,7 +144,7 @@ const Alchemy: React.FC = () => {
               key={potion.name}
             >
               <label>{potion.name}</label>
-              {getSimpleComponents(potion.recipe)}
+              {getSimpleComponents(potion.recipe, recipes)}
               <span
                 className="effect"
               >
@@ -128,7 +155,7 @@ const Alchemy: React.FC = () => {
           : (
             <Potion
               potion={potion}
-              recipes={mm7Recipes}
+              recipes={recipes}
               key={potion.name}
               isTop={true}
             />
