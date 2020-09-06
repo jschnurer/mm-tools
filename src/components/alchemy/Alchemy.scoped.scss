@@ -1,0 +1,46 @@
+.header {
+  margin-bottom: 1em;
+
+  .row {
+    display: flex;
+
+    label {
+      display: inline-block;
+      width: 100px;
+      flex: none;
+    }
+
+    .buttons {
+      flex: auto;
+    }
+  }
+
+  .active {
+    background-color: yellow;
+  }
+}
+
+.simple-potion {
+  padding: .25em 0;
+
+  label {
+    display: inline-block;
+    width: 175px;
+  }
+
+  .color-R {
+    color: red;
+  }
+
+  .color-Y {
+    color: yellow;
+  }
+
+  .color-B {
+    color: rgb(91, 91, 255)
+  }
+
+  .color-G {
+    color: gray;
+  }
+}

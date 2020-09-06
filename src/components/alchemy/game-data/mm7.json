@@ -133,7 +133,13 @@
   },
   {
     "name": "Cure Paralysis",
-    "recipe": "Cure Disease + Harden Item\nAwaken + Stoneskin",
+    "recipe": "Cure Disease + Harden Item",
+    "effect": "Cures the Paralysis condition.",
+    "type": "White"
+  },
+  {
+    "name": "Cure Paralysis 2",
+    "recipe": "Awaken + Stoneskin",
     "effect": "Cures the Paralysis condition.",
     "type": "White"
   },
@@ -151,7 +157,19 @@
   },
   {
     "name": "Divine Restoration",
-    "recipe": "Haste + Recharge Item\nHeroism + Harden Item\nShield + Stoneskin",
+    "recipe": "Haste + Recharge Item",
+    "effect": "Removes all conditions except for Stone, Death or Eradication.",
+    "type": "White"
+  },
+  {
+    "name": "Divine Restoration 2",
+    "recipe": "Heroism + Harden Item",
+    "effect": "Removes all conditions except for Stone, Death or Eradication.",
+    "type": "White"
+  },
+  {
+    "name": "Divine Restoration 3",
+    "recipe": "Shield + Stoneskin",
     "effect": "Removes all conditions except for Stone, Death or Eradication.",
     "type": "White"
   },
@@ -175,13 +193,25 @@
   },
   {
     "name": "Flaming Potion",
-    "recipe": "Awaken + Haste\nCure Poison + Stoneskin",
+    "recipe": "Awaken + Haste",
+    "effect": "Gives a nonmagical weapon the \"Of Flame\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Flaming Potion 2",
+    "recipe": "Cure Poison + Stoneskin",
     "effect": "Gives a nonmagical weapon the \"Of Flame\" property for (30 x Power) minutes.",
     "type": "White"
   },
   {
     "name": "Freezing Potion",
-    "recipe": "Cure Disease + Shield\nAwaken + Heroism",
+    "recipe": "Cure Disease + Shield",
+    "effect": "Gives a nonmagical weapon the \"Of Frost\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Freezing Potion 2",
+    "recipe": "Awaken + Heroism",
     "effect": "Gives a nonmagical weapon the \"Of Frost\" property for (30 x Power) minutes.",
     "type": "White"
   },
@@ -211,7 +241,13 @@
   },
   {
     "name": "Noxious Potion",
-    "recipe": "Cure Disease + Recharge Item\nCure Poison + Harden Item",
+    "recipe": "Cure Disease + Recharge Item",
+    "effect": "Gives a nonmagical weapon the \"Of Poison\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Noxious Potion 2",
+    "recipe": "Cure Poison + Harden Item",
     "effect": "Gives a nonmagical weapon the \"Of Poison\" property for (30 x Power) minutes.",
     "type": "White"
   },
@@ -223,7 +259,13 @@
   },
   {
     "name": "Shocking Potion",
-    "recipe": "Cure Poison + Haste\nCure Disease + Heroism",
+    "recipe": "Cure Poison + Haste",
+    "effect": "Gives a nonmagical weapon the \"Of Sparks\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Shocking Potion 2",
+    "recipe": "Cure Disease + Heroism",
     "effect": "Gives a nonmagical weapon the \"Of Sparks\" property for (30 x Power) minutes.",
     "type": "White"
   },
@@ -235,7 +277,13 @@
   },
   {
     "name": "Swift Potion",
-    "recipe": "Cure Poison + Recharge Item\nAwaken + Shield",
+    "recipe": "Cure Poison + Recharge Item",
+    "effect": "Gives a nonmagical weapon the \"Of Swiftness\" property for (30 x Power) minutes.",
+    "type": "White"
+  },
+  {
+    "name": "Swift Potion 2",
+    "recipe": "Awaken + Shield",
     "effect": "Gives a nonmagical weapon the \"Of Swiftness\" property for (30 x Power) minutes.",
     "type": "White"
   },
@@ -271,7 +319,7 @@
   },
   {
     "name": "Pure Might",
-    "recipe": "Cure Disease + Might Boos",
+    "recipe": "Cure Disease + Might Boost",
     "effect": "Permanently adds 50 to Might. Only one can be used on each character however.",
     "type": "Black"
   },
@@ -289,7 +337,19 @@
   },
   {
     "name": "Rejuvenation",
-    "recipe": "Bless + Divine Restoration\nPreservation + Divine Restoration\nWater Breathing + Divine Restoration",
+    "recipe": "Bless + Divine Restoration",
+    "effect": "Removes all unnatural aging.",
+    "type": "Black"
+  },
+  {
+    "name": "Rejuvenation 2",
+    "recipe": "Preservation + Divine Restoration",
+    "effect": "Removes all unnatural aging.",
+    "type": "Black"
+  },
+  {
+    "name": "Rejuvenation 3",
+    "recipe": "Water Breathing + Divine Restoration",
     "effect": "Removes all unnatural aging.",
     "type": "Black"
   },

@@ -17,14 +17,15 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }
   let components = recipe.split(' + ')
     .map(pot => recipes.find(r => r.name === pot)
       || pot)
-    .map(comp => {
+    .map((comp, ix) => {
       if (typeof comp === "string") {
-        return <span className="">{comp}</span>;
+        return <span key={"comp_" + ix} className="">{comp}</span>;
       } else {
         return (
           <Potion
             potion={comp}
             recipes={recipes}
+            key={ix}
           />
         );
       }
@@ -35,7 +36,9 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect, type }
   components.forEach((comp, ix, arr) => {
     renderComps.push(comp);
     if (ix < arr.length - 1) {
-      renderComps.push(<span className="plus">+</span>);
+      renderComps.push(
+        <span key={"plus_" + ix} className="plus">+</span>
+      );
     }
   });
 
