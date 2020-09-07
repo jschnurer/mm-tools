@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 html {
   height: 100vh;
 }
@@ -14,16 +16,25 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
-.primary-button {
+button {
   border: none;
-  background-color: #ddd;
   color: black;
   padding: 0.5em;
   margin: 0.2em;
   cursor: pointer;
+  border-radius: 0.2em;
+  background-color: #999;
 
   &:hover {
     background-color: white;
+  }
+
+  &.primary-button {
+    background-color: $accent-color;
+
+    &:hover {
+      background-color: $accent-color-highlight;
+    }
   }
 }
 

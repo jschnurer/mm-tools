@@ -1,12 +1,12 @@
 import React from 'react';
-import "./PageLayout.scoped.scss";
+import "./FlowLayout.scoped.scss";
 
-interface IPageLayoutProps {
+interface IFlowLayoutProps {
   header?: JSX.Element;
   footer?: JSX.Element;
 }
 
-const PageLayout: React.FC<IPageLayoutProps> = ({ children, header, footer }) =>
+const FlowLayout: React.FC<IFlowLayoutProps> = ({ children, header, footer }) =>
   <div className="page-layout">
     {header &&
       <div className="page-header">
@@ -23,4 +23,4 @@ const PageLayout: React.FC<IPageLayoutProps> = ({ children, header, footer }) =>
     }
   </div>;
 
-export default PageLayout;
+export default FlowLayout;

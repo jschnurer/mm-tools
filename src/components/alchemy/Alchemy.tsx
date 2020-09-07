@@ -3,7 +3,7 @@ import mm6Recipes from "./game-data/mm6.json";
 import mm7Recipes from "./game-data/mm7.json";
 import mm8Recipes from "./game-data/mm8.json";
 import Potion, { IPotion } from "./Potion";
-import PageLayout from "components/layout/PageLayout";
+import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
 import "./Alchemy.scoped.scss";
 
@@ -49,7 +49,7 @@ const Alchemy: React.FC = () => {
   const potionTypes = [...new Set(recipes.map(x => x.type))];
 
   return (
-    <PageLayout
+    <FlowLayout
       header={(
         <div className="header">
           <PageTitle
@@ -66,7 +66,7 @@ const Alchemy: React.FC = () => {
                     setPotionType("All");
                     setPotionName("All");
                   }}
-                  className={`primary-button ${gm === game ? "active" : ""}`}
+                  className={gm === game ? "primary-button" : ""}
                 >
                   {gm}
                 </button>
@@ -78,7 +78,7 @@ const Alchemy: React.FC = () => {
             <div className="buttons">
               <button
                 onClick={() => setPotionType("All")}
-                className={`primary-button ${"All" === potionType ? "active" : ""}`}
+                className={potionType === "All" ? "primary-button" : ""}
               >
                 All
               </button>
@@ -89,7 +89,7 @@ const Alchemy: React.FC = () => {
                     setPotionType(pt);
                     setPotionName("All");
                   }}
-                  className={`primary-button ${pt === potionType ? "active" : ""}`}
+                  className={potionType === pt ? "primary-button" : ""}
                 >
                   {pt}
                 </button>
@@ -101,7 +101,7 @@ const Alchemy: React.FC = () => {
             <div className="buttons">
               <button
                 onClick={() => setPotionName("All")}
-                className={`primary-button ${"All" === potionName ? "active" : ""}`}
+                className={potionName === "All" ? "primary-button" : ""}
               >
                 All
               </button>
@@ -111,7 +111,7 @@ const Alchemy: React.FC = () => {
                   <button
                     key={pt.name}
                     onClick={() => setPotionName(pt.name)}
-                    className={`primary-button ${pt.name === potionName ? "active" : ""}`}
+                    className={potionName === pt.name ? "primary-button" : ""}
                   >
                     {pt.name}
                   </button>
@@ -162,7 +162,7 @@ const Alchemy: React.FC = () => {
           )
         )
       }
-    </PageLayout>
+    </FlowLayout>
   );
 };
 

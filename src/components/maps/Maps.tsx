@@ -1,12 +1,12 @@
 import React from "react";
-import PageLayout from "components/layout/PageLayout";
+import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
 import mm7BarrowMap from "media/mm7/barrows.png"
 import "./Maps.scoped.scss";
 
 const Maps: React.FC = () => {
   return (
-    <PageLayout
+    <FlowLayout
       header={(
         <>
           <PageTitle title="Maps" />
@@ -18,7 +18,7 @@ const Maps: React.FC = () => {
         src={mm7BarrowMap}
         alt="MM7 Barrows Map"
       />
-    </PageLayout>
+    </FlowLayout>
   );
 }
 

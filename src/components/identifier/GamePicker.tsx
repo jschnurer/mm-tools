@@ -1,5 +1,5 @@
 import React from "react";
-import PageLayout from "components/layout/PageLayout";
+import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
 import { Routes } from "Routing";
 import { Link, RouteComponentProps } from "react-router-dom";
@@ -26,7 +26,7 @@ const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
     return <MMXeenId />;
   } else {
     return (
-      <PageLayout
+      <FlowLayout
         header={(
           <PageTitle title="M&amp;M Item Identifier" />
         )}
@@ -50,7 +50,7 @@ const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
             MM4/5
           </Link>
         </div>
-      </PageLayout>
+      </FlowLayout>
     );
   }
 }

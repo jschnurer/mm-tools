@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PageTitle from "../layout/PageTitle";
-import PageLayout from "../layout/PageLayout";
+import FlowLayout from "../layout/FlowLayout";
 
 const MMGames = [
   "MM1",
@@ -211,7 +211,7 @@ const RandomParty: React.FC = () => {
   }
 
   return (
-    <PageLayout
+    <FlowLayout
       header={(
         <>
           <PageTitle title="Random Party" />
@@ -223,7 +223,6 @@ const RandomParty: React.FC = () => {
               <button
                 key={game}
                 onClick={() => generateParty(game)}
-                className="primary-button"
               >
                 {game}
               </button>
@@ -246,7 +245,7 @@ const RandomParty: React.FC = () => {
           </ol>
         </div>
       }
-    </PageLayout>
+    </FlowLayout>
   );
 }
 

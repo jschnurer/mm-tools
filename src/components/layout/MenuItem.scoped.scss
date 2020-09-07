@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .menu-item {
   color: #ddd;
   text-decoration: none;
@@ -8,6 +10,7 @@
 
   label {
     cursor: inherit;
+    font-weight: bold;
   }
 
   img {
@@ -18,15 +21,20 @@
   }
 
   &.active {
-    background-color: #555;
+    background-color: $accent-color;
+    color: #222;
+
+    img {
+      filter: none;
+    }
   }
 
   &:hover {
-    color: #fff;
-    background-color: #666;
+    color: #222;
+    background-color: $accent-color-highlight;
 
     img {
-      filter: invert(1);
+      filter: none;
     }
   }
 

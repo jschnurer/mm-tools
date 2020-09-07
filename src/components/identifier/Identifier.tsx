@@ -14,7 +14,7 @@ import {
   IOtherItem,
   IMM1Item,
 } from "./ItemTypes";
-import PageLayout from "components/layout/PageLayout";
+import FlowLayout from "components/layout/FlowLayout";
 
 interface IIdentifierProps {
   weapons: IWeapon[],
@@ -308,7 +308,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
   }
 
   return (
-    <PageLayout
+    <FlowLayout
       header={(
         <>
           <PageTitle title={`M&M ${game} Item Identifier`} />
@@ -324,7 +324,6 @@ const Identifier: React.FC<IIdentifierProps> = ({
                 ref={searchBoxRef}
               />
               <button
-                className="primary-button"
                 type="submit"
               >
                 Id
@@ -362,7 +361,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
           </p>
         )
       }
-    </PageLayout>
+    </FlowLayout>
   );
 }
 

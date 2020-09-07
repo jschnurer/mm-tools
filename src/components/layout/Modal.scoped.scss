@@ -1,0 +1,71 @@
+@import "variables.scss";
+
+.fade {
+  position: fixed;
+  background-color: black;
+  opacity: 0.85;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 500px;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  height: 80%;
+  overflow: hidden;
+  border-radius: .25em;
+
+  .header {
+    background-color: #444;
+    color: white;
+    padding: 0.75em;
+    font-size: 1.2em;
+    display: flex;
+
+    span {
+      flex: auto;
+
+      &.close-button {
+        flex: none;
+        cursor: pointer;
+        padding: 0.75em;
+        margin: -0.75em;
+        color: $accent-color;
+
+        &:hover {
+          color: $accent-color-highlight;
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+      }
+    }
+  }
+
+  .body {
+    padding: 0.75em;
+    overflow: hidden;
+  }
+
+  .footer {
+    padding: 0.75em;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .modal {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: none;
+    min-width: auto;
+    height: auto;
+    border-radius: 0;
+  }
+}
