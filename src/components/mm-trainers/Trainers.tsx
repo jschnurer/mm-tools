@@ -64,37 +64,87 @@ const Trainers: React.FC = () => {
       return;
     }
 
+    const sortFunc = (a: ISkillTrainer, b: ISkillTrainer) =>
+      a.location < b.location
+        ? -1
+        : 1;
+
     let newToDoLists: ISavedToDoList;
 
     if (game === "MM2") {
       newToDoLists = {
         ...toDoLists,
-        mm2: [...toDoList, trainer],
+        mm2: [...toDoList, trainer].sort(sortFunc),
       };
     } else if (game === "MM3") {
       newToDoLists = {
         ...toDoLists,
-        mm3: [...toDoList, trainer],
+        mm3: [...toDoList, trainer].sort(sortFunc),
       };
     } else if (game === "MM4/5") {
       newToDoLists = {
         ...toDoLists,
-        mm45: [...toDoList, trainer],
+        mm45: [...toDoList, trainer].sort(sortFunc),
       };
     } else if (game === "MM6") {
       newToDoLists = {
         ...toDoLists,
-        mm6: [...toDoList, trainer],
+        mm6: [...toDoList, trainer].sort(sortFunc),
       };
     } else if (game === "MM7") {
       newToDoLists = {
         ...toDoLists,
-        mm7: [...toDoList, trainer],
+        mm7: [...toDoList, trainer].sort(sortFunc),
       };
     } else if (game === "MM8") {
       newToDoLists = {
         ...toDoLists,
-        mm8: [...toDoList, trainer],
+        mm8: [...toDoList, trainer].sort(sortFunc),
+      };
+    } else {
+      return;
+    }
+
+    setToDoLists(newToDoLists);
+    localStorage.setItem("SkillTrainers/ToDo", JSON.stringify(newToDoLists));
+  }
+
+  const removeSkillFromToDo = (trainer: ISkillTrainer) => {
+    let newToDoLists: ISavedToDoList;
+
+    const filterFunc = (x: ISkillTrainer) => !(x.skill === trainer.skill
+      && x.location === trainer.location
+      && x.name === trainer.name);
+
+    if (game === "MM2") {
+      newToDoLists = {
+        ...toDoLists,
+        mm2: toDoList.filter(filterFunc),
+      };
+    } else if (game === "MM3") {
+      newToDoLists = {
+        ...toDoLists,
+        mm3: toDoList.filter(filterFunc),
+      };
+    } else if (game === "MM4/5") {
+      newToDoLists = {
+        ...toDoLists,
+        mm45: toDoList.filter(filterFunc),
+      };
+    } else if (game === "MM6") {
+      newToDoLists = {
+        ...toDoLists,
+        mm6: toDoList.filter(filterFunc),
+      };
+    } else if (game === "MM7") {
+      newToDoLists = {
+        ...toDoLists,
+        mm7: toDoList.filter(filterFunc),
+      };
+    } else if (game === "MM8") {
+      newToDoLists = {
+        ...toDoLists,
+        mm8: toDoList.filter(filterFunc),
       };
     } else {
       return;
@@ -239,15 +289,23 @@ const Trainers: React.FC = () => {
           </div>
         )}
       >
-        {filteredTrainers.map(trainer => (
-          <Trainer
-            key={trainer.name + trainer.location + trainer.skill}
-            trainer={trainer}
-            onAddClick={() => addSkillToDo(trainer)}
-            showAdd={true}
-            showRemove={false}
-          />
-        ))}
+        {filteredTrainers.map(trainer => {
+          const isInList = !!toDoList.find(x => x.name === trainer.name
+            && x.location === trainer.location
+            && x.skill === trainer.skill);
+
+          return (
+            <Trainer
+              key={trainer.name + trainer.location + trainer.skill}
+              trainer={trainer}
+              onAddClick={() => addSkillToDo(trainer)}
+              onRemoveClick={() => removeSkillFromToDo(trainer)}
+              showAdd={!isInList}
+              showRemove={isInList}
+              isInList={isInList}
+            />
+          );
+        })}
       </FlowLayout>
       {isToDoOpen &&
         <Modal
@@ -272,12 +330,18 @@ const Trainers: React.FC = () => {
               it to your list.
             </p>
           }
+          {toDoList.length > 0 && 
+            <p>
+              Your ToDo list is sorted by location so you can more
+              easily hit up all the trainers in an area in one trip.
+            </p>
+          }
           {toDoList.length > 0 &&
             toDoList.map(trainer => (
               <Trainer
                 key={trainer.name + trainer.location + trainer.skill}
                 trainer={trainer}
-                onRemoveClick={() => addSkillToDo(trainer)}
+                onRemoveClick={() => removeSkillFromToDo(trainer)}
                 showAdd={false}
                 showRemove={true}
               />

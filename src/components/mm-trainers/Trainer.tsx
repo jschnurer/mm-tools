@@ -8,9 +8,10 @@ interface ITrainerProps {
   onRemoveClick?(): void,
   showAdd: boolean,
   showRemove: boolean,
+  isInList?: boolean,
 }
 
-const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, showAdd, showRemove }) =>
+const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, showAdd, showRemove, isInList }) =>
   <div
     className="trainer"
     key={trainer.skill + trainer.level + trainer.name}
@@ -18,7 +19,12 @@ const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, 
     {(showAdd || showRemove) &&
       <div>
         <button
-          onClick={onAddClick || onRemoveClick}
+          onClick={showAdd
+            ? onAddClick
+            : showRemove
+              ? onRemoveClick
+              : undefined}
+          className={isInList ? "primary-button" : ""}
         >
           {showAdd ? "+" : ""}
           {showRemove ? "-" : ""}
