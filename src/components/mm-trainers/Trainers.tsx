@@ -57,6 +57,47 @@ const Trainers: React.FC = () => {
     }
   }, []);
 
+  const resetToDos = () => {
+    let newToDoLists: ISavedToDoList;
+
+    if (game === "MM2") {
+      newToDoLists = {
+        ...toDoLists,
+        mm2: [],
+      };
+    } else if (game === "MM3") {
+      newToDoLists = {
+        ...toDoLists,
+        mm3: [],
+      };
+    } else if (game === "MM4/5") {
+      newToDoLists = {
+        ...toDoLists,
+        mm45: [],
+      };
+    } else if (game === "MM6") {
+      newToDoLists = {
+        ...toDoLists,
+        mm6: [],
+      };
+    } else if (game === "MM7") {
+      newToDoLists = {
+        ...toDoLists,
+        mm7: [],
+      };
+    } else if (game === "MM8") {
+      newToDoLists = {
+        ...toDoLists,
+        mm8: [],
+      };
+    } else {
+      return;
+    }
+
+    setToDoLists(newToDoLists);
+    localStorage.setItem("SkillTrainers/ToDo", JSON.stringify(newToDoLists));
+  }
+
   const addSkillToDo = (trainer: ISkillTrainer) => {
     if (toDoList.find(x => x.name === trainer.name
       && x.skill === trainer.skill
@@ -310,10 +351,17 @@ const Trainers: React.FC = () => {
       {isToDoOpen &&
         <Modal
           onClose={() => setIsToDoOpen(false)}
-          header="ToDo List"
+          header="Skill Trainer ToDo List"
           footer={(
             <>
-              <button>Remove All</button>
+              <button
+                onClick={() => {
+                  resetToDos();
+                  setIsToDoOpen(false);
+                }}
+              >
+                Remove All
+              </button>
               <button
                 className="primary-button"
                 onClick={() => setIsToDoOpen(false)}
