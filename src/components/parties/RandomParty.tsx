@@ -112,8 +112,8 @@ const availableClasses: IGameIndexable = {
     "Fighter -> Crusader -> Paladin",
     "Initiate -> Scholar -> Mage",
     "Initiate -> Scholar -> Lich",
-    "Initiative -> Healer -> Priest",
-    "Initiative -> Healer -> Druid",
+    "Initiate -> Healer -> Priest",
+    "Initiate -> Healer -> Druid",
   ],
 };
 
