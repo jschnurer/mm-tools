@@ -81,7 +81,7 @@
       164,
       1047
     ],
-    "note": "Place a figurine here",
+    "note": "Place the eagle statuette here",
     "links": [
       {
         "type": "quest",
@@ -148,7 +148,7 @@
       {
         "type": "map",
         "slug": "NEW_SORPIGAL",
-        "text": "Invisible teleporter to New World Computing (at tilt of sword)",
+        "text": "Invisible teleporter to New Sorpigal (at tilt of sword)",
         "position": [
           220,
           3406
@@ -183,6 +183,61 @@
         "type": "quest",
         "slug": "SUBQUEST_7",
         "text": "Subquest 7"
+      }
+    ]
+  },
+  {
+    "slug": "SW_1",
+    "name": "Fountain",
+    "position": [
+      1635,
+      686
+    ],
+    "note": "+50 statistics temporarily"
+  },
+  {
+    "slug": "SW_2",
+    "name": "Obelisk #1",
+    "position": [
+      2024,
+      521
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ]
+  },
+  {
+    "slug": "SW_3",
+    "name": "Pedestal",
+    "position": [
+      2342,
+      530
+    ],
+    "note": "Place the tiger statuette here",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39"
+      }
+    ]
+  },
+  {
+    "slug": "SW_4",
+    "position": [
+      2280,
+      147
+    ],
+    "name": "The Hive",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "HIVE",
+        "text": "The Hive"
       }
     ]
   }

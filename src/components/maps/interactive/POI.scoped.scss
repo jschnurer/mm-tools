@@ -1,7 +1,10 @@
 .poi {
+  font-size: .8em;
+
   .name {
     font-weight: bold;
     display: block;
+    font-size: 1.1em;
   }
 
   .note {
@@ -31,5 +34,10 @@
     &:hover {
       color: rgb(109, 109, 255);
     }
+  }
+
+  .link {
+    display: block;
+    padding: .2em 0;
   }
 }
