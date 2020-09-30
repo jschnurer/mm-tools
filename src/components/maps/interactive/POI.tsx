@@ -1,19 +1,29 @@
 import React from "react";
+import { IPOI } from "./MapTypes";
 import "./POI.scoped.scss";
 
 interface IPOIProps {
-  name: string,
-  desc: string,
+  poi: IPOI,
+  showRemove: boolean,
   onClick?(): void,
 }
 
-const POI: React.FC<IPOIProps> = ({ name, desc, onClick }) =>
+const POI: React.FC<IPOIProps> = ({ poi, showRemove, onClick }) =>
   <div
     className="poi"
   >
-    <span className="name">{name}</span>
-    <span className="desc">{desc}</span>
-    {onClick &&
+    <span className="name">{poi.name}</span>
+    <span className="note">{poi.note}</span>
+    {poi.links?.map(l => (
+      <button
+        className="link-button"
+        key={l.slug}
+      >
+        {l.text}
+      </button>
+    ))}
+    {showRemove
+      && onClick &&
       <button
         className="remove-button"
         onClick={onClick}

@@ -1,0 +1,189 @@
+[
+  {
+    "slug": "HI_1",
+    "position": [
+      80,
+      49
+    ],
+    "name": "Supreme Temple of Baa",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SUPREME",
+        "text": "Supreme Temple of Baa"
+      }
+    ]
+  },
+  {
+    "slug": "HI_2",
+    "name": "Obelisk #3",
+    "position": [
+      455,
+      626
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ]
+  },
+  {
+    "slug": "HI_3",
+    "name": "Fountain",
+    "position": [
+      443,
+      676
+    ],
+    "note": "Removes unnatural aging"
+  },
+  {
+    "slug": "DS_1",
+    "name": "Najat Ramadi",
+    "position": [
+      185,
+      1070
+    ],
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Armor"
+  },
+  {
+    "slug": "DS_2",
+    "name": "Kerman Murian",
+    "position": [
+      167,
+      1070
+    ],
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Weapons"
+  },
+  {
+    "slug": "DS_3",
+    "name": "Irbil Baktarian",
+    "position": [
+      151,
+      1070
+    ],
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Misc Equipment"
+  },
+  {
+    "slug": "DS_4",
+    "name": "Bandar Jahrom",
+    "position": [
+      139,
+      1044
+    ],
+    "note": "Seeking Magic Lamps for Gems"
+  },
+  {
+    "slug": "DS_5",
+    "name": "Pedestal",
+    "position": [
+      164,
+      1047
+    ],
+    "note": "Place a figurine here",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39"
+      }
+    ]
+  },
+  {
+    "slug": "DS_6",
+    "name": "Fountain",
+    "position": [
+      277,
+      1300
+    ],
+    "note": "+50 hit points"
+  },
+  {
+    "slug": "DS_7",
+    "name": "Fountain",
+    "position": [
+      233,
+      1516
+    ],
+    "note": "+10 Elemental Resistances permanently, but eradicates the drinker"
+  },
+  {
+    "slug": "DS_8",
+    "name": "Fountain",
+    "position": [
+      101,
+      1346
+    ],
+    "note": "+10 all statistics permanently, but eradicates the drinker"
+  },
+  {
+    "slug": "DS_9",
+    "position": [
+      624,
+      1075
+    ],
+    "name": "Tomb of VARN",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "TOMB_OF_VARN",
+        "text": "Tomb of VARN"
+      }
+    ]
+  },
+  {
+    "slug": "DS_10",
+    "name": "Shrine of the Gods",
+    "position": [
+      455,
+      626
+    ],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "NWC",
+        "text": "Invisible teleporter to New World Computing (at inner side)"
+      },
+      {
+        "type": "map",
+        "slug": "NEW_SORPIGAL",
+        "text": "Invisible teleporter to New World Computing (at tilt of sword)",
+        "position": [
+          220,
+          3406
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "DS_11",
+    "name": "Obelisk #6",
+    "position": [
+      675,
+      1525
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ]
+  },
+  {
+    "slug": "DS_12",
+    "name": "Rock",
+    "position": [
+      724,
+      1273
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ]
+  }
+]
