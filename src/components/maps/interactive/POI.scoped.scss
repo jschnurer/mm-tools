@@ -1,0 +1,23 @@
+.poi {
+  .name {
+    font-weight: bold;
+    display: block;
+  }
+
+  .desc {
+    display: block;
+  }
+
+  .remove-button {
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+    padding: 0.25;
+    margin-top: 1em;
+    display: block;
+
+    &:hover {
+      font-weight: bold;
+      background-color: rgb(189, 189, 189);
+    }
+  }
+}

@@ -3,6 +3,8 @@ import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
 import mm7BarrowMap from "media/mm7/barrows.png"
 import "./Maps.scoped.scss";
+import { Link } from "react-router-dom";
+import { Routes } from "Routing";
 
 const Maps: React.FC = () => {
   return (
@@ -13,6 +15,11 @@ const Maps: React.FC = () => {
         </>
       )}
     >
+      <Link to={Routes
+        .InteractiveMM6Map
+        .replace(":game", "mm6")
+        .replace(":map", "world")
+      }>Interactive MM6 World Map</Link>
       <h2>MM7 Barrows Map</h2>
       <img
         src={mm7BarrowMap}
