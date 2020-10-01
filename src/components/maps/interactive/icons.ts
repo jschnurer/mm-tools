@@ -4,7 +4,7 @@ let icons: {
   [index: string]: Icon
 } = {
   spear: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/arrowhead.svg", iconSize: [32, 32], }),
-  dark: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/evil-book.svg", iconSize: [32, 32], }),
+  dark: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/moon.svg", iconSize: [32, 32], }),
   identifyItem: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/magnifying-glass.svg", iconSize: [32, 32], }),
   dagger: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/stiletto.svg", iconSize: [32, 32], }),
   spirit: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/aura.svg", iconSize: [32, 32], }),
@@ -14,7 +14,7 @@ let icons: {
   repairItem: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/auto-repair.svg", iconSize: [32, 32], }),
   fire: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/flame.svg", iconSize: [32, 32], }),
   bodyBuilding: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/muscle-up.svg", iconSize: [32, 32], }),
-  light: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/sunbeams.svg", iconSize: [32, 32], }),
+  light: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/sun.svg", iconSize: [32, 32], }),
   bank: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/bank.svg", iconSize: [32, 32], }),
   mace: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/flanged-mace.svg", iconSize: [32, 32], }),
   body: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/person.svg", iconSize: [32, 32], }),
@@ -46,6 +46,7 @@ let icons: {
   obelisk: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/obelisk.svg", iconSize: [32, 32], }),
   inn: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/beer-stein.svg", iconSize: [32, 32], }),
   docks: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/anchor.svg", iconSize: [32, 32], }),
+  training: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/crossed-swords.svg", iconSize: [32, 32], }),
 };
 
 export default icons;

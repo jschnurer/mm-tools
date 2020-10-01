@@ -286,7 +286,7 @@
       2196,
       3767
     ],
-    "name": "Alchemy Store",
+    "name": "Alchemy Shop",
     "icon": "shop",
     "searchNote": "Eel Infested Waters main island"
   },
@@ -400,6 +400,112 @@
     ],
     "name": "Fountain",
     "note": "+20 Elemental Resistances temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "PV_1",
+    "position": [
+      1182,
+      217
+    ],
+    "name": "Su Lang Manchu",
+    "note": "Master Dark Magic (need Notorious reputation)",
+    "icon": "dark"
+  },
+  {
+    "slug": "PV_2",
+    "position": [
+      1216,
+      328
+    ],
+    "name": "Rexella",
+    "note": "Master Ancient Weapon (5000gp, need a blaster)",
+    "icon": "blaster"
+  },
+  {
+    "slug": "PV_3",
+    "position": [
+      1233,
+      288
+    ],
+    "name": "Alchemy Shop",
+    "searchNote": "Paradise Valley",
+    "icon": "shop"
+  },
+  {
+    "slug": "PV_4",
+    "position": [
+      1254,
+      289
+    ],
+    "name": "Weapon Shop",
+    "searchNote": "Paradise Valley",
+    "icon": "shop"
+  },
+  {
+    "slug": "PV_5",
+    "position": [
+      1234,
+      314
+    ],
+    "name": "Armor Shop",
+    "searchNote": "Paradise Valley",
+    "icon": "shop"
+  },
+  {
+    "slug": "PV_6",
+    "position": [
+      1260,
+      308
+    ],
+    "name": "Inn",
+    "searchNote": "Paradise Valley",
+    "icon": "shop"
+  },
+  {
+    "slug": "PV_7",
+    "position": [
+      1260,
+      336
+    ],
+    "name": "Training Hall",
+    "searchNote": "Paradise Valley",
+    "icon": "training"
+  },
+  {
+    "slug": "PV_8",
+    "name": "Obelisk #2",
+    "position": [
+      1374,
+      448
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "PV_9",
+    "position": [
+      1383,
+      636
+    ],
+    "name": "Temple of Baa",
+    "searchNote": "Paradise Valley",
+    "icon": "cult"
+  },
+  {
+    "slug": "PV_10",
+    "position": [
+      1349,
+      644
+    ],
+    "name": "Fountain",
+    "searchNote": "+100 spell and hit points",
     "icon": "fountain"
   }
 ]
