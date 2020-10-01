@@ -1,4 +1,4 @@
-import { LatLng } from "leaflet";
+import { Icon, LatLng } from "leaflet";
 
 export type POILinkType = "submap" | "quest" | "position" | "map";
 
@@ -15,4 +15,6 @@ export interface IPOI {
   note?: string,
   position: LatLng,
   links?: IPOILink[],
+  icon: Icon,
+  searchNote?: string,
 }

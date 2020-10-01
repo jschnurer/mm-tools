@@ -56,4 +56,23 @@ a {
 
 .leaflet-container {
   height: 100%;
+
+  .focused-poi {
+    animation: blink-animation .5s steps(5, start) infinite;
+    -webkit-animation: blink-animation .5s steps(5, start) infinite;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 0 0 20px 20px rgb(197, 197, 197);
+    border-radius: 25%;
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

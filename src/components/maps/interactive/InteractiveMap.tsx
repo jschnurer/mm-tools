@@ -2,20 +2,23 @@ import React, { useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router-dom";
 import { Map, ImageOverlay, Marker, Popup, Tooltip } from "react-leaflet"
 import mm6WorldMap from "media/maps/mm6/mm6-world.png";
-import { CRS, LatLng, LatLngBounds } from "leaflet";
+import { CRS, Icon, LatLng, LatLngBounds } from "leaflet";
 import FlowLayout from "components/layout/FlowLayout";
 import "./InteractiveMap.scoped.scss";
 import POI from "./POI";
 import mm6POIs from "./mm6.json";
 import { IPOI, IPOILink, POILinkType } from "./MapTypes";
 import { DebounceInput } from "react-debounce-input";
+import icons from "./icons";
 
 const allPOIs = mm6POIs.map((poi: any): IPOI => ({
   slug: poi.slug,
   name: poi.name,
   note: poi.note,
+  searchNote: poi.searchNote,
   position: new LatLng(poi.position[0], poi.position[1]),
   links: (poi.links as any)?.map((l: any) => formatPOILink(l)) || [],
+  icon: icons[poi.icon],
 }));
 
 const initialMapView = {
@@ -45,7 +48,9 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
   const [pois, setPois] = useState<IPOI[]>(allPOIs);
   const [searchResults, setSearchResults] = useState<IPOI[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [mapView, setMapView] = useState(initialMapView)
+  const [mapView, setMapView] = useState(initialMapView);
+  const [focus, setFocus] = useState<IPOI | null>(null);
+  const [unfocusTimeout, setUnfocusTimeout] = useState<number | undefined>();
 
   const searchResultsRef = useRef<HTMLUListElement>(null);
 
@@ -65,6 +70,14 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
     }
   }, [searchResultsRef, setSearchResults]);
 
+  useEffect(() => {
+    return () => {
+      if (unfocusTimeout) {
+        window.clearTimeout(unfocusTimeout);
+      }
+    };
+  }, [unfocusTimeout]);
+
   const onRemoveMarkerClick = (poi: IPOI) => {
     setPois(pois.filter(x => x !== poi));
   }
@@ -83,6 +96,8 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
       allPOIs.filter(poi => poi.name.toLowerCase().indexOf(lowerTerm) > -1
         || (poi.note
           && poi.note.toLowerCase().indexOf(lowerTerm) > -1)
+        || (poi.searchNote
+          && poi.searchNote.toLowerCase().indexOf(lowerTerm) > -1)
         || (poi.links
           && poi.links.find(l => l.text.toLowerCase().indexOf(lowerTerm) > -1))
       ).sort((a, b) => a.name < b.name ? -1 : 1)
@@ -96,6 +111,14 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
       zoom: 1,
       center: poi.position,
     });
+
+    setFocus(poi);
+
+    setUnfocusTimeout(
+      window.setTimeout(() => {
+        setFocus(null);
+      }, 2000)
+    );
   }
 
   const resetMap = () => {
@@ -132,16 +155,17 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
                     showRemove={false}
                     linkify={false}
                     onClick={() => onSearchResultClick(poi)}
+                    showSearchNote
                   />
                 </li>
               ))}
             </ul>
           }
-        <button
-          className="secondary-button"
-          onClick={resetMap}
-        >
-          Reset map
+          <button
+            className="secondary-button"
+            onClick={resetMap}
+          >
+            Reset map
         </button>
         </div>
       )}
@@ -161,6 +185,12 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
           <Marker
             position={poi.position}
             key={poi.slug}
+            icon={poi === focus
+              ? new Icon({
+                ...poi.icon.options,
+                className: "focused-poi",
+              })
+              : poi.icon}
           >
             <Popup>
               <POI

@@ -9,14 +9,14 @@ interface IPOIProps {
   onRemoveClick?(): void,
   onLinkClick?(): void,
   linkify: boolean,
-  showOnlyMatchingText?: string,
+  showSearchNote?: boolean,
 }
 
 const POI: React.FC<IPOIProps> = ({
   poi,
   showRemove,
   linkify,
-  showOnlyMatchingText,
+  showSearchNote,
   onClick,
   onRemoveClick,
   onLinkClick
@@ -27,6 +27,9 @@ const POI: React.FC<IPOIProps> = ({
   >
     <span className="name">{poi.name}</span>
     <span className="note">{poi.note}</span>
+    {showSearchNote &&
+      <span className="note">{poi.searchNote}</span>
+    }
     {poi.links?.map(l =>
       linkify
         ? (

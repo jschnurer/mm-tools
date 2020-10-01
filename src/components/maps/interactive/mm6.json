@@ -12,7 +12,8 @@
         "slug": "SUPREME",
         "text": "Supreme Temple of Baa"
       }
-    ]
+    ],
+    "icon": "dungeon"
   },
   {
     "slug": "HI_2",
@@ -27,7 +28,8 @@
         "slug": "SUBQUEST_7",
         "text": "Subquest 7"
       }
-    ]
+    ],
+    "icon": "obelisk"
   },
   {
     "slug": "HI_3",
@@ -36,7 +38,8 @@
       443,
       676
     ],
-    "note": "Removes unnatural aging"
+    "note": "Removes unnatural aging",
+    "icon": "fountain"
   },
   {
     "slug": "DS_1",
@@ -45,7 +48,8 @@
       185,
       1070
     ],
-    "note": "Seeking Golden Pyramids or Kegs of Wine for Armor"
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Armor",
+    "icon": "house"
   },
   {
     "slug": "DS_2",
@@ -54,7 +58,8 @@
       167,
       1070
     ],
-    "note": "Seeking Golden Pyramids or Kegs of Wine for Weapons"
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Weapons",
+    "icon": "house"
   },
   {
     "slug": "DS_3",
@@ -63,7 +68,8 @@
       151,
       1070
     ],
-    "note": "Seeking Golden Pyramids or Kegs of Wine for Misc Equipment"
+    "note": "Seeking Golden Pyramids or Kegs of Wine for Misc Equipment",
+    "icon": "house"
   },
   {
     "slug": "DS_4",
@@ -72,7 +78,8 @@
       139,
       1044
     ],
-    "note": "Seeking Magic Lamps for Gems"
+    "note": "Seeking Magic Lamps for Gems",
+    "icon": "house"
   },
   {
     "slug": "DS_5",
@@ -88,7 +95,8 @@
         "slug": "QUEST_39",
         "text": "Quest 39"
       }
-    ]
+    ],
+    "icon": "info"
   },
   {
     "slug": "DS_6",
@@ -97,7 +105,8 @@
       277,
       1300
     ],
-    "note": "+50 hit points"
+    "note": "+50 hit points",
+    "icon": "fountain"
   },
   {
     "slug": "DS_7",
@@ -106,7 +115,8 @@
       233,
       1516
     ],
-    "note": "+10 Elemental Resistances permanently, but eradicates the drinker"
+    "note": "+10 Elemental Resistances permanently, but eradicates the drinker",
+    "icon": "fountain"
   },
   {
     "slug": "DS_8",
@@ -115,7 +125,8 @@
       101,
       1346
     ],
-    "note": "+10 all statistics permanently, but eradicates the drinker"
+    "note": "+10 all statistics permanently, but eradicates the drinker",
+    "icon": "fountain"
   },
   {
     "slug": "DS_9",
@@ -130,7 +141,8 @@
         "slug": "TOMB_OF_VARN",
         "text": "Tomb of VARN"
       }
-    ]
+    ],
+    "icon": "dungeon"
   },
   {
     "slug": "DS_10",
@@ -154,7 +166,8 @@
           3406
         ]
       }
-    ]
+    ],
+    "icon": "dungeon"
   },
   {
     "slug": "DS_11",
@@ -169,7 +182,8 @@
         "slug": "SUBQUEST_7",
         "text": "Subquest 7"
       }
-    ]
+    ],
+    "icon": "obelisk"
   },
   {
     "slug": "DS_12",
@@ -184,7 +198,8 @@
         "slug": "SUBQUEST_7",
         "text": "Subquest 7"
       }
-    ]
+    ],
+    "icon": "info"
   },
   {
     "slug": "SW_1",
@@ -193,7 +208,8 @@
       1635,
       686
     ],
-    "note": "+50 statistics temporarily"
+    "note": "+50 statistics temporarily",
+    "icon": "fountain"
   },
   {
     "slug": "SW_2",
@@ -208,7 +224,8 @@
         "slug": "SUBQUEST_7",
         "text": "Subquest 7"
       }
-    ]
+    ],
+    "icon": "obelisk"
   },
   {
     "slug": "SW_3",
@@ -224,7 +241,8 @@
         "slug": "QUEST_39",
         "text": "Quest 39"
       }
-    ]
+    ],
+    "icon": "info"
   },
   {
     "slug": "SW_4",
@@ -239,6 +257,149 @@
         "slug": "HIVE",
         "text": "The Hive"
       }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "EIW_1",
+    "position": [
+      2160,
+      3749
+    ],
+    "name": "Inn",
+    "icon": "inn",
+    "searchNote": "Eel Infested Waters main island"
+  },
+  {
+    "slug": "EIW_2",
+    "position": [
+      2181,
+      3752
+    ],
+    "name": "Pat Skylark",
+    "note": "Expert Ancient Weapons",
+    "icon": "blaster"
+  },
+  {
+    "slug": "EIW_3",
+    "position": [
+      2196,
+      3767
+    ],
+    "name": "Alchemy Store",
+    "icon": "shop",
+    "searchNote": "Eel Infested Waters main island"
+  },
+  {
+    "slug": "EIW_4",
+    "position": [
+      2212,
+      3798
+    ],
+    "name": "Temple",
+    "icon": "temple",
+    "searchNote": "Eel Infested Waters main island"
+  },
+  {
+    "slug": "EIW_5",
+    "position": [
+      2125,
+      3820
+    ],
+    "name": "Castle Alamos",
+    "icon": "dungeon",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "ALAMOS",
+        "text": "Castle Alamos"
+      }
     ]
+  },
+  {
+    "slug": "EIW_6",
+    "position": [
+      2131,
+      3689
+    ],
+    "name": "Docks",
+    "icon": "docks",
+    "searchNote": "Eel Infested Waters main island"
+  },
+  {
+    "slug": "EIW_7",
+    "position": [
+      1689,
+      3879
+    ],
+    "name": "Fountain",
+    "note": "+20 Magic Resistance temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "EIW_8",
+    "position": [
+      1810,
+      3585
+    ],
+    "name": "Inn",
+    "icon": "inn",
+    "searchNote": "Eel Infested Waters south island"
+  },
+  {
+    "slug": "EIW_8_1",
+    "position": [
+      1810,
+      3595
+    ],
+    "name": "Ki Lo Nee",
+    "note": "Master Light Magic, need Saintly Reputation",
+    "icon": "light"
+  },
+  {
+    "slug": "EIW_9",
+    "position": [
+      1917,
+      3534
+    ],
+    "name": "Docks",
+    "icon": "docks",
+    "searchNote": "Eel Infested Waters south island"
+  },
+  {
+    "slug": "EIW_10",
+    "position": [
+      1764,
+      3460
+    ],
+    "name": "Shrine of Poison",
+    "note": "Pray during November",
+    "icon": "info"
+  },
+  {
+    "slug": "EIW_11",
+    "position": [
+      1760,
+      3387
+    ],
+    "name": "Obelisk #13",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "EIW_12",
+    "position": [
+      1678,
+      3299
+    ],
+    "name": "Fountain",
+    "note": "+20 Elemental Resistances temporarily",
+    "icon": "fountain"
   }
 ]
