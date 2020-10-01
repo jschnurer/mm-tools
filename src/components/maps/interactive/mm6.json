@@ -26,7 +26,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "obelisk"
@@ -93,7 +93,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39"
+        "text": "Quest 39 (Place the statuettes)"
       }
     ],
     "icon": "info"
@@ -180,7 +180,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "obelisk"
@@ -196,7 +196,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "info"
@@ -222,7 +222,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "obelisk"
@@ -239,7 +239,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39"
+        "text": "Quest 39 (Place the statuettes)"
       }
     ],
     "icon": "info"
@@ -387,7 +387,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "obelisk"
@@ -483,7 +483,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7"
+        "text": "Subquest 7 (Read obelisks)"
       }
     ],
     "icon": "obelisk"
@@ -507,5 +507,430 @@
     "name": "Fountain",
     "searchNote": "+100 spell and hit points",
     "icon": "fountain"
+  },
+  {
+    "slug": "MIST_1",
+    "name": "Kathleen Mester",
+    "note": "Activates teleporter MIST_29",
+    "position": [
+      873,
+      2483
+    ],
+    "icon": "house"
+  },
+  {
+    "slug": "MIST_2",
+    "name": "Fire Guild",
+    "note": "Learning, Fire Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Island of Mist",
+    "position": [
+      849,
+      3576
+    ],
+    "icon": "house"
+  },
+  {
+    "slug": "MIST_3",
+    "name": "Water Guild",
+    "note": "Learning, Water Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Island of Mist",
+    "position": [
+      893,
+      3554
+    ],
+    "icon": "house"
+  },
+  {
+    "slug": "MIST_4",
+    "name": "Air Guild",
+    "note": "Learning, Air Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Island of Mist",
+    "position": [
+      896,
+      3588
+    ],
+    "icon": "house"
+  },
+  {
+    "slug": "MIST_5",
+    "name": "Norio Ariganaka",
+    "note": "Master Meditation (rank 7, Personality 30, 2500gp)",
+    "position": [
+      891,
+      3618
+    ],
+    "icon": "meditation"
+  },
+  {
+    "slug": "MIST_6",
+    "name": "Harper Collins",
+    "note": "Master Water Magic (rank 7, Personality 30, 2500gp), Water Guild Membership",
+    "position": [
+      879,
+      3630
+    ],
+    "icon": "water"
+  },
+  {
+    "slug": "MIST_7",
+    "name": "Caao Salem",
+    "note": "Master Air Magic (Archmage, 4000gp), Air Guild Membership",
+    "position": [
+      878,
+      3645
+    ],
+    "icon": "air"
+  },
+  {
+    "slug": "MIST_8",
+    "name": "Jezebel",
+    "note": "Master Fire Magic (rank 12, 4000gp), Fire Guild Membership",
+    "position": [
+      878,
+      3660
+    ],
+    "icon": "fire"
+  },
+  {
+    "slug": "MIST_9",
+    "name": "Bank",
+    "searchNote": "Island of Mist",
+    "position": [
+      904,
+      3634
+    ],
+    "icon": "bank"
+  },
+  {
+    "slug": "MIST_10",
+    "name": "General Store",
+    "searchNote": "Island of Mist",
+    "position": [
+      907,
+      3649
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_11",
+    "name": "Alchemy Shop",
+    "searchNote": "Island of Mist",
+    "position": [
+      907,
+      3666
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_12",
+    "name": "Town Hall",
+    "searchNote": "Island of Mist",
+    "position": [
+      929,
+      3677
+    ],
+    "icon": "townHall",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_15",
+        "text": "Quest 15 (Charles D'Sorpigal, Storm the Silver Helm Outpost)"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_1",
+        "text": "Subquest 1 (Earnest, Bounty Hunting)"
+      }
+    ]
+  },
+  {
+    "slug": "MIST_13",
+    "name": "Temple",
+    "searchNote": "Island of Mist",
+    "position": [
+      953,
+      3681
+    ],
+    "icon": "temple"
+  },
+  {
+    "slug": "MIST_14",
+    "name": "Training Hall",
+    "searchNote": "Island of Mist",
+    "position": [
+      968,
+      3659
+    ],
+    "icon": "training"
+  },
+  {
+    "slug": "MIST_15",
+    "name": "Weapon Shop",
+    "searchNote": "Island of Mist",
+    "position": [
+      973,
+      3641
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_16",
+    "name": "Armor Shop",
+    "searchNote": "Island of Mist",
+    "position": [
+      969,
+      3625
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_17",
+    "name": "Fountain",
+    "note": "+10 Spell points",
+    "position": [
+      935,
+      3644
+    ],
+    "icon": "fountain"
+  },
+  {
+    "slug": "MIST_18",
+    "name": "Inn",
+    "searchNote": "Island of Mist",
+    "position": [
+      949,
+      3605
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_19",
+    "name": "Fountain",
+    "note": "+20 Luck temporarily",
+    "position": [
+      942,
+      3585
+    ],
+    "icon": "fountain"
+  },
+  {
+    "slug": "MIST_20",
+    "name": "Calvin Black",
+    "note": "Expert Staff (2000 gp)",
+    "position": [
+      956,
+      3584
+    ],
+    "icon": "staff"
+  },
+  {
+    "slug": "MIST_21",
+    "name": "Gonzalo Ramirez",
+    "note": "Expert Spear (2000 gp), Membership to the Duelist's Edge (50 gp)",
+    "position": [
+      971,
+      3592
+    ],
+    "icon": "spear"
+  },
+  {
+    "slug": "MIST_22",
+    "name": "Bernard Jacobs",
+    "note": "Expert Repair Items (500 gp)",
+    "position": [
+      981,
+      3572
+    ],
+    "icon": "repairItem"
+  },
+  {
+    "slug": "MIST_23",
+    "name": "Arthur O'Leery",
+    "note": "Expert Leather Armor (1000 gp), Membership to the Buccaneer's Lair (25 gp)",
+    "position": [
+      1017,
+      3583
+    ],
+    "icon": "staff"
+  },
+  {
+    "slug": "MIST_23_1",
+    "name": "Buccaneer's Lair",
+    "note": "Diplomacy, Leather Armor, Identify Item, Perception, Disarm Trap (200gp)",
+    "searchNote": "Island of Mist",
+    "position": [
+      1008,
+      3585
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_24",
+    "name": "Duelist's Edge",
+    "note": "Bodybuilding, Mace, Chain Armor, Bow, Shield (500gp)",
+    "searchNote": "Island of Mist",
+    "position": [
+      1043,
+      3569
+    ],
+    "icon": "shop"
+  },
+  {
+    "slug": "MIST_25",
+    "name": "Docks",
+    "searchNote": "Island of Mist",
+    "position": [
+      934,
+      3512
+    ],
+    "icon": "docks"
+  },
+  {
+    "slug": "MIST_26",
+    "name": "Fountain",
+    "note": "+10 Intelligence and Personality temporarily",
+    "searchNote": "Island of Mist",
+    "position": [
+      1074,
+      3469
+    ],
+    "icon": "fountain"
+  },
+  {
+    "slug": "MIST_27",
+    "name": "Fountain",
+    "note": "+5 Elemental resistances temporarily",
+    "searchNote": "Island of Mist",
+    "position": [
+      1074,
+      3495
+    ],
+    "icon": "fountain"
+  },
+  {
+    "slug": "MIST_28",
+    "name": "Lord Albert Newton",
+    "position": [
+      1096,
+      3482
+    ],
+    "icon": "quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_13",
+        "text": "Quest 13 (Find the Hourglass of Time)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_14",
+        "text": "Quest 14 (Drink from the Fountain of Magic)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_23",
+        "text": "Quest 23 (Retrieve the Crystal of Terrax)"
+      }
+    ]
+  },
+  {
+    "slug": "MIST_29",
+    "name": "Teleporter to MIST_34",
+    "searchNote": "Island of Mist",
+    "position": [
+      1140,
+      3460
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "MIST_30",
+    "name": "Shrine of Intellect",
+    "note": "Pray during February",
+    "position": [
+      1105,
+      3658
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "MIST_31",
+    "name": "Receiver for teleporter MIST_35",
+    "searchNote": "Island of Mist",
+    "position": [
+      1145,
+      3665
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "MIST_32",
+    "name": "Dragon Tower",
+    "searchNote": "Island of Mist",
+    "position": [
+      1030,
+      3632
+    ],
+    "icon": "quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Quest 36 (Reset the Dragon Towers)"
+      }
+    ]
+  },
+  {
+    "slug": "MIST_33",
+    "name": "Silver Helm Outpost",
+    "position": [
+      901,
+      3728
+    ],
+    "icon": "info",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SH_OUTPOST",
+        "text": "Silver Helm Outpost"
+      }
+    ]
+  },
+  {
+    "slug": "MIST_34",
+    "name": "Receiver for Teleporter MIST_29",
+    "searchNote": "Island of Mist",
+    "position": [
+      1170,
+      3258
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "MIST_35",
+    "name": "Teleporter to MIST_31",
+    "searchNote": "Island of Mist",
+    "position": [
+      1327,
+      3851
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "MIST_36",
+    "name": "Obelisk #14",
+    "searchNote": "Island of Mist",
+    "position": [
+      1282,
+      3838
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
   }
 ]

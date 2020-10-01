@@ -188,7 +188,7 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
             icon={poi === focus
               ? new Icon({
                 ...poi.icon.options,
-                className: "focused-poi",
+                className: poi.icon.options.className + " focused",
               })
               : poi.icon}
           >
