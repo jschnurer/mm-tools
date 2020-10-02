@@ -61,7 +61,7 @@ a {
     background-color: rgba(0, 0, 0, .75);
     border-radius: 25%;
 
-    .focused {
+    &.focused {
       animation: blink-animation 0.5s steps(5, start) infinite;
       -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
       background-color: rgb(197, 197, 197);
