@@ -27,7 +27,7 @@ let icons: {
   diplomacy: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/public-speaker.svg", iconSize: [32, 32], className: "marker" }),
   quest: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/uncertainty.svg", iconSize: [32, 32], className: "marker" }),
   merchant: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/cash.svg", iconSize: [32, 32], className: "marker" }),
-  stable: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/horse-head.svg", iconSize: [32, 32], className: "marker" }),
+  coach: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/horse-head.svg", iconSize: [32, 32], className: "marker" }),
   blaster: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/ray-gun.svg", iconSize: [32, 32], className: "marker" }),
   fountain: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/water-fountain.svg", iconSize: [32, 32], className: "marker" }),
   chain: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/chain-mail.svg", iconSize: [32, 32], className: "marker" }),

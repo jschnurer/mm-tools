@@ -96,7 +96,7 @@
         "text": "Quest 39 (Place the statuettes)"
       }
     ],
-    "icon": "info"
+    "icon": "quest"
   },
   {
     "slug": "DS_6",
@@ -242,7 +242,7 @@
         "text": "Quest 39 (Place the statuettes)"
       }
     ],
-    "icon": "info"
+    "icon": "quest"
   },
   {
     "slug": "SW_4",
@@ -932,5 +932,311 @@
       }
     ],
     "icon": "obelisk"
+  },
+  {
+    "slug": "MIRE_1",
+    "name": "Circus (Aug-Nov)",
+    "searchNote": "Mire of the Damned",
+    "position": [
+      728,
+      2331
+    ],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_10",
+        "text": "Find & return Prince Nicolai"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "MIRE_2",
+    "position": [
+      633,
+      2223
+    ],
+    "name": "Inn",
+    "icon": "inn",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_3",
+    "position": [
+      633,
+      2340
+    ],
+    "name": "Snergle's Iron Mines",
+    "icon": "dungeon",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SNERGLE",
+        "text": "Snergle's Iron Mines"
+      }
+    ]
+  },
+  {
+    "slug": "MIRE_4",
+    "position": [
+      207,
+      2086
+    ],
+    "name": "Fountain",
+    "note": "+2 Endurance permanently",
+    "icon": "fountain"
+  },
+  {
+    "slug": "MIRE_5",
+    "position": [
+      108,
+      2235
+    ],
+    "name": "Temple of Baa",
+    "icon": "cult",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_6",
+    "position": [
+      522,
+      2064
+    ],
+    "name": "Obelisk #9",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "MIRE_7",
+    "position": [
+      530,
+      1882
+    ],
+    "name": "Shrine of Speed",
+    "note": "Pray during June",
+    "icon": "info"
+  },
+  {
+    "slug": "MIRE_8",
+    "position": [
+      542,
+      1666
+    ],
+    "name": "Coach",
+    "icon": "coach",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_9",
+    "position": [
+      568,
+      1657
+    ],
+    "name": "Weapon Shop",
+    "icon": "shop",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_10",
+    "position": [
+      562,
+      1671
+    ],
+    "name": "David Feather",
+    "note": "Master Chain Armor (rank 10, Crusaders)",
+    "icon": "chain"
+  },
+  {
+    "slug": "MIRE_11",
+    "position": [
+      605,
+      1678
+    ],
+    "name": "Terry Ros",
+    "icon": "quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_25",
+        "text": "Destroy the book of Liches"
+      }
+    ]
+  },
+  {
+    "slug": "MIRE_12",
+    "position": [
+      582,
+      1675
+    ],
+    "name": "Macro Caligula",
+    "icon": "perception",
+    "note": "rank 7, Luck 30, 2500gp"
+  },
+  {
+    "slug": "MIRE_13",
+    "position": [
+      597,
+      1654
+    ],
+    "name": "Jack Crow",
+    "icon": "mace",
+    "note": "Expert Mace (2000gp)"
+  },
+  {
+    "slug": "MIRE_13_1",
+    "position": [
+      603,
+      1662
+    ],
+    "name": "Casey Ludwig",
+    "icon": "merchant",
+    "note": "Expert Merchant (2000gp)"
+  },
+  {
+    "slug": "MIRE_13_2",
+    "position": [
+      592,
+      1663
+    ],
+    "name": "Alchemy Shop",
+    "icon": "shop",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_14",
+    "position": [
+      628,
+      1643
+    ],
+    "name": "Armor Shop",
+    "icon": "shop",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_15",
+    "position": [
+      627,
+      1658
+    ],
+    "name": "Burton Rutherford",
+    "icon": "spear",
+    "note": "Master Spear (rank 8, Cavaliers, 5000gp)"
+  },
+  {
+    "slug": "MIRE_16",
+    "position": [
+      617,
+      1629
+    ],
+    "name": "Inn",
+    "icon": "inn",
+    "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "MIRE_16_1",
+    "position": [
+      610,
+      1625
+    ],
+    "name": "Avinril Smythers",
+    "icon": "axe",
+    "note": "Master Axe (if Kill Snergle quest complete)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_26",
+        "text": "Kill Snergle"
+      }
+    ]
+  },
+  {
+    "slug": "MIRE_17",
+    "position": [
+      612,
+      1646
+    ],
+    "name": "Connie Lettering",
+    "icon": "axe",
+    "note": "Expert Axe (2000gp)"
+  },
+  {
+    "slug": "MIRE_18",
+    "position": [
+      663,
+      1739
+    ],
+    "name": "Invisible Bridge",
+    "icon": "info"
+  },
+  {
+    "slug": "MIRE_19",
+    "position": [
+      705,
+      1673
+    ],
+    "name": "Castle Darkmoor",
+    "icon": "dungeon",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "DARKMOOR",
+        "text": "Castle Darkmoor"
+      }
+    ]
+  },
+  {
+    "slug": "MIRE_20",
+    "position": [
+      774,
+      1674
+    ],
+    "name": "Longfang Witherhide's Dragon Lair",
+    "icon": "dungeon",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "MIRE_DRAGON",
+        "text": "Longfang Witherhide's Lair"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_24",
+        "text": "Slay Longfang Witherhide"
+      }
+    ]
+  },
+  {
+    "slug": "MIRE_21",
+    "name": "Pedestal",
+    "position": [
+      39,
+      1688
+    ],
+    "note": "Place the wolf statuette here",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39 (Place the statuettes)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "MIRE_22",
+    "position": [
+      551,
+      1962
+    ],
+    "name": "Ambush",
+    "icon": "info",
+    "note": "Walking through this area spawns monsters",
+    "searchNote": "Mire of the Damned"
   }
 ]
