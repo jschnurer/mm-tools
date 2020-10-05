@@ -10,7 +10,7 @@
       {
         "type": "submap",
         "slug": "SUPREME",
-        "text": "Supreme Temple of Baa"
+        "text": "To Supreme Temple of Baa"
       }
     ],
     "icon": "dungeon"
@@ -139,7 +139,7 @@
       {
         "type": "submap",
         "slug": "TOMB_OF_VARN",
-        "text": "Tomb of VARN"
+        "text": "To Tomb of VARN"
       }
     ],
     "icon": "dungeon"
@@ -255,7 +255,7 @@
       {
         "type": "submap",
         "slug": "HIVE",
-        "text": "The Hive"
+        "text": "To The Hive"
       }
     ],
     "icon": "dungeon"
@@ -312,7 +312,7 @@
       {
         "type": "submap",
         "slug": "ALAMOS",
-        "text": "Castle Alamos"
+        "text": "To Castle Alamos"
       }
     ]
   },
@@ -892,7 +892,7 @@
       {
         "type": "submap",
         "slug": "SH_OUTPOST",
-        "text": "Silver Helm Outpost"
+        "text": "To Silver Helm Outpost"
       }
     ]
   },
@@ -972,7 +972,7 @@
       {
         "type": "submap",
         "slug": "SNERGLE",
-        "text": "Snergle's Iron Mines"
+        "text": "To Snergle's Iron Mines"
       }
     ]
   },
@@ -1186,7 +1186,7 @@
       {
         "type": "submap",
         "slug": "DARKMOOR",
-        "text": "Castle Darkmoor"
+        "text": "To Castle Darkmoor"
       }
     ]
   },
@@ -1202,7 +1202,7 @@
       {
         "type": "submap",
         "slug": "MIRE_DRAGON",
-        "text": "Longfang Witherhide's Lair"
+        "text": "To Longfang Witherhide's Lair"
       },
       {
         "type": "quest",
@@ -1238,5 +1238,316 @@
     "icon": "info",
     "note": "Walking through this area spawns monsters",
     "searchNote": "Mire of the Damned"
+  },
+  {
+    "slug": "BB_1",
+    "position": [
+      836,
+      3029
+    ],
+    "name": "Obelisk #11",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "BB_2",
+    "position": [
+      834,
+      3071
+    ],
+    "name": "Hall of the Fire Lord",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "FIRE_LORD",
+        "text": "To Hall of the Fire Lord"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BB_3",
+    "position": [
+      909,
+      2952
+    ],
+    "name": "Circus (Dec-Mar)",
+    "searchNote": "Bootleg Bay",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_10",
+        "text": "Find & return Prince Nicolai"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BB_4",
+    "position": [
+      1044,
+      2705
+    ],
+    "name": "Fountain of Magic",
+    "note": "+20 Spell points",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_14",
+        "text": "Drink from the Fountain of Magic"
+      }
+    ],
+    "icon": "fountain"
+  },
+  {
+    "slug": "BB_5",
+    "position": [
+      1003,
+      2655
+    ],
+    "name": "Shoshi Pertoniki",
+    "note": "Expert Perception (500gp)",
+    "icon": "perception"
+  },
+  {
+    "slug": "BB_6",
+    "position": [
+      1003,
+      2642
+    ],
+    "name": "Preston Harper",
+    "note": "Expert Chain Armor (1000gp)",
+    "icon": "chain"
+  },
+  {
+    "slug": "BB_7",
+    "position": [
+      1007,
+      2623
+    ],
+    "name": "Weapon Shop",
+    "searchNote": "Bootleg Bay",
+    "icon": "shop"
+  },
+  {
+    "slug": "BB_8",
+    "position": [
+      1003,
+      2601
+    ],
+    "name": "Inn",
+    "searchNote": "Bootleg Bay",
+    "icon": "inn"
+  },
+  {
+    "slug": "BB_9",
+    "position": [
+      1004,
+      2552
+    ],
+    "name": "Temple",
+    "searchNote": "Bootleg Bay",
+    "icon": "temple"
+  },
+  {
+    "slug": "BB_9_1",
+    "position": [
+      993,
+      2546
+    ],
+    "name": "Winston Schezar",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_16",
+        "text": "Destroy the crystal in the Temple of the Fist"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BB_10",
+    "position": [
+      1042,
+      2579
+    ],
+    "name": "Training Hall",
+    "note": "Maximum level 20",
+    "searchNote": "Bootleg Bay",
+    "icon": "training"
+  },
+  {
+    "slug": "BB_11",
+    "position": [
+      959,
+      2620
+    ],
+    "name": "Alchemy Shop",
+    "searchNote": "Bootleg Bay",
+    "icon": "shop"
+  },
+  {
+    "slug": "BB_12",
+    "position": [
+      933,
+      2601
+    ],
+    "name": "Armor Shop",
+    "searchNote": "Bootleg Bay",
+    "icon": "shop"
+  },
+  {
+    "slug": "BB_13",
+    "position": [
+      994,
+      2580
+    ],
+    "name": "Fountain",
+    "note": "+20 Might temporarily",
+    "searchNote": "Bootleg Bay",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BB_14",
+    "position": [
+      1117,
+      2412
+    ],
+    "name": "Temple of the Fist",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "FIST",
+        "text": "To Temple of the Fist"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BB_15",
+    "position": [
+      1153,
+      3086
+    ],
+    "name": "Fountain",
+    "note": "+2 personality permanently",
+    "searchNote": "Bootleg Bay",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BB_16",
+    "position": [
+      1424,
+      3062
+    ],
+    "name": "Fountain",
+    "note": "+2 intellect permanently",
+    "searchNote": "Bootleg Bay",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BB_17",
+    "position": [
+      1502,
+      2921
+    ],
+    "name": "Temple of Tsantsa",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "TSANTSA",
+        "text": "To Temple of Tsantsa"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BB_18",
+    "position": [
+      1511,
+      2869
+    ],
+    "name": "Inn",
+    "searchNote": "Bootleg Bay",
+    "icon": "inn"
+  },
+  {
+    "slug": "BB_19",
+    "position": [
+      1391,
+      2905
+    ],
+    "name": "East Docks",
+    "searchNote": "Bootleg Bay",
+    "icon": "docks"
+  },
+  {
+    "slug": "BB_20",
+    "position": [
+      1264,
+      2639
+    ],
+    "name": "Temple of the Sun",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "TEMPLE_SUN",
+        "text": "To Temple of the Sun"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BB_21",
+    "position": [
+      1306,
+      2751
+    ],
+    "name": "Temple of Baa",
+    "searchNote": "Bootleg Bay",
+    "icon": "cult"
+  },
+  {
+    "slug": "BB_22",
+    "position": [
+      1262,
+      2800
+    ],
+    "name": "West Docks",
+    "searchNote": "Bootleg Bay",
+    "icon": "docks"
+  },
+  {
+    "slug": "BB_23",
+    "position": [
+      1538,
+      2452
+    ],
+    "name": "Shrine of Might",
+    "note": "Pray during January",
+    "icon": "info"
+  },
+  {
+    "slug": "BB_24",
+    "position": [
+      1533,
+      2640
+    ],
+    "name": "Pedestal",
+    "note": "Place the dragon statuette here",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39 (Place the statuettes)"
+      }
+    ],
+    "icon": "quest"
   }
 ]
