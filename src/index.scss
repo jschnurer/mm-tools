@@ -53,3 +53,10 @@ a {
     color: white;
   }
 }
+
+
+@media only screen and (max-width: 400px) {
+  .page-title {
+    margin: .33em 0;
+  }
+}

@@ -15,6 +15,7 @@ import {
   IMM1Item,
 } from "./ItemTypes";
 import FlowLayout from "components/layout/FlowLayout";
+import Modal from "components/layout/Modal";
 
 interface IIdentifierProps {
   weapons: IWeapon[],
@@ -29,6 +30,7 @@ interface IIdentifierProps {
   game: string,
   searchExact?: boolean,
   note?: JSX.Element,
+  keyInfo?: JSX.Element,
 }
 
 const Identifier: React.FC<IIdentifierProps> = ({
@@ -44,9 +46,11 @@ const Identifier: React.FC<IIdentifierProps> = ({
   game,
   searchExact,
   note,
+  keyInfo,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [items, setItems] = useState<string[]>([]);
+  const [isKeyVisible, setIsKeyVisible] = useState(false);
   const searchBoxRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -308,60 +312,88 @@ const Identifier: React.FC<IIdentifierProps> = ({
   }
 
   return (
-    <FlowLayout
-      header={(
-        <>
-          <PageTitle title={`M&M ${game} Item Identifier`} />
-          <form
-            onSubmit={(e) => doSearch(e)}
-          >
-            <div>
-              <input
-                type="text"
-                placeholder="Search by full item name..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                ref={searchBoxRef}
-              />
-              <button
-                type="submit"
+    <>
+      <FlowLayout
+        header={(
+          <>
+            <PageTitle title={`M&M ${game} Item Identifier`} />
+            <div
+              className="controls"
+            >
+              <form
+                onSubmit={(e) => doSearch(e)}
               >
-                Id
+                <input
+                  type="text"
+                  placeholder="Search by full item name..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  ref={searchBoxRef}
+                />
+                <button
+                  type="submit"
+                  className="primary-button"
+                >
+                  Id
               </button>
+              </form>
+              <div
+                className="note"
+              >
+                {note}
+                <button
+                  onClick={() => setIsKeyVisible(true)}
+                >
+                  Show Key
+              </button>
+              </div>
             </div>
-            <div>
-              <span>K = Knight</span>
-              <span>P = Paladin</span>
-              <span>A = Archer</span>
-              <span>C = Cleric</span>
-              <span>S = Sorcerer</span>
-              <span>T = Robber</span>
-              <span>N = Ninja</span>
-              <span>B = Barbarian</span>
-              <span>D = Druid</span>
-              <span>R = Ranger</span>
-              <span>E = Evil</span>
-              <span>G = Good</span>
-              <span>EG = +Neutral</span>
-            </div>
-          </form>
-          {note}
-        </>
-      )}
-    >
-      {items &&
-        items.map((item, ix) =>
-          <p
-            key={ix}
-            className="item-description"
-          >
-            {item.split('\n').map((line, ix) =>
-              <span key={ix}>{line}</span>
-            )}
-          </p>
-        )
+          </>
+        )}
+      >
+        {items &&
+          items.map((item, ix) =>
+            <p
+              key={ix}
+              className="item-description"
+            >
+              {item.split('\n').map((line, ix) =>
+                <span key={ix}>{line}</span>
+              )}
+            </p>
+          )
+        }
+      </FlowLayout>
+      {isKeyVisible &&
+        <Modal
+          header={"Item Identifier Key"}
+          footer={(
+            <button
+              className="primary-button"
+              onClick={() => setIsKeyVisible(false)}
+            >
+              Close
+            </button>
+          )}
+          onClose={() => setIsKeyVisible(false)}
+        >
+          <div>K = Knight</div>
+          <div>P = Paladin</div>
+          <div>A = Archer</div>
+          <div>C = Cleric</div>
+          <div>S = Sorcerer</div>
+          <div>T = Robber (Thief)</div>
+          <div>N = Ninja</div>
+          <div>B = Barbarian</div>
+          <div>D = Druid</div>
+          <div>R = Ranger</div>
+          <div>E = Evil</div>
+          <div>G = Good</div>
+          <div>EG = Evil, Good, AND Neutral</div>
+          {keyInfo}
+        </Modal>
       }
-    </FlowLayout>
+    </>
   );
 }
 

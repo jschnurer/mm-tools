@@ -11,3 +11,11 @@
     overflow-y: auto;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .site {
+    .page-content {
+      margin-left: 0.5em;
+    }
+  }
+}
