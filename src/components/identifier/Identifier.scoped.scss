@@ -1,43 +1,45 @@
-form {
+.controls {
   display: flex;
-  align-items: flex-end;
-  margin-bottom: 1em;
+  border-bottom: 1px silver solid;
+  padding-bottom: 0.5em;
 
-  div {
-    flex: auto;
+  form {
     display: flex;
-    flex-wrap: wrap;
+    align-items: stretch;
+    flex: auto;
+    margin-right: 1em;
 
     input {
-      width: 250px;
+      flex: auto;
 
       &::placeholder {
         font-style: italic;
       }
     }
 
-    &:first-child {
+    button {
+      margin: 0;
       flex: none;
-      margin-right: 1em;
-
-      button {
-        margin: 0;
-      }
-    }
-
-    span {
-      flex: auto;
-      white-space: nowrap;
-      padding: .25em;
     }
   }
 }
 
 .item-description {
-  border: 3px #CCC ridge;
-  padding: .5em;
+  border: 1px #555 solid;
+  padding: 0.25em;
+  margin: .5em 0;
 
   span {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .controls {
+    flex-direction: column;
+
+    form {
+      margin-right: 0;
+    }
   }
 }

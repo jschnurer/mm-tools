@@ -16,9 +16,7 @@ const MMXeenId: React.FC = () =>
     miscItems={miscData as IMiscItem[]}
     mods={modsData as IMod[]}
     specialItems={[]}
-    note={(
-      <p><a href="http://shrines.rpgclassics.com/pc/mm4_5/" target="_blank" rel="noopener noreferrer">Source</a></p>
-    )}
+    note={<a href="http://shrines.rpgclassics.com/pc/mm4_5/" target="_blank" rel="noopener noreferrer">Source</a>}
   />;
 
 export default MMXeenId;
