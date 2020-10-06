@@ -5,7 +5,7 @@ let icons: {
 } = {
   spear: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/arrowhead.svg", iconSize: [32, 32], className: "marker" }),
   dark: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/moon.svg", iconSize: [32, 32], className: "marker" }),
-  identifyItem: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/magnifying-glass.svg", iconSize: [32, 32], className: "marker" }),
+  identify: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/magnifying-glass.svg", iconSize: [32, 32], className: "marker" }),
   dagger: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/stiletto.svg", iconSize: [32, 32], className: "marker" }),
   spirit: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/aura.svg", iconSize: [32, 32], className: "marker" }),
   perception: new Icon({ iconUrl: "/mm-tools/images/leaflet/icons/eye-target.svg", iconSize: [32, 32], className: "marker" }),

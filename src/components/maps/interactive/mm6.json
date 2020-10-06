@@ -2480,5 +2480,444 @@
     "name": "Fountain",
     "note": "+20 AC temporarily",
     "icon": "fountain"
+  },
+  {
+    "slug": "NS_1",
+    "position": [244,3427],
+    "name": "Inn",
+    "searchNote": "New Sorpigal",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_1",
+        "text": "Show Sulman's Letter to Andover Potbello (Andover Potbello)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_2",
+        "text": "Bring Sulman's Letter to Regent Wilbur Humphrey (Andover Potbello)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_4",
+        "text": "Retrieve the Candelabra (Andover Potbello)"
+      }
+    ],
+    "icon": "inn"
+  },
+  {
+    "slug": "NS_1_1",
+    "position": [243,3439],
+    "name": "Sheila Loompus",
+    "note": "Expert Identify (500gp)",
+    "icon": "identify"
+  },
+  {
+    "slug": "NS_1_2",
+    "position": [238,3436],
+    "name": "Tara D'Cathay",
+    "note": "Expert Perception (500gp)",
+    "icon": "perception"
+  },
+  {
+    "slug": "NS_2",
+    "position": [248,3459],
+    "name": "Hejaz Mawsil",
+    "note": "Membership to the Buccaneer's Lair (25gp); Seeking Cobra Eggs (1000gp each)",
+    "icon": "house"
+  },
+  {
+    "slug": "NS_3",
+    "position": [249,3471],
+    "name": "Harold Hess",
+    "note": "Membership to the Blade's End (25gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "NS_4",
+    "position": [265,3488],
+    "name": "Erik Salzburg",
+    "note": "Expert Bodybuildling (500gp)",
+    "icon": "bodyBuilding"
+  },
+  {
+    "slug": "NS_5",
+    "position": [288,3488],
+    "name": "Victor Hosen",
+    "note": "Expert Meditation (500gp)",
+    "icon": "meditation"
+  },
+  {
+    "slug": "NS_6",
+    "position": [300,3472],
+    "name": "Violet Dawson",
+    "note": "Membership to the Self Guild (100gp)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_7",
+        "text": "Rescue Angela"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "NS_7",
+    "position": [302,3455],
+    "name": "Buford T. Allman",
+    "note": "Membership to the Elements Guild (100gp)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_5",
+        "text": "Kill the Queen of the Spiders"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "NS_8",
+    "position": [282,3433],
+    "name": "Armor Shop",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_9",
+    "position": [282,3462],
+    "name": "Blade's End",
+    "note": "Axe, Spear, Staff, Sword, Leather Armor (375gp each)",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_10",
+    "position": [267,3462],
+    "name": "Alchemy Shop",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_11",
+    "position": [267,3438],
+    "name": "Weapon Shop",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_12",
+    "position": [235,3388],
+    "name": "Coach",
+    "searchNote": "New Sorpigal",
+    "links": [
+      {
+        "type": "map",
+        "slug": "CI",
+        "text": "To Castle Ironfist (Mon, Wed, Fri, 2 days, 25gp)",
+        "position": [449,3031]
+      }
+    ],
+    "icon": "coach"
+  },
+  {
+    "slug": "NS_13",
+    "position": [248,3390],
+    "name": "General Store",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_14",
+    "position": [249,3373],
+    "name": "Abdulai Mahgreb",
+    "note": "Expert Body Magic",
+    "icon": "body"
+  },
+  {
+    "slug": "NS_15",
+    "position": [249,3356],
+    "name": "Virgil Holiday",
+    "note": "Expert Mind Magic (1000gp)",
+    "icon": "mind"
+  },
+  {
+    "slug": "NS_16",
+    "position": [249,3338],
+    "name": "Enoch Highridge",
+    "note": "Expert Spirit Magic (1000gp)",
+    "searchNote": "New Sorpigal",
+    "icon": "spirit"
+  },
+  {
+    "slug": "NS_17",
+    "position": [275,3328],
+    "name": "Training Hall",
+    "note": "Maximum level: 15",
+    "searchNote": "New Sorpigal",
+    "icon": "training"
+  },
+  {
+    "slug": "NS_18",
+    "position": [302,3342],
+    "name": "Taro",
+    "note": "Expert Earth Magic",
+    "icon": "earth"
+  },
+  {
+    "slug": "NS_19",
+    "position": [301,3360],
+    "name": "Isao Magistrus",
+    "note": "Expert Fire Magic (1000gp)",
+    "icon": "fire"
+  },
+  {
+    "slug": "NS_20",
+    "position": [284,3355],
+    "name": "Buccaneer's Lair",
+    "note": "Merchant, Identify Item, Perception, Disarm Traps, Dagger (150gp each)",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_20_1",
+    "position": [278,3360],
+    "name": "Invisible teleporter to Dragonsands (above lair)",
+    "links": [
+      {
+        "type": "map",
+        "slug": "DS",
+        "text": "To Dragonsands",
+        "position": [518,1416]
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "NS_21",
+    "position": [281,3381],
+    "name": "Town Hall",
+    "icon": "townHall",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_6",
+        "text": "Rescue Sharry (Charles D'Sorpigal)"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_2",
+        "text": "Show Shadow Guild letter (Charles D'Sorpigal)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_3",
+        "text": "Find the combination to the vault door in Goblinwatch (Janice)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_8",
+        "text": "Get the Chime of Harmony (Janice)"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_1",
+        "text": "Bounty Hunting (Janice)"
+      }
+    ]
+  },
+  {
+    "slug": "NS_22",
+    "position": [265,3385],
+    "name": "Bank",
+    "searchNote": "New Sorpigal",
+    "icon": "bank"
+  },
+  {
+    "slug": "NS_22_1",
+    "position": [266,3378],
+    "name": "Cheryl Duncan",
+    "note": "Expert Air Magic (1000gp)",
+    "icon": "air"
+  },
+  {
+    "slug": "NS_23",
+    "position": [270,3407],
+    "name": "Fountain",
+    "note": "+5 hit points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "NS_24",
+    "position": [302,3383],
+    "name": "Fountain",
+    "note": "+5 spell points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "NS_25",
+    "position": [302,3428],
+    "name": "Fountain",
+    "note": "+10 Might temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "NS_26",
+    "position": [381,3406],
+    "name": "Temple",
+    "searchNote": "New Sorpigal",
+    "icon": "temple"
+  },
+  {
+    "slug": "NS_27",
+    "position": [381,3335],
+    "name": "Self Guild",
+    "note": "Mind Magic, Body Magic, Spirit Magic, 750gp, spellbooks 1-4",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_27_1",
+    "position": [384,3324],
+    "name": "Donald Retzer",
+    "note": "Expert Learning (2000gp)",
+    "icon": "learning"
+  },
+  {
+    "slug": "NS_28",
+    "position": [380,3483],
+    "name": "Elements Guild",
+    "note": "Earth Magic, Air Magic, Water Magic, Fire Magic, 750 gp, spellbooks 1-4",
+    "searchNote": "New Sorpigal",
+    "icon": "shop"
+  },
+  {
+    "slug": "NS_29",
+    "position": [232,3472],
+    "name": "Dragon Tower",
+    "searchNote": "New Sorpigal",
+    "icon": "quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Quest 36 (Reset the Dragon Towers)"
+      }
+    ]
+  },
+  {
+    "slug": "NS_30",
+    "position": [125,3254],
+    "name": "Goblinwatch",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "GOBLINWATCH",
+        "text": "To Goblinwatch"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "NS_31",
+    "position": [43,3541],
+    "name": "Dorf",
+    "note": "Expert Staff (2000gp)",
+    "icon": "staff"
+  },
+  {
+    "slug": "NS_32",
+    "position": [391,3201],
+    "name": "Abandoned Temple",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "ABAN_TEMPLE",
+        "text": "To Abandoned Temple"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "NS_33",
+    "position": [463,3774],
+    "name": "Igor",
+    "note": "Expert Ancient Weapons",
+    "icon": "blaster"
+  },
+  {
+    "slug": "NS_34",
+    "position": [269,3898],
+    "name": "Shrine of Luck",
+    "note": "Pray during July",
+    "icon": "info"
+  },
+  {
+    "slug": "NS_35",
+    "position": [287,3926],
+    "name": "Douglas Hill",
+    "note": "Expert Water Magic",
+    "icon": "water"
+  },
+  {
+    "slug": "NS_36",
+    "position": [585,3851],
+    "name": "Gharik's Forge",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "GHARIK",
+        "text": "To Gharik's Forge"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "NS_37",
+    "position": [679,3328],
+    "name": "Obelisk #15",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "NS_38",
+    "position": [216,3599],
+    "name": "Docks",
+    "searchNote": "New Sorpigal",
+    "links": [
+      {
+        "type": "map",
+        "slug": "MIST",
+        "text": "To Misty Islands (Tue, Thur, Sat, 3 days, 100gp)",
+        "position": [934,3522]
+      }
+    ],
+    "icon": "docks"
+  },
+  {
+    "slug": "NS_39",
+    "position": [292,3327],
+    "name": "Fountain",
+    "note": "+2 Luck permanently",
+    "icon": "fountain"
+  },
+  {
+    "slug": "NS_40",
+    "position": [689,3743],
+    "name": "Cooking Fire",
+    "note": "Releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "NS_41",
+    "position": [313,3291],
+    "name": "Ambush",
+    "note": "Walking through the bridge releases monsters",
+    "icon": "info"
   }
 ]
