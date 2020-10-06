@@ -330,7 +330,10 @@
         "type": "map",
         "slug": "SILVER_COVE",
         "text": "To Silver Cove (Mon, 2 days, 400gp)",
-        "position": [1783,2871]
+        "position": [
+          1783,
+          2871
+        ]
       }
     ]
   },
@@ -373,12 +376,17 @@
     "name": "Docks",
     "icon": "docks",
     "searchNote": "Eel Infested Waters south island",
-    "links":[{
-      "type":"map",
-      "slug":"NORTH_ISLAND",
-      "text": "To Eel Infested Waters North Island (Sat, 1 day, 200gp)",
-      "position": [2137,3688]
-    }]
+    "links": [
+      {
+        "type": "map",
+        "slug": "NORTH_ISLAND",
+        "text": "To Eel Infested Waters North Island (Sat, 1 day, 200gp)",
+        "position": [
+          2137,
+          3688
+        ]
+      }
+    ]
   },
   {
     "slug": "EIW_10",
@@ -797,22 +805,35 @@
       934,
       3512
     ],
-    "links":[{
-      "type":"map",
-      "slug":"CI",
-      "text":"To Castle Ironfist (Mon, Wed, Fri, 2 days, 250gp)",
-      "position": [539,3147]
-    },{
-      "type":"map",
-      "slug":"SC",
-      "text":"To Silver Cove (Mon, Thur, 3 days, 250gp)",
-      "position": [1783,2865]
-    },{
-      "type":"map",
-      "slug":"BB",
-      "text":"To Bootleg Bay East (Tue, Thur, Sat, 2 days, 250gp)",
-      "position": [1397,2904]
-    }],
+    "links": [
+      {
+        "type": "map",
+        "slug": "CI",
+        "text": "To Castle Ironfist (Mon, Wed, Fri, 2 days, 250gp)",
+        "position": [
+          539,
+          3147
+        ]
+      },
+      {
+        "type": "map",
+        "slug": "SC",
+        "text": "To Silver Cove (Mon, Thur, 3 days, 250gp)",
+        "position": [
+          1783,
+          2865
+        ]
+      },
+      {
+        "type": "map",
+        "slug": "BB",
+        "text": "To Bootleg Bay East (Tue, Thur, Sat, 2 days, 250gp)",
+        "position": [
+          1397,
+          2904
+        ]
+      }
+    ],
     "icon": "docks"
   },
   {
@@ -1001,7 +1022,7 @@
     "links": [
       {
         "type": "submap",
-        "slug": "SNERGLE",
+        "slug": "SNERGLE_IRON",
         "text": "To Snergle's Iron Mines"
       }
     ]
@@ -1059,14 +1080,17 @@
       1666
     ],
     "name": "Coach",
-    "links": [{
-      "type": "map",
-      "slug": "FREE_HAVEN",
-      "text": "To Free Haven (Mon, Fri, 5 days, 250 gp)",
-      "position": [
-        1390,2119
-      ]
-    }],
+    "links": [
+      {
+        "type": "map",
+        "slug": "FREE_HAVEN",
+        "text": "To Free Haven (Mon, Fri, 5 days, 250 gp)",
+        "position": [
+          1390,
+          2119
+        ]
+      }
+    ],
     "icon": "coach",
     "searchNote": "Mire of the Damned"
   },
@@ -1528,7 +1552,10 @@
         "type": "map",
         "slug": "BBW",
         "text": "To Bootleg Bay West (Mon, Wed, 1 day, 150gp)",
-        "position": [1262,2790]
+        "position": [
+          1262,
+          2790
+        ]
       }
     ],
     "icon": "docks"
@@ -1572,7 +1599,10 @@
         "type": "map",
         "slug": "CI",
         "text": "To Castle Ironfist (Tue, Thur, 4 days, 150gp)",
-        "position": [540,3150]
+        "position": [
+          540,
+          3150
+        ]
       }
     ],
     "icon": "docks"
@@ -1606,44 +1636,61 @@
   },
   {
     "slug": "KS_1",
-    "position": [1642,1266],
+    "position": [
+      1642,
+      1266
+    ],
     "name": "Alchemy Shop",
     "searchNote": "Kriegspire",
     "icon": "shop"
   },
   {
     "slug": "KS_2",
-    "position": [1652,1291],
+    "position": [
+      1652,
+      1291
+    ],
     "name": "Coach",
     "searchNote": "Kriegspire",
-    "links": [{
-      "type": "map",
-      "slug": "NEW_SORPIGAL",
-      "text": "To New Sorpigal (Wed, Sat, 3 days, 250gp)",
-      "position": [
-        220,
-        3406
-      ]
-    }],
+    "links": [
+      {
+        "type": "map",
+        "slug": "NEW_SORPIGAL",
+        "text": "To New Sorpigal (Wed, Sat, 3 days, 250gp)",
+        "position": [
+          220,
+          3406
+        ]
+      }
+    ],
     "icon": "coach"
   },
   {
     "slug": "KS_3",
-    "position": [1704,1276],
+    "position": [
+      1704,
+      1276
+    ],
     "name": "Inn",
     "searchNote": "Kriegspire",
     "icon": "inn"
   },
   {
     "slug": "KS_4",
-    "position": [1701,1305],
+    "position": [
+      1701,
+      1305
+    ],
     "name": "Fountain",
     "note": "+30 level temporarily",
     "icon": "fountain"
   },
   {
     "slug": "KS_5",
-    "position": [1708,1319],
+    "position": [
+      1708,
+      1319
+    ],
     "name": "Training Hall",
     "note": "Maximum level: 80",
     "searchNote": "Kriegspire",
@@ -1651,137 +1698,197 @@
   },
   {
     "slug": "KS_6",
-    "position": [1678,1320],
+    "position": [
+      1678,
+      1320
+    ],
     "name": "Armor Shop",
     "searchNote": "Kriegspire",
     "icon": "shop"
   },
   {
     "slug": "KS_7",
-    "position": [1699,1361],
+    "position": [
+      1699,
+      1361
+    ],
     "name": "Weapon Shop",
     "searchNote": "Kriegspire",
     "icon": "shop"
   },
   {
     "slug": "KS_8",
-    "position": [1707,1413],
+    "position": [
+      1707,
+      1413
+    ],
     "name": "Fountain",
     "note": "Teleport to Castle Kriegspire",
-    "links": [{
-      "type": "submap",
-      "slug": "CK_1",
-      "text": "To Castle Kriegspire"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "CK_1",
+        "text": "To Castle Kriegspire"
+      }
+    ],
     "icon": "fountain"
   },
   {
     "slug": "KS_9",
-    "position": [1692,1411],
+    "position": [
+      1692,
+      1411
+    ],
     "name": "Emil Lime",
-    "links": [{
-      "type": "quest",
-      "slug": "QUEST_41",
-      "text": "Retrieve the Jewelled Egg"
-    }],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_41",
+        "text": "Retrieve the Jewelled Egg"
+      }
+    ],
     "icon": "quest"
   },
   {
     "slug": "KS_10",
-    "position": [1688,1391],
+    "position": [
+      1688,
+      1391
+    ],
     "name": "Fountain",
     "note": "+10 Magic Resistance permanently, but eradicates the drinker",
     "icon": "fountain"
   },
   {
     "slug": "KS_11",
-    "position": [1653,1371],
+    "position": [
+      1653,
+      1371
+    ],
     "name": "Fountain",
     "note": "-5,000gp = +5,000xp",
     "icon": "fountain"
   },
   {
     "slug": "KS_12",
-    "position": [1634,1387],
+    "position": [
+      1634,
+      1387
+    ],
     "name": "Nicholas Roth",
     "note": "Expert Light Magic (2000gp)",
     "icon": "light"
   },
   {
     "slug": "KS_13",
-    "position": [1869,1511],
+    "position": [
+      1869,
+      1511
+    ],
     "name": "Superior Temple of Baa",
-    "links": [{
-      "type": "submap",
-      "slug": "SUPERIOR_BAA",
-      "text": "To Superior Temple of Baa"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SUPERIOR_BAA",
+        "text": "To Superior Temple of Baa"
+      }
+    ],
     "icon": "dungeon"
   },
   {
     "slug": "KS_14",
-    "position": [1932,1454],
+    "position": [
+      1932,
+      1454
+    ],
     "name": "Fountain",
     "note": "+5 Elemental Resistances permanently, but kills the drinker",
     "icon": "fountain"
   },
   {
     "slug": "KS_15",
-    "position": [1758,1031],
+    "position": [
+      1758,
+      1031
+    ],
     "name": "Fountain",
     "note": "+40 AC temporarily",
     "icon": "fountain"
   },
   {
     "slug": "KS_16",
-    "position": [1789,1042],
+    "position": [
+      1789,
+      1042
+    ],
     "name": "Shrine of Fire",
     "note": "Pray during August",
     "icon": "info"
   },
   {
     "slug": "KS_17",
-    "position": [1825,989],
+    "position": [
+      1825,
+      989
+    ],
     "name": "Castle Kriegspire",
-    "links": [{
-      "type": "submap",
-      "slug": "CK_1",
-      "text": "To Castle Kriegspire"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "CK_1",
+        "text": "To Castle Kriegspire"
+      }
+    ],
     "icon": "dungeon"
   },
   {
     "slug": "KS_17_1",
-    "position": [1842,990],
+    "position": [
+      1842,
+      990
+    ],
     "name": "Desmond Weller",
     "note": "Master Bow (rank 8, Battle Mages)",
     "icon": "bow"
   },
   {
     "slug": "KS_18",
-    "position": [1972,887],
+    "position": [
+      1972,
+      887
+    ],
     "name": "Devil's Outpost",
-    "links": [{
-      "type": "submap",
-      "slug": "DEVIL",
-      "text": "To Devil's Outpost"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "DEVIL",
+        "text": "To Devil's Outpost"
+      }
+    ],
     "icon": "dungeon"
   },
   {
     "slug": "KS_19",
-    "position": [2060,955],
+    "position": [
+      2060,
+      955
+    ],
     "name": "Caves of the Dragon Rider",
-    "links": [{
-      "type": "submap",
-      "slug": "DRAGON_RIDER",
-      "text": "To Caves of the Dragon Rider"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "DRAGON_RIDER",
+        "text": "To Caves of the Dragon Rider"
+      }
+    ],
     "icon": "dungeon"
   },
   {
     "slug": "KS_20",
-    "position": [2264,861],
+    "position": [
+      2264,
+      861
+    ],
     "name": "Obelisk #4",
     "links": [
       {
@@ -1794,36 +1901,52 @@
   },
   {
     "slug": "KS_21",
-    "position": [2281,1329],
+    "position": [
+      2281,
+      1329
+    ],
     "name": "Agar's Laboratory",
-    "links": [{
-      "type": "submap",
-      "slug": "AGAR",
-      "text": "To Agar's Laboratory"
-    }],
+    "links": [
+      {
+        "type": "submap",
+        "slug": "AGAR",
+        "text": "To Agar's Laboratory"
+      }
+    ],
     "icon": "dungeon"
   },
   {
     "slug": "KS_22",
-    "position": [2049,1321],
+    "position": [
+      2049,
+      1321
+    ],
     "name": "Shrine of Cold",
     "note": "Pray during October",
     "icon": "info"
   },
   {
     "slug": "KS_23",
-    "position": [2007,1261],
+    "position": [
+      2007,
+      1261
+    ],
     "name": "Hermit",
-    "links": [{
-      "type": "quest",
-      "slug": "QUEST_34",
-      "text": "End Winter"
-    }],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_34",
+        "text": "End Winter"
+      }
+    ],
     "icon": "quest"
   },
   {
     "slug": "KS_24",
-    "position": [2373,808],
+    "position": [
+      2373,
+      808
+    ],
     "name": "Pedestal",
     "note": "Place the bear statuette here",
     "links": [
@@ -1837,49 +1960,70 @@
   },
   {
     "slug": "BS_1",
-    "position": [1550,842],
+    "position": [
+      1550,
+      842
+    ],
     "name": "Shrine of Magic",
     "note": "Pray during December",
     "icon": "info"
   },
   {
     "slug": "BS_2",
-    "position": [1457,917],
+    "position": [
+      1457,
+      917
+    ],
     "name": "Fountain",
     "note": "+50 Luck temporarily",
     "icon": "fountain"
   },
   {
     "slug": "BS_3",
-    "position": [1444,912],
+    "position": [
+      1444,
+      912
+    ],
     "name": "Inn",
     "searchNote": "Blackshire",
     "icon": "inn"
   },
   {
     "slug": "BS_4",
-    "position": [1431,911],
+    "position": [
+      1431,
+      911
+    ],
     "name": "Armor Shop",
     "searchNote": "Blackshire",
     "icon": "shop"
   },
   {
     "slug": "BS_5",
-    "position": [1427,888],
+    "position": [
+      1427,
+      888
+    ],
     "name": "Training Hall",
     "searchNote": "Blackshire",
     "icon": "training"
   },
   {
     "slug": "BS_6",
-    "position": [1381,909],
+    "position": [
+      1381,
+      909
+    ],
     "name": "Weapon Shop",
     "searchNote": "Blackshire",
     "icon": "shop"
   },
   {
     "slug": "BS_7",
-    "position": [1363,876],
+    "position": [
+      1363,
+      876
+    ],
     "name": "Dragon Tower",
     "searchNote": "Blackshire",
     "links": [
@@ -1893,28 +2037,40 @@
   },
   {
     "slug": "BS_8",
-    "position": [1345,910],
+    "position": [
+      1345,
+      910
+    ],
     "name": "Bronwyn Meck",
     "note": "Master Shield (rank 10, 5000gp)",
     "icon": "shield"
   },
   {
     "slug": "BS_9",
-    "position": [1312,892],
+    "position": [
+      1312,
+      892
+    ],
     "name": "Temple",
     "searchNote": "Blackshire",
     "icon": "temple"
   },
   {
     "slug": "BS_10",
-    "position": [1312,918],
+    "position": [
+      1312,
+      918
+    ],
     "name": "Fountain",
     "note": "+30 Magic Resistance temporarily, but turns drinker to stone",
     "icon": "fountain"
   },
   {
     "slug": "BS_11",
-    "position": [1312,941],
+    "position": [
+      1312,
+      941
+    ],
     "name": "Joanne Cravitz",
     "links": [
       {
@@ -1927,28 +2083,40 @@
   },
   {
     "slug": "BS_12",
-    "position": [1322,958],
+    "position": [
+      1322,
+      958
+    ],
     "name": "Fountain",
     "note": "+5 Magic Resistance permanently, but diseases the drinker",
     "icon": "fountain"
   },
   {
     "slug": "BS_13",
-    "position": [1342,943],
+    "position": [
+      1342,
+      943
+    ],
     "name": "Guy Hampton",
     "note": "Master Sword (rank 8, Cavaliers)",
     "icon": "sword"
   },
   {
     "slug": "BS_14",
-    "position": [1343,963],
+    "position": [
+      1343,
+      963
+    ],
     "name": "Errol Ostermann",
     "note": "Master Mace (rank 8, Might 40, 5000gp)",
     "icon": "mace"
   },
   {
     "slug": "BS_15",
-    "position": [1378,982],
+    "position": [
+      1378,
+      982
+    ],
     "name": "Dark Guild",
     "note": "Dark Magic, 2000gp, spellbooks 1-10",
     "searchNote": "Blackshire",
@@ -1956,7 +2124,10 @@
   },
   {
     "slug": "BS_16",
-    "position": [1374,960],
+    "position": [
+      1374,
+      960
+    ],
     "name": "Light Guild",
     "note": "Light Magic, 2000gp, spellbooks 1-10",
     "searchNote": "Blackshire",
@@ -1964,7 +2135,10 @@
   },
   {
     "slug": "BS_17",
-    "position": [1374,941],
+    "position": [
+      1374,
+      941
+    ],
     "name": "Maria Trepan",
     "links": [
       {
@@ -1977,14 +2151,20 @@
   },
   {
     "slug": "BS_18",
-    "position": [1397,941],
+    "position": [
+      1397,
+      941
+    ],
     "name": "Alchemy Shop",
     "searchNote": "Blackshire",
     "icon": "shop"
   },
   {
     "slug": "BS_18_1",
-    "position": [1388,943],
+    "position": [
+      1388,
+      943
+    ],
     "name": "Smuggler's Guild",
     "note": "Leather Armor, Identify Item, Disarm Trap, Diplomacy, Perception (250gp each)",
     "searchNote": "Blackshire",
@@ -1992,14 +2172,20 @@
   },
   {
     "slug": "BS_19",
-    "position": [1399,976],
+    "position": [
+      1399,
+      976
+    ],
     "name": "Tess Tucker",
     "note": "Membership to Smuggler's Guild",
     "icon": "house"
   },
   {
     "slug": "BS_20",
-    "position": [1428,1019],
+    "position": [
+      1428,
+      1019
+    ],
     "name": "Twillen",
     "links": [
       {
@@ -2012,42 +2198,60 @@
   },
   {
     "slug": "BS_21",
-    "position": [1463,990],
+    "position": [
+      1463,
+      990
+    ],
     "name": "Rebecca Calaway",
     "note": "Membership to the Dark Guild (1000gp)",
     "icon": "house"
   },
   {
     "slug": "BS_22",
-    "position": [1462,972],
+    "position": [
+      1462,
+      972
+    ],
     "name": "Marton Ferris",
     "note": "Membership to the Light Guild (1000gp)",
     "icon": "house"
   },
   {
     "slug": "BS_23",
-    "position": [1447,963],
+    "position": [
+      1447,
+      963
+    ],
     "name": "Ambrose Brusse",
     "note": "Expert Dark Magic (2000gp)",
     "icon": "dark"
   },
   {
     "slug": "BS_24",
-    "position": [1429,963],
+    "position": [
+      1429,
+      963
+    ],
     "name": "Bank",
     "searchNote": "Blackshire",
     "icon": "bank"
   },
   {
     "slug": "BS_25",
-    "position": [1430,944],
+    "position": [
+      1430,
+      944
+    ],
     "name": "General Store",
     "searchNote": "Blackshire",
     "icon": "shop"
   },
   {
     "slug": "BS_26",
-    "position": [1449,943],
+    "position": [
+      1449,
+      943
+    ],
     "name": "Coach",
     "searchNote": "Blackshire",
     "links": [
@@ -2055,21 +2259,30 @@
         "type": "map",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Tue, Fri, 3 days, 250gp)",
-        "position": [1244,1950]
+        "position": [
+          1244,
+          1950
+        ]
       }
     ],
     "icon": "coach"
   },
   {
     "slug": "BS_27",
-    "position": [1412,928],
+    "position": [
+      1412,
+      928
+    ],
     "name": "Fountain",
     "note": "+50 spell points",
     "icon": "fountain"
   },
   {
     "slug": "BS_28",
-    "position": [1220,962],
+    "position": [
+      1220,
+      962
+    ],
     "name": "Lair of the Wolf",
     "links": [
       {
@@ -2082,7 +2295,10 @@
   },
   {
     "slug": "BS_29",
-    "position": [1221,1115],
+    "position": [
+      1221,
+      1115
+    ],
     "name": "Lord Kilburn's Shield",
     "links": [
       {
@@ -2095,14 +2311,20 @@
   },
   {
     "slug": "BS_30",
-    "position": [1197,1394],
+    "position": [
+      1197,
+      1394
+    ],
     "name": "Temple of Baa",
     "searchNote": "Blackshire",
     "icon": "cult"
   },
   {
     "slug": "BS_31",
-    "position": [1309,1354],
+    "position": [
+      1309,
+      1354
+    ],
     "name": "Temple of the Snake",
     "links": [
       {
@@ -2115,7 +2337,10 @@
   },
   {
     "slug": "BS_32",
-    "position": [1391,1405],
+    "position": [
+      1391,
+      1405
+    ],
     "name": "Fountain",
     "note": "+5 Intellect and Personality permanently, but diseases the drinker",
     "icon": "fountain"
@@ -2124,7 +2349,10 @@
     "slug": "BS_33",
     "name": "Circus (Aug-Nov)",
     "searchNote": "Blackshire",
-    "position": [1559,1276],
+    "position": [
+      1559,
+      1276
+    ],
     "links": [
       {
         "type": "quest",
@@ -2136,14 +2364,20 @@
   },
   {
     "slug": "BS_34",
-    "position": [856,965],
+    "position": [
+      856,
+      965
+    ],
     "name": "Inn",
     "searchNote": "Blackshire",
     "icon": "inn"
   },
   {
     "slug": "BS_35",
-    "position": [1073,1509],
+    "position": [
+      1073,
+      1509
+    ],
     "name": "Obelisk #5",
     "links": [
       {
@@ -2156,7 +2390,10 @@
   },
   {
     "slug": "FH_1",
-    "position": [1725,2249],
+    "position": [
+      1725,
+      2249
+    ],
     "name": "Shadow Guild",
     "links": [
       {
@@ -2169,21 +2406,30 @@
   },
   {
     "slug": "FH_2",
-    "position": [1942,2183],
+    "position": [
+      1942,
+      2183
+    ],
     "name": "Arlen Sailor",
     "note": "Master Leather Armor (rank 10, 3000gp)",
     "icon": "leather"
   },
   {
     "slug": "FH_2_1",
-    "position": [1919,2185],
+    "position": [
+      1919,
+      2185
+    ],
     "name": "Jules Miles",
     "note": "Master Dagger (rank 8, Speed 40, 5000gp)",
     "icon": "dagger"
   },
   {
     "slug": "FH_2_2",
-    "position": [1932,2186],
+    "position": [
+      1932,
+      2186
+    ],
     "name": "Anthony Stone",
     "links": [
       {
@@ -2211,14 +2457,20 @@
   },
   {
     "slug": "FH_3",
-    "position": [1941,2220],
+    "position": [
+      1941,
+      2220
+    ],
     "name": "Gabe Lester",
     "note": "Master Disarm Traps (rank 7, Accuracy 30, 2500gp)",
     "icon": "disarm"
   },
   {
     "slug": "FH_3_1",
-    "position": [1930,2221],
+    "position": [
+      1930,
+      2221
+    ],
     "name": "Protection Services",
     "note": "Dagger, Merchant, Identify Item, Perception, Disarm TRaps (250gp each)",
     "searchNote": "Frozen Highlands",
@@ -2226,56 +2478,80 @@
   },
   {
     "slug": "FH_4",
-    "position": [1928,2250],
+    "position": [
+      1928,
+      2250
+    ],
     "name": "Inn",
     "searchNote": "Frozen Highlands",
     "icon": "inn"
   },
   {
     "slug": "FH_5",
-    "position": [1923,2265],
+    "position": [
+      1923,
+      2265
+    ],
     "name": "Fountain",
     "note": "Releases monsters",
     "icon": "fountain"
   },
   {
     "slug": "FH_6",
-    "position": [1928,2285],
+    "position": [
+      1928,
+      2285
+    ],
     "name": "Marcellus Lutvig",
     "note": "Membership to Protection Services",
     "icon": "house"
   },
   {
     "slug": "FH_7",
-    "position": [1937,2306],
+    "position": [
+      1937,
+      2306
+    ],
     "name": "Ryan Treacle",
     "note": "Master Repair Items (rank 7, Accuracy 30, 2500gp)",
     "icon": "repair"
   },
   {
     "slug": "FH_8",
-    "position": [1958,2301],
+    "position": [
+      1958,
+      2301
+    ],
     "name": "Weapon Shop",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_9",
-    "position": [2006,2231],
+    "position": [
+      2006,
+      2231
+    ],
     "name": "Armor Shop",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_10",
-    "position": [2088,2330],
+    "position": [
+      2088,
+      2330
+    ],
     "name": "Fountain",
     "note": "+10 level temporarily",
     "icon": "fountain"
   },
   {
     "slug": "FH_11",
-    "position": [2274,2282],
+    "position": [
+      2274,
+      2282
+    ],
     "name": "Obelisk #7",
     "links": [
       {
@@ -2288,14 +2564,20 @@
   },
   {
     "slug": "FH_12",
-    "position": [2275,2245],
+    "position": [
+      2275,
+      2245
+    ],
     "name": "Jacques Kohl",
     "note": "Master Diplomacy (rank 4, fame 200, 2500gp)",
     "icon": "diplomacy"
   },
   {
     "slug": "FH_12_1",
-    "position": [2275,2231],
+    "position": [
+      2275,
+      2231
+    ],
     "name": "Eric Von Stromgard",
     "links": [
       {
@@ -2318,62 +2600,89 @@
   },
   {
     "slug": "FH_13",
-    "position": [2311,2196],
+    "position": [
+      2311,
+      2196
+    ],
     "name": "Dickson Parks",
     "note": "Expert Mace (2000gp)",
     "icon": "mace"
   },
   {
     "slug": "FH_13_1",
-    "position": [2309,2186],
+    "position": [
+      2309,
+      2186
+    ],
     "name": "Jed Morrison",
     "note": "Expert Bow (2000gp)",
     "icon": "bow"
   },
   {
     "slug": "FH_14",
-    "position": [2273,2194],
+    "position": [
+      2273,
+      2194
+    ],
     "name": "Fountain",
     "note": "+30 Might temporarily",
     "icon": "fountain"
   },
   {
     "slug": "FH_15",
-    "position": [2236,2177],
+    "position": [
+      2236,
+      2177
+    ],
     "name": "Shrine of Endurance",
     "note": "Pray during April",
     "icon": "info"
   },
   {
     "slug": "FH_16",
-    "position": [2274,1908],
+    "position": [
+      2274,
+      1908
+    ],
     "name": "Inn",
     "searchNote": "Frozen Highlands",
     "icon": "inn"
   },
   {
     "slug": "FH_17",
-    "position": [2283,1880],
+    "position": [
+      2283,
+      1880
+    ],
     "name": "Bank",
     "icon": "bank"
   },
   {
     "slug": "FH_18",
-    "position": [2292,1907],
+    "position": [
+      2292,
+      1907
+    ],
     "name": "General Store",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_19",
-    "position": [2310,1907],
+    "position": [
+      2310,
+      1907
+    ],
     "name": "Armor Shop",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_20",
-    "position": [2301,1843],
+    "position": [
+      2301,
+      1843
+    ],
     "name": "Blade's End",
     "note": "Staff, Spear, Sword, Axe, Repair Item (750gp each)",
     "searchNote": "Frozen Highlands",
@@ -2381,14 +2690,20 @@
   },
   {
     "slug": "FH_21",
-    "position": [2278,1822],
+    "position": [
+      2278,
+      1822
+    ],
     "name": "Fountain",
     "note": "+5 Might permanently, but kills the drinker",
     "icon": "fountain"
   },
   {
     "slug": "FH_22",
-    "position": [2273,1844],
+    "position": [
+      2273,
+      1844
+    ],
     "name": "Elements Guild",
     "note": "Earth Magic, Air Magic, Water Magic, Fire Magic, 1250gp, spellbooks 1-8",
     "searchNote": "Frozen Highlands",
@@ -2396,7 +2711,10 @@
   },
   {
     "slug": "FH_23",
-    "position": [2248,1844],
+    "position": [
+      2248,
+      1844
+    ],
     "name": "Dark Guild",
     "note": "Dark Magic, 1500gp, spellbooks 1-6",
     "searchNote": "Frozen Highlands",
@@ -2404,35 +2722,50 @@
   },
   {
     "slug": "FH_24",
-    "position": [2240,1822],
+    "position": [
+      2240,
+      1822
+    ],
     "name": "Fountain",
     "note": "+5 Endurance permanently, but kills the drinker",
     "icon": "fountain"
   },
   {
     "slug": "FH_25",
-    "position": [2212,1866],
+    "position": [
+      2212,
+      1866
+    ],
     "name": "Fredrick Piles",
     "note": "Membership to Blade's End (25gp)",
     "icon": "house"
   },
   {
     "slug": "FH_26",
-    "position": [2212,1908],
+    "position": [
+      2212,
+      1908
+    ],
     "name": "Weapon Shop",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_27",
-    "position": [2228,1880],
+    "position": [
+      2228,
+      1880
+    ],
     "name": "Alchemy Shop",
     "searchNote": "Frozen Highlands",
     "icon": "shop"
   },
   {
     "slug": "FH_28",
-    "position": [2239,1913],
+    "position": [
+      2239,
+      1913
+    ],
     "name": "Coach",
     "searchNote": "Frozen Highlands",
     "links": [
@@ -2440,21 +2773,30 @@
         "type": "map",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Mon, Thur, 3 days, 200gp)",
-        "position": [1244,1950]
+        "position": [
+          1244,
+          1950
+        ]
       }
     ],
     "icon": "coach"
   },
   {
     "slug": "FH_29",
-    "position": [2244,1884],
+    "position": [
+      2244,
+      1884
+    ],
     "name": "Fountain",
     "note": "Releases monsters",
     "icon": "fountain"
   },
   {
     "slug": "FH_30",
-    "position": [2260,1870],
+    "position": [
+      2260,
+      1870
+    ],
     "name": "Dragon Tower",
     "searchNote": "Frozen Highlands",
     "icon": "quest",
@@ -2468,14 +2810,20 @@
   },
   {
     "slug": "FH_31",
-    "position": [2214,1774],
+    "position": [
+      2214,
+      1774
+    ],
     "name": "Morton Holovin",
     "note": "Expert Dark Magic",
     "icon": "dark"
   },
   {
     "slug": "FH_32",
-    "position": [2310,1815],
+    "position": [
+      2310,
+      1815
+    ],
     "name": "Training Hall",
     "note": "Maximum level: 50",
     "searchNote": "Frozen Highlands",
@@ -2483,28 +2831,40 @@
   },
   {
     "slug": "FH_33",
-    "position": [2310,1790],
+    "position": [
+      2310,
+      1790
+    ],
     "name": "Rachel Herzl",
     "note": "Membership to the Dark Guild",
     "icon": "house"
   },
   {
     "slug": "FH_34",
-    "position": [2309,1767],
+    "position": [
+      2309,
+      1767
+    ],
     "name": "Warren Holmes",
     "note": "Membership to the Elements Guild",
     "icon": "house"
   },
   {
     "slug": "FH_35",
-    "position": [2262,1786],
+    "position": [
+      2262,
+      1786
+    ],
     "name": "Temple",
     "searchNote": "Frozen Highlands",
     "icon": "temple"
   },
   {
     "slug": "FH_36",
-    "position": [1896,1652],
+    "position": [
+      1896,
+      1652
+    ],
     "name": "Icewind Keep",
     "links": [
       {
@@ -2517,21 +2877,30 @@
   },
   {
     "slug": "FH_37",
-    "position": [1692,1723],
+    "position": [
+      1692,
+      1723
+    ],
     "name": "Fountain",
     "note": "+20 Speed and Accuracy temporarily",
     "icon": "fountain"
   },
   {
     "slug": "FH_38",
-    "position": [1690,1786],
+    "position": [
+      1690,
+      1786
+    ],
     "name": "Fountain",
     "note": "+20 AC temporarily",
     "icon": "fountain"
   },
   {
     "slug": "NS_1",
-    "position": [244,3427],
+    "position": [
+      244,
+      3427
+    ],
     "name": "Inn",
     "searchNote": "New Sorpigal",
     "links": [
@@ -2555,49 +2924,70 @@
   },
   {
     "slug": "NS_1_1",
-    "position": [243,3439],
+    "position": [
+      243,
+      3439
+    ],
     "name": "Sheila Loompus",
     "note": "Expert Identify (500gp)",
     "icon": "identify"
   },
   {
     "slug": "NS_1_2",
-    "position": [238,3436],
+    "position": [
+      238,
+      3436
+    ],
     "name": "Tara D'Cathay",
     "note": "Expert Perception (500gp)",
     "icon": "perception"
   },
   {
     "slug": "NS_2",
-    "position": [248,3459],
+    "position": [
+      248,
+      3459
+    ],
     "name": "Hejaz Mawsil",
     "note": "Membership to the Buccaneer's Lair (25gp); Seeking Cobra Eggs (1000gp each)",
     "icon": "house"
   },
   {
     "slug": "NS_3",
-    "position": [249,3471],
+    "position": [
+      249,
+      3471
+    ],
     "name": "Harold Hess",
     "note": "Membership to the Blade's End (25gp)",
     "icon": "house"
   },
   {
     "slug": "NS_4",
-    "position": [265,3488],
+    "position": [
+      265,
+      3488
+    ],
     "name": "Erik Salzburg",
     "note": "Expert Bodybuildling (500gp)",
     "icon": "bodyBuilding"
   },
   {
     "slug": "NS_5",
-    "position": [288,3488],
+    "position": [
+      288,
+      3488
+    ],
     "name": "Victor Hosen",
     "note": "Expert Meditation (500gp)",
     "icon": "meditation"
   },
   {
     "slug": "NS_6",
-    "position": [300,3472],
+    "position": [
+      300,
+      3472
+    ],
     "name": "Violet Dawson",
     "note": "Membership to the Self Guild (100gp)",
     "links": [
@@ -2611,7 +3001,10 @@
   },
   {
     "slug": "NS_7",
-    "position": [302,3455],
+    "position": [
+      302,
+      3455
+    ],
     "name": "Buford T. Allman",
     "note": "Membership to the Elements Guild (100gp)",
     "links": [
@@ -2625,14 +3018,20 @@
   },
   {
     "slug": "NS_8",
-    "position": [282,3433],
+    "position": [
+      282,
+      3433
+    ],
     "name": "Armor Shop",
     "searchNote": "New Sorpigal",
     "icon": "shop"
   },
   {
     "slug": "NS_9",
-    "position": [282,3462],
+    "position": [
+      282,
+      3462
+    ],
     "name": "Blade's End",
     "note": "Axe, Spear, Staff, Sword, Leather Armor (375gp each)",
     "searchNote": "New Sorpigal",
@@ -2640,21 +3039,30 @@
   },
   {
     "slug": "NS_10",
-    "position": [267,3462],
+    "position": [
+      267,
+      3462
+    ],
     "name": "Alchemy Shop",
     "searchNote": "New Sorpigal",
     "icon": "shop"
   },
   {
     "slug": "NS_11",
-    "position": [267,3438],
+    "position": [
+      267,
+      3438
+    ],
     "name": "Weapon Shop",
     "searchNote": "New Sorpigal",
     "icon": "shop"
   },
   {
     "slug": "NS_12",
-    "position": [235,3388],
+    "position": [
+      235,
+      3388
+    ],
     "name": "Coach",
     "searchNote": "New Sorpigal",
     "links": [
@@ -2662,35 +3070,50 @@
         "type": "map",
         "slug": "CI",
         "text": "To Castle Ironfist (Mon, Wed, Fri, 2 days, 25gp)",
-        "position": [449,3031]
+        "position": [
+          449,
+          3031
+        ]
       }
     ],
     "icon": "coach"
   },
   {
     "slug": "NS_13",
-    "position": [248,3390],
+    "position": [
+      248,
+      3390
+    ],
     "name": "General Store",
     "searchNote": "New Sorpigal",
     "icon": "shop"
   },
   {
     "slug": "NS_14",
-    "position": [249,3373],
+    "position": [
+      249,
+      3373
+    ],
     "name": "Abdulai Mahgreb",
     "note": "Expert Body Magic",
     "icon": "body"
   },
   {
     "slug": "NS_15",
-    "position": [249,3356],
+    "position": [
+      249,
+      3356
+    ],
     "name": "Virgil Holiday",
     "note": "Expert Mind Magic (1000gp)",
     "icon": "mind"
   },
   {
     "slug": "NS_16",
-    "position": [249,3338],
+    "position": [
+      249,
+      3338
+    ],
     "name": "Enoch Highridge",
     "note": "Expert Spirit Magic (1000gp)",
     "searchNote": "New Sorpigal",
@@ -2698,7 +3121,10 @@
   },
   {
     "slug": "NS_17",
-    "position": [275,3328],
+    "position": [
+      275,
+      3328
+    ],
     "name": "Training Hall",
     "note": "Maximum level: 15",
     "searchNote": "New Sorpigal",
@@ -2706,21 +3132,30 @@
   },
   {
     "slug": "NS_18",
-    "position": [302,3342],
+    "position": [
+      302,
+      3342
+    ],
     "name": "Taro",
     "note": "Expert Earth Magic",
     "icon": "earth"
   },
   {
     "slug": "NS_19",
-    "position": [301,3360],
+    "position": [
+      301,
+      3360
+    ],
     "name": "Isao Magistrus",
     "note": "Expert Fire Magic (1000gp)",
     "icon": "fire"
   },
   {
     "slug": "NS_20",
-    "position": [284,3355],
+    "position": [
+      284,
+      3355
+    ],
     "name": "Buccaneer's Lair",
     "note": "Merchant, Identify Item, Perception, Disarm Traps, Dagger (150gp each)",
     "searchNote": "New Sorpigal",
@@ -2728,21 +3163,30 @@
   },
   {
     "slug": "NS_20_1",
-    "position": [278,3360],
+    "position": [
+      278,
+      3360
+    ],
     "name": "Invisible teleporter to Dragonsands (above lair)",
     "links": [
       {
         "type": "map",
         "slug": "DS",
         "text": "To Dragonsands",
-        "position": [518,1416]
+        "position": [
+          518,
+          1416
+        ]
       }
     ],
     "icon": "info"
   },
   {
     "slug": "NS_21",
-    "position": [281,3381],
+    "position": [
+      281,
+      3381
+    ],
     "name": "Town Hall",
     "icon": "townHall",
     "links": [
@@ -2775,49 +3219,70 @@
   },
   {
     "slug": "NS_22",
-    "position": [265,3385],
+    "position": [
+      265,
+      3385
+    ],
     "name": "Bank",
     "searchNote": "New Sorpigal",
     "icon": "bank"
   },
   {
     "slug": "NS_22_1",
-    "position": [266,3378],
+    "position": [
+      266,
+      3378
+    ],
     "name": "Cheryl Duncan",
     "note": "Expert Air Magic (1000gp)",
     "icon": "air"
   },
   {
     "slug": "NS_23",
-    "position": [270,3407],
+    "position": [
+      270,
+      3407
+    ],
     "name": "Fountain",
     "note": "+5 hit points",
     "icon": "fountain"
   },
   {
     "slug": "NS_24",
-    "position": [302,3383],
+    "position": [
+      302,
+      3383
+    ],
     "name": "Fountain",
     "note": "+5 spell points",
     "icon": "fountain"
   },
   {
     "slug": "NS_25",
-    "position": [302,3428],
+    "position": [
+      302,
+      3428
+    ],
     "name": "Fountain",
     "note": "+10 Might temporarily",
     "icon": "fountain"
   },
   {
     "slug": "NS_26",
-    "position": [381,3406],
+    "position": [
+      381,
+      3406
+    ],
     "name": "Temple",
     "searchNote": "New Sorpigal",
     "icon": "temple"
   },
   {
     "slug": "NS_27",
-    "position": [381,3335],
+    "position": [
+      381,
+      3335
+    ],
     "name": "Self Guild",
     "note": "Mind Magic, Body Magic, Spirit Magic, 750gp, spellbooks 1-4",
     "searchNote": "New Sorpigal",
@@ -2825,14 +3290,20 @@
   },
   {
     "slug": "NS_27_1",
-    "position": [384,3324],
+    "position": [
+      384,
+      3324
+    ],
     "name": "Donald Retzer",
     "note": "Expert Learning (2000gp)",
     "icon": "learning"
   },
   {
     "slug": "NS_28",
-    "position": [380,3483],
+    "position": [
+      380,
+      3483
+    ],
     "name": "Elements Guild",
     "note": "Earth Magic, Air Magic, Water Magic, Fire Magic, 750 gp, spellbooks 1-4",
     "searchNote": "New Sorpigal",
@@ -2840,7 +3311,10 @@
   },
   {
     "slug": "NS_29",
-    "position": [232,3472],
+    "position": [
+      232,
+      3472
+    ],
     "name": "Dragon Tower",
     "searchNote": "New Sorpigal",
     "icon": "quest",
@@ -2854,7 +3328,10 @@
   },
   {
     "slug": "NS_30",
-    "position": [125,3254],
+    "position": [
+      125,
+      3254
+    ],
     "name": "Goblinwatch",
     "links": [
       {
@@ -2867,14 +3344,20 @@
   },
   {
     "slug": "NS_31",
-    "position": [43,3541],
+    "position": [
+      43,
+      3541
+    ],
     "name": "Dorf",
     "note": "Expert Staff (2000gp)",
     "icon": "staff"
   },
   {
     "slug": "NS_32",
-    "position": [391,3201],
+    "position": [
+      391,
+      3201
+    ],
     "name": "Abandoned Temple",
     "links": [
       {
@@ -2887,28 +3370,40 @@
   },
   {
     "slug": "NS_33",
-    "position": [463,3774],
+    "position": [
+      463,
+      3774
+    ],
     "name": "Igor",
     "note": "Expert Ancient Weapons",
     "icon": "blaster"
   },
   {
     "slug": "NS_34",
-    "position": [269,3898],
+    "position": [
+      269,
+      3898
+    ],
     "name": "Shrine of Luck",
     "note": "Pray during July",
     "icon": "info"
   },
   {
     "slug": "NS_35",
-    "position": [287,3926],
+    "position": [
+      287,
+      3926
+    ],
     "name": "Douglas Hill",
     "note": "Expert Water Magic",
     "icon": "water"
   },
   {
     "slug": "NS_36",
-    "position": [585,3851],
+    "position": [
+      585,
+      3851
+    ],
     "name": "Gharik's Forge",
     "links": [
       {
@@ -2921,7 +3416,10 @@
   },
   {
     "slug": "NS_37",
-    "position": [679,3328],
+    "position": [
+      679,
+      3328
+    ],
     "name": "Obelisk #15",
     "links": [
       {
@@ -2934,7 +3432,10 @@
   },
   {
     "slug": "NS_38",
-    "position": [216,3599],
+    "position": [
+      216,
+      3599
+    ],
     "name": "Docks",
     "searchNote": "New Sorpigal",
     "links": [
@@ -2942,30 +3443,570 @@
         "type": "map",
         "slug": "MIST",
         "text": "To Misty Islands (Tue, Thur, Sat, 3 days, 100gp)",
-        "position": [934,3522]
+        "position": [
+          934,
+          3522
+        ]
       }
     ],
     "icon": "docks"
   },
   {
     "slug": "NS_39",
-    "position": [292,3327],
+    "position": [
+      292,
+      3327
+    ],
     "name": "Fountain",
     "note": "+2 Luck permanently",
     "icon": "fountain"
   },
   {
     "slug": "NS_40",
-    "position": [689,3743],
+    "position": [
+      689,
+      3743
+    ],
     "name": "Cooking Fire",
     "note": "Releases monsters",
     "icon": "info"
   },
   {
     "slug": "NS_41",
-    "position": [313,3291],
+    "position": [
+      313,
+      3291
+    ],
     "name": "Ambush",
     "note": "Walking through the bridge releases monsters",
     "icon": "info"
+  },
+  {
+    "slug": "CI_1",
+    "position": [360,3056],
+    "name": "Rich Hamburg",
+    "note": "Expert Chain Armor (1000gp)",
+    "icon": "chain"
+  },
+  {
+    "slug": "CI_2",
+    "position": [369,3072],
+    "name": "Benito Tellman",
+    "note": "Expert Plate Armor",
+    "icon": "plate"
+  },
+  {
+    "slug": "CI_3",
+    "position": [383,3056],
+    "name": "Edgar Carpenter",
+    "note": "Expert Shield",
+    "icon": "shield"
+  },
+  {
+    "slug": "CI_4",
+    "position": [369,3042],
+    "name": "Newt Headrow",
+    "note": "Expert Leather Armor",
+    "icon": "leather"
+  },
+  {
+    "slug": "CI_5",
+    "position": [449,3046],
+    "name": "Coach",
+    "searchNote": "Castle Ironfist",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "ARENA",
+        "text": "To Arena (Sun, 1 day, 50gp)"
+      },
+      {
+        "type": "map",
+        "slug": "NEW_SORPIGAL",
+        "text": "To New Sorpigal (Mon, Wed, Fri, 2 days, 50gp)"
+      },
+      {
+        "type": "map",
+        "slug": "FREE_HAVEN",
+        "text": "To Free Haven (Tue, Sat, 4 days, 50gp)"
+      }
+    ],
+    "icon": "coach"
+  },
+  {
+    "slug": "CI_6",
+    "position": [485,3028],
+    "name": "Andrew Besper",
+    "note": "Membership to the Berserker's Fury (50gp)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_9",
+        "text": "Retrieve the Harp"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CI_7",
+    "position": [481,3049],
+    "name": "Berserker's Fury",
+    "note": "Bow, Shield, Chain Armor, Plate Armor, Repair Item, 500gp",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_8",
+    "position": [461,3068],
+    "name": "Armor Shop",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_9",
+    "position": [480,3071],
+    "name": "Weapon Shop",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_10",
+    "position": [497,3079],
+    "name": "Helen Teal",
+    "note": "Expert Bow (2000gp)",
+    "icon": "bow"
+  },
+  {
+    "slug": "CI_10_1",
+    "position": [505,3072],
+    "name": "Tracy Flauta",
+    "note": "Membership to the Mind Guild (50gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "CI_11",
+    "position": [524,3088],
+    "name": "Inn",
+    "searchNote": "Castle Ironfist",
+    "icon": "inn"
+  },
+  {
+    "slug": "CI_11_1",
+    "position": [531,3082],
+    "name": "Terrance Smith",
+    "note": "Expert Dagger (2000gp)",
+    "icon": "dagger"
+  },
+  {
+    "slug": "CI_12",
+    "position": [540,3155],
+    "name": "Docks",
+    "searchNote": "Castle Ironfist",
+    "links": [
+      {
+        "type": "map",
+        "slug": "MIST",
+        "text": "To Island of Mist (Mon, Wed, Fri, 2 days, 100gp)",
+        "position": [0,0]
+      },
+      {
+        "type": "map",
+        "slug": "NEW_SORPIGAL",
+        "text": "To New Sorpigal (Tue, Thur, Sat, 2 days, 100gp)",
+        "position": [0,0]
+      },
+      {
+        "type": "map",
+        "slug": "BB",
+        "text": "To Bootleg Bay, East (Tue, Fri, 3 days, 100gp)",
+        "position": [0,0]
+      },
+      {
+        "type": "map",
+        "slug": "VOLC_NEW_SORP",
+        "text": "Volcano, To New Sorpigal, South (Sun, 2 days)",
+        "position": [0,0]
+      },
+      {
+        "type": "map",
+        "slug": "VOLC_DS_GF",
+        "text": "Volcano, Dragonsands, near Gharik's Forge (Sun, 14 days)",
+        "position": [0,0]
+      },
+      {
+        "type": "map",
+        "slug": "HERMIT",
+        "text": "To Hermit's Isle (21 days)",
+        "position": [0,0]
+      }
+    ],
+    "icon": "docks"
+  },
+  {
+    "slug": "CI_13",
+    "position": [613,3059],
+    "name": "Leon Lazaru",
+    "note": "Expert Identify Items (500gp)",
+    "icon": "identify"
+  },
+  {
+    "slug": "CI_14",
+    "position": [629,3059],
+    "name": "Tyler Tailor",
+    "note": "Expert Disarm Traps (500gp)",
+    "icon": "disarm"
+  },
+  {
+    "slug": "CI_15",
+    "position": [623,3079],
+    "name": "Training Hall",
+    "searchNote": "Castle Ironfist",
+    "icon": "training"
+  },
+  {
+    "slug": "CI_15_1",
+    "position": [617,3085],
+    "name": "Stephen Biggs",
+    "note": "Expert Axe (500gp)",
+    "icon": "axe"
+  },
+  {
+    "slug": "CI_16",
+    "position": [623,3101],
+    "name": "Weapon Shop",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_16_1",
+    "position": [627,3111],
+    "name": "Aaron Strongmun",
+    "note": "Expert Sword (2000gp)",
+    "icon": "sword"
+  },
+  {
+    "slug": "CI_17",
+    "position": [643,3119],
+    "name": "Armor Shop",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_18",
+    "position": [657,3131],
+    "name": "Spirit Guild",
+    "note": "Meditation, Spirit Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_18_1",
+    "position": [675,3132],
+    "name": "Mind Guild",
+    "note": "Meditation, Mind Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_18_2",
+    "position": [667,3149],
+    "name": "Body Guild",
+    "note": "Meditation, Body Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_19",
+    "position": [695,3134],
+    "name": "Alchemy Shop",
+    "searchNote": "Castle Ironfist",
+    "icon": "shop"
+  },
+  {
+    "slug": "CI_20",
+    "position": [724,3145],
+    "name": "Temple",
+    "searchNote": "Castle Ironfist",
+    "icon": "temple"
+  },
+  {
+    "slug": "CI_21",
+    "position": [744,3091],
+    "name": "Olaf Berring",
+    "note": "Expert Bodybuilding (500gp)",
+    "icon": "bodyBuilding"
+  },
+  {
+    "slug": "CI_22",
+    "position": [741,3049],
+    "name": "Bishop Iquisitorio",
+    "note": "Membership to the Spirit Guild (50gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "CI_22_1",
+    "position": [743,3061],
+    "name": "Bishop Iquisitorio",
+    "note": "Master Spirit Magic (High Priest)",
+    "icon": "spirit"
+  },
+  {
+    "slug": "CI_23",
+    "position": [708,3041],
+    "name": "708,3041",
+    "note": "Membership to the Body Guild (50gp)",
+    "icon": "body"
+  },
+  {
+    "slug": "CI_24",
+    "position": [692,3084],
+    "name": "Castle Ironfist",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_11",
+        "text": "Rescue a Damsel in Distress (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_12",
+        "text": "Find Lord Kilburn's Shield (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_24",
+        "text": "Slay Longfang Witherhide (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_42",
+        "text": "Find a cure for Slicker Silvertongue (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_43",
+        "text": "Bring the letter detailing Silvertongue's treason to the High Council (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_3",
+        "text": "Bring Pearl of Purity to Wilbur Humphrey (Wilbur Humphrey)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_10",
+        "text": "Find and return Prince Nicolai (Nicolai Ironfist)"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_51",
+        "text": "Find the Third Eye (Nicolai Ironfist)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CI_24_1",
+    "position": [691,3061],
+    "name": "Elton Astrogate",
+    "note": "Expert Learning (2000gp)",
+    "icon": "learning"
+  },
+  {
+    "slug": "CI_24_2",
+    "position": [689,3108],
+    "name": "Walter Hargreaves",
+    "note": "Expert Diplomacy (500gp)",
+    "icon": "diplomacy"
+  },
+  {
+    "slug": "CI_25",
+    "position": [666,3073],
+    "name": "Fountain",
+    "note": "+10 Speed temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "CI_26",
+    "position": [666,3097],
+    "name": "Fountain",
+    "note": "+10 Accuracy temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "CI_27",
+    "position": [648,3072],
+    "name": "Teleporter to southwest",
+    "links": [
+      {
+        "type": "map",
+        "slug": "TELEPORTER_35",
+        "text": "To southwest",
+        "position": [292,2571]
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CI_28",
+    "position": [648,3097],
+    "name": "Receiver for Teleporter in southwest",
+    "links": [
+      {
+        "type": "map",
+        "slug": "TELEPORTER_37",
+        "text": "From southwest teleporter",
+        "position": [329,2572]
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CI_29",
+    "position": [139,3073],
+    "name": "Dragoon's Caverns",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "DRAGOON",
+        "text": "To Dragoon's Caverns"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "CI_30",
+    "position": [273,2869],
+    "name": "Temple of Baa (Dungeon)",
+    "searchNote": "Castle Ironfist",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "TEMPLE_BAA",
+        "text": "To Temple of Baa"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "CI_31",
+    "position": [729,2773],
+    "name": "Shadow Guild Hideout",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SG_HIDEOUT",
+        "text": "To Shadow Guild Hideout"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "CI_32",
+    "position": [744,2720],
+    "name": "Seer",
+    "links": [
+      {
+        "type": "data",
+        "slug": "SEER",
+        "text": "More Info"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CI_33",
+    "position": [92,2689],
+    "name": "Temple of Baa",
+    "searchNote": "Castle Ironfist",
+    "icon": "cult"
+  },
+  {
+    "slug": "CI_34",
+    "position": [92,2429],
+    "name": "Corlagon's Estate",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "CORLAGON",
+        "text": "To Corlagon's Estate"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "CI_35",
+    "position": [291,2571],
+    "name": "Receiver for teleporter near castle",
+    "links": [
+      {
+        "type": "map",
+        "slug": "CI_27",
+        "text": "From Castle Ironfist",
+        "position": [648,3073]
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CI_36",
+    "position": [311,2571],
+    "name": "Fountain",
+    "note": "+10 hit points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "CI_37",
+    "position": [329,2571],
+    "name": "Teleporter to Castle Ironfist",
+    "links": [
+      {
+        "type": "map",
+        "slug": "CI_28",
+        "text": "To Castle Ironfist",
+        "position": [648,3097]
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CI_38",
+    "position": [348,2571],
+    "name": "Obelisk #28",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "CI_39",
+    "position": [507,2588],
+    "name": "Shrine of Electricity",
+    "note": "Pray during September",
+    "icon": "info"
+  },
+  {
+    "slug": "CI_40",
+    "position": [684,2529],
+    "name": "Inn",
+    "searchNote": "Castle Ironfist",
+    "icon": "inn"
+  },
+  {
+    "slug": "CI_41",
+    "position": [748,2437],
+    "name": "Snergle's Caverns",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SNERGLE_CAVERN",
+        "text": "To Snergle's Caverns"
+      }
+    ],
+    "icon": "dungeon"
   }
 ]

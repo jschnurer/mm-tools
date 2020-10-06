@@ -30,28 +30,39 @@ const POI: React.FC<IPOIProps> = ({
     {showSearchNote &&
       <span className="note">{poi.searchNote}</span>
     }
-    {poi.links?.map(l =>
-      linkify
-        ? (
-          <button
-            className="link-button"
-            key={l.slug}
-            onClick={onLinkClick
-              ? () => onLinkClick(l)
-              : undefined
-            }
-          >
-            {l.text}
-          </button>
-        ) : (
-          <span
-            className="link"
-            key={l.slug}
-          >
-            {l.text}
-          </span>
-        )
-    )}
+    {poi.links &&
+      <ul>
+        {poi.links?.map(l =>
+          linkify
+            ? (
+              <li
+                key={l.slug}
+              >
+                <button
+                  className="link-button"
+                  onClick={onLinkClick
+                    ? () => onLinkClick(l)
+                    : undefined
+                  }
+                >
+                  {l.text}
+                </button>
+              </li>
+            ) : (
+              <li
+                key={l.slug}
+              >
+                <span
+                  className="link"
+                  key={l.slug}
+                >
+                  {l.text}
+                </span>
+              </li>
+            )
+        )}
+      </ul>
+    }
     {showRemove
       && onRemoveClick &&
       <button
