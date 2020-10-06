@@ -3523,12 +3523,14 @@
       {
         "type": "map",
         "slug": "NEW_SORPIGAL",
-        "text": "To New Sorpigal (Mon, Wed, Fri, 2 days, 50gp)"
+        "text": "To New Sorpigal (Mon, Wed, Fri, 2 days, 50gp)",
+        "position": [234,3394]
       },
       {
         "type": "map",
         "slug": "FREE_HAVEN",
-        "text": "To Free Haven (Tue, Sat, 4 days, 50gp)"
+        "text": "To Free Haven (Tue, Sat, 4 days, 50gp)",
+        "position": [1246,1949]
       }
     ],
     "icon": "coach"
