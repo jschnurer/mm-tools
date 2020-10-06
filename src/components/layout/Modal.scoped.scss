@@ -8,6 +8,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 1000;
 }
 
 .modal {
@@ -20,6 +21,7 @@
   height: 80%;
   overflow: hidden;
   border-radius: .25em;
+  z-index: 1001;
 
   .header {
     background-color: #444;

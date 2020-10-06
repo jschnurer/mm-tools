@@ -10,6 +10,7 @@ import mm6POIs from "./mm6.json";
 import { IPOI, IPOILink, POILinkType } from "./MapTypes";
 import { DebounceInput } from "react-debounce-input";
 import icons from "./icons";
+import MM6Quests from "./MM6Quests";
 
 const allPOIs = mm6POIs.map((poi: any): IPOI => ({
   slug: poi.slug,
@@ -51,6 +52,8 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
   const [mapView, setMapView] = useState(initialMapView);
   const [focus, setFocus] = useState<IPOI | null>(null);
   const [unfocusTimeout, setUnfocusTimeout] = useState<number | undefined>();
+  const [focusQuest, setFocusQuest] = useState<string>("");
+  const [isQuestModalOpen, setIsQuestModalOpen] = useState(false);
 
   const searchResultsRef = useRef<HTMLUListElement>(null);
 
@@ -155,96 +158,108 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
         // TODO: go to submap url
         return;
       case "quest":
-        // TODO: show quest popup
+        setFocusQuest(link.slug);
+        setIsQuestModalOpen(true);
         return;
     }
   }
 
   return (
-    <FlowLayout
-      header={(
-        <div className="header">
-          <DebounceInput
-            type="text"
-            placeholder="Type to search..."
-            className="search-box"
-            minLength={1}
-            debounceTimeout={300}
-            value={searchTerm}
-            onChange={(e) => doSearch(e.target.value)}
-          />
-          {searchResults.length > 0 &&
-            <ul
-              className="search-results"
-              ref={searchResultsRef}
+    <>
+      <FlowLayout
+        header={(
+          <div className="header">
+            <DebounceInput
+              type="text"
+              placeholder="Type to search..."
+              className="search-box"
+              minLength={1}
+              debounceTimeout={300}
+              value={searchTerm}
+              onChange={(e) => doSearch(e.target.value)}
+            />
+            {searchResults.length > 0 &&
+              <ul
+                className="search-results"
+                ref={searchResultsRef}
+              >
+                {searchResults.map(poi => (
+                  <li
+                    key={poi.slug}
+                  >
+                    <POI
+                      poi={poi}
+                      showRemove={false}
+                      linkify={false}
+                      onClick={() => onSearchResultClick(poi)}
+                      showSearchNote
+                    />
+                  </li>
+                ))}
+              </ul>
+            }
+            <button
+              className="secondary-button"
+              onClick={resetMap}
             >
-              {searchResults.map(poi => (
-                <li
-                  key={poi.slug}
-                >
-                  <POI
-                    poi={poi}
-                    showRemove={false}
-                    linkify={false}
-                    onClick={() => onSearchResultClick(poi)}
-                    showSearchNote
-                  />
-                </li>
-              ))}
-            </ul>
-          }
-          <button
-            className="secondary-button"
-            onClick={resetMap}
-          >
-            Reset map
+              Reset map
         </button>
-        </div>
-      )}
-    >
-      <Map
-        crs={CRS.Simple}
-        minZoom={-2}
-        maxZoom={2}
-        zoom={mapView.zoom}
-        center={mapView.center}
-        onclick={onMapClick}
+          </div>
+        )}
       >
-        <ImageOverlay
-          url={mm6WorldMap}
-          bounds={bounds}
+        <Map
+          crs={CRS.Simple}
+          minZoom={-2}
+          maxZoom={2}
+          zoom={mapView.zoom}
+          center={mapView.center}
+          onclick={onMapClick}
+        >
+          <ImageOverlay
+            url={mm6WorldMap}
+            bounds={bounds}
+          />
+          {pois.map(poi => (
+            <Marker
+              position={poi.position}
+              key={poi.slug}
+              icon={poi === focus
+                ? new Icon({
+                  ...poi.icon.options,
+                  className: poi.icon.options.className + " focused",
+                })
+                : poi.icon}
+            >
+              <Popup>
+                <POI
+                  poi={poi}
+                  showRemove={false}
+                  onRemoveClick={() => onRemoveMarkerClick(poi)}
+                  linkify={true}
+                  onLinkClick={onLinkClick}
+                />
+              </Popup>
+              <Tooltip>
+                <POI
+                  poi={poi}
+                  showRemove={false}
+                  linkify={false}
+                />
+              </Tooltip>
+            </Marker>
+          ))}
+        </Map>
+      </FlowLayout>
+      {isQuestModalOpen &&
+        <MM6Quests
+          focusQuestSlug={focusQuest}
+          onClose={() => {
+            setFocusQuest("");
+            setIsQuestModalOpen(false);
+          }}
         />
-        {pois.map(poi => (
-          <Marker
-            position={poi.position}
-            key={poi.slug}
-            icon={poi === focus
-              ? new Icon({
-                ...poi.icon.options,
-                className: poi.icon.options.className + " focused",
-              })
-              : poi.icon}
-          >
-            <Popup>
-              <POI
-                poi={poi}
-                showRemove={false}
-                onRemoveClick={() => onRemoveMarkerClick(poi)}
-                linkify={true}
-                onLinkClick={onLinkClick}
-              />
-            </Popup>
-            <Tooltip>
-              <POI
-                poi={poi}
-                showRemove={false}
-                linkify={false}
-              />
-            </Tooltip>
-          </Marker>
-        ))}
-      </Map>
-    </FlowLayout>
+      }
+    </>
   );
 };
 
