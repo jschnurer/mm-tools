@@ -324,7 +324,15 @@
     ],
     "name": "Docks",
     "icon": "docks",
-    "searchNote": "Eel Infested Waters main island"
+    "searchNote": "Eel Infested Waters main island",
+    "links": [
+      {
+        "type": "map",
+        "slug": "SILVER_COVE",
+        "text": "To Silver Cove (Mon, 2 days, 400gp)",
+        "position": [1783,2871]
+      }
+    ]
   },
   {
     "slug": "EIW_7",
@@ -364,7 +372,13 @@
     ],
     "name": "Docks",
     "icon": "docks",
-    "searchNote": "Eel Infested Waters south island"
+    "searchNote": "Eel Infested Waters south island",
+    "links":[{
+      "type":"map",
+      "slug":"NORTH_ISLAND",
+      "text": "To Eel Infested Waters North Island (Sat, 1 day, 200gp)",
+      "position": [2137,3688]
+    }]
   },
   {
     "slug": "EIW_10",
@@ -783,6 +797,22 @@
       934,
       3512
     ],
+    "links":[{
+      "type":"map",
+      "slug":"CI",
+      "text":"To Castle Ironfist (Mon, Wed, Fri, 2 days, 250gp)",
+      "position": [539,3147]
+    },{
+      "type":"map",
+      "slug":"SC",
+      "text":"To Silver Cove (Mon, Thur, 3 days, 250gp)",
+      "position": [1783,2865]
+    },{
+      "type":"map",
+      "slug":"BB",
+      "text":"To Bootleg Bay East (Tue, Thur, Sat, 2 days, 250gp)",
+      "position": [1397,2904]
+    }],
     "icon": "docks"
   },
   {
@@ -1493,6 +1523,14 @@
     ],
     "name": "East Docks",
     "searchNote": "Bootleg Bay",
+    "links": [
+      {
+        "type": "map",
+        "slug": "BBW",
+        "text": "To Bootleg Bay West (Mon, Wed, 1 day, 150gp)",
+        "position": [1262,2790]
+      }
+    ],
     "icon": "docks"
   },
   {
@@ -1529,6 +1567,14 @@
     ],
     "name": "West Docks",
     "searchNote": "Bootleg Bay",
+    "links": [
+      {
+        "type": "map",
+        "slug": "CI",
+        "text": "To Castle Ironfist (Tue, Thur, 4 days, 150gp)",
+        "position": [540,3150]
+      }
+    ],
     "icon": "docks"
   },
   {
@@ -2008,7 +2054,8 @@
       {
         "type": "map",
         "slug": "FREE_HAVEN",
-        "text": "To Free Haven (Tue, Fri, 3 days, 250gp)"
+        "text": "To Free Haven (Tue, Fri, 3 days, 250gp)",
+        "position": [1244,1950]
       }
     ],
     "icon": "coach"
@@ -2392,7 +2439,8 @@
       {
         "type": "map",
         "slug": "FREE_HAVEN",
-        "text": "To Free Haven (Mon, Thur, 3 days, 200gp)"
+        "text": "To Free Haven (Mon, Thur, 3 days, 200gp)",
+        "position": [1244,1950]
       }
     ],
     "icon": "coach"

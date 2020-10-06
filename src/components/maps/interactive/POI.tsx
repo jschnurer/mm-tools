@@ -1,5 +1,5 @@
 import React from "react";
-import { IPOI } from "./MapTypes";
+import { IPOI, IPOILink } from "./MapTypes";
 import "./POI.scoped.scss";
 
 interface IPOIProps {
@@ -7,7 +7,7 @@ interface IPOIProps {
   showRemove: boolean,
   onClick?(): void,
   onRemoveClick?(): void,
-  onLinkClick?(): void,
+  onLinkClick?(link: IPOILink): void,
   linkify: boolean,
   showSearchNote?: boolean,
 }
@@ -36,7 +36,10 @@ const POI: React.FC<IPOIProps> = ({
           <button
             className="link-button"
             key={l.slug}
-            onClick={onLinkClick}
+            onClick={onLinkClick
+              ? () => onLinkClick(l)
+              : undefined
+            }
           >
             {l.text}
           </button>

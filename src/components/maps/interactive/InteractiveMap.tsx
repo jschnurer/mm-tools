@@ -140,6 +140,26 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
     document.body.removeChild(el);
   }
 
+  const onLinkClick = (link: IPOILink) => {
+    switch (link.type) {
+      case "map": {
+        if (link.position) {
+          setMapView({
+            zoom: 1,
+            center: link.position,
+          });
+        }
+        return;
+      }
+      case "submap":
+        // TODO: go to submap url
+        return;
+      case "quest":
+        // TODO: show quest popup
+        return;
+    }
+  }
+
   return (
     <FlowLayout
       header={(
@@ -208,9 +228,10 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
             <Popup>
               <POI
                 poi={poi}
-                showRemove
+                showRemove={false}
                 onRemoveClick={() => onRemoveMarkerClick(poi)}
                 linkify={true}
+                onLinkClick={onLinkClick}
               />
             </Popup>
             <Tooltip>
