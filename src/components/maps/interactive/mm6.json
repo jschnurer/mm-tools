@@ -9,7 +9,7 @@
     "links": [
       {
         "type": "submap",
-        "slug": "SUPREME",
+        "slug": "SUPREME_BAA",
         "text": "To Supreme Temple of Baa"
       }
     ],
@@ -741,7 +741,7 @@
       981,
       3572
     ],
-    "icon": "repairItem"
+    "icon": "repair"
   },
   {
     "slug": "MIST_23",
@@ -1029,6 +1029,14 @@
       1666
     ],
     "name": "Coach",
+    "links": [{
+      "type": "map",
+      "slug": "FREE_HAVEN",
+      "text": "To Free Haven (Mon, Fri, 5 days, 250 gp)",
+      "position": [
+        1390,2119
+      ]
+    }],
     "icon": "coach",
     "searchNote": "Mire of the Damned"
   },
@@ -1549,5 +1557,928 @@
       }
     ],
     "icon": "quest"
+  },
+  {
+    "slug": "KS_1",
+    "position": [1642,1266],
+    "name": "Alchemy Shop",
+    "searchNote": "Kriegspire",
+    "icon": "shop"
+  },
+  {
+    "slug": "KS_2",
+    "position": [1652,1291],
+    "name": "Coach",
+    "searchNote": "Kriegspire",
+    "links": [{
+      "type": "map",
+      "slug": "NEW_SORPIGAL",
+      "text": "To New Sorpigal (Wed, Sat, 3 days, 250gp)",
+      "position": [
+        220,
+        3406
+      ]
+    }],
+    "icon": "coach"
+  },
+  {
+    "slug": "KS_3",
+    "position": [1704,1276],
+    "name": "Inn",
+    "searchNote": "Kriegspire",
+    "icon": "inn"
+  },
+  {
+    "slug": "KS_4",
+    "position": [1701,1305],
+    "name": "Fountain",
+    "note": "+30 level temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_5",
+    "position": [1708,1319],
+    "name": "Training Hall",
+    "note": "Maximum level: 80",
+    "searchNote": "Kriegspire",
+    "icon": "training"
+  },
+  {
+    "slug": "KS_6",
+    "position": [1678,1320],
+    "name": "Armor Shop",
+    "searchNote": "Kriegspire",
+    "icon": "shop"
+  },
+  {
+    "slug": "KS_7",
+    "position": [1699,1361],
+    "name": "Weapon Shop",
+    "searchNote": "Kriegspire",
+    "icon": "shop"
+  },
+  {
+    "slug": "KS_8",
+    "position": [1707,1413],
+    "name": "Fountain",
+    "note": "Teleport to Castle Kriegspire",
+    "links": [{
+      "type": "submap",
+      "slug": "CK_1",
+      "text": "To Castle Kriegspire"
+    }],
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_9",
+    "position": [1692,1411],
+    "name": "Emil Lime",
+    "links": [{
+      "type": "quest",
+      "slug": "QUEST_41",
+      "text": "Retrieve the Jewelled Egg"
+    }],
+    "icon": "quest"
+  },
+  {
+    "slug": "KS_10",
+    "position": [1688,1391],
+    "name": "Fountain",
+    "note": "+10 Magic Resistance permanently, but eradicates the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_11",
+    "position": [1653,1371],
+    "name": "Fountain",
+    "note": "-5,000gp = +5,000xp",
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_12",
+    "position": [1634,1387],
+    "name": "Nicholas Roth",
+    "note": "Expert Light Magic (2000gp)",
+    "icon": "light"
+  },
+  {
+    "slug": "KS_13",
+    "position": [1869,1511],
+    "name": "Superior Temple of Baa",
+    "links": [{
+      "type": "submap",
+      "slug": "SUPERIOR_BAA",
+      "text": "To Superior Temple of Baa"
+    }],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "KS_14",
+    "position": [1932,1454],
+    "name": "Fountain",
+    "note": "+5 Elemental Resistances permanently, but kills the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_15",
+    "position": [1758,1031],
+    "name": "Fountain",
+    "note": "+40 AC temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "KS_16",
+    "position": [1789,1042],
+    "name": "Shrine of Fire",
+    "note": "Pray during August",
+    "icon": "info"
+  },
+  {
+    "slug": "KS_17",
+    "position": [1825,989],
+    "name": "Castle Kriegspire",
+    "links": [{
+      "type": "submap",
+      "slug": "CK_1",
+      "text": "To Castle Kriegspire"
+    }],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "KS_17_1",
+    "position": [1842,990],
+    "name": "Desmond Weller",
+    "note": "Master Bow (rank 8, Battle Mages)",
+    "icon": "bow"
+  },
+  {
+    "slug": "KS_18",
+    "position": [1972,887],
+    "name": "Devil's Outpost",
+    "links": [{
+      "type": "submap",
+      "slug": "DEVIL",
+      "text": "To Devil's Outpost"
+    }],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "KS_19",
+    "position": [2060,955],
+    "name": "Caves of the Dragon Rider",
+    "links": [{
+      "type": "submap",
+      "slug": "DRAGON_RIDER",
+      "text": "To Caves of the Dragon Rider"
+    }],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "KS_20",
+    "position": [2264,861],
+    "name": "Obelisk #4",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "KS_21",
+    "position": [2281,1329],
+    "name": "Agar's Laboratory",
+    "links": [{
+      "type": "submap",
+      "slug": "AGAR",
+      "text": "To Agar's Laboratory"
+    }],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "KS_22",
+    "position": [2049,1321],
+    "name": "Shrine of Cold",
+    "note": "Pray during October",
+    "icon": "info"
+  },
+  {
+    "slug": "KS_23",
+    "position": [2007,1261],
+    "name": "Hermit",
+    "links": [{
+      "type": "quest",
+      "slug": "QUEST_34",
+      "text": "End Winter"
+    }],
+    "icon": "quest"
+  },
+  {
+    "slug": "KS_24",
+    "position": [2373,808],
+    "name": "Pedestal",
+    "note": "Place the bear statuette here",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39 (Place the statuettes)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_1",
+    "position": [1550,842],
+    "name": "Shrine of Magic",
+    "note": "Pray during December",
+    "icon": "info"
+  },
+  {
+    "slug": "BS_2",
+    "position": [1457,917],
+    "name": "Fountain",
+    "note": "+50 Luck temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BS_3",
+    "position": [1444,912],
+    "name": "Inn",
+    "searchNote": "Blackshire",
+    "icon": "inn"
+  },
+  {
+    "slug": "BS_4",
+    "position": [1431,911],
+    "name": "Armor Shop",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_5",
+    "position": [1427,888],
+    "name": "Training Hall",
+    "searchNote": "Blackshire",
+    "icon": "training"
+  },
+  {
+    "slug": "BS_6",
+    "position": [1381,909],
+    "name": "Weapon Shop",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_7",
+    "position": [1363,876],
+    "name": "Dragon Tower",
+    "searchNote": "Blackshire",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Quest 36 (Reset the Dragon Towers)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_8",
+    "position": [1345,910],
+    "name": "Bronwyn Meck",
+    "note": "Master Shield (rank 10, 5000gp)",
+    "icon": "shield"
+  },
+  {
+    "slug": "BS_9",
+    "position": [1312,892],
+    "name": "Temple",
+    "searchNote": "Blackshire",
+    "icon": "temple"
+  },
+  {
+    "slug": "BS_10",
+    "position": [1312,918],
+    "name": "Fountain",
+    "note": "+30 Magic Resistance temporarily, but turns drinker to stone",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BS_11",
+    "position": [1312,941],
+    "name": "Joanne Cravitz",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_37",
+        "text": "Rescue Emmanuel"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_12",
+    "position": [1322,958],
+    "name": "Fountain",
+    "note": "+5 Magic Resistance permanently, but diseases the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BS_13",
+    "position": [1342,943],
+    "name": "Guy Hampton",
+    "note": "Master Sword (rank 8, Cavaliers)",
+    "icon": "sword"
+  },
+  {
+    "slug": "BS_14",
+    "position": [1343,963],
+    "name": "Errol Ostermann",
+    "note": "Master Mace (rank 8, Might 40, 5000gp)",
+    "icon": "mace"
+  },
+  {
+    "slug": "BS_15",
+    "position": [1378,982],
+    "name": "Dark Guild",
+    "note": "Dark Magic, 2000gp, spellbooks 1-10",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_16",
+    "position": [1374,960],
+    "name": "Light Guild",
+    "note": "Light Magic, 2000gp, spellbooks 1-10",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_17",
+    "position": [1374,941],
+    "name": "Maria Trepan",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_38",
+        "text": "Destroy the werewolf's lair"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_18",
+    "position": [1397,941],
+    "name": "Alchemy Shop",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_18_1",
+    "position": [1388,943],
+    "name": "Smuggler's Guild",
+    "note": "Leather Armor, Identify Item, Disarm Trap, Diplomacy, Perception (250gp each)",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_19",
+    "position": [1399,976],
+    "name": "Tess Tucker",
+    "note": "Membership to Smuggler's Guild",
+    "icon": "house"
+  },
+  {
+    "slug": "BS_20",
+    "position": [1428,1019],
+    "name": "Twillen",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_39",
+        "text": "Quest 39 (Place the statuettes)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_21",
+    "position": [1463,990],
+    "name": "Rebecca Calaway",
+    "note": "Membership to the Dark Guild (1000gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "BS_22",
+    "position": [1462,972],
+    "name": "Marton Ferris",
+    "note": "Membership to the Light Guild (1000gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "BS_23",
+    "position": [1447,963],
+    "name": "Ambrose Brusse",
+    "note": "Expert Dark Magic (2000gp)",
+    "icon": "dark"
+  },
+  {
+    "slug": "BS_24",
+    "position": [1429,963],
+    "name": "Bank",
+    "searchNote": "Blackshire",
+    "icon": "bank"
+  },
+  {
+    "slug": "BS_25",
+    "position": [1430,944],
+    "name": "General Store",
+    "searchNote": "Blackshire",
+    "icon": "shop"
+  },
+  {
+    "slug": "BS_26",
+    "position": [1449,943],
+    "name": "Coach",
+    "searchNote": "Blackshire",
+    "links": [
+      {
+        "type": "map",
+        "slug": "FREE_HAVEN",
+        "text": "To Free Haven (Tue, Fri, 3 days, 250gp)"
+      }
+    ],
+    "icon": "coach"
+  },
+  {
+    "slug": "BS_27",
+    "position": [1412,928],
+    "name": "Fountain",
+    "note": "+50 spell points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BS_28",
+    "position": [1220,962],
+    "name": "Lair of the Wolf",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "LAIR_WOLF",
+        "text": "To Lair of the Wolf"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BS_29",
+    "position": [1221,1115],
+    "name": "Lord Kilburn's Shield",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_12",
+        "text": "Find Lord Kilburn's Shield"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_30",
+    "position": [1197,1394],
+    "name": "Temple of Baa",
+    "searchNote": "Blackshire",
+    "icon": "cult"
+  },
+  {
+    "slug": "BS_31",
+    "position": [1309,1354],
+    "name": "Temple of the Snake",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SNAKE",
+        "text": "To Temple of the Snake"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "BS_32",
+    "position": [1391,1405],
+    "name": "Fountain",
+    "note": "+5 Intellect and Personality permanently, but diseases the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "BS_33",
+    "name": "Circus (Aug-Nov)",
+    "searchNote": "Blackshire",
+    "position": [1559,1276],
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_10",
+        "text": "Find & return Prince Nicolai"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "BS_34",
+    "position": [856,965],
+    "name": "Inn",
+    "searchNote": "Blackshire",
+    "icon": "inn"
+  },
+  {
+    "slug": "BS_35",
+    "position": [1073,1509],
+    "name": "Obelisk #5",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "FH_1",
+    "position": [1725,2249],
+    "name": "Shadow Guild",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SHADOW_GUILD",
+        "text": "To Shadow Guild"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "FH_2",
+    "position": [1942,2183],
+    "name": "Arlen Sailor",
+    "note": "Master Leather Armor (rank 10, 3000gp)",
+    "icon": "leather"
+  },
+  {
+    "slug": "FH_2_1",
+    "position": [1919,2185],
+    "name": "Jules Miles",
+    "note": "Master Dagger (rank 8, Speed 40, 5000gp)",
+    "icon": "dagger"
+  },
+  {
+    "slug": "FH_2_2",
+    "position": [1932,2186],
+    "name": "Anthony Stone",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_27",
+        "text": "Repair the Temple"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_28",
+        "text": "Capture the Prince of Thieves"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_33",
+        "text": "Take the Sacred Chalice"
+      },
+      {
+        "type": "subquest",
+        "slug": "SUBQUEST_4",
+        "text": "Ankh"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "FH_3",
+    "position": [1941,2220],
+    "name": "Gabe Lester",
+    "note": "Master Disarm Traps (rank 7, Accuracy 30, 2500gp)",
+    "icon": "disarm"
+  },
+  {
+    "slug": "FH_3_1",
+    "position": [1930,2221],
+    "name": "Protection Services",
+    "note": "Dagger, Merchant, Identify Item, Perception, Disarm TRaps (250gp each)",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_4",
+    "position": [1928,2250],
+    "name": "Inn",
+    "searchNote": "Frozen Highlands",
+    "icon": "inn"
+  },
+  {
+    "slug": "FH_5",
+    "position": [1923,2265],
+    "name": "Fountain",
+    "note": "Releases monsters",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_6",
+    "position": [1928,2285],
+    "name": "Marcellus Lutvig",
+    "note": "Membership to Protection Services",
+    "icon": "house"
+  },
+  {
+    "slug": "FH_7",
+    "position": [1937,2306],
+    "name": "Ryan Treacle",
+    "note": "Master Repair Items (rank 7, Accuracy 30, 2500gp)",
+    "icon": "repair"
+  },
+  {
+    "slug": "FH_8",
+    "position": [1958,2301],
+    "name": "Weapon Shop",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_9",
+    "position": [2006,2231],
+    "name": "Armor Shop",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_10",
+    "position": [2088,2330],
+    "name": "Fountain",
+    "note": "+10 level temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_11",
+    "position": [2274,2282],
+    "name": "Obelisk #7",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "FH_12",
+    "position": [2275,2245],
+    "name": "Jacques Kohl",
+    "note": "Master Diplomacy (rank 4, fame 200, 2500gp)",
+    "icon": "diplomacy"
+  },
+  {
+    "slug": "FH_12_1",
+    "position": [2275,2231],
+    "name": "Eric Von Stromgard",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_34",
+        "text": "End Winter"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_35",
+        "text": "Retrieve the Key to the Dragon Towers"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Reset all the Dragon Towers"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "FH_13",
+    "position": [2311,2196],
+    "name": "Dickson Parks",
+    "note": "Expert Mace (2000gp)",
+    "icon": "mace"
+  },
+  {
+    "slug": "FH_13_1",
+    "position": [2309,2186],
+    "name": "Jed Morrison",
+    "note": "Expert Bow (2000gp)",
+    "icon": "bow"
+  },
+  {
+    "slug": "FH_14",
+    "position": [2273,2194],
+    "name": "Fountain",
+    "note": "+30 Might temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_15",
+    "position": [2236,2177],
+    "name": "Shrine of Endurance",
+    "note": "Pray during April",
+    "icon": "info"
+  },
+  {
+    "slug": "FH_16",
+    "position": [2274,1908],
+    "name": "Inn",
+    "searchNote": "Frozen Highlands",
+    "icon": "inn"
+  },
+  {
+    "slug": "FH_17",
+    "position": [2283,1880],
+    "name": "Bank",
+    "icon": "bank"
+  },
+  {
+    "slug": "FH_18",
+    "position": [2292,1907],
+    "name": "General Store",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_19",
+    "position": [2310,1907],
+    "name": "Armor Shop",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_20",
+    "position": [2301,1843],
+    "name": "Blade's End",
+    "note": "Staff, Spear, Sword, Axe, Repair Item (750gp each)",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_21",
+    "position": [2278,1822],
+    "name": "Fountain",
+    "note": "+5 Might permanently, but kills the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_22",
+    "position": [2273,1844],
+    "name": "Elements Guild",
+    "note": "Earth Magic, Air Magic, Water Magic, Fire Magic, 1250gp, spellbooks 1-8",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_23",
+    "position": [2248,1844],
+    "name": "Dark Guild",
+    "note": "Dark Magic, 1500gp, spellbooks 1-6",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_24",
+    "position": [2240,1822],
+    "name": "Fountain",
+    "note": "+5 Endurance permanently, but kills the drinker",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_25",
+    "position": [2212,1866],
+    "name": "Fredrick Piles",
+    "note": "Membership to Blade's End (25gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "FH_26",
+    "position": [2212,1908],
+    "name": "Weapon Shop",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_27",
+    "position": [2228,1880],
+    "name": "Alchemy Shop",
+    "searchNote": "Frozen Highlands",
+    "icon": "shop"
+  },
+  {
+    "slug": "FH_28",
+    "position": [2239,1913],
+    "name": "Coach",
+    "searchNote": "Frozen Highlands",
+    "links": [
+      {
+        "type": "map",
+        "slug": "FREE_HAVEN",
+        "text": "To Free Haven (Mon, Thur, 3 days, 200gp)"
+      }
+    ],
+    "icon": "coach"
+  },
+  {
+    "slug": "FH_29",
+    "position": [2244,1884],
+    "name": "Fountain",
+    "note": "Releases monsters",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_30",
+    "position": [2260,1870],
+    "name": "Dragon Tower",
+    "searchNote": "Frozen Highlands",
+    "icon": "quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Quest 36 (Reset the Dragon Towers)"
+      }
+    ]
+  },
+  {
+    "slug": "FH_31",
+    "position": [2214,1774],
+    "name": "Morton Holovin",
+    "note": "Expert Dark Magic",
+    "icon": "dark"
+  },
+  {
+    "slug": "FH_32",
+    "position": [2310,1815],
+    "name": "Training Hall",
+    "note": "Maximum level: 50",
+    "searchNote": "Frozen Highlands",
+    "icon": "training"
+  },
+  {
+    "slug": "FH_33",
+    "position": [2310,1790],
+    "name": "Rachel Herzl",
+    "note": "Membership to the Dark Guild",
+    "icon": "house"
+  },
+  {
+    "slug": "FH_34",
+    "position": [2309,1767],
+    "name": "Warren Holmes",
+    "note": "Membership to the Elements Guild",
+    "icon": "house"
+  },
+  {
+    "slug": "FH_35",
+    "position": [2262,1786],
+    "name": "Temple",
+    "searchNote": "Frozen Highlands",
+    "icon": "temple"
+  },
+  {
+    "slug": "FH_36",
+    "position": [1896,1652],
+    "name": "Icewind Keep",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "ICEWIND",
+        "text": "To Icewind Keep"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "FH_37",
+    "position": [1692,1723],
+    "name": "Fountain",
+    "note": "+20 Speed and Accuracy temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FH_38",
+    "position": [1690,1786],
+    "name": "Fountain",
+    "note": "+20 AC temporarily",
+    "icon": "fountain"
   }
 ]

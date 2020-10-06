@@ -128,6 +128,18 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
     setMapView(initialMapView);
   }
 
+  const onMapClick = (event: any) => {
+    const el = document.createElement('textarea');
+    el.value = parseInt(event.latlng.lat, 10) + ',' + parseInt(event.latlng.lng);
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  }
+
   return (
     <FlowLayout
       header={(
@@ -176,6 +188,7 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
         maxZoom={2}
         zoom={mapView.zoom}
         center={mapView.center}
+        onclick={onMapClick}
       >
         <ImageOverlay
           url={mm6WorldMap}
