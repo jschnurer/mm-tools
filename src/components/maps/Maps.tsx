@@ -16,7 +16,7 @@ const Maps: React.FC = () => {
       )}
     >
       <Link to={Routes
-        .InteractiveMM6Map
+        .InteractiveMap
         .replace(":game", "mm6")
         .replace(":map", "world")
       }>Interactive MM6 World Map</Link>

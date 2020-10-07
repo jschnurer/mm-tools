@@ -26,7 +26,11 @@ const POI: React.FC<IPOIProps> = ({
     onClick={onClick}
   >
     <span className="name">{poi.name}</span>
-    <span className="note">{poi.note}</span>
+    <span className="note">{poi.note?.split('\n').map((x, ix) => (
+      <div
+        key={ix}
+      >{x}</div>
+    ))}</span>
     {showSearchNote &&
       <span className="note">{poi.searchNote}</span>
     }

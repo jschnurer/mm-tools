@@ -1,13 +1,9 @@
 import Modal from "components/layout/Modal";
 import React, { useEffect, useRef } from "react";
 import "./MM6Quests.scoped.scss";
+import { IQuestModalProps } from "../MapTypes";
 
-interface IMM6Quests {
-  focusQuestSlug: string,
-  onClose(): void,
-}
-
-const MM6Quests: React.FC<IMM6Quests> = ({
+const MM6Quests: React.FC<IQuestModalProps> = ({
   focusQuestSlug,
   onClose,
 }) => {

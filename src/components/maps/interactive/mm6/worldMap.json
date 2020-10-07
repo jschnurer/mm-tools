@@ -8,7 +8,7 @@
     "name": "Supreme Temple of Baa",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SUPREME_BAA",
         "text": "To Supreme Temple of Baa"
       }
@@ -137,7 +137,7 @@
     "name": "Tomb of VARN",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "TOMB_OF_VARN",
         "text": "To Tomb of VARN"
       }
@@ -153,12 +153,12 @@
     ],
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "NWC",
         "text": "Invisible teleporter to New World Computing (at inner side)"
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "NEW_SORPIGAL",
         "text": "Invisible teleporter to New Sorpigal (at tilt of sword)",
         "position": [
@@ -253,7 +253,7 @@
     "name": "The Hive",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "HIVE",
         "text": "To The Hive"
       }
@@ -310,7 +310,7 @@
     "icon": "dungeon",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "ALAMOS",
         "text": "To Castle Alamos"
       }
@@ -327,7 +327,7 @@
     "searchNote": "Eel Infested Waters main island",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "SILVER_COVE",
         "text": "To Silver Cove (Mon, 2 days, 400gp)",
         "position": [
@@ -378,7 +378,7 @@
     "searchNote": "Eel Infested Waters south island",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "NORTH_ISLAND",
         "text": "To Eel Infested Waters North Island (Sat, 1 day, 200gp)",
         "position": [
@@ -804,7 +804,7 @@
     ],
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI",
         "text": "To Castle Ironfist (Mon, Wed, Fri, 2 days, 250gp)",
         "position": [
@@ -813,7 +813,7 @@
         ]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "SC",
         "text": "To Silver Cove (Mon, Thur, 3 days, 250gp)",
         "position": [
@@ -822,7 +822,7 @@
         ]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "BB",
         "text": "To Bootleg Bay East (Tue, Thur, Sat, 2 days, 250gp)",
         "position": [
@@ -938,7 +938,7 @@
     "icon": "info",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SH_OUTPOST",
         "text": "To Silver Helm Outpost"
       }
@@ -1018,7 +1018,7 @@
     "icon": "dungeon",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SNERGLE_IRON",
         "text": "To Snergle's Iron Mines"
       }
@@ -1079,7 +1079,7 @@
     "name": "Coach",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Mon, Fri, 5 days, 250 gp)",
         "position": [
@@ -1243,7 +1243,7 @@
     "icon": "dungeon",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "DARKMOOR",
         "text": "To Castle Darkmoor"
       }
@@ -1259,7 +1259,7 @@
     "icon": "dungeon",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "MIRE_DRAGON",
         "text": "To Longfang Witherhide's Lair"
       },
@@ -1323,7 +1323,7 @@
     "name": "Hall of the Fire Lord",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "FIRE_LORD",
         "text": "To Hall of the Fire Lord"
       }
@@ -1481,7 +1481,7 @@
     "name": "Temple of the Fist",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "FIST",
         "text": "To Temple of the Fist"
       }
@@ -1519,7 +1519,7 @@
     "name": "Temple of Tsantsa",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "TSANTSA",
         "text": "To Temple of Tsantsa"
       }
@@ -1546,7 +1546,7 @@
     "searchNote": "Bootleg Bay",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "BBW",
         "text": "To Bootleg Bay West (Mon, Wed, 1 day, 150gp)",
         "position": [
@@ -1566,7 +1566,7 @@
     "name": "Temple of the Sun",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "TEMPLE_SUN",
         "text": "To Temple of the Sun"
       }
@@ -1593,7 +1593,7 @@
     "searchNote": "Bootleg Bay",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI",
         "text": "To Castle Ironfist (Tue, Thur, 4 days, 150gp)",
         "position": [
@@ -1651,7 +1651,7 @@
     "searchNote": "Kriegspire",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "NEW_SORPIGAL",
         "text": "To New Sorpigal (Wed, Sat, 3 days, 250gp)",
         "position": [
@@ -1723,7 +1723,7 @@
     "note": "Teleport to Castle Kriegspire",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "CK_1",
         "text": "To Castle Kriegspire"
       }
@@ -1785,7 +1785,7 @@
     "name": "Superior Temple of Baa",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SUPERIOR_BAA",
         "text": "To Superior Temple of Baa"
       }
@@ -1831,7 +1831,7 @@
     "name": "Castle Kriegspire",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "CK_1",
         "text": "To Castle Kriegspire"
       }
@@ -1857,7 +1857,7 @@
     "name": "Devil's Outpost",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "DEVIL",
         "text": "To Devil's Outpost"
       }
@@ -1873,7 +1873,7 @@
     "name": "Caves of the Dragon Rider",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "DRAGON_RIDER",
         "text": "To Caves of the Dragon Rider"
       }
@@ -1905,7 +1905,7 @@
     "name": "Agar's Laboratory",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "AGAR",
         "text": "To Agar's Laboratory"
       }
@@ -2253,7 +2253,7 @@
     "searchNote": "Blackshire",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Tue, Fri, 3 days, 250gp)",
         "position": [
@@ -2283,7 +2283,7 @@
     "name": "Lair of the Wolf",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "LAIR_WOLF",
         "text": "To Lair of the Wolf"
       }
@@ -2325,7 +2325,7 @@
     "name": "Temple of the Snake",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SNAKE",
         "text": "To Temple of the Snake"
       }
@@ -2394,7 +2394,7 @@
     "name": "Shadow Guild",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SHADOW_GUILD",
         "text": "To Shadow Guild"
       }
@@ -2767,7 +2767,7 @@
     "searchNote": "Frozen Highlands",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Mon, Thur, 3 days, 200gp)",
         "position": [
@@ -2865,7 +2865,7 @@
     "name": "Icewind Keep",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "ICEWIND",
         "text": "To Icewind Keep"
       }
@@ -3064,7 +3064,7 @@
     "searchNote": "New Sorpigal",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI",
         "text": "To Castle Ironfist (Mon, Wed, Fri, 2 days, 25gp)",
         "position": [
@@ -3167,7 +3167,7 @@
     "name": "Invisible teleporter to Dragonsands (above lair)",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "DS",
         "text": "To Dragonsands",
         "position": [
@@ -3332,7 +3332,7 @@
     "name": "Goblinwatch",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "GOBLINWATCH",
         "text": "To Goblinwatch"
       }
@@ -3358,7 +3358,7 @@
     "name": "Abandoned Temple",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "ABAN_TEMPLE",
         "text": "To Abandoned Temple"
       }
@@ -3404,7 +3404,7 @@
     "name": "Gharik's Forge",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "GHARIK",
         "text": "To Gharik's Forge"
       }
@@ -3437,7 +3437,7 @@
     "searchNote": "New Sorpigal",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "MIST",
         "text": "To Misty Islands (Tue, Thur, Sat, 3 days, 100gp)",
         "position": [
@@ -3513,18 +3513,18 @@
     "searchNote": "Castle Ironfist",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "ARENA",
         "text": "To Arena (Sun, 1 day, 50gp)"
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "NEW_SORPIGAL",
         "text": "To New Sorpigal (Mon, Wed, Fri, 2 days, 50gp)",
         "position": [234,3394]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Tue, Sat, 4 days, 50gp)",
         "position": [1246,1949]
@@ -3603,36 +3603,36 @@
     "searchNote": "Castle Ironfist",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "MIST",
         "text": "To Island of Mist (Mon, Wed, Fri, 2 days, 100gp)",
         "position": [935,3521]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "NEW_SORPIGAL",
         "text": "To New Sorpigal (Tue, Thur, Sat, 2 days, 100gp)",
         "position": [216,3591]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "BB",
         "text": "To Bootleg Bay, East (Tue, Fri, 3 days, 100gp)",
         "position": [1398,2904]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "VOLC_NEW_SORP",
         "text": "Volcano, To New Sorpigal, South (Sun, 2 days)",
         "position": [216,3592]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "VOLC_DS_GF",
         "text": "Volcano, Dragonsands, near Gharik's Forge (Sun, 14 days) ??"
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "HERMIT",
         "text": "To Hermit's Isle (21 days)",
         "position": [44,50]
@@ -3837,7 +3837,7 @@
     "name": "Teleporter to southwest",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "TELEPORTER_35",
         "text": "To southwest",
         "position": [292,2571]
@@ -3851,7 +3851,7 @@
     "name": "Receiver for Teleporter in southwest",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "TELEPORTER_37",
         "text": "From southwest teleporter",
         "position": [329,2572]
@@ -3865,7 +3865,7 @@
     "name": "Dragoon's Caverns",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "DRAGOON",
         "text": "To Dragoon's Caverns"
       }
@@ -3879,7 +3879,7 @@
     "searchNote": "Castle Ironfist",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "TEMPLE_BAA",
         "text": "To Temple of Baa"
       }
@@ -3892,7 +3892,7 @@
     "name": "Shadow Guild Hideout",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SG_HIDEOUT",
         "text": "To Shadow Guild Hideout"
       }
@@ -3925,7 +3925,7 @@
     "name": "Corlagon's Estate",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "CORLAGON",
         "text": "To Corlagon's Estate"
       }
@@ -3938,7 +3938,7 @@
     "name": "Receiver for teleporter near castle",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI_27",
         "text": "From Castle Ironfist",
         "position": [648,3073]
@@ -3959,7 +3959,7 @@
     "name": "Teleporter to Castle Ironfist",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI_28",
         "text": "To Castle Ironfist",
         "position": [648,3097]
@@ -4000,7 +4000,7 @@
     "name": "Snergle's Caverns",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SNERGLE_CAVERN",
         "text": "To Snergle's Caverns"
       }
@@ -4021,7 +4021,7 @@
     "searchNote": "Silver Cove",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "FREE_HAVEN",
         "text": "To Free Haven (Mon, Fri, 4 days, 200gp)",
         "position": [1419,2072]
@@ -4302,19 +4302,19 @@
     "searchNote": "Silver Cove",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "MIST",
         "text": "To Isle of Mist (Mon, Thur, Sat, 3 days, 300gp)",
         "position": [935,3520]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "FH",
         "text": "To Free Haven (Tue, Fri, 3 days, 300gp)",
         "position": [1422,2232]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "EIW_N",
         "text": "To Eel Infested Waters, North Island (Wed, 1 day, 300gp)",
         "position": [2138,3689]
@@ -4343,7 +4343,7 @@
     "searchNote": "Silver Cove",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "MONOLITH",
         "text": "To Monolith"
       }
@@ -4356,7 +4356,7 @@
     "name": "Warlord's Fortress",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "WARLORD",
         "text": "To Warlord's Fortress"
       }
@@ -4411,7 +4411,7 @@
     "searchNote": "Silver Cove",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "EIW_S",
         "text": "To Eel Infested Waters, South Island (Thur, 2 days, 200gp)",
         "position": [1916,3546]
@@ -4438,7 +4438,7 @@
     "name": "Silver Helm Stronghold",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SH_STRONGHOLD",
         "text": "To Silver Helm Stronghold"
       }
@@ -4473,19 +4473,19 @@
     "searchNote": "Free Haven",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "BS",
         "text": "To Blackshire (Mon, Thur, 3 days, 150gp)",
         "position": [1447,931]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "KS",
         "text": "To Kriegspire (Tue, Fri, 3 days, 150gp)",
         "position": [1670,1291]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "WC",
         "text": "To White Cap (Wed, Sat, 3 days, 150gp)",
         "position": [2256,1913]
@@ -4584,7 +4584,7 @@
     "name": "Free Haven Sewers",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4683,7 +4683,7 @@
     "note": "Membership to the Water Guild (50gp)",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4710,7 +4710,7 @@
     "name": "Free Haven Sewers",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4738,7 +4738,7 @@
     "note": "Seeking Teeth (500gp each)",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4752,19 +4752,19 @@
     "searchNote": "Free Haven",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "MIST",
         "text": "To Isle of Mist (Mon, Thur, 4 days, 300gp)",
         "position": [934,3518]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "SC",
         "text": "To Silver Cove (Tue, Thur, 3 days, 300gp)",
         "position": [1784,2871]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI",
         "text": "To Castle Ironfist (Wed, 5 days, 300gp)",
         "position": [538,3144]
@@ -4820,7 +4820,7 @@
     "note": "Expert Disarm Traps (500gp)",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4834,7 +4834,7 @@
     "note": "Membership to the Smuggler's Guild (50gp)",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4884,7 +4884,7 @@
     "note": "Expert Shield (2000gp)",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "SEWERS",
         "text": "To Free Haven Sewers"
       }
@@ -4913,19 +4913,19 @@
     "searchNote": "Free Haven",
     "links": [
       {
-        "type": "map",
+        "type": "position",
         "slug": "SC",
         "text": "To Silver Cove (Mon, Thur, 4 days, 100gp)",
         "position": [1873,2917]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "CI",
         "text": "To Castle Ironfist (Tue, Fri, 4 days, 100gp)",
         "position": [449,3031]
       },
       {
-        "type": "map",
+        "type": "position",
         "slug": "DM",
         "text": "Darkmoor (Wed, Sat, 5 days, 100gp)",
         "position": [546,1664]
@@ -5123,7 +5123,7 @@
     "name": "Temple of the Moon",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "TEMPLE_MOON",
         "text": "To Temple of the Moon"
       }
@@ -5136,7 +5136,7 @@
     "name": "Tomb of Ethric the Mad",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "ETHRIC",
         "text": "To Tomb of Ethric the Mad"
       }
@@ -5169,7 +5169,7 @@
     "name": "Dragoon's Keep",
     "links": [
       {
-        "type": "submap",
+        "type": "map",
         "slug": "DRAGOON",
         "text": "To Dragoon's Keep"
       }

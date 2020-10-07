@@ -1,14 +1,8 @@
 import Modal from "components/layout/Modal";
 import React, { useState } from "react";
-import { ILegend } from "./InteractiveMap";
-import icons from "./icons";
-import "./MapLegend.scoped.scss";
-
-interface IMapLegendProps {
-  currentLegend: ILegend,
-  onApply(legend: ILegend): void,
-  onClose(): void,
-}
+import icons from "../icons";
+import "./MM6MapLegend.scoped.scss";
+import { IMapLegendProps, ILegend } from "../MapTypes";
 
 const iconLegendMapping: {
   [index: string]: string[]
@@ -65,7 +59,7 @@ const iconLegendMapping: {
   "house": ["Useful NPC", "Other"],
 }
 
-const MapLegend: React.FC<IMapLegendProps> = ({
+const MM6MapLegend: React.FC<IMapLegendProps> = ({
   currentLegend,
   onApply,
   onClose,
@@ -178,4 +172,4 @@ const MapLegend: React.FC<IMapLegendProps> = ({
   );
 };
 
-export default MapLegend;
+export default MM6MapLegend;

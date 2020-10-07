@@ -1,55 +1,23 @@
 import React, { useEffect, useRef, useState } from "react";
-import { RouteComponentProps } from "react-router-dom";
 import { Map, ImageOverlay, Marker, Popup, Tooltip } from "react-leaflet"
-import mm6WorldMap from "media/maps/mm6/mm6-world.png";
-import { CRS, Icon, LatLng, LatLngBounds } from "leaflet";
+import { CRS, Icon, LatLngBoundsExpression, LatLng } from "leaflet";
 import FlowLayout from "components/layout/FlowLayout";
 import "./InteractiveMap.scoped.scss";
 import POI from "./POI";
-import mm6POIs from "./mm6.json";
-import { IPOI, IPOILink, POILinkType } from "./MapTypes";
+import { IPOI, IPOILink, ILegend, IMapLocation, IQuestModalProps, IMapLegendProps, POILinkType, IMapRouteProps } from "./MapTypes";
 import { DebounceInput } from "react-debounce-input";
 import icons from "./icons";
-import MM6Quests from "./MM6Quests";
-import MapLegend from "./MapLegend";
-
-const allPOIs = mm6POIs.map((poi: any): IPOI => ({
-  slug: poi.slug,
-  name: poi.name,
-  note: poi.note,
-  searchNote: poi.searchNote,
-  position: new LatLng(poi.position[0], poi.position[1]),
-  links: (poi.links as any)?.map((l: any) => formatPOILink(l)) || [],
-  icon: icons[poi.icon],
-  iconKey: poi.icon,
-}));
-
-const initialMapView = {
-  zoom: -2,
-  center: new LatLng(1192, 1987),
-};
-
-function formatPOILink(l: any): IPOILink {
-  return {
-    type: l.type as POILinkType,
-    slug: l.slug,
-    text: l.text,
-    position: l.position
-      ? new LatLng(l.position[0], l.position[1])
-      : undefined,
-  };
-}
+import { RouteComponentProps } from "react-router-dom";
 
 interface IInteractiveMapProps {
-  game: string,
-  map: string,
+  allPOIs: IPOI[],
+  initialMapView: IMapLocation,
+  mapBounds: LatLngBoundsExpression,
+  questModal?(props: IQuestModalProps): JSX.Element,
+  mapLegend(props: IMapLegendProps): JSX.Element,
+  mapImageUrl: string,
+  mapRouteTemplate: string,
 }
-
-export interface ILegend {
-  [index: string]: boolean
-}
-
-const bounds = new LatLngBounds(new LatLng(0, 0), new LatLng(2385, 3975));
 
 function getInitialLegend() {
   let initialLegend: ILegend = {};
@@ -62,7 +30,42 @@ function getInitialLegend() {
   return initialLegend;
 }
 
-const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (props) => {
+export function formatPOI(poi: any): IPOI {
+  return {
+    slug: poi.slug,
+    name: poi.name,
+    note: poi.note,
+    searchNote: poi.searchNote,
+    position: new LatLng(poi.position[0], poi.position[1]),
+    links: (poi.links as any)?.map((l: any) => ({
+      type: l.type as POILinkType,
+      slug: l.slug,
+      text: l.text,
+      position: l.position
+        ? new LatLng(l.position[0], l.position[1])
+        : undefined,
+    })) || [],
+    icon: icons[poi.icon],
+    iconKey: poi.icon,
+  };
+}
+
+const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRouteProps>> = ({
+  allPOIs,
+  initialMapView,
+  mapBounds,
+  questModal,
+  mapLegend,
+  mapImageUrl,
+  mapRouteTemplate,
+  history,
+  match: {
+    params: {
+      game,
+      map,
+    },
+  },
+}) => {
   const [pois, setPois] = useState<IPOI[]>(allPOIs);
   const [searchResults, setSearchResults] = useState<IPOI[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -99,6 +102,18 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
       }
     };
   }, [unfocusTimeout]);
+
+  useEffect(() => {
+    setPois(allPOIs);
+    setMapView(initialMapView);
+    setFocus(null);
+    setSearchTerm("");
+    setSearchResults([]);
+    setFocusQuest("");
+    setIsQuestModalOpen(false);
+    setIsLegendOpen(false);
+    setLegend(getInitialLegend());
+  }, [game, map])
 
   const onRemoveMarkerClick = (poi: IPOI) => {
     setPois(pois.filter(x => x !== poi));
@@ -166,7 +181,7 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
 
   const onLinkClick = (link: IPOILink) => {
     switch (link.type) {
-      case "map": {
+      case "position": {
         if (link.position) {
           setMapView({
             zoom: 1,
@@ -175,8 +190,8 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
         }
         return;
       }
-      case "submap":
-        // TODO: go to submap url
+      case "map":
+        history.push(mapRouteTemplate.replace(":map", link.slug));
         return;
       case "quest":
         setFocusQuest(link.slug);
@@ -237,8 +252,8 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
           onclick={onMapClick}
         >
           <ImageOverlay
-            url={mm6WorldMap}
-            bounds={bounds}
+            url={mapImageUrl}
+            bounds={mapBounds}
           />
           {pois
             .filter(poi => poi === focus
@@ -279,25 +294,26 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
         </Map>
       </FlowLayout>
       {isQuestModalOpen &&
-        <MM6Quests
-          focusQuestSlug={focusQuest}
-          onClose={() => {
+        questModal &&
+        questModal({
+          focusQuestSlug: focusQuest,
+          onClose: () => {
             setFocusQuest("");
             setIsQuestModalOpen(false);
-          }}
-        />
+          },
+        })
       }
       {isLegendOpen &&
-        <MapLegend
-          currentLegend={legend}
-          onApply={(legend: ILegend) => {
+        mapLegend({
+          currentLegend: legend,
+          onApply: (legend: ILegend) => {
             applyLegend(legend);
             setIsLegendOpen(false);
-          }}
-          onClose={() => {
+          },
+          onClose: () => {
             setIsLegendOpen(false);
-          }}
-        />
+          },
+        })
       }
     </>
   );
