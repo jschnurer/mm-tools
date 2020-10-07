@@ -534,10 +534,7 @@
     "slug": "MIST_1",
     "name": "Kathleen Mester",
     "note": "Activates teleporter MIST_29",
-    "position": [
-      873,
-      2483
-    ],
+    "position": [871,3482],
     "icon": "house"
   },
   {
@@ -549,7 +546,7 @@
       849,
       3576
     ],
-    "icon": "house"
+    "icon": "shop"
   },
   {
     "slug": "MIST_3",
@@ -560,7 +557,7 @@
       893,
       3554
     ],
-    "icon": "house"
+    "icon": "shop"
   },
   {
     "slug": "MIST_4",
@@ -571,7 +568,7 @@
       896,
       3588
     ],
-    "icon": "house"
+    "icon": "shop"
   },
   {
     "slug": "MIST_5",
@@ -773,7 +770,7 @@
       1017,
       3583
     ],
-    "icon": "staff"
+    "icon": "leather"
   },
   {
     "slug": "MIST_23_1",
@@ -4918,19 +4915,19 @@
       {
         "type": "map",
         "slug": "SC",
-        "text": "To Silver Cove (Mon, Thur, 4 days, 100gp from north)",
+        "text": "To Silver Cove (Mon, Thur, 4 days, 100gp)",
         "position": [1873,2917]
       },
       {
         "type": "map",
         "slug": "CI",
-        "text": "To Castle Ironfist (Tue, Fri, 4 days, 100gp from north)",
+        "text": "To Castle Ironfist (Tue, Fri, 4 days, 100gp)",
         "position": [449,3031]
       },
       {
         "type": "map",
         "slug": "DM",
-        "text": "Darkmoor (Wed, Sat, 5 days, 100gp from north)",
+        "text": "Darkmoor (Wed, Sat, 5 days, 100gp)",
         "position": [546,1664]
       }
     ],
