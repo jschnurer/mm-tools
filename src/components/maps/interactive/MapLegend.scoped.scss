@@ -1,0 +1,28 @@
+div {
+  h4 {
+    margin: 1.5em 0 0.5em 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+
+    li {
+      padding: 0.5em 0;
+
+      img {
+        width: 24px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: .5em;
+      }
+    }
+  }
+
+  &:first-child {
+    >h4 {
+      margin-top: 0;
+    }
+  }
+}

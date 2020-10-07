@@ -11,6 +11,7 @@ import { IPOI, IPOILink, POILinkType } from "./MapTypes";
 import { DebounceInput } from "react-debounce-input";
 import icons from "./icons";
 import MM6Quests from "./MM6Quests";
+import MapLegend from "./MapLegend";
 
 const allPOIs = mm6POIs.map((poi: any): IPOI => ({
   slug: poi.slug,
@@ -20,6 +21,7 @@ const allPOIs = mm6POIs.map((poi: any): IPOI => ({
   position: new LatLng(poi.position[0], poi.position[1]),
   links: (poi.links as any)?.map((l: any) => formatPOILink(l)) || [],
   icon: icons[poi.icon],
+  iconKey: poi.icon,
 }));
 
 const initialMapView = {
@@ -43,7 +45,22 @@ interface IInteractiveMapProps {
   map: string,
 }
 
+export interface ILegend {
+  [index: string]: boolean
+}
+
 const bounds = new LatLngBounds(new LatLng(0, 0), new LatLng(2385, 3975));
+
+function getInitialLegend() {
+  let initialLegend: ILegend = {};
+
+  Object
+    .keys(icons)
+    .forEach(key =>
+      initialLegend[key] = true);
+
+  return initialLegend;
+}
 
 const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (props) => {
   const [pois, setPois] = useState<IPOI[]>(allPOIs);
@@ -54,6 +71,8 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
   const [unfocusTimeout, setUnfocusTimeout] = useState<number | undefined>();
   const [focusQuest, setFocusQuest] = useState<string>("");
   const [isQuestModalOpen, setIsQuestModalOpen] = useState(false);
+  const [isLegendOpen, setIsLegendOpen] = useState(false);
+  const [legend, setLegend] = useState<ILegend>(getInitialLegend());
 
   const searchResultsRef = useRef<HTMLUListElement>(null);
 
@@ -124,11 +143,13 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
     );
   }
 
-  const resetMap = () => {
-    setSearchResults([]);
-    setSearchTerm("");
-    setPois(allPOIs);
-    setMapView(initialMapView);
+  const onShowLegend = () => {
+    setIsLegendOpen(true);
+  }
+
+  const applyLegend = (legend: ILegend) => {
+    setLegend(legend);
+    setFocus(null);
   }
 
   const onMapClick = (event: any) => {
@@ -200,9 +221,9 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
             }
             <button
               className="secondary-button"
-              onClick={resetMap}
+              onClick={onShowLegend}
             >
-              Reset map
+              Legend
         </button>
           </div>
         )}
@@ -219,35 +240,42 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
             url={mm6WorldMap}
             bounds={bounds}
           />
-          {pois.map(poi => (
-            <Marker
-              position={poi.position}
-              key={poi.slug}
-              icon={poi === focus
-                ? new Icon({
-                  ...poi.icon.options,
-                  className: poi.icon.options.className + " focused",
-                })
-                : poi.icon}
-            >
-              <Popup>
-                <POI
-                  poi={poi}
-                  showRemove={false}
-                  onRemoveClick={() => onRemoveMarkerClick(poi)}
-                  linkify={true}
-                  onLinkClick={onLinkClick}
-                />
-              </Popup>
-              <Tooltip>
-                <POI
-                  poi={poi}
-                  showRemove={false}
-                  linkify={false}
-                />
-              </Tooltip>
-            </Marker>
-          ))}
+          {pois
+            .filter(poi => poi === focus
+              || legend[poi.iconKey])
+            .map(poi => (
+              <Marker
+                position={poi.position}
+                key={poi.slug}
+                icon={poi === focus
+                  ? new Icon({
+                    ...poi.icon.options,
+                    className: poi.icon.options.className + " focused "
+                      + (!legend[poi.iconKey]
+                        ? "hidden"
+                        : ""),
+                  })
+                  : poi.icon
+                }
+              >
+                <Popup>
+                  <POI
+                    poi={poi}
+                    showRemove={false}
+                    onRemoveClick={() => onRemoveMarkerClick(poi)}
+                    linkify={true}
+                    onLinkClick={onLinkClick}
+                  />
+                </Popup>
+                <Tooltip>
+                  <POI
+                    poi={poi}
+                    showRemove={false}
+                    linkify={false}
+                  />
+                </Tooltip>
+              </Marker>
+            ))}
         </Map>
       </FlowLayout>
       {isQuestModalOpen &&
@@ -256,6 +284,18 @@ const InteractiveMap: React.FC<RouteComponentProps<IInteractiveMapProps>> = (pro
           onClose={() => {
             setFocusQuest("");
             setIsQuestModalOpen(false);
+          }}
+        />
+      }
+      {isLegendOpen &&
+        <MapLegend
+          currentLegend={legend}
+          onApply={(legend: ILegend) => {
+            applyLegend(legend);
+            setIsLegendOpen(false);
+          }}
+          onClose={() => {
+            setIsLegendOpen(false);
           }}
         />
       }

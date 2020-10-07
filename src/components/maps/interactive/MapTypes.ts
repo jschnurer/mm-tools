@@ -17,4 +17,5 @@ export interface IPOI {
   links?: IPOILink[],
   icon: Icon,
   searchNote?: string,
+  iconKey: string,
 }
