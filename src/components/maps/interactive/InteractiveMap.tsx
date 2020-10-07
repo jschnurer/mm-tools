@@ -250,10 +250,12 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
           zoom={mapView.zoom}
           center={mapView.center}
           onclick={onMapClick}
+          closePopupOnClick={true}
         >
           <ImageOverlay
             url={mapImageUrl}
             bounds={mapBounds}
+            attribution={`<a href="https://the-spoiler.com/RPG/New.World.Computing/might..magic.6.1/mm6.html">&copy; MM6 Spoiler</a>`}
           />
           {pois
             .filter(poi => poi === focus

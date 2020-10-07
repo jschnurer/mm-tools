@@ -66,6 +66,14 @@ a {
       -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
     }
   }
+
+  .leaflet-control-attribution {
+    color: #222;
+
+    * {
+      color: blue;
+    }
+  }
 }
 
 @keyframes blink-animation {
