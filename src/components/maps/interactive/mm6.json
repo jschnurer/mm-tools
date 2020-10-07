@@ -3609,37 +3609,36 @@
         "type": "map",
         "slug": "MIST",
         "text": "To Island of Mist (Mon, Wed, Fri, 2 days, 100gp)",
-        "position": [0,0]
+        "position": [935,3521]
       },
       {
         "type": "map",
         "slug": "NEW_SORPIGAL",
         "text": "To New Sorpigal (Tue, Thur, Sat, 2 days, 100gp)",
-        "position": [0,0]
+        "position": [216,3591]
       },
       {
         "type": "map",
         "slug": "BB",
         "text": "To Bootleg Bay, East (Tue, Fri, 3 days, 100gp)",
-        "position": [0,0]
+        "position": [1398,2904]
       },
       {
         "type": "map",
         "slug": "VOLC_NEW_SORP",
         "text": "Volcano, To New Sorpigal, South (Sun, 2 days)",
-        "position": [0,0]
+        "position": [216,3592]
       },
       {
         "type": "map",
         "slug": "VOLC_DS_GF",
-        "text": "Volcano, Dragonsands, near Gharik's Forge (Sun, 14 days)",
-        "position": [0,0]
+        "text": "Volcano, Dragonsands, near Gharik's Forge (Sun, 14 days) ??"
       },
       {
         "type": "map",
         "slug": "HERMIT",
         "text": "To Hermit's Isle (21 days)",
-        "position": [0,0]
+        "position": [44,50]
       }
     ],
     "icon": "docks"
@@ -4007,6 +4006,444 @@
         "type": "submap",
         "slug": "SNERGLE_CAVERN",
         "text": "To Snergle's Caverns"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "SC_1",
+    "position": [1889,2915],
+    "name": "Inn",
+    "searchNote": "Silver Cove",
+    "icon": "inn"
+  },
+  {
+    "slug": "SC_2",
+    "position": [1861,2917],
+    "name": "Coach",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "map",
+        "slug": "FREE_HAVEN",
+        "text": "To Free Haven (Mon, Fri, 4 days, 200gp)",
+        "position": [1419,2072]
+      }
+    ],
+    "icon": "coach"
+  },
+  {
+    "slug": "SC_3",
+    "position": [1884,2949],
+    "name": "General Store",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_4",
+    "position": [1902,2984],
+    "name": "Fountain",
+    "note": "+20 Intellect and Personality temporarily",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SC_5",
+    "position": [1885,3012],
+    "name": "John Tuck",
+    "note": "Master Learning (rank 7, Intellect 30, 5000gp)",
+    "icon": "learning"
+  },
+  {
+    "slug": "SC_6",
+    "position": [1858,2999],
+    "name": "Berserker's Fury",
+    "note": "Bow, Chain Armor, Plate Armor, Shield, Repair Item, 625gp",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_7",
+    "position": [1862,2981],
+    "name": "Cyrus Montebleu",
+    "note": "Expert Repair Items (500gp)",
+    "icon": "repair"
+  },
+  {
+    "slug": "SC_8",
+    "position": [1883,2960],
+    "name": "Bank",
+    "searchNote": "Silver Cove",
+    "icon": "bank"
+  },
+  {
+    "slug": "SC_9",
+    "position": [1863,2952],
+    "name": "Armor Shop",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_10",
+    "position": [1826,2923],
+    "name": "Training Hall",
+    "note": "Maximum level: 40",
+    "searchNote": "Silver Cove",
+    "icon": "training"
+  },
+  {
+    "slug": "SC_11",
+    "position": [1806,2929],
+    "name": "Sigriv",
+    "note": "Expert Spear (2000gp)",
+    "icon": "spear"
+  },
+  {
+    "slug": "SC_12",
+    "position": [1805,2948],
+    "name": "Weapon Shop",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_13",
+    "position": [1774,2951],
+    "name": "Alchemy Shop",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_14",
+    "position": [1760,2949],
+    "name": "Revee Botania",
+    "note": "Master Earth Magic (rank 12, 4000gp)",
+    "icon": "earth"
+  },
+  {
+    "slug": "SC_15",
+    "position": [1749,2927],
+    "name": "Lucky Oster",
+    "note": "Membership to Protection Services (50gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "SC_16",
+    "position": [1727,2952],
+    "name": "Self Guild",
+    "note": "Mind Magic, Body Magic, Spirit Magic, 1250gp, spellbooks 1-8",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_17",
+    "position": [1748,2966],
+    "name": "Clyde Dagget",
+    "note": "Expert Meditation (500gp)",
+    "icon": "meditation"
+  },
+  {
+    "slug": "SC_18",
+    "position": [1729,2980],
+    "name": "Will Ottoman",
+    "note": "Master Merchant (rank 7, Personality 30, 4000gp)",
+    "icon": "merchant"
+  },
+  {
+    "slug": "SC_19",
+    "position": [1773,2972],
+    "name": "Earth Guild",
+    "note": "Learning, Earth Magic, 1000gp, spellbooks 1-7",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_20",
+    "position": [1774,2990],
+    "name": "Light Guild",
+    "note": "Light Magic, 1500gp, spellbooks 1-6",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_21",
+    "position": [1793,2996],
+    "name": "Protection Services",
+    "note": "Leather, Identify Item, Disarm Traps, Diplomacy, Perception, 300gp",
+    "searchNote": "Silver Cove",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_22",
+    "position": [1768,30230],
+    "name": "Temple",
+    "searchNote": "Silver Cove",
+    "icon": "temple"
+  },
+  {
+    "slug": "SC_23",
+    "position": [1824,3021],
+    "name": "Fountain",
+    "note": "+25 spell points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SC_24",
+    "position": [1830,3037],
+    "name": "Town Hall",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_1",
+        "text": "Bounty Hunting (Jake)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SC_25",
+    "position": [1864,3027],
+    "name": "Horace Rose",
+    "note": "Membership to the Berserker's Fury (50gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "SC_26",
+    "position": [1866,3041],
+    "name": "Thane Roper",
+    "note": "Master Mind Magic (rank 12, 4000gp)",
+    "icon": "mind"
+  },
+  {
+    "slug": "SC_26_1",
+    "position": [1865,3051],
+    "name": "Gilbert Hammer",
+    "note": "Master Body Magic (rank 12, 4000gp)",
+    "icon": "body"
+  },
+  {
+    "slug": "SC_27",
+    "position": [1843,3068],
+    "name": "Virginia Standridge",
+    "note": "Membership to the Light Guild (1000gp)",
+    "icon": "shop"
+  },
+  {
+    "slug": "SC_28",
+    "position": [1829,3068],
+    "name": "Tina Sheltan",
+    "note": "Expert Light Magic (2000gp)",
+    "icon": "light"
+  },
+  {
+    "slug": "SC_29",
+    "position": [1815,3068],
+    "name": "Holly Struthers",
+    "note": "Membership to the Earth Guild (50gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "SC_30",
+    "position": [1803,3068],
+    "name": "Isaac Streetman",
+    "note": "Membership to the Self Guild (100gp)",
+    "icon": "house"
+  },
+  {
+    "slug": "SC_31",
+    "position": [1785,3052],
+    "name": "Eleanor Vanderbilt",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_31",
+        "text": "Deface the altar"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SC_32",
+    "position": [1743,3070],
+    "name": "Loretta Fleise",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_29",
+        "text": "Fix the prices of all stables"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_30",
+        "text": "Visit the Altar of the Sun"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_32",
+        "text": "Visit the Altar of the moon"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SC_33",
+    "position": [1829,2975],
+    "name": "Dragon Tower",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_36",
+        "text": "Quest 36 (Reset the Dragon Towers)"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SC_34",
+    "position": [1782,2866],
+    "name": "Docks",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "map",
+        "slug": "MIST",
+        "text": "To Isle of Mist (Mon, Thur, Sat, 3 days, 300gp)",
+        "position": [935,3520]
+      },
+      {
+        "type": "map",
+        "slug": "FH",
+        "text": "To Free Haven (Tue, Fri, 3 days, 300gp)",
+        "position": [1422,2232]
+      },
+      {
+        "type": "map",
+        "slug": "EIW_N",
+        "text": "To Eel Infested Waters, North Island (Wed, 1 day, 300gp)",
+        "position": [2138,3689]
+      }
+    ],
+    "icon": "docks"
+  },
+  {
+    "slug": "SC_35",
+    "position": [1811,2818],
+    "name": "Fountain",
+    "note": "+2 Accuracy permanently",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SC_36",
+    "position": [1761,2825],
+    "name": "Fountain",
+    "note": "+2 Speed permanently",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SC_37",
+    "position": [1771,2473],
+    "name": "Monolith",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "MONOLITH",
+        "text": "To Monolith"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "SC_38",
+    "position": [2174,2454],
+    "name": "Warlord's Fortress",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "WARLORD",
+        "text": "To Warlord's Fortress"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "SC_39",
+    "position": [2335,2682],
+    "name": "Shrine of Personality",
+    "note": "Pray during March",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_40",
+    "position": [2307,2876],
+    "name": "Obelisk #10",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_7",
+        "text": "Subquest 7 (Read obelisks)"
+      }
+    ],
+    "icon": "obelisk"
+  },
+  {
+    "slug": "SC_41",
+    "position": [2283,3011],
+    "name": "Inn",
+    "searchNote": "Silver Cove",
+    "icon": "inn"
+  },
+  {
+    "slug": "SC_41_2",
+    "position": [2283,3025],
+    "name": "Jasper Rice",
+    "note": "Master Staff (rank 8, 5000gp)",
+    "icon": "staff"
+  },
+  {
+    "slug": "SC_42",
+    "position": [2249,3087],
+    "name": "Fountain",
+    "note": "Drinks becomes insane",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SC_43",
+    "position": [2214,3009],
+    "name": "Docks",
+    "searchNote": "Silver Cove",
+    "links": [
+      {
+        "type": "map",
+        "slug": "EIW_S",
+        "text": "To Eel Infested Waters, South Island (Thur, 2 days, 200gp)",
+        "position": [1916,3546]
+      }
+    ],
+    "icon": "docks"
+  },
+  {
+    "slug": "SC_44",
+    "position": [2101,3053],
+    "name": "Circle of Stones",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_30",
+        "text": "Visit the Altar of the Sun"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SC_45",
+    "position": [1950,2774],
+    "name": "Silver Helm Stronghold",
+    "links": [
+      {
+        "type": "submap",
+        "slug": "SH_STRONGHOLD",
+        "text": "To Silver Helm Stronghold"
       }
     ],
     "icon": "dungeon"
