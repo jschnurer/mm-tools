@@ -5058,6 +5058,11 @@
         "type": "quest",
         "slug": "QUEST_49",
         "text": "Retrieve the Control Cube (Oracle)"
+      },
+      {
+        "type": "map",
+        "slug": "ORACLE",
+        "text": "To Oracle"
       }
     ],
     "icon": "quest"
