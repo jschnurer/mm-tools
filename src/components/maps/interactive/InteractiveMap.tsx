@@ -165,6 +165,10 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     setIsLegendOpen(true);
   }
 
+  const showInfo = () => {
+
+  }
+
   const applyLegend = (legend: ILegend) => {
     setLegend(legend);
     setFocus(null);
@@ -216,13 +220,15 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     <>
       <FlowLayout
         header={(
-          <div className="header">
+          <div
+            className="header"
+          >
             <DebounceInput
               type="text"
               placeholder="Type to search..."
               className="search-box"
               minLength={1}
-              debounceTimeout={300}
+              debounceTimeout={250}
               value={searchTerm}
               onChange={(e) => doSearch(e.target.value)}
             />
@@ -247,11 +253,15 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
               </ul>
             }
             <button
-              className="secondary-button"
               onClick={onShowLegend}
             >
               Legend
-        </button>
+            </button>
+            <button
+              onClick={showInfo}
+            >
+              ?
+            </button>
           </div>
         )}
       >

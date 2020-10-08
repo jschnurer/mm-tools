@@ -35,37 +35,7 @@ const POI: React.FC<IPOIProps> = ({
       <span className="note">{poi.searchNote}</span>
     }
     {poi.links &&
-      <ul>
-        {poi.links?.map(l =>
-          linkify
-            ? (
-              <li
-                key={l.slug}
-              >
-                <button
-                  className="link-button"
-                  onClick={onLinkClick
-                    ? () => onLinkClick(l)
-                    : undefined
-                  }
-                >
-                  {l.text}
-                </button>
-              </li>
-            ) : (
-              <li
-                key={l.slug}
-              >
-                <span
-                  className="link"
-                  key={l.slug}
-                >
-                  {l.text}
-                </span>
-              </li>
-            )
-        )}
-      </ul>
+      renderLinks(poi.links, linkify, onLinkClick)
     }
     {showRemove
       && onRemoveClick &&
@@ -77,5 +47,47 @@ const POI: React.FC<IPOIProps> = ({
       </button>
     }
   </div>;
+
+function renderLinks(links: IPOILink[],
+  linkify: boolean,
+  onLinkClick: ((link: IPOILink) => void) | undefined,
+) {
+  if (linkify) {
+    return (
+      <ul>
+        {links.map(l =>
+          <li
+            key={l.slug}
+          >
+            <button
+              className="link-button"
+              onClick={onLinkClick
+                ? () => onLinkClick(l)
+                : undefined
+              }
+            >
+              {l.text}
+            </button>
+          </li>
+        )}
+      </ul>
+    );
+  } else {
+    return (
+      <>
+        {links.map(l => (
+          <span
+            className="link"
+            key={l.slug}
+          >
+            {l.text}
+          </span>
+        ))}
+      </>
+    )
+
+  }
+
+}
 
 export default POI;

@@ -111,19 +111,16 @@ const MM6MapLegend: React.FC<IMapLegendProps> = ({
       footer={(
         <>
           <button
-            className="secondary-button"
             onClick={onClose}
           >
             Cancel
           </button>
           <button
-            className="secondary-button"
             onClick={onCheckNone}
           >
             Check None
           </button>
           <button
-            className="secondary-button"
             onClick={onCheckAll}
           >
             Check All

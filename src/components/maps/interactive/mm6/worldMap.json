@@ -26,7 +26,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -93,7 +93,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -180,7 +180,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -196,7 +196,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "info"
@@ -222,7 +222,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -239,7 +239,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -409,7 +409,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -505,7 +505,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -653,12 +653,12 @@
       {
         "type": "quest",
         "slug": "QUEST_15",
-        "text": "Quest 15 (Charles D'Sorpigal, Storm the Silver Helm Outpost)"
+        "text": "Storm the Silver Helm Outpost (Charles D'Sorpigal)"
       },
       {
         "type": "quest",
         "slug": "SUBQUEST_1",
-        "text": "Subquest 1 (Earnest, Bounty Hunting)"
+        "text": "Bounty Hunting (Earnest)"
       }
     ]
   },
@@ -867,17 +867,17 @@
       {
         "type": "quest",
         "slug": "QUEST_13",
-        "text": "Quest 13 (Find the Hourglass of Time)"
+        "text": "Find the Hourglass of Time"
       },
       {
         "type": "quest",
         "slug": "QUEST_14",
-        "text": "Quest 14 (Drink from the Fountain of Magic)"
+        "text": "Drink from the Fountain of Magic"
       },
       {
         "type": "quest",
         "slug": "QUEST_23",
-        "text": "Quest 23 (Retrieve the Crystal of Terrax)"
+        "text": "Retrieve the Crystal of Terrax"
       }
     ]
   },
@@ -924,7 +924,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ]
   },
@@ -976,7 +976,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -1055,7 +1055,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -1282,7 +1282,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -1309,7 +1309,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -1626,7 +1626,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -1891,7 +1891,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -1950,7 +1950,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -2027,7 +2027,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ],
     "icon": "quest"
@@ -2188,7 +2188,7 @@
       {
         "type": "quest",
         "slug": "QUEST_39",
-        "text": "Quest 39 (Place the statuettes)"
+        "text": "Place the Statuettes"
       }
     ],
     "icon": "quest"
@@ -2380,7 +2380,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -2554,7 +2554,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -2590,7 +2590,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Reset all the Dragon Towers"
+        "text": "Reset all of the Dragon Towers"
       }
     ],
     "icon": "quest"
@@ -2801,7 +2801,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ]
   },
@@ -3319,7 +3319,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ]
   },
@@ -3422,7 +3422,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -3975,7 +3975,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -4006,6 +4006,20 @@
       }
     ],
     "icon": "dungeon"
+  },
+  {
+    "slug": "CI_42",
+    "position": [705,3084],
+    "name": "Archibald Ironfist",
+    "note": "In the Royal Library",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_50",
+        "text": "Obtain Ancient Magic from Archibald"
+      }
+    ],
+    "icon": "quest"
   },
   {
     "slug": "SC_1",
@@ -4290,7 +4304,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ],
     "icon": "quest"
@@ -4378,7 +4392,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"
@@ -4949,7 +4963,7 @@
       {
         "type": "quest",
         "slug": "QUEST_36",
-        "text": "Quest 36 (Reset the Dragon Towers)"
+        "text": "Reset all of the Dragon Towers"
       }
     ],
     "icon": "quest"
@@ -5156,7 +5170,7 @@
       {
         "type": "quest",
         "slug": "SUBQUEST_7",
-        "text": "Subquest 7 (Read obelisks)"
+        "text": "Read Obelisks"
       }
     ],
     "icon": "obelisk"

@@ -1,9 +1,14 @@
 .header {
   position: relative;
   padding-bottom: .5em;
+  display: flex;
 
   .search-box {
-    width: 200px;
+    flex: auto;
+  }
+
+  button {
+    flex: none;
   }
 
   .search-results {

@@ -8,12 +8,22 @@ const MM6Quests: React.FC<IQuestModalProps> = ({
   onClose,
 }) => {
   const questListRef = useRef<HTMLOListElement>(null);
+  const subquestListRef = useRef<HTMLOListElement>(null);
 
   useEffect(() => {
     if (focusQuestSlug
-      && questListRef.current) {
+      && questListRef.current
+      && subquestListRef.current) {
       for (let i = 0; i < questListRef.current.children.length; i++) {
         const item = questListRef.current.children.item(i);
+        if (item && item.id === focusQuestSlug) {
+          item.scrollIntoView();
+          break;
+        }
+      }
+
+      for (let i = 0; i < subquestListRef.current.children.length; i++) {
+        const item = subquestListRef.current.children.item(i);
         if (item && item.id === focusQuestSlug) {
           item.scrollIntoView();
           break;
@@ -23,6 +33,7 @@ const MM6Quests: React.FC<IQuestModalProps> = ({
   }, [
     focusQuestSlug,
     questListRef,
+    subquestListRef,
   ])
 
   return (
@@ -556,7 +567,7 @@ const MM6Quests: React.FC<IQuestModalProps> = ({
         </li>
       </ol>
       <h2>Subquests</h2>
-      <ol>
+      <ol ref={subquestListRef}>
         <li id="SUBQUEST_1">
           Bounty hunting.
       <ul>
