@@ -10,6 +10,7 @@ import templeOfTheFist from "./bootyBay/templeOfTheFist/TempleOfTheFist";
 import fireLord from "./bootyBay/fireLord/FireLord";
 import dragonsLair from "./mire/dragonsLair/DragonsLair";
 import snerglesIronMines from "./mire/snerglesIronMines/SnerglesIronMines";
+import castleDarkmoor from "./mire/castleDarkmoor/CastleDarkmoor";
 import enroth from "./MM6WorldMap";
 import goblinwatch from "./newSorpigal/goblinwatch/Goblinwatch";
 import abandonedTemple from "./newSorpigal/abandonedTemple/AbandonedTemple";
@@ -43,6 +44,7 @@ const MapDictionary: IMapData[] = [
   oracle,
   controlCenter,
   snerglesIronMines,
+  castleDarkmoor,
 ];
 
 export default MapDictionary;

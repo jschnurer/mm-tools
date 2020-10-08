@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "CD_1",
+    "position": [235,736],
+    "name": "Switch to activate Main Switch 1",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_2",
+    "position": [285,829],
+    "name": "Main Switch 1",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_3",
+    "position": [490,412],
+    "name": "Switch to activate Main Switch 2",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_4",
+    "position": [459,520],
+    "name": "Main Switch 2",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_5",
+    "position": [433,229],
+    "name": "Lich King",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_6",
+    "position": [501,169],
+    "name": "Memory Crystal Delta",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_46",
+        "text": "Find Memory Crystal Delta"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CD_7",
+    "position": [505,222],
+    "name": "Switch to activate Main Switch 3",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_8",
+    "position": [501,209],
+    "name": "Main Switch 3",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_9",
+    "position": [65,1023],
+    "name": "Podium with Book of Liches",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_25",
+        "text": "Destroy the Book of Liches"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CD_10",
+    "position": [64,1028],
+    "name": "3 sarcophagi",
+    "note": "Stealing is -200 karma!",
+    "icon": "info"
+  },
+  {
+    "slug": "CD_11",
+    "position": [206,570],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
