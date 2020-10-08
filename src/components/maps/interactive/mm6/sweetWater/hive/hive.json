@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "HV_1",
+    "position": [318,325],
+    "name": "Chest with Hive Sanctum Key",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_2",
+    "position": [142,88],
+    "name": "Keg",
+    "note": "+20 hit points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "HV_3",
+    "position": [379,287],
+    "name": "Door",
+    "note": "Need Hive Sanctum Key",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "HV_1",
+        "text": "Hive Sanctum Key"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "HV_4",
+    "position": [290,202],
+    "name": "Door",
+    "note": "Openable from north only",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_5",
+    "position": [178,205],
+    "name": "Lower Cave Door",
+    "note": "Openable from #6 or walking from #7",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_6",
+    "position": [31,80],
+    "name": "Backdoor to Exit",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_7",
+    "position": [123,303],
+    "name": "Switch 1",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_8",
+    "position": [129,383],
+    "name": "Switch 2",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_9",
+    "position": [33,157],
+    "name": "Teleporter to Exit",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_10",
+    "position": [385,118],
+    "name": "Door",
+    "note": "Opens via switch 1 and 2",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_11",
+    "position": [410,114],
+    "name": "Switch 3",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_12",
+    "position": [111,330],
+    "name": "Door",
+    "note": "Opens via switch 3",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_13",
+    "position": [252,95],
+    "name": "Switch",
+    "note": "Turns off the flushing system",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_14",
+    "position": [495,296],
+    "name": "Reactor",
+    "note": "The reactor's death releases monsters and removes all spells from party. Run to the Queen's room and cast the spells again before lost mana.",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_15",
+    "position": [602,267],
+    "name": "Demon Queen",
+    "note": "Don't save the game if you see the queen, because after loading she will disappear. (BUG!)",
+    "icon": "info"
+  },
+  {
+    "slug": "HV_16",
+    "position": [610,326],
+    "name": "Exit",
+    "note": "Be sure that you have the Ritual of the Void Scroll from Archibald Ironfist, or you will destroy Enroth. (Try it, FUN!)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_10",
+        "text": "Save Enroth"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "HV_17",
+    "position": [47,203],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

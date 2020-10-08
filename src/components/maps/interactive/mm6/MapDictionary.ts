@@ -34,6 +34,10 @@ import castleKriegspire from "./kriegspire/castleKriegspire/CastleKriegspire";
 import agar from "./kriegspire/agar/Agar";
 import dragonRiders from "./kriegspire/dragonRiders/DragonRiders";
 import alamos from "./eelInfestedWaters/castleAlamos/CastleAlamos";
+import tombVARN from "./dragonsands/tombVARN/TombVARN";
+import nwc from "./dragonsands/nwc/NWC";
+import supremeBaa from "./hermitsIsle/supremeBaa/SupremeBaa";
+import hive from "./sweetWater/hive/Hive";
 
 const MapDictionary: IMapData[] = [
   enroth,
@@ -71,6 +75,10 @@ const MapDictionary: IMapData[] = [
   agar,
   dragonRiders,
   alamos,
+  tombVARN,
+  nwc,
+  supremeBaa,
+  hive,
 ];
 
 export default MapDictionary;
