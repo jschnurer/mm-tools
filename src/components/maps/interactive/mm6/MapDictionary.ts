@@ -9,6 +9,9 @@ import goblinwatch from "./newSorpigal/goblinwatch/Goblinwatch";
 import abandonedTemple from "./newSorpigal/abandonedTemple/AbandonedTemple";
 import gharik from "./newSorpigal/ghariksForge/GhariksForge";
 import templeBaa from "./castleIronfist/templeBaa/TempleBaa";
+import shadowGuildHideout from "./castleIronfist/shadowGuildHideout/ShadowGuildHideout";
+import corlagonsEstate from "./castleIronfist/corlagonsEstate/CorlagonsEstate";
+import snerglesCaverns from "./castleIronfist/snerglesCaverns/SnerglesCaverns";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -22,7 +25,10 @@ const MapDictionary: IMapData[] = [
   dragoonsKeep,
   dragonsLair,
   gharik,
-  templeBaa
+  templeBaa,
+  shadowGuildHideout,
+  corlagonsEstate,
+  snerglesCaverns,
 ];
 
 export default MapDictionary;

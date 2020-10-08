@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "SC_1",
+    "position": [102,86],
+    "name": "Bones",
+    "note": "+5 Magic Resistance for one character",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_2",
+    "position": [147,72],
+    "name": "Bones",
+    "note": "+5 Poison Resistance for one character",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_3",
+    "position": [270,93],
+    "name": "Switch to open secret room",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_4",
+    "position": [339,175],
+    "name": "Door",
+    "note": "Need Snergle's Chambers Key from Snergle's Iron Mines in Mire of the Damned\nReleases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_5",
+    "position": [396,196],
+    "name": "Snergle",
+    "note": "Drops Snergle's Axe.\nSwitch to open wall",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_26",
+        "text": "Kill Snergle"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "SC_6",
+    "position": [401,182],
+    "name": "Chest",
+    "note": "Contains Letter to Snergle (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_7",
+    "position": [290,259],
+    "name": "Bones",
+    "note": "NOTE+5 Might for one character",
+    "icon": "info"
+  },
+  {
+    "slug": "SC_8",
+    "position": [78,209],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

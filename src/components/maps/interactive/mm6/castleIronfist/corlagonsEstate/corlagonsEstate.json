@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "CE_1",
+    "position": [411,42],
+    "name": "Chest",
+    "note": "Contains Corlagon's Diary Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "CE_2",
+    "position": [369,87],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "CE_3",
+    "position": [85,97],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "CE_4",
+    "position": [75,111],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "CE_5",
+    "position": [126,22],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "CE_6",
+    "position": [44,286],
+    "name": "Chest",
+    "note": "Contains Crystal of Terrax",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_23",
+        "text": "Retrieve the Crystal of Terrax"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CE_7",
+    "position": [161,176],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
