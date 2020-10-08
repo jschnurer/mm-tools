@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "IW_1",
+    "position": [55,21],
+    "name": "Chest",
+    "note": "Contains Remnans of a Journal (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "IW_2",
+    "position": [215,100],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "IW_3",
+    "position": [228,157],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "IW_4",
+    "position": [293,102],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "IW_5",
+    "position": [318,142],
+    "name": "Dragon Tower Key",
+    "note": "And Dragon Rider Scroll (useless)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_35",
+        "text": "Retrieve the Key to the Dragon Towers"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "IW_6",
+    "position": [12,117],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

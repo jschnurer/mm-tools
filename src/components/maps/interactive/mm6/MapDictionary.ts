@@ -20,6 +20,7 @@ import shadowGuildHideout from "./castleIronfist/shadowGuildHideout/ShadowGuildH
 import corlagonsEstate from "./castleIronfist/corlagonsEstate/CorlagonsEstate";
 import snerglesCaverns from "./castleIronfist/snerglesCaverns/SnerglesCaverns";
 import silverHelmOutpost from "./mist/silverHelmOutpost/SilverHelmOutpost";
+import icewind from "./frozenHighlands/icewind/Icewind";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -45,6 +46,7 @@ const MapDictionary: IMapData[] = [
   controlCenter,
   snerglesIronMines,
   castleDarkmoor,
+  icewind,
 ];
 
 export default MapDictionary;
