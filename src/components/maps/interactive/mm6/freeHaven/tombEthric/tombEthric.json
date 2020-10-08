@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "ET_1",
+    "position": [147,37],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "ET_2",
+    "position": [97,281],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "ET_3",
+    "position": [241,222],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "ET_4",
+    "position": [271,158],
+    "name": "Ethric's skull",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_21",
+        "text": "Retrieve Ethric's Skull"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "ET_5",
+    "position": [21,140],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

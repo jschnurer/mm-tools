@@ -113,7 +113,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     setIsQuestModalOpen(false);
     setIsLegendOpen(false);
     setLegend(getInitialLegend());
-  }, [game, map])
+  }, [game, map, allPOIs, initialMapView])
 
   const onRemoveMarkerClick = (poi: IPOI) => {
     setPois(pois.filter(x => x !== poi));

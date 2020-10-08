@@ -1,20 +1,21 @@
 [
   {
-    "slug": "TM_1",
-    "position": [60,128],
-    "name": "Chest with Sacred Chalice",
+    "slug": "DL_1",
+    "position": [59,43],
+    "name": "Longfang Witherhide",
+    "note": "Drops Dragon Claw when slain.",
     "links": [
       {
         "type": "quest",
-        "slug": "QUEST_33",
-        "text": "Take the Sacred Chalice"
+        "slug": "QUEST_24",
+        "text": "Slay Longfang Witherhide"
       }
     ],
     "icon": "quest"
   },
   {
-    "slug": "TM_2",
-    "position": [69,15],
+    "slug": "DL_2",
+    "position": [59,80],
     "name": "Exit",
     "links": [
       {

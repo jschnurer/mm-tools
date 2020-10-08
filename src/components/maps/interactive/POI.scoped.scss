@@ -11,18 +11,6 @@
     display: block;
   }
 
-  .remove-button {
-    margin: 0;
-    background-color: rgb(230, 230, 230);
-    padding: 0.25;
-    margin-top: 1em;
-    display: block;
-
-    &:hover {
-      background-color: rgb(189, 189, 189);
-    }
-  }
-
   ul {
     margin: 0;
     padding: 0;
@@ -35,6 +23,7 @@
     background-color: transparent;
     color: blue;
     text-align: left;
+    font-size: inherit;
 
     &:hover {
       color: rgb(109, 109, 255);

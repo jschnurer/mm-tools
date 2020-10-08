@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "AT_1",
+    "position": [129,1155],
+    "name": "Chest with Candelabra",
+    "icon": "quest"
+  },
+  {
+    "slug": "AT_2",
+    "position": [612,809],
+    "name": "Angela Dawson",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_7",
+        "text": "Rescue Angela"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "AT_3",
+    "position": [240,103],
+    "name": "Heart of the Spider Queen",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_5",
+        "text": "Kill the Queen of the Spiders"
+      }
+    ],
+    "icon": "quest"
+  },  
+  {
+    "slug": "AT_4",
+    "position": [17,1118],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

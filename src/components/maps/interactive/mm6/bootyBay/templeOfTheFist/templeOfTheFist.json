@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "TF_1",
+    "position": [93,29],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "TF_2",
+    "position": [85,20],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "TF_3",
+    "position": [114,81],
+    "name": "Temple Baa letter (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "TF_4",
+    "position": [84,59],
+    "name": "Evil Crystal",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_16",
+        "text": "Destroy the crystal in the Temple of the Fist"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TF_5",
+    "position": [18,52],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

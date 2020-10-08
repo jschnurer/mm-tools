@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "GW_1",
+    "position": [96,498],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "GW_2",
+    "position": [143,553],
+    "name": "Switches to open wall",
+    "note": "Enter \"NILBOG\"",
+    "icon": "info"
+  },
+  {
+    "slug": "GW_3",
+    "position": [136,452],
+    "name": "Chest with Goblinwatch Code scroll",
+    "icon": "quest"
+  },
+  {
+    "slug": "GW_4",
+    "position": [192,515],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
