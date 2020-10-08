@@ -2,6 +2,7 @@ import templeOfTheMoon from "./freeHaven/templeOfTheMoon/TempleOfTheMoon";
 import tombEthric from "./freeHaven/tombEthric/TombEthric";
 import dragoonsKeep from "./freeHaven/dragoonsKeep/DragoonsKeep";
 import templeOfTheSun from "./bootyBay/templeOfTheSun/TempleOfTheSun";
+import templeOfTsantsa from "./bootyBay/templeOfTsantsa/TempleOfTsantsa";
 import templeOfTheFist from "./bootyBay/templeOfTheFist/TempleOfTheFist";
 import dragonsLair from "./mire/dragonsLair/DragonsLair";
 import enroth from "./MM6WorldMap";
@@ -12,6 +13,7 @@ import templeBaa from "./castleIronfist/templeBaa/TempleBaa";
 import shadowGuildHideout from "./castleIronfist/shadowGuildHideout/ShadowGuildHideout";
 import corlagonsEstate from "./castleIronfist/corlagonsEstate/CorlagonsEstate";
 import snerglesCaverns from "./castleIronfist/snerglesCaverns/SnerglesCaverns";
+import silverHelmOutpost from "./mist/silverHelmOutpost/SilverHelmOutpost";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -19,6 +21,7 @@ const MapDictionary: IMapData[] = [
   templeOfTheMoon,
   templeOfTheSun,
   templeOfTheFist,
+  templeOfTsantsa,
   goblinwatch,
   abandonedTemple,
   tombEthric,
@@ -29,6 +32,7 @@ const MapDictionary: IMapData[] = [
   shadowGuildHideout,
   corlagonsEstate,
   snerglesCaverns,
+  silverHelmOutpost,
 ];
 
 export default MapDictionary;

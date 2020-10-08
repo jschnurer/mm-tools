@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "SHO_1",
+    "position": [220,39],
+    "name": "Switch for stairs",
+    "icon": "info"
+  },
+  {
+    "slug": "SHO_2",
+    "position": [218,96],
+    "name": "Melody Silver",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_11",
+        "text": "Rescue a Damsel in Distress"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SHO_3",
+    "position": [73,162],
+    "name": "Chest",
+    "note": "Contains Enemies List Scroll",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_15",
+        "text": "Storm the Silver Helm Outpost"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SHO_4",
+    "position": [61,168],
+    "name": "Switch to open secret room",
+    "icon": "info"
+  },
+  {
+    "slug": "SHO_5",
+    "position": [119,168],
+    "name": "Chest",
+    "note": "Contains Gharik's Key",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_13",
+        "text": "Find the Hourglass of Time"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SHO_6",
+    "position": [162,190],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
