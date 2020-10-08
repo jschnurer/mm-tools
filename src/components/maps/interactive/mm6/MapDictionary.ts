@@ -7,6 +7,8 @@ import dragonsLair from "./mire/dragonsLair/DragonsLair";
 import enroth from "./MM6WorldMap";
 import goblinwatch from "./newSorpigal/goblinwatch/Goblinwatch";
 import abandonedTemple from "./newSorpigal/abandonedTemple/AbandonedTemple";
+import gharik from "./newSorpigal/ghariksForge/GhariksForge";
+import templeBaa from "./castleIronfist/templeBaa/TempleBaa";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -19,6 +21,8 @@ const MapDictionary: IMapData[] = [
   tombEthric,
   dragoonsKeep,
   dragonsLair,
+  gharik,
+  templeBaa
 ];
 
 export default MapDictionary;

@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "TB_1",
+    "position": [491,265],
+    "name": "Doors",
+    "note": "Touch N, E, W, S to open chest with Bathhouse 1 Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_2",
+    "position": [335,227],
+    "name": "Statue",
+    "note": "Search it for Store Room 1 Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_3",
+    "position": [622,226],
+    "name": "Bathhouse 1",
+    "note": "Chest with Treasure Room Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_4",
+    "position": [372,293],
+    "name": "Store Room 1",
+    "note": "Has chest with Bathhouse 2 Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_5",
+    "position": [621,311],
+    "name": "Bathhouse 2",
+    "note": "Has chest with Store Room 2 Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_6",
+    "position": [373,238],
+    "name": "Store Room 2",
+    "note": "Has chest with Secret Door Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_7",
+    "position": [484,657],
+    "name": "Secret Door",
+    "note": "Need Secret Door Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_8",
+    "position": [485,632],
+    "name": "Temple Gong",
+    "note": "Releases monsters when taken (Lawrence Aleman in Free Haven wants these)",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_9",
+    "position": [626,479],
+    "name": "Treasure Room 1",
+    "note": "Contains Treasure Room 2 key and Chime of Harmony",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "CHIME",
+        "text": "Get the Chime of Harmony"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TB_10",
+    "position": [345,477],
+    "name": "Treasure Room 2",
+    "icon": "info"
+  },
+  {
+    "slug": "TB_11",
+    "position": [489,124],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
