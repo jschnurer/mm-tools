@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "FL_1",
+    "position": [157,129],
+    "name": "Fire Lord",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_48",
+        "text": "Unward the doors"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "FL_2",
+    "position": [143,128],
+    "name": "Journal Fragment Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "FL_3",
+    "position": [236,104],
+    "name": "Door",
+    "note": "Need 1 amber to open",
+    "icon": "info"
+  },
+  {
+    "slug": "FL_4",
+    "position": [237,234],
+    "name": "Door",
+    "note": "Need 1 amber to open",
+    "icon": "info"
+  },
+  {
+    "slug": "FL_5",
+    "position": [147,221],
+    "name": "Fallen Defender",
+    "note": "Drops Chest Key",
+    "icon": "info"
+  },
+  {
+    "slug": "FL_6",
+    "position": [285,172],
+    "name": "Crystal Skull",
+    "note": "Absorbs radioactivity in Tomb of VARN at Dragonsands",
+    "icon": "info"
+  },
+  {
+    "slug": "FL_7",
+    "position": [12,13],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

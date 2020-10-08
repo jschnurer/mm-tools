@@ -1,6 +1,6 @@
 [
   {
-    "slug": "TM_1",
+    "slug": "TS_1",
     "position": [60,128],
     "name": "Chest with Sacred Chalice",
     "links": [
@@ -13,7 +13,7 @@
     "icon": "quest"
   },
   {
-    "slug": "TM_2",
+    "slug": "TS_2",
     "position": [69,15],
     "name": "Exit",
     "links": [

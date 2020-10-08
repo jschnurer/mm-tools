@@ -1,9 +1,11 @@
 import templeOfTheMoon from "./freeHaven/templeOfTheMoon/TempleOfTheMoon";
 import tombEthric from "./freeHaven/tombEthric/TombEthric";
 import dragoonsKeep from "./freeHaven/dragoonsKeep/DragoonsKeep";
+import sewers from "./freeHaven/sewers/Sewers";
 import templeOfTheSun from "./bootyBay/templeOfTheSun/TempleOfTheSun";
 import templeOfTsantsa from "./bootyBay/templeOfTsantsa/TempleOfTsantsa";
 import templeOfTheFist from "./bootyBay/templeOfTheFist/TempleOfTheFist";
+import fireLord from "./bootyBay/fireLord/FireLord";
 import dragonsLair from "./mire/dragonsLair/DragonsLair";
 import enroth from "./MM6WorldMap";
 import goblinwatch from "./newSorpigal/goblinwatch/Goblinwatch";
@@ -33,6 +35,8 @@ const MapDictionary: IMapData[] = [
   corlagonsEstate,
   snerglesCaverns,
   silverHelmOutpost,
+  fireLord,
+  sewers,
 ];
 
 export default MapDictionary;
