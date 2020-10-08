@@ -8,6 +8,7 @@ import { IPOI, IPOILink, ILegend, IMapLocation, IQuestModalProps, IMapLegendProp
 import { DebounceInput } from "react-debounce-input";
 import icons from "./icons";
 import { RouteComponentProps } from "react-router-dom";
+import Modal from "components/layout/Modal";
 
 interface IInteractiveMapProps {
   allPOIs: IPOI[],
@@ -75,6 +76,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
   const [focusQuest, setFocusQuest] = useState<string>("");
   const [isQuestModalOpen, setIsQuestModalOpen] = useState(false);
   const [isLegendOpen, setIsLegendOpen] = useState(false);
+  const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [legend, setLegend] = useState<ILegend>(getInitialLegend());
 
   const searchResultsRef = useRef<HTMLUListElement>(null);
@@ -166,7 +168,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
   }
 
   const showInfo = () => {
-
+    setIsInfoOpen(true);
   }
 
   const applyLegend = (legend: ILegend) => {
@@ -338,6 +340,34 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
             setIsLegendOpen(false);
           },
         })
+      }
+      {isInfoOpen &&
+        <Modal
+          header="Info"
+          onClose={() => setIsInfoOpen(false)}
+          footer={(
+            <>
+              <button
+                className="primary-button"
+                onClick={() => setIsInfoOpen(false)}
+              >
+                Close
+              </button>
+            </>
+          )}
+        >
+          <p>
+            See something wrong with the map?
+            Contact me at enigmabrand &lt;at&gt; gmail.com and let me know.
+          </p>
+          <p>
+            If a marker is misplaced, you can click on the map to copy a position to your clipboard.
+            Then you can send me the marker and the new position you think it should be at.
+          </p>
+          <p>
+            All Might and Magic 6 maps and info was sourced from <a href="https://the-spoiler.com/RPG/New.World.Computing/might..magic.6.1/mm6.html">MM6 Spoiler</a>.
+          </p>
+        </Modal>
       }
     </>
   );
