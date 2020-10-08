@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "SNK_1",
+    "position": [56,89],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SNK_2",
+    "position": [94,96],
+    "name": "Switch to activate lift",
+    "icon": "info"
+  },
+  {
+    "slug": "SNK_3",
+    "position": [123,42],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SNK_4",
+    "position": [79,120],
+    "name": "Cage with Emmanuel Cravitz",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_37",
+        "text": "Rescue Emmanuel"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SNK_5",
+    "position": [90,208],
+    "name": "Q",
+    "note": "Drops Horn of Ros (shows enemy HP)",
+    "icon": "info"
+  },
+  {
+    "slug": "SNK_6",
+    "position": [109,16],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "TT_1",
+    "position": [135,151],
+    "name": "Trap 1 (with switch)",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_2",
+    "position": [170,181],
+    "name": "Switch to trap 1",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_3",
+    "position": [197,94],
+    "name": "Switch to open access to #6 and #9",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_4",
+    "position": [167,37],
+    "name": "Trap 2 (with switch)",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_5",
+    "position": [161,60],
+    "name": "Switch to trap 2",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_6",
+    "position": [189,22],
+    "name": "Switch 6, open doors",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_7",
+    "position": [118,67],
+    "name": "Trap 3 (with switch)",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_8",
+    "position": [101,65],
+    "name": "Switch to trap 3",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_9",
+    "position": [79,100],
+    "name": "Switch 9, opens door",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_10",
+    "position": [24,61],
+    "name": "Chest with Cell Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TT_11",
+    "position": [187,55],
+    "name": "Sherell Ivaneh",
+    "note": "Need Cell Key",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_20",
+        "text": "Rescue Sherell"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TT_12",
+    "position": [23,166],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

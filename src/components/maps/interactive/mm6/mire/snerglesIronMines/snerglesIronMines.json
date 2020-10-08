@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "SI_1",
+    "position": [145,62],
+    "name": "Pool",
+    "note": "+10 spell points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SI_2",
+    "position": [121,62],
+    "name": "Pool",
+    "note": "+10 hit points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "SI_3",
+    "position": [216,170],
+    "name": "Library",
+    "note": "Can search shelves",
+    "icon": "info"
+  },
+  {
+    "slug": "SI_4",
+    "position": [122,14],
+    "name": "Chest with Cell Key",
+    "icon": "info"
+  },
+  {
+    "slug": "SI_5",
+    "position": [178,467],
+    "name": "Chest",
+    "note": "Openable at left and right side",
+    "icon": "info"
+  },
+  {
+    "slug": "SI_6",
+    "position": [154,374],
+    "name": "Cell with Snergle's Chambers Key",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_26",
+        "text": "Kill Snergle"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SI_7",
+    "position": [51,229],
+    "name": "Chest",
+    "note": "Contains Orders from Snergle Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "SI_8",
+    "position": [81,224],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

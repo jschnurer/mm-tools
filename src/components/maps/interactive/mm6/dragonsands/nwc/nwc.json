@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "NWC_1",
+    "position": [102,174],
+    "name": "Desk",
+    "note": "Day of the Gods effect",
+    "icon": "info"
+  },
+  {
+    "slug": "NWC_2",
+    "position": [43,124],
+    "name": "Pantry",
+    "note": "+food, poison and drunk effect",
+    "icon": "info"
+  },
+  {
+    "slug": "NWC_3",
+    "position": [56,124],
+    "name": "Potions for sale",
+    "note": "Pay money, get random potion",
+    "icon": "info"
+  },
+  {
+    "slug": "NWC_4",
+    "position": [186,81],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "SGH_1",
+    "position": [51,103],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_2",
+    "position": [150,132],
+    "name": "Chest",
+    "note": "With Prince of Thieves Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_3",
+    "position": [167,79],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_4",
+    "position": [127,83],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_5",
+    "position": [81,49],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_6",
+    "position": [64,55],
+    "name": "Chest with Guild Key",
+    "icon": "info"
+  },
+  {
+    "slug": "SGH_7",
+    "position": [82,93],
+    "name": "Sharry Carnegie",
+    "note": "Need Guild Key",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_6",
+        "text": "Rescue Sharry"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SGH_8",
+    "position": [13,119],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

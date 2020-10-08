@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "AL_1",
+    "position": [40,134],
+    "name": "Chandelier with a diamond",
+    "icon": "info"
+  },
+  {
+    "slug": "AL_2",
+    "position": [47,55],
+    "name": "Switch to open lift door",
+    "note": "Also releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "AL_3",
+    "position": [142,161],
+    "name": "Switch to open lift door",
+    "note": "Also releases monstesr",
+    "icon": "info"
+  },
+  {
+    "slug": "AL_4",
+    "position": [150,36],
+    "name": "Switch to release monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "AL_5",
+    "position": [366,107],
+    "name": "Agar's Journal Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "AL_6",
+    "position": [38,182],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

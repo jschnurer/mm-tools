@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "CA_1",
+    "position": [317,14],
+    "name": "J Tree",
+    "note": "\"The first into the half the fourth plus one, better hurry or you'll be done.\"",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_2",
+    "position": [175,312],
+    "name": "B Tree",
+    "note": "\"The second is next to the third, oh so pretty like a bird!\"",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_3",
+    "position": [361,369],
+    "name": "A Tree",
+    "note": "\"The third is first of twenty six, A through Z you'll have to mix!\"",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_4",
+    "position": [150,493],
+    "name": "R Tree",
+    "note": "\"The fourth is eight from the end, Archibald really is your friend!\"",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_5",
+    "position": [71,213],
+    "name": "D Tree",
+    "note": "\"The fifth is twice the second, five letters in all I reckon!\"",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_6",
+    "position": [221,425],
+    "name": "Chest with Teleporter Key",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_7",
+    "position": [178,515],
+    "name": "Chest with Treasure Room Key",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_8",
+    "position": [110,359],
+    "name": "Treasure Room",
+    "note": "Need Treasure Room Key",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_9",
+    "position": [441,404],
+    "name": "Teleport Room",
+    "note": "Need Teleporter Key",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_10",
+    "position": [403,319],
+    "name": "Room without door",
+    "note": "Need to use teleporter to get here",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_11",
+    "position": [110,124],
+    "name": "Restricted Area",
+    "note": "Use code JBARD to enter",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_12",
+    "position": [166,118],
+    "name": "Memory Crystal Beta",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_45",
+        "text": "Find Memory Crystal Beta"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CA_13",
+    "position": [139,233],
+    "name": "Teleporter to Room without door",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "CA_10",
+        "text": "To Room without door"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CA_14",
+    "position": [179,330],
+    "name": "Switch to open door",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "CA_15",
+        "text": "Door"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CA_15",
+    "position": [28,328],
+    "name": "Door",
+    "note": "Push switch to open",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "CA_14",
+        "text": "Switch to open door"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "CA_16",
+    "position": [45,247],
+    "name": "Warlock with Letter to Gharik (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_17",
+    "position": [144,267],
+    "name": "Pool",
+    "note": "Releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "CA_18",
+    "position": [382,248],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

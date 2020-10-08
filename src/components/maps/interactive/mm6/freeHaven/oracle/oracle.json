@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "O_1",
+    "position": [42,348],
+    "name": "Power Panel",
+    "note": "Toggles system on and off",
+    "icon": "info"
+  },
+  {
+    "slug": "O_2",
+    "position": [163,174],
+    "name": "Panel",
+    "note": "Opens the door to the Oracle",
+    "icon": "info"
+  },
+  {
+    "slug": "O_3",
+    "position": [233,145],
+    "name": "Oracle",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_44",
+        "text": "Find Memory Crystal Alpha"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_45",
+        "text": "Find Memory Crystal Beta"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_46",
+        "text": "Find Memory Crystal Delta"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_47",
+        "text": "Find Memory Crystal Epsilon"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_49",
+        "text": "Retrieve the Control Cube"
+      },
+      {
+        "type": "quest",
+        "slug": "QUEST_50",
+        "text": "Obtain Ancient Magic from Archibald"
+      },
+      {
+        "type": "map",
+        "slug": "CONTROL_CENTER",
+        "text": "To Control Center"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "O_4",
+    "position": [230,27],
+    "name": "Memory Crystal Slots",
+    "note": "Place the memory crystals here in any order",
+    "icon": "info"
+  },
+  {
+    "slug": "O_4_1",
+    "position": [347,178],
+    "name": "Memory Crystal Slots",
+    "note": "Place the memory crystals here in any order",
+    "icon": "info"
+  },
+  {
+    "slug": "O_4_2",
+    "position": [232,340],
+    "name": "Memory Crystal Slots",
+    "note": "Place the memory crystals here in any order",
+    "icon": "info"
+  },
+  {
+    "slug": "O_4_3",
+    "position": [30,124],
+    "name": "Memory Crystal Slots",
+    "note": "Place the memory crystals here in any order",
+    "icon": "info"
+  },
+  {
+    "slug": "O_5",
+    "position": [32,351],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

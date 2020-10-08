@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "CC_1",
+    "position": [272,172],
+    "name": "Computer Terminal",
+    "note": "Teaches Ancient Weapon skill",
+    "icon": "info"
+  },
+  {
+    "slug": "CC_2",
+    "position": [81,558],
+    "name": "Chest",
+    "note": "Proclamation Scroll",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_9",
+        "text": "Be a goober"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CC_3",
+    "position": [265,131],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ORACLE",
+        "text": "To Oracle"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

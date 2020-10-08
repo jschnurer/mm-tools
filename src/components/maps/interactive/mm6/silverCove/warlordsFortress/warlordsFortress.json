@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "WF_1",
+    "position": [126,184],
+    "name": "Chest with Storage Key",
+    "icon": "info"
+  },
+  {
+    "slug": "WF_2",
+    "position": [148,193],
+    "name": "Chest",
+    "note": "Contains Discharge Paper Scroll",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_22",
+        "text": "Defeat the Warlord"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "WF_3",
+    "position": [149,134],
+    "name": "Chest with Storage Key",
+    "icon": "info"
+  },
+  {
+    "slug": "WF_4",
+    "position": [77,164],
+    "name": "Storage Room",
+    "note": "Unlocked with 2 Storage Keys",
+    "icon": "info"
+  },
+  {
+    "slug": "WF_5",
+    "position": [132,17],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

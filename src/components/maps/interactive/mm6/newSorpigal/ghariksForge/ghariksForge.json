@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "GF_1",
+    "position": [124,115],
+    "name": "Switch for bridge",
+    "icon": "info"
+  },
+  {
+    "slug": "GF_2",
+    "position": [231,153],
+    "name": "Switch (lower) for bridge",
+    "icon": "info"
+  },
+  {
+    "slug": "GF_3",
+    "position": [254,153],
+    "name": "Switch (upper) to open secret room",
+    "icon": "info"
+  },
+  {
+    "slug": "GF_4",
+    "position": [291,137],
+    "name": "Chest",
+    "note": "Letter to Marcus scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "GF_5",
+    "position": [194,142],
+    "name": "Chest",
+    "note": "Gharik's Journal Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "GF_6",
+    "position": [148,190],
+    "name": "Door",
+    "note": "Needs Gharik's Key from Silver Helm Outpost Isle of Mist",
+    "links": [
+      {
+        "type": "map",
+        "slug": "SH_OUTPOST",
+        "text": "To Silver Helm Outpost"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "GF_7",
+    "position": [166,234],
+    "name": "Chest",
+    "note": "Hourglass of Time",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_13",
+        "text": "Find the Hourglass of Time"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "GF_8",
+    "position": [136,15],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

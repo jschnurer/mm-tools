@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  padding-bottom: .5em;
+  display: flex;
+
+  .search-box {
+    flex: auto;
+  }
+
+  button {
+    flex: none;
+  }
+
+  .search-results {
+    position: absolute;
+    left: 1px;
+    top: calc(100% - .5em);
+    background-color: white;
+    z-index: 2000;
+    padding: 0;
+    margin: 0;
+    color: black;
+    list-style: none;
+    width: 213px;
+    font-size: 1em;
+    max-height: 15em;
+    overflow-y: auto;
+
+    li {
+      padding: 0;
+      margin: 0;
+      display: block;
+      padding: .25em .5em;
+      width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+
+      &:hover {
+        background-color: #FF9EFF;
+        cursor: pointer;
+      }
+    }
+  }
+}

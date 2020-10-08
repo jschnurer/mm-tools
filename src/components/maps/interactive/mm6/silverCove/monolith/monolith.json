@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "M_1",
+    "position": [29,178],
+    "name": "Scrap of Papers Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "M_2",
+    "position": [109,28],
+    "name": "Chest with Cedric Druther Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "M_3",
+    "position": [141,39],
+    "name": "Evil Altar",
+    "note": "+5 Personality for Druids and Clerics permanently",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_31",
+        "text": "Deface the altar"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "M_4",
+    "position": [15,141],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

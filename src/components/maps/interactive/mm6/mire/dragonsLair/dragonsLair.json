@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "DL_1",
+    "position": [59,43],
+    "name": "Longfang Witherhide",
+    "note": "Drops Dragon Claw when slain.",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_24",
+        "text": "Slay Longfang Witherhide"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "DL_2",
+    "position": [59,80],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "TS_1",
+    "position": [60,128],
+    "name": "Chest with Sacred Chalice",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_33",
+        "text": "Take the Sacred Chalice"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TS_2",
+    "position": [69,15],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "FS_1",
+    "position": [527,873],
+    "name": "Grate with Sewer Key",
+    "icon": "info"
+  },
+  {
+    "slug": "FS_2",
+    "position": [204,506],
+    "name": "Well",
+    "note": "+10 hit points",
+    "icon": "fountain"
+  },
+  {
+    "slug": "FS_3",
+    "position": [529,20],
+    "name": "Prince of Thieves",
+    "note": "Only here if actively doing quest and if you have already completed Dragoon's Caverns then Shadow Guild Hideout in Castle Ironfist and then Shadow Guild in the Frozen Highlands.",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_28",
+        "text": "Capture the Prince of Thieves"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "FS_4",
+    "position": [482,619],
+    "name": "Door",
+    "note": "Need Sewer Key",
+    "icon": "info"
+  },
+  {
+    "slug": "FS_5",
+    "position": [297,710],
+    "name": "Monsters between the walls",
+    "note": "Cast Ring of Fire near the walls to kill them",
+    "icon": "info"
+  },
+  {
+    "slug": "FS_6",
+    "position": [73,562],
+    "name": "Teleporter",
+    "note": "Secret door must be opened from Supreme Temple of Baa at Hermit's Isle first",
+    "links": [
+      {
+        "type": "map",
+        "slug": "SUPREME_BAA",
+        "text": "To Supreme Temple of Baa"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "FS_7",
+    "position": [100,951],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

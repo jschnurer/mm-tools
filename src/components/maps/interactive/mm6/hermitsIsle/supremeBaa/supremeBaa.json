@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "SB_1",
+    "position": [265,102],
+    "name": "Teleporter to Free Haven Sewers at Free Haven",
+    "links": [
+      {
+        "type": "map",
+        "slug": "SEWER",
+        "text": "To Free Haven Sewers"
+      }
+    ],
+    "icon": "dungeon"
+  },
+  {
+    "slug": "SB_2",
+    "position": [223,261],
+    "name": "Altars of Pain, Cold, and Fire",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_6",
+        "text": "Pray at Baa Altars"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_3",
+    "position": [215,305],
+    "name": "Altar of Earth",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_6",
+        "text": "Pray at Baa Altars"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_4",
+    "position": [211,369],
+    "name": "Altar of Air",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_6",
+        "text": "Pray at Baa Altars"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_5",
+    "position": [59,295],
+    "name": "Altar of Water",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_6",
+        "text": "Pray at Baa Altars"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_6",
+    "position": [20,205],
+    "name": "Altar of Fire",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_6",
+        "text": "Pray at Baa Altars"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_7",
+    "position": [193,173],
+    "name": "Switches to change other bridges",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_8",
+    "position": [242,175],
+    "name": "Memory Crystal Alpha",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_44",
+        "text": "Find Memory Crystal Alpha"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_9",
+    "position": [234,191],
+    "name": "Slicker Silvertongue",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_10",
+    "position": [149,131],
+    "name": "Chest",
+    "note": "Releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_11",
+    "position": [116,113],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

@@ -1,0 +1,37 @@
+.poi {
+  font-size: 0.8em;
+
+  .name {
+    font-weight: bold;
+    display: block;
+    font-size: 1.1em;
+  }
+
+  .note {
+    display: block;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-button {
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: blue;
+    text-align: left;
+    font-size: inherit;
+
+    &:hover {
+      color: rgb(109, 109, 255);
+    }
+  }
+
+  .link {
+    display: block;
+    padding: 0.2em 0;
+  }
+}

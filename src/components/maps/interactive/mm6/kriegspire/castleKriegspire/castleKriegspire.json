@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "CK_1",
+    "position": [166,254],
+    "name": "Chest with Jeweled Egg",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_41",
+        "text": "Retrieve the Jewelled Egg"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CK_2",
+    "position": [228,289],
+    "name": "Kurator of Kriegspire",
+    "note": "Heal for 10,000gp but -976 karma",
+    "icon": "info"
+  },
+  {
+    "slug": "CK_3",
+    "position": [143,64],
+    "name": "Guardian of Kriegspire",
+    "note": "Teleport to switch for 50,000gp but the switch can be reached easily elsewhere",
+    "icon": "info"
+  },
+  {
+    "slug": "CK_4",
+    "position": [105,287],
+    "name": "Switch to open secret room",
+    "icon": "info"
+  },
+  {
+    "slug": "CK_5",
+    "position": [115,204],
+    "name": "Secret room's door",
+    "note": "Need to push switch",
+    "icon": "info"
+  },
+  {
+    "slug": "CK_6",
+    "position": [103,188],
+    "name": "Lurch",
+    "icon": "info"
+  },
+  {
+    "slug": "CK_7",
+    "position": [93,151],
+    "name": "Memory Crystal Epsilon",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_47",
+        "text": "Find Memory Crystal Epsilon"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "CK_8",
+    "position": [151,169],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

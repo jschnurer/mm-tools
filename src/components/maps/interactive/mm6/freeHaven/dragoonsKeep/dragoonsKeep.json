@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "DK_1",
+    "position": [25,217],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_2",
+    "position": [137,22],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_3",
+    "position": [321,130],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_4",
+    "position": [310,106],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_5",
+    "position": [335,106],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_6",
+    "position": [373,126],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DK_7",
+    "position": [247,211],
+    "name": "Chest with Mordred",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_19",
+        "text": "Find the lost artifact"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "DK_8",
+    "position": [108,152],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

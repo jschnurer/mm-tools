@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "TM_1",
+    "position": [162,150],
+    "name": "Plaque",
+    "note": "\"Life above all, Accuracy before Might, Endurance before Speed, and finally, Luck.\"\nTouch the 6 altars to open the door:\n1. Life\n2. Accuracy\n3. Might\n4. Endurance\n5. Speed\n6. Luck",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_2",
+    "position": [109,272],
+    "name": "Altar of Life",
+    "note": "+5 Personality permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_3",
+    "position": [32,59],
+    "name": "Altar of Accuracy",
+    "note": "+5 Accuracy permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_4",
+    "position": [43,235],
+    "name": "Altar of Might",
+    "note": "+5 Might permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_5",
+    "position": [182,236],
+    "name": "Altar of Endurance",
+    "note": "+5 Endurance permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_6",
+    "position": [109,56],
+    "name": "Altar of Speed",
+    "note": "+5 Speed permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_7",
+    "position": [183,59],
+    "name": "Altar of Luck",
+    "note": "+5 Luck permanently for all characters",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_8",
+    "position": [221,230],
+    "name": "Altar of the Moon",
+    "note": "Touch crystals at midnight to solve quest",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_32",
+        "text": "Visit the Altar of the Moon"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TM_9",
+    "position": [107,9],
+    "name": "Chest",
+    "note": "Remnants Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "TM_10",
+    "position": [25,149],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

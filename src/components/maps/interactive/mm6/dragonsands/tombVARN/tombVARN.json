@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "TV_1",
+    "position": [65,319],
+    "name": "Tapestry with info",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_2",
+    "position": [63,595],
+    "name": "Tapestry with info",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_3",
+    "position": [42,438],
+    "name": "Sentinel of VARN",
+    "note": "Drops Backdoor Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_4",
+    "position": [135,354],
+    "name": "Plaque with info (2 sided)",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_5",
+    "position": [134,451],
+    "name": "Plaque with info (2 sided)",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_6",
+    "position": [168,119],
+    "name": "Chest",
+    "note": "Flame Door Key, Captain's Code Scroll, Crystal Skull for absorbing radioactivity",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_7",
+    "position": [683,21],
+    "name": "Backdoor",
+    "note": "Need Backdoor Key",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_3",
+        "text": "Backdoor Key"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_8",
+    "position": [241,402],
+    "name": "Flamedoor",
+    "note": "Need Flamedoor Key",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_6",
+        "text": "Flamedoor Key"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_9",
+    "position": [482,404],
+    "name": "Plaque with info (2 sided)",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_10",
+    "position": [432,378],
+    "name": "Chest",
+    "note": "First Mate's Code Scroll, Water Temple Key",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_11",
+    "position": [382,289],
+    "name": "Books",
+    "note": "Communication Officer's Code Scroll",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_12",
+    "position": [383,328],
+    "name": "Books",
+    "note": "Engineer's Code Scroll",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_13",
+    "position": [384,311],
+    "name": "Chest",
+    "note": "Doctor's Code Scroll, VARN Chest Key (need Bibliotheca Chest Key)",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_15",
+        "text": "Bibliotheca Chest Key"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_14",
+    "position": [849,403],
+    "name": "Water Temple",
+    "note": "Need Water Temple Key",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_10",
+        "text": "Water Temple Key"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_15",
+    "position": [868,400],
+    "name": "Chest",
+    "note": "Navigator's Code Scroll, Bibliotheca Chest Key, Crystal Skull for absorbing radioactivity",
+    "icon": "info"
+  },
+  {
+    "slug": "TV_16",
+    "position": [527,374],
+    "name": "Cleansing Pool (Engineer)",
+    "note": "yttocs",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_12",
+        "text": "Engineer's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_17",
+    "position": [447,345],
+    "name": "Cleansing Pool (First Mate)",
+    "note": "kcops",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_10",
+        "text": "First Mate's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_18",
+    "position": [399,390],
+    "name": "Cleansing Pool (Doctor)",
+    "note": "yoccm",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_13",
+        "text": "Doctor's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_19",
+    "position": [438,444],
+    "name": "Cleansing Pool (Navigator)",
+    "note": "ulus",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_15",
+        "text": "Navigator's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_20",
+    "position": [531,429],
+    "name": "Cleansing Pool (Communication Officer)",
+    "note": "aruhu",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_11",
+        "text": "Communication Officer's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_21",
+    "position": [507,336],
+    "name": "Well of VARN (Captain)",
+    "note": "krik",
+    "links": [
+      {
+        "type": "poi",
+        "slug": "TV_6",
+        "text": "Captain's Code"
+      }
+    ],
+    "icon": "info"
+  },
+  {
+    "slug": "TV_22",
+    "position": [564,329],
+    "name": "Chest",
+    "note": "Contains Control Cube, need VARN Chest Key",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_49",
+        "text": "Retrieve the Control Cube"
+      },
+      {
+        "type": "poi",
+        "slug": "TV_13",
+        "text": "VARN Chest Key"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "TV_23",
+    "position": [1071,336],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

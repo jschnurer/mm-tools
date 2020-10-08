@@ -10,6 +10,7 @@ import Trainers from "components/mm-trainers/Trainers";
 import Maps from "components/maps/Maps";
 import GamePicker from "components/identifier/GamePicker";
 import Alchemy from "components/alchemy/Alchemy";
+import MapRouter from "components/maps/interactive/MapRouter";
 
 export enum Routes {
   Root = "/",
@@ -19,6 +20,7 @@ export enum Routes {
   SkillTrainers = "/skill-trainers",
   Maps = "/maps",
   Alchemy = "/alchemy",
+  InteractiveMap = "/maps/interactive/:game/:map",
 }
 
 const Routing: React.FC = () =>
@@ -28,6 +30,7 @@ const Routing: React.FC = () =>
     <Route path={Routes.ItemIdentifierForGame} exact component={GamePicker} />
     <Route path={Routes.SkillTrainers} exact component={Trainers} />
     <Route path={Routes.Maps} exact component={Maps} />
+    <Route path={Routes.InteractiveMap} exact component={MapRouter} />
     <Route path={Routes.Alchemy} exact component={Alchemy} />
     <Route path={Routes.Root} exact component={About} />
     <Route>
