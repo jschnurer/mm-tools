@@ -25,6 +25,10 @@ import shadowGuild from "./frozenHighlands/shadowGuild/ShadowGuild";
 import monolith from "./silverCove/monolith/Monolith";
 import warlordsFortress from "./silverCove/warlordsFortress/WarlordsFortress";
 import silverHelmStronghold from "./silverCove/silverHelmStronghold/SilverHelmStronghold";
+import lairWolf from "./blackshire/lairWolf/LairWolf";
+import templeSnake from "./blackshire/templeSnake/TempleSnake";
+import devilOutpost from "./kriegspire/devilOutpost/DevilOutpost";
+import superiorBaa from "./kriegspire/superiorBaa/SuperiorBaa";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -55,6 +59,10 @@ const MapDictionary: IMapData[] = [
   monolith,
   warlordsFortress,
   silverHelmStronghold,
+  lairWolf,
+  templeSnake,
+  devilOutpost,
+  superiorBaa,
 ];
 
 export default MapDictionary;

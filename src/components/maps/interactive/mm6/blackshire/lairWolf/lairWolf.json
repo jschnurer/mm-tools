@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "LW_1",
+    "position": [932,37],
+    "name": "Ghost of Baltazar",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_40",
+        "text": "Find the Pearl of Putrescence"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_3",
+        "text": "Bring Pearl of Purity to Wilbur Humphrey"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "LW_2",
+    "position": [929,671],
+    "name": "Pearl of Purity",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_38",
+        "text": "Destroy the werewolf's altar"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_3",
+        "text": "Bring Pearl of Purity to Wilbur Humphrey"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "LW_3",
+    "position": [583,354],
+    "name": "Wolf Altar",
+    "note": "Touch with Pearl of Purity to open wall",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_38",
+        "text": "Destroy the werewolf's altar"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "LW_4",
+    "position": [398,435],
+    "name": "Ambush",
+    "note": "Walking here releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_5",
+    "position": [380,476],
+    "name": "Ambush",
+    "note": "Walking here releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_6",
+    "position": [420,266],
+    "name": "Ambush",
+    "note": "Walking here releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_7",
+    "position": [351,374],
+    "name": "Ambush",
+    "note": "Walking here releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_8",
+    "position": [213,549],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_9",
+    "position": [251,398],
+    "name": "Ambush",
+    "note": "Walking here releases monsters",
+    "icon": "info"
+  },
+  {
+    "slug": "LW_10",
+    "position": [84,541],
+    "name": "Werewolf Leader",
+    "note": "Drops Pearl of Putrescence",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_40",
+        "text": "Find the Pearl of Putrescence"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "LW_11",
+    "position": [1071,336],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

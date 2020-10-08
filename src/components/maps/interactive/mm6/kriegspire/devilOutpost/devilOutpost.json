@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "DO_1",
+    "position": [60,51],
+    "name": "Devil of Baa",
+    "note": "Drops Devil Plans Scroll",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_17",
+        "text": "Destroy the Devil's Outpost"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "DO_2",
+    "position": [62,99],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

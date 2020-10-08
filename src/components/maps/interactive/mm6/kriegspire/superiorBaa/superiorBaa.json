@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "SB_1",
+    "position": [324,347],
+    "name": "Entrance",
+    "note": "Need Baa Cloak",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_2",
+    "position": [294,335],
+    "name": "Podium",
+    "note": "Has information about Baa test",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_5",
+        "text": "Let you be a Baa follower"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_3",
+    "position": [240,263],
+    "name": "Chest",
+    "note": "Contains Letter from Zenofex Scroll, (requires High Sorcerer's Key and High Cleric's keys; without keys, releases monsters)",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_42",
+        "text": "Find a cure for Slicker Silvertongue"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_4",
+    "position": [107,367],
+    "name": "Priest of Baa",
+    "note": "Drops High Sorcerer's Key",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_5",
+    "position": [183,170],
+    "name": "Baa Test",
+    "note": "Press Heads 1, 2, 3, 4",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_5",
+        "text": "Let you be a Baa follower"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_6",
+    "position": [263,79],
+    "name": "Priest of Baa",
+    "note": "Drops High Cleric's Key",
+    "icon": "info"
+  },
+  {
+    "slug": "SB_7",
+    "position": [321,525],
+    "name": "Almighty Head of Baa",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_5",
+        "text": "Let you be a Baa follower"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SB_8",
+    "position": [323,360],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]
