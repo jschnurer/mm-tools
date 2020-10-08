@@ -1724,7 +1724,7 @@
     "links": [
       {
         "type": "map",
-        "slug": "CK_1",
+        "slug": "CASTLE_KRIEGSPIRE",
         "text": "To Castle Kriegspire"
       }
     ],
@@ -1832,7 +1832,7 @@
     "links": [
       {
         "type": "map",
-        "slug": "CK_1",
+        "slug": "CASTLE_KRIEGSPIRE",
         "text": "To Castle Kriegspire"
       }
     ],
@@ -1870,12 +1870,12 @@
       2060,
       955
     ],
-    "name": "Caves of the Dragon Rider",
+    "name": "Caves of the Dragon Riders",
     "links": [
       {
         "type": "map",
-        "slug": "DRAGON_RIDER",
-        "text": "To Caves of the Dragon Rider"
+        "slug": "DRAGON_RIDERS",
+        "text": "To Caves of the Dragon Riders"
       }
     ],
     "icon": "dungeon"

@@ -1,3 +1,4 @@
+import { IMapData } from "../MapTypes";
 import templeOfTheMoon from "./freeHaven/templeOfTheMoon/TempleOfTheMoon";
 import tombEthric from "./freeHaven/tombEthric/TombEthric";
 import dragoonsKeep from "./freeHaven/dragoonsKeep/DragoonsKeep";
@@ -29,7 +30,10 @@ import lairWolf from "./blackshire/lairWolf/LairWolf";
 import templeSnake from "./blackshire/templeSnake/TempleSnake";
 import devilOutpost from "./kriegspire/devilOutpost/DevilOutpost";
 import superiorBaa from "./kriegspire/superiorBaa/SuperiorBaa";
-import { IMapData } from "../MapTypes";
+import castleKriegspire from "./kriegspire/castleKriegspire/CastleKriegspire";
+import agar from "./kriegspire/agar/Agar";
+import dragonRiders from "./kriegspire/dragonRiders/DragonRiders";
+import alamos from "./eelInfestedWaters/castleAlamos/CastleAlamos";
 
 const MapDictionary: IMapData[] = [
   enroth,
@@ -63,6 +67,10 @@ const MapDictionary: IMapData[] = [
   templeSnake,
   devilOutpost,
   superiorBaa,
+  castleKriegspire,
+  agar,
+  dragonRiders,
+  alamos,
 ];
 
 export default MapDictionary;

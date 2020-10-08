@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "DR_1",
+    "position": [320,235],
+    "name": "Chest",
+    "note": "Contains Diary Page Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "DR_2",
+    "position": [53,175],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

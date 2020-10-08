@@ -141,6 +141,15 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     );
   }
 
+  const focusPOI = (poi: IPOI) => {
+    setFocus(poi);
+    setUnfocusTimeout(
+      window.setTimeout(() => {
+        setFocus(null);
+      }, 2000)
+    );
+  }
+
   const onSearchResultClick = (poi: IPOI) => {
     setSearchResults([]);
 
@@ -149,13 +158,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
       center: poi.position,
     });
 
-    setFocus(poi);
-
-    setUnfocusTimeout(
-      window.setTimeout(() => {
-        setFocus(null);
-      }, 2000)
-    );
+    focusPOI(poi);
   }
 
   const onShowLegend = () => {
@@ -190,13 +193,22 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
         }
         return;
       }
-      case "map":
+      case "map": {
         history.push(mapRouteTemplate.replace(":map", link.slug));
         return;
-      case "quest":
+      }
+      case "quest": {
         setFocusQuest(link.slug);
         setIsQuestModalOpen(true);
         return;
+      }
+      case "poi": {
+        const poi = pois.find(x => x.slug === link.slug);
+        if (poi) {
+          focusPOI(poi);
+        }
+        return;
+      }
     }
   }
 

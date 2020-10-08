@@ -1,6 +1,6 @@
 import { Icon, LatLng, LatLngBounds } from "leaflet";
 
-export type POILinkType = "submap" | "quest" | "position" | "map";
+export type POILinkType = "poi" | "quest" | "position" | "map";
 
 export interface IPOILink {
   type: POILinkType,
