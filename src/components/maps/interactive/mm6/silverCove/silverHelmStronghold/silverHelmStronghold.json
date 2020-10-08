@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "SHS_1",
+    "position": [125,175],
+    "name": "Ghost of John Silver",
+    "note": "Please if you've rescued Melody Silver. Show him the Ankh.",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_11",
+        "text": "Rescue a Damsel in Distress"
+      },
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_4",
+        "text": "Ankh"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SHS_2",
+    "position": [140,184],
+    "name": "Chest",
+    "note": "Elegant Letter Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "SHS_3",
+    "position": [48,142],
+    "name": "Gerrard Blacknames",
+    "note": "Drops Ankh",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_4",
+        "text": "Ankh"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "SHS_4",
+    "position": [227,87],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

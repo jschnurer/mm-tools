@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "SG_1",
+    "position": [173,37],
+    "name": "Switch to open wall",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_2",
+    "position": [304,127],
+    "name": "Chest",
+    "note": "Contains Letter to Prince of Thieves Scroll (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_3",
+    "position": [285,135],
+    "name": "Rogue Leader's room",
+    "note": "Rogue Leader, Lesser Genie, teleporter door",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_4",
+    "position": [283,43],
+    "name": "Large room with traps",
+    "note": "Jump to the same tiles around the room and you will be teleported to the entrance of Rougue Leader's room. Or one character smile (and some audio effect) at the north end of the room, jump out this room and go into the Rougue Leader's room by foot without teleporting. If sparks are coming you must start it again.",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_5",
+    "position": [106,274],
+    "name": "Answer \"fish\"",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_6",
+    "position": [78,303],
+    "name": "Answer \"dark\"",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_7",
+    "position": [49,273],
+    "name": "Answer \"time\"",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_8",
+    "position": [77,245],
+    "name": "Answer \"arrow\"",
+    "icon": "info"
+  },
+  {
+    "slug": "SG_9",
+    "position": [156,103],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

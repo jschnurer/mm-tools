@@ -21,6 +21,10 @@ import corlagonsEstate from "./castleIronfist/corlagonsEstate/CorlagonsEstate";
 import snerglesCaverns from "./castleIronfist/snerglesCaverns/SnerglesCaverns";
 import silverHelmOutpost from "./mist/silverHelmOutpost/SilverHelmOutpost";
 import icewind from "./frozenHighlands/icewind/Icewind";
+import shadowGuild from "./frozenHighlands/shadowGuild/ShadowGuild";
+import monolith from "./silverCove/monolith/Monolith";
+import warlordsFortress from "./silverCove/warlordsFortress/WarlordsFortress";
+import silverHelmStronghold from "./silverCove/silverHelmStronghold/SilverHelmStronghold";
 import { IMapData } from "../MapTypes";
 
 const MapDictionary: IMapData[] = [
@@ -47,6 +51,10 @@ const MapDictionary: IMapData[] = [
   snerglesIronMines,
   castleDarkmoor,
   icewind,
+  shadowGuild,
+  monolith,
+  warlordsFortress,
+  silverHelmStronghold,
 ];
 
 export default MapDictionary;
