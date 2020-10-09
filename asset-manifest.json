@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mm-tools/static/css/main.b81e6d29.chunk.css",
-    "main.js": "/mm-tools/static/js/main.86992663.chunk.js",
-    "main.js.map": "/mm-tools/static/js/main.86992663.chunk.js.map",
+    "main.css": "/mm-tools/static/css/main.8abcf9a8.chunk.css",
+    "main.js": "/mm-tools/static/js/main.24b68b59.chunk.js",
+    "main.js.map": "/mm-tools/static/js/main.24b68b59.chunk.js.map",
     "runtime-main.js": "/mm-tools/static/js/runtime-main.86f0fc50.js",
     "runtime-main.js.map": "/mm-tools/static/js/runtime-main.86f0fc50.js.map",
-    "static/js/2.0c086f1c.chunk.js": "/mm-tools/static/js/2.0c086f1c.chunk.js",
-    "static/js/2.0c086f1c.chunk.js.map": "/mm-tools/static/js/2.0c086f1c.chunk.js.map",
+    "static/js/2.b366ee45.chunk.js": "/mm-tools/static/js/2.b366ee45.chunk.js",
+    "static/js/2.b366ee45.chunk.js.map": "/mm-tools/static/js/2.b366ee45.chunk.js.map",
     "index.html": "/mm-tools/index.html",
-    "precache-manifest.a25d34036d44bb52a1980367cb6368cf.js": "/mm-tools/precache-manifest.a25d34036d44bb52a1980367cb6368cf.js",
+    "precache-manifest.c65e0ebfdd7700bc1b491448e1d8511b.js": "/mm-tools/precache-manifest.c65e0ebfdd7700bc1b491448e1d8511b.js",
     "service-worker.js": "/mm-tools/service-worker.js",
-    "static/css/main.b81e6d29.chunk.css.map": "/mm-tools/static/css/main.b81e6d29.chunk.css.map",
-    "static/js/2.0c086f1c.chunk.js.LICENSE.txt": "/mm-tools/static/js/2.0c086f1c.chunk.js.LICENSE.txt",
+    "static/css/main.8abcf9a8.chunk.css.map": "/mm-tools/static/css/main.8abcf9a8.chunk.css.map",
+    "static/js/2.b366ee45.chunk.js.LICENSE.txt": "/mm-tools/static/js/2.b366ee45.chunk.js.LICENSE.txt",
     "static/media/abandoned-temple.jpg": "/mm-tools/static/media/abandoned-temple.10a2f14b.jpg",
     "static/media/agar.jpg": "/mm-tools/static/media/agar.0634c02a.jpg",
     "static/media/backup.svg": "/mm-tools/static/media/backup.668d563a.svg",
@@ -22,6 +22,7 @@
     "static/media/control-center.jpg": "/mm-tools/static/media/control-center.af9e608f.jpg",
     "static/media/corlagon.jpg": "/mm-tools/static/media/corlagon.90e5ea6c.jpg",
     "static/media/dragon-riders.jpg": "/mm-tools/static/media/dragon-riders.7ceaece2.jpg",
+    "static/media/dragoons-caverns.jpg": "/mm-tools/static/media/dragoons-caverns.681c35f0.jpg",
     "static/media/dragoons-keep.jpg": "/mm-tools/static/media/dragoons-keep.7bc79b1e.jpg",
     "static/media/fire-lord.jpg": "/mm-tools/static/media/fire-lord.a66bd75e.jpg",
     "static/media/gharik.jpg": "/mm-tools/static/media/gharik.efc7a468.jpg",
@@ -58,8 +59,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.86f0fc50.js",
-    "static/js/2.0c086f1c.chunk.js",
-    "static/css/main.b81e6d29.chunk.css",
-    "static/js/main.86992663.chunk.js"
+    "static/js/2.b366ee45.chunk.js",
+    "static/css/main.8abcf9a8.chunk.css",
+    "static/js/main.24b68b59.chunk.js"
   ]
 }

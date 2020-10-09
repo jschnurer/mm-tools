@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d76951ba688c0c9d47e71d5abf59f4c6",
+    "revision": "f966aa747ef658c4b36573bc39e8c0cb",
     "url": "/mm-tools/index.html"
   },
   {
-    "revision": "60e6f4a2960d40a472c7",
-    "url": "/mm-tools/static/css/main.b81e6d29.chunk.css"
+    "revision": "6b8925c3ca687b9d66a7",
+    "url": "/mm-tools/static/css/main.8abcf9a8.chunk.css"
   },
   {
-    "revision": "d2c4a7d40ac30a996964",
-    "url": "/mm-tools/static/js/2.0c086f1c.chunk.js"
+    "revision": "7e1167b80cf003f20d9d",
+    "url": "/mm-tools/static/js/2.b366ee45.chunk.js"
   },
   {
     "revision": "0580f66cff7a7b2e7b5c118fd842bcfd",
-    "url": "/mm-tools/static/js/2.0c086f1c.chunk.js.LICENSE.txt"
+    "url": "/mm-tools/static/js/2.b366ee45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60e6f4a2960d40a472c7",
-    "url": "/mm-tools/static/js/main.86992663.chunk.js"
+    "revision": "6b8925c3ca687b9d66a7",
+    "url": "/mm-tools/static/js/main.24b68b59.chunk.js"
   },
   {
     "revision": "e53dcacc788642d2bca1",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ceaece2d980452cf2204ba9de22d989",
     "url": "/mm-tools/static/media/dragon-riders.7ceaece2.jpg"
+  },
+  {
+    "revision": "681c35f0fc5e86e275597b8e0efbec74",
+    "url": "/mm-tools/static/media/dragoons-caverns.681c35f0.jpg"
   },
   {
     "revision": "7bc79b1ee057bb46464caecfe40ccd87",
