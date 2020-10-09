@@ -3862,12 +3862,12 @@
   {
     "slug": "CI_29",
     "position": [139,3073],
-    "name": "Dragoon's Caverns",
+    "name": "Dragoons' Caverns",
     "links": [
       {
         "type": "map",
-        "slug": "DRAGOON",
-        "text": "To Dragoon's Caverns"
+        "slug": "DRAGOONS_CAVERNS",
+        "text": "To Dragoons' Caverns"
       }
     ],
     "icon": "dungeon"
@@ -5185,12 +5185,12 @@
   {
     "slug": "HAVEN_71",
     "position": [873,1911],
-    "name": "Dragoon's Keep",
+    "name": "Dragoons' Keep",
     "links": [
       {
         "type": "map",
-        "slug": "DRAGOON",
-        "text": "To Dragoon's Keep"
+        "slug": "DRAGOONS_KEEP",
+        "text": "To Dragoons' Keep"
       }
     ],
     "icon": "dungeon"

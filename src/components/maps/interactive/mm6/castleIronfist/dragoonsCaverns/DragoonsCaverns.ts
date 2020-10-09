@@ -1,20 +1,20 @@
-import { LatLng, LatLngBounds } from "leaflet";
-import pois from "./dragoonsKeep.json";
+import pois from "./dragoonsCaverns.json";
 import { formatPOI } from "components/maps/interactive/InteractiveMap";
-import mapImage from "media/maps/mm6/dragoons-keep.jpg";
+import mapImage from "media/maps/mm6/dragoons-caverns.jpg";
 import { IMapData } from "components/maps/interactive/MapTypes";
+import { LatLng, LatLngBounds } from "leaflet";
 
 const mapData: IMapData = {
-  slug: "DRAGOONS_KEEP",
-  title: "Dragoons' Keep",
+  slug: "DRAGOONS_CAVERNS",
+  title: "Dragoons' Caverns",
   pois: pois.map(x => formatPOI(x)),
   initialMapView: {
-    zoom: 1,
-    center: new LatLng(200, 145),
+    zoom: 0,
+    center: new LatLng(190, 165),
   },
   mapBounds: new LatLngBounds(
     new LatLng(0, 0),
-    new LatLng(400, 290)
+    new LatLng(380, 330)
   ),
   mapImageUrl: mapImage,
 }

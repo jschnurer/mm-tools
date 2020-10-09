@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "DC_1",
+    "position": [148,263],
+    "name": "Switch (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_2",
+    "position": [148,276],
+    "name": "Switch (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_3",
+    "position": [142,308],
+    "name": "Switch to open door",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_4",
+    "position": [50,207],
+    "name": "Picture",
+    "note": "+10 Luck for one character permanently",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_5",
+    "position": [45,225],
+    "name": "Chest with Flute (useless)",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_6",
+    "position": [190,25],
+    "name": "Chest",
+    "note": "Contains Shadow Guild Scroll",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "SUBQUEST_2",
+        "text": "Show Shadow Guild letter"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "DC_7",
+    "position": [245,104],
+    "name": "Switch to secret room",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_8",
+    "position": [258,158],
+    "name": "Switch to open door",
+    "note": "NOTENOTENOTE",
+    "icon": "info"
+  },
+  {
+    "slug": "DC_9",
+    "position": [237,40],
+    "name": "Chest with Harp",
+    "links": [
+      {
+        "type": "quest",
+        "slug": "QUEST_9",
+        "text": "Retrieve the Harp"
+      }
+    ],
+    "icon": "quest"
+  },
+  {
+    "slug": "DC_10",
+    "position": [163,258],
+    "name": "Exit",
+    "links": [
+      {
+        "type": "map",
+        "slug": "ENROTH",
+        "text": "To World Map"
+      }
+    ],
+    "icon": "dungeon"
+  }
+]

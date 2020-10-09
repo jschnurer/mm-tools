@@ -38,6 +38,7 @@ import tombVARN from "./dragonsands/tombVARN/TombVARN";
 import nwc from "./dragonsands/nwc/NWC";
 import supremeBaa from "./hermitsIsle/supremeBaa/SupremeBaa";
 import hive from "./sweetWater/hive/Hive";
+import dragoonsCaverns from "./castleIronfist/dragoonsCaverns/DragoonsCaverns";
 
 const MapDictionary: IMapData[] = [
   enroth,
@@ -79,6 +80,7 @@ const MapDictionary: IMapData[] = [
   nwc,
   supremeBaa,
   hive,
+  dragoonsCaverns,
 ];
 
 export default MapDictionary;
