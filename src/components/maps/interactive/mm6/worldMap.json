@@ -541,7 +541,7 @@
     "slug": "MIST_2",
     "name": "Fire Guild",
     "note": "Learning, Fire Magic, 1000gp, spellbooks 1-7",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       849,
       3576
@@ -552,7 +552,7 @@
     "slug": "MIST_3",
     "name": "Water Guild",
     "note": "Learning, Water Magic, 1000gp, spellbooks 1-7",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       893,
       3554
@@ -563,7 +563,7 @@
     "slug": "MIST_4",
     "name": "Air Guild",
     "note": "Learning, Air Magic, 1000gp, spellbooks 1-7",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       896,
       3588
@@ -613,7 +613,7 @@
   {
     "slug": "MIST_9",
     "name": "Bank",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       904,
       3634
@@ -623,7 +623,7 @@
   {
     "slug": "MIST_10",
     "name": "General Store",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       907,
       3649
@@ -633,7 +633,7 @@
   {
     "slug": "MIST_11",
     "name": "Alchemy Shop",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       907,
       3666
@@ -643,7 +643,7 @@
   {
     "slug": "MIST_12",
     "name": "Town Hall",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       929,
       3677
@@ -665,7 +665,7 @@
   {
     "slug": "MIST_13",
     "name": "Temple",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       953,
       3681
@@ -675,7 +675,7 @@
   {
     "slug": "MIST_14",
     "name": "Training Hall",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       968,
       3659
@@ -685,7 +685,7 @@
   {
     "slug": "MIST_15",
     "name": "Weapon Shop",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       973,
       3641
@@ -695,7 +695,7 @@
   {
     "slug": "MIST_16",
     "name": "Armor Shop",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       969,
       3625
@@ -715,7 +715,7 @@
   {
     "slug": "MIST_18",
     "name": "Inn",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       949,
       3605
@@ -776,7 +776,7 @@
     "slug": "MIST_23_1",
     "name": "Buccaneer's Lair",
     "note": "Diplomacy, Leather Armor, Identify Item, Perception, Disarm Trap (200gp)",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1008,
       3585
@@ -787,7 +787,7 @@
     "slug": "MIST_24",
     "name": "Duelist's Edge",
     "note": "Bodybuilding, Mace, Chain Armor, Bow, Shield (500gp)",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1043,
       3569
@@ -797,7 +797,7 @@
   {
     "slug": "MIST_25",
     "name": "Docks",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       934,
       3512
@@ -837,7 +837,7 @@
     "slug": "MIST_26",
     "name": "Fountain",
     "note": "+10 Intelligence and Personality temporarily",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1074,
       3469
@@ -848,7 +848,7 @@
     "slug": "MIST_27",
     "name": "Fountain",
     "note": "+5 Elemental resistances temporarily",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1074,
       3495
@@ -884,7 +884,7 @@
   {
     "slug": "MIST_29",
     "name": "Teleporter to MIST_34",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1140,
       3460
@@ -904,7 +904,7 @@
   {
     "slug": "MIST_31",
     "name": "Receiver for teleporter MIST_35",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1145,
       3665
@@ -914,7 +914,7 @@
   {
     "slug": "MIST_32",
     "name": "Dragon Tower",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1030,
       3632
@@ -947,7 +947,7 @@
   {
     "slug": "MIST_34",
     "name": "Receiver for Teleporter MIST_29",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1170,
       3258
@@ -957,7 +957,7 @@
   {
     "slug": "MIST_35",
     "name": "Teleporter to MIST_31",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1327,
       3851
@@ -967,7 +967,7 @@
   {
     "slug": "MIST_36",
     "name": "Obelisk #14",
-    "searchNote": "Island of Mist",
+    "searchNote": "Misty Islands",
     "position": [
       1282,
       3838
@@ -3605,7 +3605,7 @@
       {
         "type": "position",
         "slug": "MIST",
-        "text": "To Island of Mist (Mon, Wed, Fri, 2 days, 100gp)",
+        "text": "To Misty Islands (Mon, Wed, Fri, 2 days, 100gp)",
         "position": [935,3521]
       },
       {
@@ -4318,7 +4318,7 @@
       {
         "type": "position",
         "slug": "MIST",
-        "text": "To Isle of Mist (Mon, Thur, Sat, 3 days, 300gp)",
+        "text": "To Misty Islands (Mon, Thur, Sat, 3 days, 300gp)",
         "position": [935,3520]
       },
       {
@@ -4768,7 +4768,7 @@
       {
         "type": "position",
         "slug": "MIST",
-        "text": "To Isle of Mist (Mon, Thur, 4 days, 300gp)",
+        "text": "To Misty Islands (Mon, Thur, 4 days, 300gp)",
         "position": [934,3518]
       },
       {
