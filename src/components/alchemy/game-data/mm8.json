@@ -32,7 +32,7 @@
   {
     "name": "Awaken",
     "type": "Complex",
-    "recipe": "Cure Weakness + Cure Wounds",
+    "recipe": "Cure Weakness + Magic Potion",
     "effect": "Awakens character (same as spell)"
   },
   {
