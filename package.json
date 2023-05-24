@@ -1,7 +1,8 @@
 {
   "homepage": "http://jschnurer.github.io/mm-tools",
+  "description": "A react web app containing various resources and info for the Might and Magic RPG series.",
   "name": "mm-tools",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@types/node": "^20.2.3",
