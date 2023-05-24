@@ -40,11 +40,6 @@ export interface IMapLegendProps {
   onClose: () => void,
 }
 
-export interface IMapRouteProps {
-  game: string,
-  map?: string,
-}
-
 export interface IMapData {
   slug: string,
   title: string,

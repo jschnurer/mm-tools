@@ -1,11 +1,12 @@
+import FlowLayout from "components/layout/FlowLayout";
+import PageTitle from "components/layout/PageTitle";
+import classList from "helpers/styleHelpers";
 import React, { useState } from "react";
+import styles from "./Alchemy.module.scss";
+import Potion, { IPotion } from "./Potion";
 import mm6Recipes from "./game-data/mm6.json";
 import mm7Recipes from "./game-data/mm7.json";
 import mm8Recipes from "./game-data/mm8.json";
-import Potion, { IPotion } from "./Potion";
-import FlowLayout from "components/layout/FlowLayout";
-import PageTitle from "components/layout/PageTitle";
-import "./Alchemy.scoped.scss";
 
 const gameRecipes: IGameIndexable = {
   "MM6": mm6Recipes,
@@ -19,8 +20,8 @@ interface IGameIndexable {
 
 const getSimpleComponents = (recipe: string, list: IPotion[]): JSX.Element | null => {
   if (recipe.indexOf("Empty Bottle") > -1) {
-    const color = recipe.substr(0, 1);
-    return <span className={`color-${color}`}>{color}</span>;
+    const color = recipe.substring(0, 1);
+    return <span className={styles[`color-${color}`]}>{color}</span>;
   }
 
   let chunks = recipe.split(" + ");
@@ -51,13 +52,13 @@ const Alchemy: React.FC = () => {
   return (
     <FlowLayout
       header={(
-        <div className="header">
+        <div className={classList(styles.header)}>
           <PageTitle
-            title={`${game} Alchemy`}
+            title={classList(styles[game], styles.Alchemy)}
           />
-          <div className="row">
+          <div className={classList(styles.row)}>
             <label>Game:</label>
-            <div className="buttons">
+            <div className={classList(styles.buttons)}>
               {Object.keys(gameRecipes).map(gm => (
                 <button
                   key={gm}
@@ -66,19 +67,19 @@ const Alchemy: React.FC = () => {
                     setPotionType("All");
                     setPotionName("All");
                   }}
-                  className={gm === game ? "primary-button" : ""}
+                  className={classList(gm === game ? "primary-button" : "")}
                 >
                   {gm}
                 </button>
               ))}
             </div>
           </div>
-          <div className="row">
+          <div className={classList(styles.row)}>
             <label>Potion Type:</label>
-            <div className="buttons">
+            <div className={classList(styles.buttons)}>
               <button
                 onClick={() => setPotionType("All")}
-                className={potionType === "All" ? "primary-button" : ""}
+                className={classList(potionType === "All" ? "primary-button" : "")}
               >
                 All
               </button>
@@ -89,19 +90,19 @@ const Alchemy: React.FC = () => {
                     setPotionType(pt);
                     setPotionName("All");
                   }}
-                  className={potionType === pt ? "primary-button" : ""}
+                  className={classList(potionType === pt ? "primary-button" : "")}
                 >
                   {pt}
                 </button>
               ))}
             </div>
           </div>
-          <div className="row">
+          <div className={classList(styles.row)}>
             <label>Potion:</label>
-            <div className="buttons">
+            <div className={classList(styles.buttons)}>
               <button
                 onClick={() => setPotionName("All")}
-                className={potionName === "All" ? "primary-button" : ""}
+                className={classList(potionType === "All" ? "primary-button" : "")}
               >
                 All
               </button>
@@ -111,7 +112,7 @@ const Alchemy: React.FC = () => {
                   <button
                     key={pt.name}
                     onClick={() => setPotionName(pt.name)}
-                    className={potionName === pt.name ? "primary-button" : ""}
+                    className={classList(potionName === pt.name ? "primary-button" : "")}
                   >
                     {pt.name}
                   </button>
@@ -140,13 +141,13 @@ const Alchemy: React.FC = () => {
         .map(potion => showSimplified
           ? (
             <div
-              className="simple-potion"
+              className={styles["simple-potion"]}
               key={potion.name}
             >
               <label>{potion.name}</label>
               {getSimpleComponents(potion.recipe, recipes)}
               <span
-                className="effect"
+                className={classList(styles.effect)}
               >
                 {potion.effect}
               </span>

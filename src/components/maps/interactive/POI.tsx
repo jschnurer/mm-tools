@@ -1,6 +1,7 @@
+import classList from "helpers/styleHelpers";
 import React from "react";
 import { IPOI, IPOILink } from "./MapTypes";
-import "./POI.scoped.scss";
+import styles from "./POI.module.scss";
 
 interface IPOIProps {
   poi: IPOI,
@@ -22,17 +23,17 @@ const POI: React.FC<IPOIProps> = ({
   onLinkClick
 }) =>
   <div
-    className="poi"
+    className={classList(styles.poi)}
     onClick={onClick}
   >
-    <span className="name">{poi.name}</span>
-    <span className="note">{poi.note?.split('\n').map((x, ix) => (
+    <span className={classList(styles.name)}>{poi.name}</span>
+    <span className={classList(styles.note)}>{poi.note?.split('\n').map((x, ix) => (
       <div
         key={ix}
       >{x}</div>
     ))}</span>
     {showSearchNote &&
-      <span className="note">{poi.searchNote}</span>
+      <span className={classList(styles.note)}>{poi.searchNote}</span>
     }
     {poi.links &&
       renderLinks(poi.links, linkify, onLinkClick)
@@ -40,7 +41,7 @@ const POI: React.FC<IPOIProps> = ({
     {showRemove
       && onRemoveClick &&
       <button
-        className="remove-button"
+        className={styles["remove-button"]}
         onClick={onRemoveClick}
       >
         Remove Marker
@@ -60,7 +61,7 @@ function renderLinks(links: IPOILink[],
             key={l.slug}
           >
             <button
-              className="link-button"
+              className={styles["link-button"]}
               onClick={onLinkClick
                 ? () => onLinkClick(l)
                 : undefined
@@ -77,7 +78,7 @@ function renderLinks(links: IPOILink[],
       <>
         {links.map(l => (
           <span
-            className="link"
+            className={classList(styles.link)}
             key={l.slug}
           >
             {l.text}

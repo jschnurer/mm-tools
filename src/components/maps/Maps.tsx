@@ -1,10 +1,10 @@
-import React from "react";
+import { Routes } from "Routing";
 import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
-import mm7BarrowMap from "media/mm7/barrows.png"
-import "./Maps.scoped.scss";
+import mm7BarrowMap from "media/mm7/barrows.png";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Routes } from "Routing";
+import styles from "./Maps.module.scss";
 
 const Maps: React.FC = () => {
   return (
@@ -22,6 +22,7 @@ const Maps: React.FC = () => {
       }>Interactive MM6 World Map</Link>
       <h2>MM7 Barrows Map</h2>
       <img
+        className={styles["mm7-barrows-img"]}
         src={mm7BarrowMap}
         alt="MM7 Barrows Map"
       />

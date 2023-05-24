@@ -1,20 +1,19 @@
-import React from "react";
+import { Routes } from "Routing";
 import FlowLayout from "components/layout/FlowLayout";
 import PageTitle from "components/layout/PageTitle";
-import { Routes } from "Routing";
-import { Link, RouteComponentProps } from "react-router-dom";
-import "./GamePicker.scoped.scss";
+import classList from "helpers/styleHelpers";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import styles from "./GamePicker.module.scss";
+import MM1Id from "./MM1Id";
+import MM2Id from "./MM2Id";
 import MM3Id from "./MM3Id";
 import MMXeenId from "./MMXeenId";
-import MM2Id from "./MM2Id";
-import MM1Id from "./MM1Id";
 
-interface IGamePickerProps {
-  game: string,
-}
-
-const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
-  const game = props.match.params.game;
+const GamePicker: React.FC = (props) => {
+  const {
+    game,
+  } = useParams();
   
   if (game === "mm1") {
     return <MM1Id />;
@@ -31,7 +30,7 @@ const GamePicker: React.FC<RouteComponentProps<IGamePickerProps>> = (props) => {
           <PageTitle title="M&amp;M Item Identifier" />
         )}
       >
-        <div>
+        <div className={classList(styles.gameList)}>
           Choose game:
           
           <Link to={Routes.ItemIdentifierForGame.replace(':game','mm1')}>

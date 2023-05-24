@@ -1,6 +1,7 @@
+import classList from "helpers/styleHelpers";
 import React from "react";
+import styles from "./Trainer.module.scss";
 import { ISkillTrainer } from "./Trainers";
-import "./Trainer.scoped.scss";
 
 interface ITrainerProps {
   trainer: ISkillTrainer,
@@ -13,7 +14,7 @@ interface ITrainerProps {
 
 const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, showAdd, showRemove, isInList }) =>
   <div
-    className="trainer"
+    className={classList(styles.trainer)}
     key={trainer.skill + trainer.level + trainer.name}
   >
     {(showAdd || showRemove) &&
@@ -24,7 +25,7 @@ const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, 
             : showRemove
               ? onRemoveClick
               : undefined}
-          className={isInList ? "primary-button" : ""}
+          className={classList(isInList ? "primary-button" : "")}
         >
           {showAdd ? "+" : ""}
           {showRemove ? "-" : ""}
@@ -41,7 +42,7 @@ const Trainer: React.FC<ITrainerProps> = ({ trainer, onAddClick, onRemoveClick, 
       }
       {trainer.note &&
         <span
-          className="note"
+          className={classList(styles.note)}
         >
           {trainer.note}
         </span>

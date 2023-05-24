@@ -1,16 +1,16 @@
+import Alchemy from "components/alchemy/Alchemy";
+import GamePicker from "components/identifier/GamePicker";
+import Maps from "components/maps/Maps";
+import MapRouter from "components/maps/interactive/MapRouter";
+import Trainers from "components/mm-trainers/Trainers";
 import React from "react";
 import {
-  Switch,
-  Route
+  Route,
+  Routes as Switch
 } from "react-router-dom";
-import RandomParty from "./components/parties/RandomParty";
 import NotFound from "./NotFound";
 import About from "./components/About";
-import Trainers from "components/mm-trainers/Trainers";
-import Maps from "components/maps/Maps";
-import GamePicker from "components/identifier/GamePicker";
-import Alchemy from "components/alchemy/Alchemy";
-import MapRouter from "components/maps/interactive/MapRouter";
+import RandomParty from "./components/parties/RandomParty";
 
 export enum Routes {
   Root = "/",
@@ -25,17 +25,15 @@ export enum Routes {
 
 const Routing: React.FC = () =>
   <Switch>
-    <Route path={Routes.RandomParty} exact component={RandomParty} />
-    <Route path={Routes.ItemIdentifier} exact component={GamePicker} />
-    <Route path={Routes.ItemIdentifierForGame} exact component={GamePicker} />
-    <Route path={Routes.SkillTrainers} exact component={Trainers} />
-    <Route path={Routes.Maps} exact component={Maps} />
-    <Route path={Routes.InteractiveMap} exact component={MapRouter} />
-    <Route path={Routes.Alchemy} exact component={Alchemy} />
-    <Route path={Routes.Root} exact component={About} />
-    <Route>
-      <NotFound />
-    </Route>
+    <Route path={Routes.RandomParty} element={<RandomParty />} />
+    <Route path={Routes.ItemIdentifier} element={<GamePicker />} />
+    <Route path={Routes.ItemIdentifierForGame} element={<GamePicker />} />
+    <Route path={Routes.SkillTrainers} element={<Trainers />} />
+    <Route path={Routes.Maps} element={<Maps />} />
+    <Route path={Routes.InteractiveMap} element={<MapRouter />} />
+    <Route path={Routes.Alchemy} element={<Alchemy />} />
+    <Route path={Routes.Root} element={<About />} />
+    <Route element={<NotFound />} />
   </Switch>;
 
 export default Routing;

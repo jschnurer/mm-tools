@@ -1,26 +1,28 @@
+import classList from "helpers/styleHelpers";
 import React from "react";
 import FlowLayout from "./FlowLayout";
-import "./Modal.scoped.scss";
+import styles from "./Modal.module.scss";
 
 interface IModalProps {
   header: string,
   footer?: JSX.Element,
   onClose(): void,
+  children: React.ReactNode,
 }
 
 const Modal: React.FC<IModalProps> = ({ header, children, footer, onClose }) => {
   return (
     <>
-      <div className="fade"></div>
-      <div className="modal">
+      <div className={classList(styles.fade)}></div>
+      <div className={classList(styles.modal)}>
         <FlowLayout
           header={
-            <div className="header">
+            <div className={classList(styles.header)}>
               <span>
                 {header}
               </span>
               <span
-                className="close-button"
+                className={classList(styles["close-button"])}
                 onClick={() => onClose()}
               >
                 X
@@ -28,12 +30,12 @@ const Modal: React.FC<IModalProps> = ({ header, children, footer, onClose }) => 
             </div>
           }
           footer={(
-            <div className="footer">
+            <div className={classList(styles.footer)}>
               {footer}
             </div>
           )}
         >
-          <div className="body">
+          <div className={classList(styles.body)}>
             {children}
           </div>
         </FlowLayout>

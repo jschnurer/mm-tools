@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import "./MainMenu.scoped.scss";
 import backupIcon from "media/icons/backup.svg";
-import magnifyingGlassIcon from "media/icons/magnifying-glass.svg";
 import hamburgerMenuIcon from "media/icons/hamburger-menu.svg";
+import helpIcon from "media/icons/help.svg";
+import magnifyingGlassIcon from "media/icons/magnifying-glass.svg";
+import potionIcon from "media/icons/potion-ball.svg";
 import teacherIcon from "media/icons/teacher.svg";
 import mapIcon from "media/icons/treasure-map.svg";
-import helpIcon from "media/icons/help.svg";
-import potionIcon from "media/icons/potion-ball.svg";
-import MenuItem from './MenuItem';
+import React, { useState } from 'react';
 import { Routes } from '../../Routing';
+import styles from "./MainMenu.module.scss";
+import MenuItem from './MenuItem';
 
 const MainMenu: React.FC = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   return (
-    <div className="main-menu">
+    <div className={styles["main-menu"]}>
       <MenuItem
         label="Menu"
         icon={hamburgerMenuIcon}

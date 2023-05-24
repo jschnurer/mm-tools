@@ -1,14 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Map, ImageOverlay, Marker, Popup, Tooltip } from "react-leaflet"
-import { CRS, Icon, LatLngBoundsExpression, LatLng } from "leaflet";
 import FlowLayout from "components/layout/FlowLayout";
-import "./InteractiveMap.scoped.scss";
-import POI from "./POI";
-import { IPOI, IPOILink, ILegend, IMapLocation, IQuestModalProps, IMapLegendProps, POILinkType, IMapRouteProps } from "./MapTypes";
-import { DebounceInput } from "react-debounce-input";
-import icons from "./icons";
-import { RouteComponentProps } from "react-router-dom";
 import Modal from "components/layout/Modal";
+import classList from "helpers/styleHelpers";
+import { CRS, Icon, LatLng, LatLngBoundsExpression } from "leaflet";
+import React, { useEffect, useRef, useState } from "react";
+import { DebounceInput } from "react-debounce-input";
+import { ImageOverlay, MapContainer, Marker, Popup, Tooltip, useMapEvents } from "react-leaflet";
+import { useNavigate, useParams } from "react-router";
+import styles from "./InteractiveMap.module.scss";
+import { ILegend, IMapLegendProps, IMapLocation, IPOI, IPOILink, IQuestModalProps, POILinkType } from "./MapTypes";
+import POI from "./POI";
+import icons from "./icons";
 
 interface IInteractiveMapProps {
   allPOIs: IPOI[],
@@ -51,7 +52,7 @@ export function formatPOI(poi: any): IPOI {
   };
 }
 
-const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRouteProps>> = ({
+const InteractiveMap: React.FC<IInteractiveMapProps> = ({
   allPOIs,
   initialMapView,
   mapBounds,
@@ -59,13 +60,6 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
   mapLegend,
   mapImageUrl,
   mapRouteTemplate,
-  history,
-  match: {
-    params: {
-      game,
-      map,
-    },
-  },
 }) => {
   const [pois, setPois] = useState<IPOI[]>(allPOIs);
   const [searchResults, setSearchResults] = useState<IPOI[]>([]);
@@ -78,6 +72,12 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
   const [isLegendOpen, setIsLegendOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [legend, setLegend] = useState<ILegend>(getInitialLegend());
+  const navigate = useNavigate();
+
+  const {
+    game,
+    map: mapName,
+  } = useParams();
 
   const searchResultsRef = useRef<HTMLUListElement>(null);
 
@@ -115,7 +115,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     setIsQuestModalOpen(false);
     setIsLegendOpen(false);
     setLegend(getInitialLegend());
-  }, [game, map, allPOIs, initialMapView])
+  }, [game, mapName, allPOIs, initialMapView])
 
   const onRemoveMarkerClick = (poi: IPOI) => {
     setPois(pois.filter(x => x !== poi));
@@ -176,18 +176,6 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     setFocus(null);
   }
 
-  const onMapClick = (event: any) => {
-    const el = document.createElement('textarea');
-    el.value = parseInt(event.latlng.lat, 10) + ',' + parseInt(event.latlng.lng);
-    el.setAttribute('readonly', '');
-    el.style.position = 'absolute';
-    el.style.left = '-9999px';
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-  }
-
   const onLinkClick = (link: IPOILink) => {
     switch (link.type) {
       case "position": {
@@ -200,7 +188,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
         return;
       }
       case "map": {
-        history.push(mapRouteTemplate.replace(":map", link.slug));
+        navigate(mapRouteTemplate.replace(":map", link.slug));
         return;
       }
       case "quest": {
@@ -218,12 +206,24 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
     }
   }
 
+  const onMapClick = (event: any) => {
+    const el = document.createElement('textarea');
+    el.value = parseInt(event.latlng.lat, 10) + ',' + parseInt(event.latlng.lng);
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  }
+
   return (
     <>
       <FlowLayout
         header={(
           <div
-            className="header"
+            className={classList(styles.header)}
           >
             <DebounceInput
               type="text"
@@ -232,11 +232,11 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
               minLength={1}
               debounceTimeout={250}
               value={searchTerm}
-              onChange={(e) => doSearch(e.target.value)}
+              onChange={(e: any) => doSearch(e.target.value)}
             />
             {searchResults.length > 0 &&
               <ul
-                className="search-results"
+                className={classList(styles["search-results"])}
                 ref={searchResultsRef}
               >
                 {searchResults.map(poi => (
@@ -267,20 +267,22 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
           </div>
         )}
       >
-        <Map
+        <MapContainer
           crs={CRS.Simple}
           minZoom={-2}
           maxZoom={2}
           zoom={mapView.zoom}
           center={mapView.center}
-          onclick={onMapClick}
           closePopupOnClick={true}
         >
+          <MapClickEventHolder onClick={onMapClick} />
+
           <ImageOverlay
             url={mapImageUrl}
             bounds={mapBounds}
             attribution={`<a href="https://the-spoiler.com/RPG/New.World.Computing/might..magic.6.1/mm6.html">&copy; MM6 Spoiler</a>`}
           />
+
           {pois
             .filter(poi => poi === focus
               || legend[poi.iconKey])
@@ -317,7 +319,7 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
                 </Tooltip>
               </Marker>
             ))}
-        </Map>
+        </MapContainer>
       </FlowLayout>
       {isQuestModalOpen &&
         questModal &&
@@ -357,12 +359,11 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
           )}
         >
           <p>
-            See something wrong with the map?
-            Contact me at enigmabrand &lt;at&gt; gmail.com and let me know.
+            See something wrong with the map? <a href="https://github.com/jschnurer/mm-tools/issues">Submit an error report here!</a>
           </p>
           <p>
-            If a marker is misplaced, you can click on the map to copy a position to your clipboard.
-            Then you can send me the marker and the new position you think it should be at.
+            If a marker is misplaced, you can click on the map to copy the clicked position to your clipboard.
+            Include these coordinate corrections in any error submissions.
           </p>
           <p>
             All Might and Magic 6 maps and info was sourced from <a href="https://the-spoiler.com/RPG/New.World.Computing/might..magic.6.1/mm6.html">MM6 Spoiler</a>.
@@ -374,3 +375,17 @@ const InteractiveMap: React.FC<IInteractiveMapProps & RouteComponentProps<IMapRo
 };
 
 export default InteractiveMap;
+
+interface IMapClickEventHolderProps {
+  onClick(event: any): void,
+}
+
+const MapClickEventHolder: React.FC<IMapClickEventHolderProps> = ({
+  onClick,
+}) => {
+  useMapEvents({
+    click: onClick,
+  });
+
+  return null;
+}

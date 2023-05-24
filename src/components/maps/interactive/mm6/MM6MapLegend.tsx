@@ -1,8 +1,8 @@
 import Modal from "components/layout/Modal";
 import React, { useState } from "react";
+import { ILegend, IMapLegendProps } from "../MapTypes";
 import icons from "../icons";
-import "./MM6MapLegend.scoped.scss";
-import { IMapLegendProps, ILegend } from "../MapTypes";
+import styles from "./MM6MapLegend.module.scss";
 
 const iconLegendMapping: {
   [index: string]: string[]
@@ -136,6 +136,7 @@ const MM6MapLegend: React.FC<IMapLegendProps> = ({
     >
       {groups.map(g => (
         <div
+          className={styles.mm6Legend}
           key={g}
         >
           <h4>{g}</h4>

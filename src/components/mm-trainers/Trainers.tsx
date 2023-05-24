@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
-import skillTrainers from "./skill-trainers.json";
 import FlowLayout from "components/layout/FlowLayout";
-import PageTitle from "components/layout/PageTitle";
-import "./Trainers.scoped.scss";
 import Modal from "components/layout/Modal";
+import PageTitle from "components/layout/PageTitle";
+import classList from "helpers/styleHelpers";
+import React, { useEffect, useState } from "react";
 import Trainer from "./Trainer";
+import styles from "./Trainers.module.scss";
+import skillTrainers from "./skill-trainers.json";
 
 export interface ISkillTrainer {
   category: string;
@@ -276,7 +277,7 @@ const Trainers: React.FC = () => {
     <>
       <FlowLayout
         header={(
-          <div className="controls">
+          <div className={classList(styles.controls)}>
             <PageTitle title={`${game} Skill Trainers`} />
             <div>
               <button

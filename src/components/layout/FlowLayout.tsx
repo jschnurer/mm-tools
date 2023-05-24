@@ -1,23 +1,24 @@
 import React from 'react';
-import "./FlowLayout.scoped.scss";
+import styles from "./FlowLayout.module.scss";
 
 interface IFlowLayoutProps {
   header?: JSX.Element;
   footer?: JSX.Element;
+  children: React.ReactNode,
 }
 
 const FlowLayout: React.FC<IFlowLayoutProps> = ({ children, header, footer }) =>
-  <div className="page-layout">
+  <div className={styles["page-layout"]}>
     {header &&
-      <div className="page-header">
+      <div className={styles["page-header"]}>
         {header}
       </div>
     }
-    <div className="page-body">
+    <div className={styles["page-body"]}>
       {children}
     </div>
     {footer &&
-      <div className="page-footer">
+      <div className={styles["page-footer"]}>
         {footer}
       </div>
     }

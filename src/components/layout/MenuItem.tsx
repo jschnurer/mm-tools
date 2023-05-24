@@ -1,7 +1,7 @@
+import classList from 'helpers/styleHelpers';
 import React from 'react';
-import "./MenuItem.scoped.scss";
-import { Link } from 'react-router-dom';
-import { useRouteMatch } from "react-router-dom";
+import { Link, useMatch } from 'react-router-dom';
+import styles from "./MenuItem.module.scss";
 
 interface IMenuItemProps {
   label: string,
@@ -13,16 +13,13 @@ interface IMenuItemProps {
 }
 
 const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isCollapsed, matchExact }) => {
-  let match = useRouteMatch({
-    path: url,
-    exact: matchExact === undefined || matchExact,
-  });
+  let match = useMatch(url);
 
   if (url) {
     return (
       <Link
         to={url}
-        className={`menu-item ${match ? "active" : ""} ${isCollapsed ? "collapsed" : ""}`}
+        className={classList(styles["menu-item"], match ? styles.active : "", isCollapsed ? styles.collapsed : "")}
         title={label}
       >
         <img src={icon} alt={label} /> <label>{label}</label>
@@ -31,7 +28,7 @@ const MenuItem: React.FC<IMenuItemProps> = ({ label, icon, url, onClick, isColla
   } else {
     return (
       <span
-        className={`menu-item ${isCollapsed ? "collapsed" : ""}`}
+        className={classList(styles["menu-item"], isCollapsed ? styles.collapsed : "")}
         onClick={onClick}
       >
         {icon &&

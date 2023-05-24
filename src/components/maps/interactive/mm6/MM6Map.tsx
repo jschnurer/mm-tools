@@ -1,14 +1,18 @@
-import React from "react";
-import { RouteComponentProps } from "react-router-dom";
-import { IMapRouteProps, IMapLegendProps, IQuestModalProps } from "../MapTypes";
-import InteractiveMap from "../InteractiveMap";
-import MM6Quests from "./MM6Quests";
-import MM6MapLegend from "./MM6MapLegend";
-import mapDictionary from "./MapDictionary";
 import { Routes } from "Routing";
+import React from "react";
+import { useParams } from "react-router-dom";
+import InteractiveMap from "../InteractiveMap";
+import { IMapLegendProps, IQuestModalProps } from "../MapTypes";
+import MM6MapLegend from "./MM6MapLegend";
+import MM6Quests from "./MM6Quests";
+import mapDictionary from "./MapDictionary";
 
-const MM6Map: React.FC<RouteComponentProps<IMapRouteProps>> = (props) => {
-  let mapSlug = props.match.params.map || "ENROTH";
+const MM6Map: React.FC = (props) => {
+  let {
+    map: mapSlug
+  } = useParams();
+
+  mapSlug = mapSlug || "ENROTH";
 
   if (mapSlug.toLowerCase() === "world") {
     mapSlug = "ENROTH";

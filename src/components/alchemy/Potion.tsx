@@ -1,5 +1,6 @@
+import classList from "helpers/styleHelpers";
 import React from "react";
-import "./Potion.scoped.scss";
+import styles from "./Potion.module.scss";
 
 interface IPotionProps {
   potion: IPotion,
@@ -23,7 +24,7 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect }, reci
         if (comp === "Empty Bottle") {
           return null;
         }
-        return <span key={"comp_" + ix} className={`color-${comp.substr(0, 1)}`}>{comp.substr(0, 1)}</span>;
+        return <span key={"comp_" + ix} className={classList(styles[`color-${comp.substring(0, 1)}`])}>{comp.substring(0, 1)}</span>;
       } else {
         return (
           <Potion
@@ -38,14 +39,14 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect }, reci
   let renderComps: JSX.Element[] = [];
 
   components
-    .forEach((comp, ix, arr) => {
+    .forEach((comp, ix) => {
       if (comp === null) {
         return;
       }
 
       if (ix > 0) {
         renderComps.push(
-          <span key={"plus_" + ix} className="plus">+</span>
+          <span key={"plus_" + ix} className={classList(styles.plus)}>+</span>
         );
       }
 
@@ -54,15 +55,15 @@ const Potion: React.FC<IPotionProps> = ({ potion: { name, recipe, effect }, reci
 
   return (
     <div
-      className={`potion ${isTop ? "top" : ""}`}
+      className={classList(styles.potion, isTop ? styles.top : "")}
     >
       <span
-        className="name"
+        className={classList(styles.name)}
       >
         {name}
       </span>
       <span
-        className="effect"
+        className={classList(styles.effect)}
       >
         {effect}
       </span>

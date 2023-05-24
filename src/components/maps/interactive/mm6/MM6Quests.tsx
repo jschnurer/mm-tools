@@ -1,7 +1,8 @@
 import Modal from "components/layout/Modal";
+import classList from "helpers/styleHelpers";
 import React, { useEffect, useRef } from "react";
-import "./MM6Quests.scoped.scss";
 import { IQuestModalProps } from "../MapTypes";
+import styles from "./MM6Quests.module.scss";
 
 const MM6Quests: React.FC<IQuestModalProps> = ({
   focusQuestSlug,
@@ -691,7 +692,7 @@ const MM6Quests: React.FC<IQuestModalProps> = ({
           </ul>
         </li>
       </ol>
-      <div className="attribution">
+      <div className={classList(styles.attribution)}>
         All data sourced from <a href="https://the-spoiler.com/RPG/New.World.Computing/might..magic.6.1/mm6.html">MM6 Spoiler</a>.
       </div>
     </Modal>

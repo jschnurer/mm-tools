@@ -1,21 +1,22 @@
-import React, { useState, useRef, useEffect } from "react";
-import PageTitle from "components/layout/PageTitle";
-import "./Identifier.scoped.scss";
-import {
-  ISpecialItem,
-  IWeapon,
-  IArmor,
-  IHandheldItem,
-  IMiscItem,
-  IItem,
-  ItemTypes,
-  IMod,
-  IImbue,
-  IOtherItem,
-  IMM1Item,
-} from "./ItemTypes";
 import FlowLayout from "components/layout/FlowLayout";
 import Modal from "components/layout/Modal";
+import PageTitle from "components/layout/PageTitle";
+import classList from "helpers/styleHelpers";
+import React, { useEffect, useRef, useState } from "react";
+import styles from "./Identifier.module.scss";
+import {
+  IArmor,
+  IHandheldItem,
+  IImbue,
+  IItem,
+  IMM1Item,
+  IMiscItem,
+  IMod,
+  IOtherItem,
+  ISpecialItem,
+  IWeapon,
+  ItemTypes,
+} from "./ItemTypes";
 
 interface IIdentifierProps {
   weapons: IWeapon[],
@@ -318,7 +319,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
           <>
             <PageTitle title={`M&M ${game} Item Identifier`} />
             <div
-              className="controls"
+              className={classList(styles.controls)}
             >
               <form
                 onSubmit={(e) => doSearch(e)}
@@ -338,7 +339,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
               </button>
               </form>
               <div
-                className="note"
+                className={classList(styles.note)}
               >
                 {note}
                 <button
@@ -355,7 +356,7 @@ const Identifier: React.FC<IIdentifierProps> = ({
           items.map((item, ix) =>
             <p
               key={ix}
-              className="item-description"
+              className={styles["item-description"]}
             >
               {item.split('\n').map((line, ix) =>
                 <span key={ix}>{line}</span>

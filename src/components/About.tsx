@@ -9,8 +9,7 @@ const About: React.FC = () =>
       find some tools and info to help you play the games.
     </p>
     <p>
-      Have an idea or a request?
-      Email me: enigmabrand &lt;at&gt; gmail.
+      <a href="https://github.com/jschnurer/mm-tools/issues">Submit suggestions, requests, or error reports here!</a>
     </p>
     <p>
       The source code for this webapp is <a href="https://github.com/jschnurer/mm-tools">available on github</a>.

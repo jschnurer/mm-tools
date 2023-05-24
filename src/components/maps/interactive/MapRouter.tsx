@@ -1,10 +1,11 @@
 import React from "react";
-import { IMapRouteProps } from "./MapTypes";
-import { RouteComponentProps } from "react-router-dom";
+import { useParams } from "react-router";
 import MM6Map from "./mm6/MM6Map";
 
-const MapRouter: React.FC<RouteComponentProps<IMapRouteProps>> = (props) => {
-  const game = props.match.params.game;
+const MapRouter: React.FC = (props) => {
+  var {
+    game,
+  } = useParams();
 
   if (game === "mm6") {
     return (
