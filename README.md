@@ -1,19 +1,13 @@
 # Might and Magic Tools
 
-This project is a React app that contains various tools and info that will help you play the Might and Magic games. You can visit a live version of the app [hosted here, on GitHub Pages](https://jschnurer.github.io/mm-tools).
+This is a React web app that contains various tools and info that will help you play the Might and Magic games.
+
+[Visit the app hosted on GitHub Pages](https://jschnurer.github.io/mm-tools).
+
+# Bug Reports / Suggestions
+
+Use the [Issues tab at the GitHub repo](https://github.com/jschnurer/mm-tools/issues) to submit bug reports and suggestions. Please label bug reports or site corrections as `bug` and suggestions or feature requests as `enhancement`.
 
 # Running Locally
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+You will need node and npm installed on your computer. In the project directory, first `npm install` then `npm start`.
