@@ -62,6 +62,14 @@ a {
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 25%;
 
+    &.Expert {
+      border: 2px silver solid;
+    }
+
+    &.Master {
+      border: 2px gold solid;
+    }
+
     &.focused {
       animation: blink-animation 0.5s steps(5, start) infinite;
       -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
