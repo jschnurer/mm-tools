@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mm-tools/static/css/main.102de9d2.css",
-    "main.js": "/mm-tools/static/js/main.2dc2a957.js",
+    "main.css": "/mm-tools/static/css/main.e703be75.css",
+    "main.js": "/mm-tools/static/js/main.3c56f67c.js",
     "static/media/mm6-world.png": "/mm-tools/static/media/mm6-world.ead465d92385fbab2945.png",
     "static/media/abandoned-temple.jpg": "/mm-tools/static/media/abandoned-temple.527339f0c844a13afd1f.jpg",
     "static/media/castle-darkmoor.jpg": "/mm-tools/static/media/castle-darkmoor.636dfa2fc8fe02ba9f88.jpg",
@@ -46,11 +46,11 @@
     "index.html": "/mm-tools/index.html",
     "static/media/help.svg": "/mm-tools/static/media/help.605f64a71d70c850c0fd8619e1166fd3.svg",
     "static/media/hamburger-menu.svg": "/mm-tools/static/media/hamburger-menu.9f173213bed68d3af3ad05c060f36a2c.svg",
-    "main.102de9d2.css.map": "/mm-tools/static/css/main.102de9d2.css.map",
-    "main.2dc2a957.js.map": "/mm-tools/static/js/main.2dc2a957.js.map"
+    "main.e703be75.css.map": "/mm-tools/static/css/main.e703be75.css.map",
+    "main.3c56f67c.js.map": "/mm-tools/static/js/main.3c56f67c.js.map"
   },
   "entrypoints": [
-    "static/css/main.102de9d2.css",
-    "static/js/main.2dc2a957.js"
+    "static/css/main.e703be75.css",
+    "static/js/main.3c56f67c.js"
   ]
 }
