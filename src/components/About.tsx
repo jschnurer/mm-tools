@@ -9,10 +9,10 @@ const About: React.FC = () =>
       find some tools and info to help you play the games.
     </p>
     <p>
-      <a href="https://github.com/jschnurer/mm-tools/issues">Submit suggestions, requests, or error reports here!</a>
+      <a href="https://github.com/enigmabrand/mm-tools/issues">Submit suggestions, requests, or error reports here!</a>
     </p>
     <p>
-      The source code for this webapp is <a href="https://github.com/jschnurer/mm-tools">available on github</a>.
+      The source code for this webapp is <a href="https://github.com/enigmabrand/mm-tools">available on github</a>.
     </p>
   </>;
 
